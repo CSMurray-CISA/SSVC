@@ -1,0 +1,6 @@
+{
+  "generated_at": "",
+  "source": "https://www.oracle.com/security-alerts/",
+  "releases": [],
+  "warnings": ["Run the Refresh Oracle security data workflow once after adding these files to the repository."]
+}
