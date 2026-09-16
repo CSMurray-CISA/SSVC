@@ -1,0 +1,649 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/acrobat/apsb26-141.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-81996",
+      "description": "Incorrect Authorization ( CWE-863 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "8.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Privilege escalation",
+          "Critical",
+          "8.8",
+          "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+          "CVE-2026-81996"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81994",
+      "description": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') ( CWE-1321 ) — Arbitrary file system read",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "cvss": "8.2",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') ( CWE-1321 )",
+          "Arbitrary file system read",
+          "Critical",
+          "8.2",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+          "CVE-2026-81994"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81983",
+      "description": "Out-of-bounds Write ( CWE-787 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Write ( CWE-787 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81983"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-79907",
+      "description": "Double Free ( CWE-415 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Double Free ( CWE-415 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-79907"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-79908",
+      "description": "Out-of-bounds Write ( CWE-787 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Write ( CWE-787 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-79908"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-79909",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-79909"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-80161",
+      "description": "Access of Resource Using Incompatible Type ('Type Confusion') ( CWE-843 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Access of Resource Using Incompatible Type ('Type Confusion') ( CWE-843 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-80161"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81973",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81973"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81975",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81975"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81976",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81976"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81992",
+      "description": "Heap-based Buffer Overflow ( CWE-122 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Heap-based Buffer Overflow ( CWE-122 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81992"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81979",
+      "description": "Out-of-bounds Write ( CWE-787 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Write ( CWE-787 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81979"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81980",
+      "description": "Out-of-bounds Write ( CWE-787 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Write ( CWE-787 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81980"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81981",
+      "description": "Out-of-bounds Write ( CWE-787 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Write ( CWE-787 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81981"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81985",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81985"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81986",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81986"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81987",
+      "description": "Integer Overflow or Wraparound ( CWE-190 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Integer Overflow or Wraparound ( CWE-190 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81987"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81988",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81988"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81989",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81989"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81990",
+      "description": "Use After Free ( CWE-416 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-81990"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81997",
+      "description": "Incorrect Authorization ( CWE-863 ) — Arbitrary file system write",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N",
+      "cvss": "6.3",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Arbitrary file system write",
+          "Important",
+          "6.3",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:N/I:H/A:N",
+          "CVE-2026-81997"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81982",
+      "description": "Out-of-bounds Read ( CWE-125 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Read ( CWE-125 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-81982"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-82001",
+      "description": "Uncontrolled Resource Consumption ( CWE-400 ) — Application denial-of-service",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Uncontrolled Resource Consumption ( CWE-400 )",
+          "Application denial-of-service",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:N/I:N/A:H",
+          "CVE-2026-82001"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-80160",
+      "description": "Out-of-bounds Read ( CWE-125 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Read ( CWE-125 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-80160"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-80162",
+      "description": "Use After Free ( CWE-416 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-80162"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81977",
+      "description": "Integer Underflow (Wrap or Wraparound) ( CWE-191 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "LOW",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Integer Underflow (Wrap or Wraparound) ( CWE-191 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-81977"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81978",
+      "description": "Out-of-bounds Read ( CWE-125 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Read ( CWE-125 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-81978"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81993",
+      "description": "Heap-based Buffer Overflow ( CWE-122 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "LOW",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Heap-based Buffer Overflow ( CWE-122 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-81993"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81984",
+      "description": "Use After Free ( CWE-416 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Use After Free ( CWE-416 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-81984"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-81991",
+      "description": "Out-of-bounds Read ( CWE-125 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Read ( CWE-125 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-81991"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-79910",
+      "description": "Out-of-bounds Read ( CWE-125 ) — Memory exposure",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "5.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Read ( CWE-125 )",
+          "Memory exposure",
+          "Important",
+          "5.5",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-79910"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-80159",
+      "description": "Untrusted Search Path ( CWE-426 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:N/A:N",
+      "cvss": "4.0",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Untrusted Search Path ( CWE-426 )",
+          "Privilege escalation",
+          "Critical",
+          "4.0",
+          "CVSS:3.1/AV:L/AC:H/PR:H/UI:R/S:U/C:H/I:N/A:N",
+          "CVE-2026-80159"
+        ]
+      }
+    }
+  ]
+}

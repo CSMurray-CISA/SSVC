@@ -1,0 +1,49 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/acrobat/apsb26-44.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-34622",
+      "description": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') ( CWE-1321 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "cvss": "8.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') ( CWE-1321 )",
+          "Arbitrary code execution",
+          "Critical",
+          "8.6",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "CVE-2026-34622"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-34626",
+      "description": "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') ( CWE-1321 ) — Arbitrary file system read",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+      "cvss": "6.3",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improperly Controlled Modification of Object Prototype Attributes ('Prototype Pollution') ( CWE-1321 )",
+          "Arbitrary file system read",
+          "Important",
+          "6.3",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:N/A:N",
+          "CVE-2026-34626"
+        ]
+      }
+    }
+  ]
+}

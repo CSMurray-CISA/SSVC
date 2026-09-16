@@ -1,0 +1,412 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-95",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-95/",
+  "release_date": "September 15, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-92238",
+      "description": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact medium Description A maliciously constructed mail header could lead to multiple fields being parsed as one, or potential memory safety violations. References Bug 2060601",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact medium Description A maliciously constructed mail header could lead to multiple fields being parsed as one, or potential memory safety violations. References Bug 2060601"
+      }
+    },
+    {
+      "cve": "CVE-2026-92239",
+      "description": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact medium Description A maliciously constructed IMAP line could cause an out-of-bounds buffer read. References Bug 2060488",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact medium Description A maliciously constructed IMAP line could cause an out-of-bounds buffer read. References Bug 2060488"
+      }
+    },
+    {
+      "cve": "CVE-2026-92240",
+      "description": "Reporter Ahmed Albalawi Impact low Description A malicious or compromised IMAP server can trigger an out-of-bounds read in the IMAP response parser by sending an untagged '* ID' response, crashing Thunderbird. The affected parsing path is reachable before authentication. References Bug 2069113",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Ahmed Albalawi Impact low Description A malicious or compromised IMAP server can trigger an out-of-bounds read in the IMAP response parser by sending an untagged '* ID' response, crashing Thunderbird. The affected parsing path is reachable before authentication. References Bug 2069113"
+      }
+    },
+    {
+      "cve": "CVE-2026-92005",
+      "description": "Reporter devdharan9424@gmail.com Impact high References Bug 2056051",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter devdharan9424@gmail.com Impact high References Bug 2056051"
+      }
+    },
+    {
+      "cve": "CVE-2026-92006",
+      "description": "Reporter Mozilla Impact high References Bug 2057121",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2057121"
+      }
+    },
+    {
+      "cve": "CVE-2026-92007",
+      "description": "Reporter Mozilla Impact high References Bug 2058064",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058064"
+      }
+    },
+    {
+      "cve": "CVE-2026-92008",
+      "description": "Reporter Mozilla Impact high References Bug 2058065",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058065"
+      }
+    },
+    {
+      "cve": "CVE-2026-92009",
+      "description": "Reporter Mozilla Impact high References Bug 2058066",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058066"
+      }
+    },
+    {
+      "cve": "CVE-2026-92010",
+      "description": "Reporter Mozilla Impact high References Bug 2058067",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058067"
+      }
+    },
+    {
+      "cve": "CVE-2026-92011",
+      "description": "Reporter Mozilla Impact high References Bug 2058068",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058068"
+      }
+    },
+    {
+      "cve": "CVE-2026-92012",
+      "description": "Reporter Mozilla Impact high References Bug 2058069",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058069"
+      }
+    },
+    {
+      "cve": "CVE-2026-92013",
+      "description": "Reporter Mozilla Impact high References Bug 2058078",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058078"
+      }
+    },
+    {
+      "cve": "CVE-2026-92014",
+      "description": "Reporter Jacolon Walker Impact high References Bug 2060000",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Jacolon Walker Impact high References Bug 2060000"
+      }
+    },
+    {
+      "cve": "CVE-2026-92015",
+      "description": "Reporter Quy Pham Impact high References Bug 2060235",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Quy Pham Impact high References Bug 2060235"
+      }
+    },
+    {
+      "cve": "CVE-2026-92016",
+      "description": "Reporter Mozilla Impact high References Bug 2061327",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2061327"
+      }
+    },
+    {
+      "cve": "CVE-2026-92017",
+      "description": "Reporter Mozilla Impact high References Bug 2061777",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2061777"
+      }
+    },
+    {
+      "cve": "CVE-2026-92018",
+      "description": "Reporter Quy Pham Impact high References Bug 2064287",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Quy Pham Impact high References Bug 2064287"
+      }
+    },
+    {
+      "cve": "CVE-2026-92019",
+      "description": "Reporter Shu Takahashi Impact high References Bug 2065636",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Shu Takahashi Impact high References Bug 2065636"
+      }
+    },
+    {
+      "cve": "CVE-2026-92020",
+      "description": "Reporter Rintaro Kawasugi Impact high References Bug 2066329",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Rintaro Kawasugi Impact high References Bug 2066329"
+      }
+    },
+    {
+      "cve": "CVE-2026-92021",
+      "description": "Reporter Tomer Fichman Impact high References Bug 2067208",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Tomer Fichman Impact high References Bug 2067208"
+      }
+    },
+    {
+      "cve": "CVE-2026-92022",
+      "description": "Reporter Seohyeon Maeng Impact high References Bug 2068059",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Seohyeon Maeng Impact high References Bug 2068059"
+      }
+    },
+    {
+      "cve": "CVE-2026-92023",
+      "description": "Reporter Mozilla Impact high References Bug 2068342",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068342"
+      }
+    },
+    {
+      "cve": "CVE-2026-92024",
+      "description": "Reporter Mozilla Impact high References Bug 2068354",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068354"
+      }
+    },
+    {
+      "cve": "CVE-2026-92025",
+      "description": "Reporter Mozilla Impact high References Bug 2068361",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068361"
+      }
+    },
+    {
+      "cve": "CVE-2026-92026",
+      "description": "Reporter Mozilla Impact high References Bug 2068378",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068378"
+      }
+    },
+    {
+      "cve": "CVE-2026-92027",
+      "description": "Reporter Mozilla Impact high References Bug 2068433",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068433"
+      }
+    },
+    {
+      "cve": "CVE-2026-92028",
+      "description": "Reporter Mozilla Impact high References Bug 2068440",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068440"
+      }
+    },
+    {
+      "cve": "CVE-2026-92029",
+      "description": "Reporter Mozilla Impact high References Bug 2068445",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068445"
+      }
+    },
+    {
+      "cve": "CVE-2026-92030",
+      "description": "Reporter anas cherni Impact moderate References Bug 2058417",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter anas cherni Impact moderate References Bug 2058417"
+      }
+    },
+    {
+      "cve": "CVE-2026-92031",
+      "description": "Reporter Qi Qin Impact moderate References Bug 2067971",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Qi Qin Impact moderate References Bug 2067971"
+      }
+    },
+    {
+      "cve": "CVE-2026-92032",
+      "description": "Reporter Mozilla Impact moderate References Bug 2068437",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-95",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2068437"
+      }
+    }
+  ]
+}

@@ -1,0 +1,299 @@
+{
+  "vendor": "MediaTek",
+  "vendor_id": "mediatek",
+  "title": "October 2025 Product Security Bulletin",
+  "source_url": "https://www.mediatek.com/product-security-bulletin/October-2025",
+  "release_date": "2025-10-07",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2025-20712",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6990, MT7990, MT7991, MT7992, MT7993",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Heap overflow in wlan",
+        "Severity": "High",
+        "CWE": "CWE-122 Heap Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6990, MT7990, MT7991, MT7992, MT7993",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20711",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6890, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Specified type in wlan",
+        "Severity": "High",
+        "CWE": "CWE-1287 Specified Type",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20710",
+      "description": "There is a possible out of bounds write due to an integer overflow.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6890, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Integer overflow in wlan",
+        "Severity": "High",
+        "CWE": "CWE-190 Integer Overflow",
+        "Description": "There is a possible out of bounds write due to an integer overflow.",
+        "Affected Chipsets": "MT6890, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20709",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6890, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Classic buffer overflow in wlan",
+        "Severity": "High",
+        "CWE": "CWE-120 Classic Buffer Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20718",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Stack overflow in wlan",
+        "Severity": "High",
+        "CWE": "CWE-121 Stack Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20719",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Stack overflow in wlan",
+        "Severity": "High",
+        "CWE": "CWE-121 Stack Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20720",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Heap overflow in wlan",
+        "Severity": "High",
+        "CWE": "CWE-122 Heap Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20721",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6886, MT6897, MT6899, MT6985, MT6989, MT6991, MT8195, MT8196, MT8370, MT8390, MT8395, MT8792, MT8793",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Out-of-bounds write in imgsensor",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT6886, MT6897, MT6899, MT6985, MT6989, MT6991, MT8195, MT8196, MT8370, MT8390, MT8395, MT8792, MT8793",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20713",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Stack overflow in wlan",
+        "Severity": "Medium",
+        "CWE": "CWE-121 Stack Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20714",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Stack overflow in wlan",
+        "Severity": "Medium",
+        "CWE": "CWE-121 Stack Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20722",
+      "description": "There is a possible out of bounds read due to an integer overflow.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6835, MT6878, MT6886, MT6897, MT6899, MT6980D, MT6985, MT6989, MT6990, MT6991, MT8676, MT8678, MT8775, MT8791T, MT8796, MT8873",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Integer overflow in gnss",
+        "Severity": "Medium",
+        "CWE": "CWE-190 Integer Overflow",
+        "Description": "There is a possible out of bounds read due to an integer overflow.",
+        "Affected Chipsets": "MT6835, MT6878, MT6886, MT6897, MT6899, MT6980D, MT6985, MT6989, MT6990, MT6991, MT8676, MT8678, MT8775, MT8791T, MT8796, MT8873",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20723",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6835, MT6878, MT6886, MT6897, MT6899, MT6985, MT6989, MT6991, MT8676, MT8678, MT8775, MT8791T, MT8796, MT8873",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Out-of-bounds write in gnss",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6835, MT6878, MT6886, MT6897, MT6899, MT6985, MT6989, MT6991, MT8676, MT8678, MT8775, MT8791T, MT8796, MT8873",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20715",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Out-of-bounds write in wlan",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20716",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Out-of-bounds write in wlan",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20717",
+      "description": "There is a possible out of bounds write due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Stack overflow in wlan",
+        "Severity": "Medium",
+        "CWE": "CWE-121 Stack Overflow",
+        "Description": "There is a possible out of bounds write due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2025-20724",
+      "description": "There is a possible out of bounds read due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "Title": "Out-of-bounds read in wlan",
+        "Severity": "Medium",
+        "CWE": "CWE-125 Out-of-bounds Read",
+        "Description": "There is a possible out of bounds read due to an incorrect bounds check.",
+        "Affected Chipsets": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
+        "Report Source": "External",
+        "Version": "Date | Description",
+        "1.0": "October 7, 2025 | Bulletin published."
+      }
+    }
+  ]
+}

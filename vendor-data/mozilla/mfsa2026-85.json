@@ -1,0 +1,321 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-85",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-85/",
+  "release_date": "September 1, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-75874",
+      "description": "Reporter crixer Impact high References Bug 2039972",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter crixer Impact high References Bug 2039972"
+      }
+    },
+    {
+      "cve": "CVE-2026-84118",
+      "description": "Reporter x0e Impact high References Bug 2057457",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter x0e Impact high References Bug 2057457"
+      }
+    },
+    {
+      "cve": "CVE-2026-84119",
+      "description": "Reporter Yaqoub Aldurayhim Impact high References Bug 2057817",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2057817"
+      }
+    },
+    {
+      "cve": "CVE-2026-84120",
+      "description": "Reporter Ukyo Akai Impact high References Bug 2058911",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Ukyo Akai Impact high References Bug 2058911"
+      }
+    },
+    {
+      "cve": "CVE-2026-84121",
+      "description": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059018",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059018"
+      }
+    },
+    {
+      "cve": "CVE-2026-84122",
+      "description": "Reporter Hyeonjun Ahn Impact high References Bug 2059965",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2059965"
+      }
+    },
+    {
+      "cve": "CVE-2026-84123",
+      "description": "Reporter Yaqoub Aldurayhim Impact high References Bug 2060047",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2060047"
+      }
+    },
+    {
+      "cve": "CVE-2026-84124",
+      "description": "Reporter Hyeonjun Ahn Impact high References Bug 2061110",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2061110"
+      }
+    },
+    {
+      "cve": "CVE-2026-84125",
+      "description": "Reporter Yaqoub Aldurayhim Impact high References Bug 2063871",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2063871"
+      }
+    },
+    {
+      "cve": "CVE-2026-74952",
+      "description": "Reporter Tomoya Nakanishi Impact moderate References Bug 2021757",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Tomoya Nakanishi Impact moderate References Bug 2021757"
+      }
+    },
+    {
+      "cve": "CVE-2026-84129",
+      "description": "Reporter Yaqoub Aldurayhim Impact moderate References Bug 2055028",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yaqoub Aldurayhim Impact moderate References Bug 2055028"
+      }
+    },
+    {
+      "cve": "CVE-2026-84130",
+      "description": "Reporter 5up3rh3i Impact moderate References Bug 2057834",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter 5up3rh3i Impact moderate References Bug 2057834"
+      }
+    },
+    {
+      "cve": "CVE-2026-84131",
+      "description": "Reporter navapon Impact moderate References Bug 2060008",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter navapon Impact moderate References Bug 2060008"
+      }
+    },
+    {
+      "cve": "CVE-2026-84132",
+      "description": "Reporter Shu Takahashi Impact moderate References Bug 2063020",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Shu Takahashi Impact moderate References Bug 2063020"
+      }
+    },
+    {
+      "cve": "CVE-2026-84133",
+      "description": "Reporter pakhunov.anton.n Impact low References Bug 2032388",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter pakhunov.anton.n Impact low References Bug 2032388"
+      }
+    },
+    {
+      "cve": "CVE-2026-84134",
+      "description": "Reporter 5up3rh3i Impact low References Bug 2044882",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter 5up3rh3i Impact low References Bug 2044882"
+      }
+    },
+    {
+      "cve": "CVE-2026-84136",
+      "description": "Reporter Apentota Impact low References Bug 2048699",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Apentota Impact low References Bug 2048699"
+      }
+    },
+    {
+      "cve": "CVE-2026-84137",
+      "description": "Reporter Riski Muhammad Ivan Impact low References Bug 2051146",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Riski Muhammad Ivan Impact low References Bug 2051146"
+      }
+    },
+    {
+      "cve": "CVE-2026-84139",
+      "description": "Reporter Long Nguyen Impact low References Bug 2060153",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Long Nguyen Impact low References Bug 2060153"
+      }
+    },
+    {
+      "cve": "CVE-2026-84140",
+      "description": "Reporter Mohamed Mbarek Impact low References Bug 2063780",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mohamed Mbarek Impact low References Bug 2063780"
+      }
+    },
+    {
+      "cve": "CVE-2026-84141",
+      "description": "Reporter nguyentuanhung1149 Impact low References Bug 2063994",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter nguyentuanhung1149 Impact low References Bug 2063994"
+      }
+    },
+    {
+      "cve": "CVE-2026-84143",
+      "description": "Reporter Jan de Mooij, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154, Firefox ESR 153.1 and Firefox ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 Moderate Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 Low Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Jan de Mooij, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154, Firefox ESR 153.1 and Firefox ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 Moderate Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 Low Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15"
+      }
+    },
+    {
+      "cve": "CVE-2026-84144",
+      "description": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154 and Firefox ESR 153.1. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2 Moderate Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2 Low Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154 and Firefox ESR 153.1. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2 Moderate Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2 Low Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2"
+      }
+    },
+    {
+      "cve": "CVE-2026-84145",
+      "description": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154, Firefox ESR 153.1, Firefox ESR 140.14 and Firefox ESR 115.39. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 Moderate Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 Low Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-85",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154, Firefox ESR 153.1, Firefox ESR 140.14 and Firefox ESR 115.39. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 Moderate Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 Low Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40"
+      }
+    }
+  ]
+}

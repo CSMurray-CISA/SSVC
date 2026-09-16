@@ -1,0 +1,49 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/photoshop/apsb26-136.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76196",
+      "description": "Session Fixation ( CWE-384 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "cvss": "7.4",
+      "severity": "HIGH",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Session Fixation ( CWE-384 )",
+          "Privilege escalation",
+          "Important",
+          "7.4",
+          "CVSS:3.1/AV:L/AC:H/PR:N/UI:R/S:C/C:H/I:H/A:N",
+          "CVE-2026-76196"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-79904",
+      "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') ( CWE-22 ) — Security feature bypass",
+      "vector": "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H",
+      "cvss": "5.0",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') ( CWE-22 )",
+          "Security feature bypass",
+          "Important",
+          "5.0",
+          "CVSS:3.1/AV:L/AC:H/PR:L/UI:R/S:U/C:N/I:L/A:H",
+          "CVE-2026-79904"
+        ]
+      }
+    }
+  ]
+}

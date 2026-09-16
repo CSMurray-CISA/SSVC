@@ -1,0 +1,185 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/magento/apsb26-138.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76200",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "cvss": "9.3",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Critical",
+          "No",
+          "9.3",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+          "CVE-2026-76200",
+          ""
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76201",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Privilege Escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "cvss": "9.3",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Privilege Escalation",
+          "Critical",
+          "No",
+          "9.3",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+          "CVE-2026-76201",
+          ""
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-77111",
+      "description": "Incorrect Authorization ( CWE-863 ) — Security feature bypass",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:H",
+      "cvss": "8.7",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Security feature bypass",
+          "Critical",
+          "Yes",
+          "8.7",
+          "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:H",
+          "CVE-2026-77111",
+          ""
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-77109",
+      "description": "Incorrect Authorization ( CWE-863 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "cvss": "8.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Privilege escalation",
+          "Critical",
+          "No",
+          "8.6",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+          "CVE-2026-77109",
+          "B2B"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-77774",
+      "description": "Incorrect Authorization ( CWE-863 ) — Security feature bypass",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+      "cvss": "8.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Security feature bypass",
+          "Critical",
+          "No",
+          "8.6",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:N/A:N",
+          "CVE-2026-77774",
+          ""
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76202",
+      "description": "Incorrect Authorization ( CWE-863 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+      "cvss": "8.2",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Privilege escalation",
+          "Critical",
+          "No",
+          "8.2",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:L/A:N",
+          "CVE-2026-76202",
+          ""
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-77110",
+      "description": "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') ( CWE-22 ) — Security feature bypass",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:L",
+      "cvss": "7.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') ( CWE-22 )",
+          "Security feature bypass",
+          "Critical",
+          "Yes",
+          "7.6",
+          "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:L",
+          "CVE-2026-77110",
+          ""
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-77108",
+      "description": "Incorrect Authorization ( CWE-863 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "7.5",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Privilege escalation",
+          "Critical",
+          "No",
+          "7.5",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+          "CVE-2026-77108",
+          "B2B"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-89",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-89/",
+  "release_date": "September 8, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-86853",
+      "description": "Reporter Amit Gajbhare Impact low Description A malicious webpage could repeatedly trigger external URL schemes, causing system prompts or external application launches. This could make Firefox for iOS temporarily unusable until the page is closed. References Bug 1847631",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-89",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amit Gajbhare Impact low Description A malicious webpage could repeatedly trigger external URL schemes, causing system prompts or external application launches. This could make Firefox for iOS temporarily unusable until the page is closed. References Bug 1847631"
+      }
+    }
+  ]
+}

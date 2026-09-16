@@ -1,0 +1,1075 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "title": "About the security content of iOS 26.7 and iPadOS 26.7",
+  "source_url": "https://support.apple.com/en-us/149041",
+  "release_date": "September 14, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-86882",
+      "description": "Processing a maliciously crafted image may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Accelerate Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86882: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43664",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Accessibility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved data protection. CVE-2026-43664: Stuart Wallace, Rosyna Keller of Totally Not Malicious Software, Jian Lee (@speedyfriend433), Ilya Andr (andrd3v), Gongyu Ma (@Mezone0), David Strnadel, Daniel Febrero, CJ Vana, Asaf Cohen"
+      }
+    },
+    {
+      "cve": "CVE-2026-84523",
+      "description": "An app may be able to cause unexpected system termination or write kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "APFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-65408",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Apple Neural Engine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-65408: tamdao"
+      }
+    },
+    {
+      "cve": "CVE-2026-65407",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "AppleAVD",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65407: Franco Belman at Blackwing Intelligence"
+      }
+    },
+    {
+      "cve": "CVE-2026-84519",
+      "description": "Mounting a disk image with maliciously crafted files may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "AppleDouble",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Mounting a disk image with maliciously crafted files may lead to unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84519: Richard Zana"
+      }
+    },
+    {
+      "cve": "CVE-2026-84583",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "AuthKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-84583: Zhongcheng Li from IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-65410",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved checks. CVE-2026-65410: Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84616",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved memory handling. CVE-2026-84616: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84607",
+      "description": "A sandboxed app may be able to execute arbitrary code with kernel privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A sandboxed app may be able to execute arbitrary code with kernel privileges Description: A race condition was addressed with improved state management. CVE-2026-84607: Ruslan Dautov"
+      }
+    },
+    {
+      "cve": "CVE-2026-65406",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "BackgroundAssets",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: A logic issue was addressed with improved validation. CVE-2026-65406: Ye Zhang (@VAR10CK) of Baidu Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-65414",
+      "description": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A remote attacker may be able to cause unexpected app termination or arbitrary code execution Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65414"
+      }
+    },
+    {
+      "cve": "CVE-2026-65399",
+      "description": "An archive may be able to bypass Gatekeeper",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "copyfile",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An archive may be able to bypass Gatekeeper Description: A file quarantine bypass was addressed with additional checks. CVE-2026-65399: Rishabh Jain (rjcyber) of cyberplanet, Pasquale Scola, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-65344",
+      "description": "Processing a maliciously crafted video file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted video file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65344: Siyeong kim"
+      }
+    },
+    {
+      "cve": "CVE-2026-86876",
+      "description": "A sandboxed process may be able to circumvent sandbox restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A sandboxed process may be able to circumvent sandbox restrictions Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86876: Chris Bailey - Short Circuit"
+      }
+    },
+    {
+      "cve": "CVE-2026-43702",
+      "description": "Processing a maliciously crafted video file may lead to unexpected app termination or corrupt process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "CoreMedia Video Toolbox",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted video file may lead to unexpected app termination or corrupt process memory Description: The issue was addressed with improved memory handling. CVE-2026-43702: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84624",
+      "description": "A sandboxed app may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "CoreML",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A sandboxed app may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-84624: AL Najafi, tamdao"
+      }
+    },
+    {
+      "cve": "CVE-2026-43737",
+      "description": "An app may be able to access motion data from headphones without user consent",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "CoreMotion",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access motion data from headphones without user consent Description: An authorization issue was addressed with improved validation. CVE-2026-43737: Stuart Wallace"
+      }
+    },
+    {
+      "cve": "CVE-2026-65412",
+      "description": "Processing web content may lead to a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "CoreText",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing web content may lead to a denial-of-service Description: A null pointer dereference was addressed with improved input validation. CVE-2026-65412: Pavan Nallamothu"
+      }
+    },
+    {
+      "cve": "CVE-2026-84612",
+      "description": "An app may be able to read persistent device identifiers",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "DeviceCheck",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to read persistent device identifiers Description: An authorization issue was addressed with improved access control. CVE-2026-84612: N.M.Praveen Nawarathne (@zblockrat), James Gill (@jjtech@infosec.exchange)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84552",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84552: Tommy DeVoss from Braze Security Team (@thedawgyg), flower xu, Adriatik Raci, PETOWORKS의 Bugeun Choi (@Bugeun), Peter Malone, Hyunwoo Kim (@v4bel), Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84510",
+      "description": "Mounting a maliciously crafted volume may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "exFAT",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Mounting a maliciously crafted volume may lead to unexpected system termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-84510: Richard Zana, Meta Red Team X - Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-84534",
+      "description": "Extracting a maliciously crafted archive may allow an attacker to write arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "file_cmds",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Extracting a maliciously crafted archive may allow an attacker to write arbitrary files Description: A path handling issue was addressed with improved validation. CVE-2026-84534: Geoffrey Lovelace"
+      }
+    },
+    {
+      "cve": "CVE-2026-84524",
+      "description": "Processing a maliciously crafted font file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "FontParser",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted font file may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84524: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-65409",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Foundation",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause a denial of service Description: A type confusion issue was addressed with improved memory handling. CVE-2026-65409: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84492",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Graphics",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84492: Tommy DeVoss from Braze Security Team (@thedawgyg), Jiyong Yang"
+      }
+    },
+    {
+      "cve": "CVE-2026-84564",
+      "description": "Processing a maliciously crafted image may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
+      }
+    },
+    {
+      "cve": "CVE-2026-64758",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: The issue was addressed with improved bounds checks. CVE-2026-64758: 진규정 (Gyujeong Jin, @G1uN4sh)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43661",
+      "description": "Processing a maliciously crafted image may corrupt process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted image may corrupt process memory Description: A buffer overflow issue was addressed with improved memory handling. CVE-2026-43661: Gandalf4a of PKU-ICODE, Anton Pakhunov, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86869",
+      "description": "Processing a maliciously crafted image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted image may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86869: Niels Hofmans, Meta Red Team X, Geonha Lee (@leegn4a), Chris Bailey - Short Circuit"
+      }
+    },
+    {
+      "cve": "CVE-2026-65395",
+      "description": "Processing a maliciously crafted image may result in memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted image may result in memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65395: Mateusz Jurczyk of Google Project Zero, Varik Matevosyan"
+      }
+    },
+    {
+      "cve": "CVE-2026-43743",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "IOGPUFamily",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-43743: Lyutoon, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-84566",
+      "description": "A local attacker may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A local attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84566: Bernhard Jackiewicz"
+      }
+    },
+    {
+      "cve": "CVE-2026-28968",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, genter0, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-43689",
+      "description": "A malicious app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A malicious app may be able to gain root privileges Description: A permissions issue was addressed with additional restrictions. CVE-2026-43689: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-65377",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A memory corruption issue was addressed with improved memory handling. CVE-2026-65377: Ye Zhang (@VAR10CK) of Baidu Security, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-43687",
+      "description": "Connecting to a malicious NFS server may disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Connecting to a malicious NFS server may disclose kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43687: R4mbb of KRsecurity, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43684",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43684: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43686",
+      "description": "Connecting to a malicious NFS server may lead to kernel memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Connecting to a malicious NFS server may lead to kernel memory corruption Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43686: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-65405",
+      "description": "An app may be able to determine kernel memory layout",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to determine kernel memory layout Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-65405: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84630",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65360",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84530",
+      "description": "An app may be able to disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to disclose kernel memory Description: An information disclosure issue was addressed with improved memory management. CVE-2026-84530: Vladislav Shevchenko (Positive Technologies)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84622",
+      "description": "An app with root privileges may be able to read uninitialized kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app with root privileges may be able to read uninitialized kernel memory Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-84622: Hiroki Imai (LAC Co., Ltd.)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84602",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved checks. CVE-2026-84602: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65402",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84521",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84507",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A race condition was addressed with improved state handling. CVE-2026-84507: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84561",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A double free issue was addressed with improved memory management. CVE-2026-84561: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati"
+      }
+    },
+    {
+      "cve": "CVE-2026-65359",
+      "description": "A local user may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65359: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-86870",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "libarchive",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-86870: Kitten Food"
+      }
+    },
+    {
+      "cve": "CVE-2026-86924",
+      "description": "Connecting a malicious accessory may cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "MobileAccessoryUpdater",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Connecting a malicious accessory may cause unexpected system termination Description: A memory corruption issue was addressed with improved input validation. CVE-2026-86924: Matthew Zamat"
+      }
+    },
+    {
+      "cve": "CVE-2026-65411",
+      "description": "An app may be able to modify protected parts of the file system",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "MobileBackup",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to modify protected parts of the file system Description: A path handling issue was addressed with improved validation. CVE-2026-65411: Rodolphe Brunetti (@eisw0lf) of Lupus Nova"
+      }
+    },
+    {
+      "cve": "CVE-2026-84598",
+      "description": "An attacker with physical access to a trust-paired device may be able to read and write arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "MobileBackup",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An attacker with physical access to a trust-paired device may be able to read and write arbitrary files Description: A path traversal issue was addressed with improved path validation. CVE-2026-84598: Drin Raci of sentry.security"
+      }
+    },
+    {
+      "cve": "CVE-2026-84497",
+      "description": "Opening a maliciously crafted file may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Model I/O",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Opening a maliciously crafted file may lead to unexpected process termination Description: A buffer overflow was addressed with improved size validation. CVE-2026-84497: Yiğit Can YILMAZ (@yilmazcanyigit)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84615",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Music",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84615: Stanislav Jelezoglo"
+      }
+    },
+    {
+      "cve": "CVE-2026-84626",
+      "description": "An app may be able to identify what other apps a user has installed",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84491",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Photos",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84491: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84623",
+      "description": "An app may be able to fingerprint the device",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Power Management",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to fingerprint the device Description: An authorization issue was addressed with improved state management. CVE-2026-84623: Ilya Andr (andrd3v)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84532",
+      "description": "Opening a maliciously crafted file may cause unexpected process termination or disclose process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "RealityKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Opening a maliciously crafted file may cause unexpected process termination or disclose process memory Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-84532: Hongsik Kim (mnur), stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-28966",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "RealityKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28966: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65403",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Reminders",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65403: Rahul Raj"
+      }
+    },
+    {
+      "cve": "CVE-2026-86897",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Safe Browsing",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: This issue was addressed with additional entitlement checks. CVE-2026-86897: Stuart Wallace"
+      }
+    },
+    {
+      "cve": "CVE-2026-84487",
+      "description": "Processing a maliciously crafted file may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted file may result in disclosure of process memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84487: stratan (@5tratan), Peter Malone, Dhiyanesh Selvaraj (@redroot97)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84546",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84611",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84632",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-84632: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84620",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-84620: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84526",
+      "description": "Processing a maliciously crafted 3D scene may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing a maliciously crafted 3D scene may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84526: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86881",
+      "description": "An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86881: Surya Narayan Kushwaha, Roman Zabicki, John Lussier, Filip Olszak"
+      }
+    },
+    {
+      "cve": "CVE-2026-86890",
+      "description": "An attacker with physical access to a locked device may be able to view sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Siri Suggestions",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An attacker with physical access to a locked device may be able to view sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-86890: Abhay Kailasia (@abhay_kailasia) from Safran Mumbai India"
+      }
+    },
+    {
+      "cve": "CVE-2026-84621",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Spotlight",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84621: Abodi Dawoud, Ujjwal Reddy Kalvolu Sreenivasa Reddy, Johan Wahyudi, Armend Gashi"
+      }
+    },
+    {
+      "cve": "CVE-2026-86892",
+      "description": "An app may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "SpringBoard",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause a denial-of-service Description: This issue was addressed with additional entitlement checks. CVE-2026-86892: Lehan Dilusha Jayasingha"
+      }
+    },
+    {
+      "cve": "CVE-2026-65345",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access user-sensitive data Description: A permissions issue was addressed with additional restrictions. CVE-2026-65345: 이재영, Seung Je Seong, Jakob Pammer, Ilya Andr (andrd3v) of Positive Technologies"
+      }
+    },
+    {
+      "cve": "CVE-2026-65348",
+      "description": "An app may be able to modify protected parts of the file system",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to modify protected parts of the file system Description: A permissions issue was addressed with additional restrictions. CVE-2026-65348: Jérôme Djouder"
+      }
+    },
+    {
+      "cve": "CVE-2026-84513",
+      "description": "A malicious application may be able to determine a user's current location",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Symptom Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A malicious application may be able to determine a user's current location Description: A privacy issue was addressed with improved private data redaction for log entries. CVE-2026-84513: Sindre Sorhus"
+      }
+    },
+    {
+      "cve": "CVE-2026-86886",
+      "description": "An app may be able to modify protected system files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "TCC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to modify protected system files Description: A path traversal issue was addressed with improved input validation. CVE-2026-86886: Constantin Clerc, Shad J, Huy Nguyen (@34306) of Calif.io, huami1314 (@huamidev), an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86887",
+      "description": "An app may be able to bypass certain Privacy preferences",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Time Zone",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to bypass certain Privacy preferences Description: A privacy issue was addressed by removing sensitive data. CVE-2026-86887: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86904",
+      "description": "An app may be able to track users across apps and websites without permission",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "Watch App",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to track users across apps and websites without permission Description: A privacy issue was addressed with improved state management. CVE-2026-86904: Stanislav Jelezoglo"
+      }
+    },
+    {
+      "cve": "CVE-2026-43715",
+      "description": "Processing maliciously crafted web content may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 313577 CVE-2026-43715: Milad Nasr and Nicholas Carlini with Claude, Anthropic"
+      }
+    },
+    {
+      "cve": "CVE-2026-64718",
+      "description": "Processing maliciously crafted web content may lead to an unexpected Safari crash",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "WebKit Canvas",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 313935 CVE-2026-64718: Niels Hofmans, OGINOME Tomohito, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84617",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of iOS 26.7 and iPadOS 26.7",
+      "component": "XPC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84617: Stuart Wallace Additional recognition"
+      }
+    }
+  ]
+}

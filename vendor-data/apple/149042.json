@@ -1,0 +1,2014 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "title": "About the security content of macOS Tahoe 26.7",
+  "source_url": "https://support.apple.com/en-us/149042",
+  "release_date": "September 14, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-86882",
+      "description": "Processing a maliciously crafted image may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Accelerate Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86882: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43664",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Accessibility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved data protection. CVE-2026-43664: Stuart Wallace, Rosyna Keller of Totally Not Malicious Software, Jian Lee (@speedyfriend433), Ilya Andr (andrd3v), Gongyu Ma (@Mezone0), David Strnadel, Daniel Febrero, CJ Vana, Asaf Cohen"
+      }
+    },
+    {
+      "cve": "CVE-2026-86910",
+      "description": "An application may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "APFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An application may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-86910: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84523",
+      "description": "An app may be able to cause unexpected system termination or write kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "APFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86888",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "App Store",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-86888: Zhongcheng Li (CK01)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84587",
+      "description": "An app may be able to access protected user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AppKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access protected user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84587: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-20683",
+      "description": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Apple Account",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account Description: An authentication issue was addressed with improved state management. CVE-2026-20683: Lehan Dilusha Jayasingha (Sri Lanka), Jasminder Pal Singh, Dem0ns (@天府简易信工作室), Abdelhak Kherroubi"
+      }
+    },
+    {
+      "cve": "CVE-2026-65408",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Apple Neural Engine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-65408: tamdao"
+      }
+    },
+    {
+      "cve": "CVE-2026-65407",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AppleAVD",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65407: Franco Belman at Blackwing Intelligence"
+      }
+    },
+    {
+      "cve": "CVE-2026-84519",
+      "description": "Mounting a disk image with maliciously crafted files may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AppleDouble",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Mounting a disk image with maliciously crafted files may lead to unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84519: Richard Zana"
+      }
+    },
+    {
+      "cve": "CVE-2026-65381",
+      "description": "A malicious app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreTypes",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A malicious app may be able to break out of its sandbox Description: A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement. CVE-2026-65381: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43763",
+      "description": "An app may be able to read files outside of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "ATS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to read files outside of its sandbox Description: A permissions issue was addressed by removing the vulnerable code. CVE-2026-43763: Pavan Nallamothu, Jared Reyes"
+      }
+    },
+    {
+      "cve": "CVE-2026-84525",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "ATS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access user-sensitive data Description: A logging issue was addressed with improved data redaction. CVE-2026-84525: D4rthL"
+      }
+    },
+    {
+      "cve": "CVE-2026-65342",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "ATS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with improved validation. CVE-2026-65342: Mohamad Dawoud / Abodi Dawoud, Ahmed Alwardani"
+      }
+    },
+    {
+      "cve": "CVE-2026-84583",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AuthKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-84583: Zhongcheng Li from IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84568",
+      "description": "An attacker with control of a network directory server may be able to execute arbitrary code with root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "autofs",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An attacker with control of a network directory server may be able to execute arbitrary code with root privileges Description: A path traversal issue was addressed with improved path validation. CVE-2026-84568: Mr.Gedik (@h4ck2s3c) of Turkish Technology"
+      }
+    },
+    {
+      "cve": "CVE-2026-84570",
+      "description": "An app may be able to bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "autofs",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to bypass Gatekeeper checks Description: A logic issue was addressed with improved checks. CVE-2026-84570: Mr.Gedik (@h4ck2s3c)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84535",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Automator",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to break out of its sandbox Description: An authorization issue was addressed with improved state management. CVE-2026-84535: Sindre Sorhus, Oren Yomtov, Morris Richman (@morrisinlife), Kun Peeks (@SwayZGl1tZyyy)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65410",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved checks. CVE-2026-65410: Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84616",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved memory handling. CVE-2026-84616: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84607",
+      "description": "A sandboxed app may be able to execute arbitrary code with kernel privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A sandboxed app may be able to execute arbitrary code with kernel privileges Description: A race condition was addressed with improved state management. CVE-2026-84607: Ruslan Dautov"
+      }
+    },
+    {
+      "cve": "CVE-2026-65406",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "BackgroundAssets",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: A logic issue was addressed with improved validation. CVE-2026-65406: Ye Zhang (@VAR10CK) of Baidu Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-65414",
+      "description": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A remote attacker may be able to cause unexpected app termination or arbitrary code execution Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65414"
+      }
+    },
+    {
+      "cve": "CVE-2026-84567",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "cd9660",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84567: Sanny Mitra, Sihyun Roh (Compsec, SNU), ngockhanh from Cystack, 정우 하 (@0xfa11babe), Suresh Sundaram, Surej Sekhar, Kun Peeks (@SwayZGl1tZyyy), Hari Shanmugam (The Hxr1), Ataberk Yavuzer"
+      }
+    },
+    {
+      "cve": "CVE-2026-65399",
+      "description": "An archive may be able to bypass Gatekeeper",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "copyfile",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An archive may be able to bypass Gatekeeper Description: A file quarantine bypass was addressed with additional checks. CVE-2026-65399: Rishabh Jain (rjcyber) of cyberplanet, Pasquale Scola, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86891",
+      "description": "An app may be able to access Bluetooth device information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Core Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access Bluetooth device information Description: An authorization issue was addressed with improved state management. CVE-2026-86891: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43683",
+      "description": "An app may be able to cause unexpected process termination or disclose process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreDrag",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected process termination or disclose process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-43683: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43789",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access user-sensitive data Description: An access issue was addressed with additional sandbox restrictions. CVE-2026-43789: 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-65344",
+      "description": "Processing a maliciously crafted video file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted video file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65344: Siyeong kim"
+      }
+    },
+    {
+      "cve": "CVE-2026-86876",
+      "description": "A sandboxed process may be able to circumvent sandbox restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A sandboxed process may be able to circumvent sandbox restrictions Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86876: Chris Bailey - Short Circuit"
+      }
+    },
+    {
+      "cve": "CVE-2026-43702",
+      "description": "Processing a maliciously crafted video file may lead to unexpected app termination or corrupt process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreMedia Video Toolbox",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted video file may lead to unexpected app termination or corrupt process memory Description: The issue was addressed with improved memory handling. CVE-2026-43702: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84624",
+      "description": "A sandboxed app may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreML",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A sandboxed app may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-84624: AL Najafi, tamdao"
+      }
+    },
+    {
+      "cve": "CVE-2026-43737",
+      "description": "An app may be able to access motion data from headphones without user consent",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreMotion",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access motion data from headphones without user consent Description: An authorization issue was addressed with improved validation. CVE-2026-43737: Stuart Wallace"
+      }
+    },
+    {
+      "cve": "CVE-2026-84574",
+      "description": "An app may be able to bypass Privacy preferences",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to bypass Privacy preferences Description: A permissions issue was addressed with improved state management. CVE-2026-84574: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-28899",
+      "description": "An app may bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may bypass Gatekeeper checks Description: A logic issue was addressed with improved checks. CVE-2026-28899: Kraken Cryptocurrency Exchange, Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84559",
+      "description": "A malicious application may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A malicious application may be able to access restricted files Description: A permissions issue was addressed with improved validation. CVE-2026-84559: Ryan Hughes"
+      }
+    },
+    {
+      "cve": "CVE-2026-43786",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: This issue was addressed with additional entitlement checks. CVE-2026-43786: Kujtim Kryeziu (Sentry)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65412",
+      "description": "Processing web content may lead to a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreText",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing web content may lead to a denial-of-service Description: A null pointer dereference was addressed with improved input validation. CVE-2026-65412: Pavan Nallamothu"
+      }
+    },
+    {
+      "cve": "CVE-2026-84575",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84575: Mustafa Calap (@ordinal0, dbg.re)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84511",
+      "description": "Processing a maliciously crafted asset catalog may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted asset catalog may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84511: stratan (@5tratan), Rahul Raj"
+      }
+    },
+    {
+      "cve": "CVE-2026-84563",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A logic issue was addressed with improved checks. CVE-2026-84563: Yongyue WANG AKA Brian.W of OKX security, Omar Cerrito"
+      }
+    },
+    {
+      "cve": "CVE-2026-64790",
+      "description": "An app may be able to gain elevated privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain elevated privileges Description: A path handling issue was addressed with improved validation. CVE-2026-64790: Aaron Grattafiori - NVIDIA AI Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43692",
+      "description": "A remote user may cause an unexpected app termination or arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A remote user may cause an unexpected app termination or arbitrary code execution Description: A validation issue was addressed with improved input sanitization. CVE-2026-43692: Aaron Grattafiori - NVIDIA AI Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84554",
+      "description": "An attacker in a privileged network position may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An attacker in a privileged network position may be able to cause a denial-of-service Description: An integer overflow was addressed with improved input validation. CVE-2026-84554: Meshaal @ Darkcov, Joseph Shamoon"
+      }
+    },
+    {
+      "cve": "CVE-2026-84540",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84540: Yongyue WANG AKA Brian.W of OKX security, 章鱼哥@aipy （aipyaipy.com）, instantraaamen (github.com/instantraaamen) Contact: masa.shiramizu@gmail.com"
+      }
+    },
+    {
+      "cve": "CVE-2026-43691",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: A path handling issue was addressed with improved validation. CVE-2026-43691: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84516",
+      "description": "Processing a maliciously crafted file may result in unexpected app termination or disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted file may result in unexpected app termination or disclosure of process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84516: 章鱼哥@aipy (aipyaipy.com）"
+      }
+    },
+    {
+      "cve": "CVE-2026-43698",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: An injection issue was addressed with improved validation. CVE-2026-43698: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84541",
+      "description": "An application may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An application may be able to access restricted files Description: An input validation issue was addressed with improved input validation. CVE-2026-84541: 章鱼哥@aipy (aipyaipy.com）"
+      }
+    },
+    {
+      "cve": "CVE-2026-84612",
+      "description": "An app may be able to read persistent device identifiers",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "DeviceCheck",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to read persistent device identifiers Description: An authorization issue was addressed with improved access control. CVE-2026-84612: N.M.Praveen Nawarathne (@zblockrat), James Gill (@jjtech@infosec.exchange)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84505",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Directory Utility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84505: Tommy DeVoss from Braze Security Team (@thedawgyg)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84552",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84552: Tommy DeVoss from Braze Security Team (@thedawgyg), PETOWORKS의 Bugeun Choi (@Bugeun), Peter Malone, Hyunwoo Kim (@v4bel), flower xu, Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research), Adriatik Raci"
+      }
+    },
+    {
+      "cve": "CVE-2026-84565",
+      "description": "Processing a maliciously crafted disk image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted disk image may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84565: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84550",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with additional validation. CVE-2026-84550: Hyunwoo Kim (@v4bel), Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65362",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: This issue was addressed with improved checks. CVE-2026-65362: Manish Bhatt, Amazon Leo Security, Nathaniel Oh (@calysteon), Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs, Adriatik Raci"
+      }
+    },
+    {
+      "cve": "CVE-2026-84512",
+      "description": "Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84512: Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84510",
+      "description": "Mounting a maliciously crafted volume may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "exFAT",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Mounting a maliciously crafted volume may lead to unexpected system termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-84510: Richard Zana, Meta Red Team X - Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-43785",
+      "description": "An app may be able to modify a file it only had permission to read",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "File Bookmark",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to modify a file it only had permission to read Description: A permissions issue was addressed with additional restrictions. CVE-2026-43785: Junyeong Lee (jylab.github.io), Merrick Hare, Narendra Singh (@_3P1C), John Nzyuko Uvyu, Aditya Kumar"
+      }
+    },
+    {
+      "cve": "CVE-2026-84534",
+      "description": "Extracting a maliciously crafted archive may allow an attacker to write arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "file_cmds",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Extracting a maliciously crafted archive may allow an attacker to write arbitrary files Description: A path handling issue was addressed with improved validation. CVE-2026-84534: Geoffrey Lovelace"
+      }
+    },
+    {
+      "cve": "CVE-2026-84524",
+      "description": "Processing a maliciously crafted font file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "FontParser",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted font file may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84524: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-65409",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Foundation",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause a denial of service Description: A type confusion issue was addressed with improved memory handling. CVE-2026-65409: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84618",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Game Center",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with improved validation. CVE-2026-84618: Luke Symons"
+      }
+    },
+    {
+      "cve": "CVE-2026-84492",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Graphics",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84492: Tommy DeVoss from Braze Security Team (@thedawgyg), Jiyong Yang"
+      }
+    },
+    {
+      "cve": "CVE-2022-3437",
+      "description": "A user in a privileged network position may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Heimdal",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A user in a privileged network position may be able to leak sensitive user information Description: This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org . CVE-2022-3437: Roman Zabicki"
+      }
+    },
+    {
+      "cve": "CVE-2026-28934",
+      "description": "Mounting a malicious disk image may cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "HFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Mounting a malicious disk image may cause unexpected system termination Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-28934: Arni Hardarson (Neonix Security), Tristan Madani (@TristanInSec) from Talence Security, 정우 하, Aswin Kumar Gokulakannan, Peter Malone, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-84581",
+      "description": "Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "HFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84581: Jonathan Bar Or (@yo_yo_yo_jbo), Feng Xue and XGPT of ThreatBook, Alfredo Pesoli (@__rev) of Bynar.io"
+      }
+    },
+    {
+      "cve": "CVE-2026-64756",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Image Capture",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access user-sensitive data Description: A path handling issue was addressed with improved validation. CVE-2026-64756: Luke Symons"
+      }
+    },
+    {
+      "cve": "CVE-2026-84564",
+      "description": "Processing a maliciously crafted image may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
+      }
+    },
+    {
+      "cve": "CVE-2026-65395",
+      "description": "Processing a maliciously crafted image may result in memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted image may result in memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65395: Mateusz Jurczyk of Google Project Zero, Varik Matevosyan"
+      }
+    },
+    {
+      "cve": "CVE-2026-43743",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "IOGPUFamily",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-43743: Lyutoon, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-28969",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "IOKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-28969: Mihalis Haatainen, Ashish Kunwar, Ari Hawking, 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-84566",
+      "description": "A local attacker may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A local attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84566: Bernhard Jackiewicz"
+      }
+    },
+    {
+      "cve": "CVE-2026-28968",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, genter0, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-84549",
+      "description": "Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84549: Surya Narayan Kushwaha, Aswin Kumar Gokulakannan"
+      }
+    },
+    {
+      "cve": "CVE-2026-84619",
+      "description": "An app may be able to cause unexpected system termination or write kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84619: James Duffy (@0x4A616D657344), genter0, Eddy Tsalolikhin"
+      }
+    },
+    {
+      "cve": "CVE-2026-43790",
+      "description": "A remote attacker may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A remote attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43790: Omar Cerrito"
+      }
+    },
+    {
+      "cve": "CVE-2026-84622",
+      "description": "An app with root privileges may be able to read uninitialized kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app with root privileges may be able to read uninitialized kernel memory Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-84622: Hiroki Imai (LAC Co., Ltd.)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65377",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A memory corruption issue was addressed with improved memory handling. CVE-2026-65377: Ye Zhang (@VAR10CK) of Baidu Security, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65369",
+      "description": "A malicious application may bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A malicious application may bypass Gatekeeper checks Description: A logic issue was addressed with improved state management. CVE-2026-65369: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84544",
+      "description": "Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84544: Surya Narayan Kushwaha, Abhijeet Singh (www.linkedin.com/in/abhiunix/)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43687",
+      "description": "Connecting to a malicious NFS server may disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious NFS server may disclose kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43687: R4mbb of KRsecurity, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-86917",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: A permissions issue was addressed with additional restrictions. CVE-2026-86917: Hiroki Imai (LAC Co., Ltd.)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43686",
+      "description": "Connecting to a malicious NFS server may lead to kernel memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious NFS server may lead to kernel memory corruption Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43686: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84538",
+      "description": "A remote attacker may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A remote attacker may be able to cause a denial-of-service Description: A denial-of-service issue was addressed with improved input validation. CVE-2026-84538: Stuart Thomas"
+      }
+    },
+    {
+      "cve": "CVE-2026-65364",
+      "description": "A remote attacker may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A remote attacker may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65364: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65405",
+      "description": "An app may be able to determine kernel memory layout",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to determine kernel memory layout Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-65405: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84630",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65360",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65358",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65401",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84530",
+      "description": "An app may be able to disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to disclose kernel memory Description: An information disclosure issue was addressed with improved memory management. CVE-2026-84530: Vladislav Shevchenko (Positive Technologies)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84602",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved checks. CVE-2026-84602: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65402",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84521",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84507",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A race condition was addressed with improved state handling. CVE-2026-84507: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84517",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-84517: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84561",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A double free issue was addressed with improved memory management. CVE-2026-84561: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati"
+      }
+    },
+    {
+      "cve": "CVE-2026-65359",
+      "description": "A local user may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65359: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84514",
+      "description": "An app may be able to modify protected parts of the file system",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Kext Management",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to modify protected parts of the file system Description: This issue was addressed with additional entitlement checks. CVE-2026-84514: Mohamed Wedatalla, Nathaniel Oh (@calysteon), Arjanit Isufi"
+      }
+    },
+    {
+      "cve": "CVE-2026-84556",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Keychain Access",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84556: Peter Malone, HvxyZLF, Chris Bailey - Short Circuit, Adrián Díaz Aguilar"
+      }
+    },
+    {
+      "cve": "CVE-2026-65382",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "LaunchServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: A parsing issue in the handling of directory paths was addressed with improved path validation. CVE-2026-65382: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84577",
+      "description": "An app may be able to bypass sandbox restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "libxpc",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to bypass sandbox restrictions Description: An access issue was addressed with additional sandbox restrictions. CVE-2026-84577: Dave G. and Alex Radocea of supernetworks.org"
+      }
+    },
+    {
+      "cve": "CVE-2026-84573",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Mail",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-84573: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43787",
+      "description": "An attacker in a privileged network position may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Mail",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An attacker in a privileged network position may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-43787: Armend Gashi"
+      }
+    },
+    {
+      "cve": "CVE-2026-43741",
+      "description": "An app may be able to access protected user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Messages",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access protected user data Description: A logic issue was addressed with improved state management. CVE-2026-43741: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-86924",
+      "description": "Connecting a malicious accessory may cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "MobileAccessoryUpdater",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting a malicious accessory may cause unexpected system termination Description: A memory corruption issue was addressed with improved input validation. CVE-2026-86924: Matthew Zamat"
+      }
+    },
+    {
+      "cve": "CVE-2026-84497",
+      "description": "Opening a maliciously crafted file may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Model I/O",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Opening a maliciously crafted file may lead to unexpected process termination Description: A buffer overflow was addressed with improved size validation. CVE-2026-84497: Yiğit Can YILMAZ (@yilmazcanyigit)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84626",
+      "description": "An app may be able to identify what other apps a user has installed",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43695",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-43695: Claudio Bozzato and Francesco Benvenuto of Cisco Talos"
+      }
+    },
+    {
+      "cve": "CVE-2026-64712",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "odproxyd",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to gain root privileges Description: This issue was addressed with improved checks. CVE-2026-64712: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84580",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "quarantine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to break out of its sandbox Description: The issue was addressed with improved checks. CVE-2026-84580: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84578",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "quarantine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to break out of its sandbox Description: A logic issue was addressed with improved checks. CVE-2026-84578: Kenneth Chew"
+      }
+    },
+    {
+      "cve": "CVE-2026-84576",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "QuartzCore",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-84576: Dora Orak, @Ethan Arbuckle, and @leptos_null"
+      }
+    },
+    {
+      "cve": "CVE-2026-84548",
+      "description": "Processing a maliciously crafted document may lead to an out-of-bounds read",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Quick Look",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted document may lead to an out-of-bounds read Description: An integer overflow was addressed with improved input validation. CVE-2026-84548: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84532",
+      "description": "Opening a maliciously crafted file may cause unexpected process termination or disclose process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "RealityKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Opening a maliciously crafted file may cause unexpected process termination or disclose process memory Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-84532: stratan (@5tratan), Hongsik Kim (mnur)"
+      }
+    },
+    {
+      "cve": "CVE-2026-28966",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "RealityKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28966: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65403",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Reminders",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65403: Rahul Raj"
+      }
+    },
+    {
+      "cve": "CVE-2026-84487",
+      "description": "Processing a maliciously crafted file may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted file may result in disclosure of process memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84487: stratan (@5tratan), Peter Malone, Dhiyanesh Selvaraj (@redroot97)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65413",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause a denial of service Description: An integer overflow was addressed with improved input validation. CVE-2026-65413: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84546",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84611",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84632",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-84632: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84620",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-84620: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43697",
+      "description": "Processing a maliciously crafted 3D file may lead to an out-of-bounds read",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted 3D file may lead to an out-of-bounds read Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-43697: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84526",
+      "description": "Processing a maliciously crafted 3D scene may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Processing a maliciously crafted 3D scene may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84526: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43760",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Screen Sharing Server",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access user-sensitive data Description: An access issue was addressed with improved access restrictions. CVE-2026-43760: Alfredo Pesoli (@__rev) of Bynar.io, wdszzml and Atuin Automated Vulnerability Discovery Engine"
+      }
+    },
+    {
+      "cve": "CVE-2026-65400",
+      "description": "An attacker on the network may be able to authenticate to Screen Sharing without valid credentials",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Screen Sharing Server",
+      "exploitation": "active",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An attacker on the network may be able to authenticate to Screen Sharing without valid credentials Description: An authentication issue was addressed with improved state management. CVE-2026-65400: Alfredo Pesoli (@__rev) via Bynario Atlas (bynar.io)"
+      },
+      "kev": {
+        "cveID": "CVE-2026-65400",
+        "vendorProject": "Apple",
+        "product": "macOS",
+        "vulnerabilityName": "Apple macOS Improper Authentication Vulnerability",
+        "dateAdded": "2026-08-18",
+        "shortDescription": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-21",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://support.apple.com/en-us/148170; https://support.apple.com/en-us/148171; https://support.apple.com/en-us/148172 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+        "cwes": [
+          "CWE-287"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-86889",
+      "description": "An attacker in a privileged network position may be able to intercept network traffic",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An attacker in a privileged network position may be able to intercept network traffic Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86889: Jaeho Nam, Jungbum Lee, Sangwi Kang, Hyeonguk Ko and Taekyoung Kwon from SNU CSE MMLAB (mmlab.snu.ac.kr)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86881",
+      "description": "An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86881: Surya Narayan Kushwaha, Roman Zabicki, John Lussier, Filip Olszak"
+      }
+    },
+    {
+      "cve": "CVE-2026-43719",
+      "description": "Mounting a maliciously crafted SMB network share may lead to system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Mounting a maliciously crafted SMB network share may lead to system termination Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43719: Jakob Pammer, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84543",
+      "description": "Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-84543: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43690",
+      "description": "A local user may be able to read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A local user may be able to read kernel memory Description: A race condition was addressed with improved locking. CVE-2026-43690: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-65376",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65376: 재영 정, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84536",
+      "description": "Connecting to a malicious SMB server may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious SMB server may lead to unexpected system termination Description: An integer underflow was addressed with improved input validation. CVE-2026-84536: 재영 정, Peter Malone, Feng Xue and XGPT of ThreatBook"
+      }
+    },
+    {
+      "cve": "CVE-2026-84537",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84537: Peter Malone, Feng Xue and XGPT of ThreatBook"
+      }
+    },
+    {
+      "cve": "CVE-2026-65365",
+      "description": "Connecting to a malicious SMB share may disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious SMB share may disclose kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65365: Jay Patel, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84515",
+      "description": "Connecting to a malicious SMB server may lead to kernel memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious SMB server may lead to kernel memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84515: 재영 정, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84509",
+      "description": "Connecting to a malicious SMB server may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious SMB server may lead to unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84509: Dave G."
+      }
+    },
+    {
+      "cve": "CVE-2026-84553",
+      "description": "A remote attacker may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "smbx",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A remote attacker may be able to cause a denial-of-service Description: A resource exhaustion issue was addressed with improved input validation. CVE-2026-84553: Stuart Thomas"
+      }
+    },
+    {
+      "cve": "CVE-2026-84609",
+      "description": "An app may be able to modify protected system files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Software Update",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to modify protected system files Description: A permissions issue was addressed with improved path validation. CVE-2026-84609: YingMuo (@YingMuo) of DEVCORE Research Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-65361",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "SoftwareUpdate",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65361: Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova"
+      }
+    },
+    {
+      "cve": "CVE-2026-65378",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Spotlight",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-65378: Sindre Sorhus, Abodi Dawoud, 糖豆爸爸(@晴天组织), Robert Mindo, Niels Hofmans"
+      }
+    },
+    {
+      "cve": "CVE-2026-84621",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Spotlight",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84621: Abodi Dawoud, Ujjwal Reddy Kalvolu Sreenivasa Reddy, Johan Wahyudi, Armend Gashi"
+      }
+    },
+    {
+      "cve": "CVE-2026-65345",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access user-sensitive data Description: A permissions issue was addressed with additional restrictions. CVE-2026-65345: 이재영, Seung Je Seong, Jakob Pammer, Ilya Andr (andrd3v) of Positive Technologies"
+      }
+    },
+    {
+      "cve": "CVE-2026-65348",
+      "description": "An app may be able to modify protected parts of the file system",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to modify protected parts of the file system Description: A permissions issue was addressed with additional restrictions. CVE-2026-65348: Jérôme Djouder"
+      }
+    },
+    {
+      "cve": "CVE-2026-43791",
+      "description": "An app may be able to read arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "StorageKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to read arbitrary files Description: A validation issue was addressed with improved input sanitization. CVE-2026-43791: Amy (amys.website), Meridian Miftari, Aaron Grattafiori - NVIDIA AI Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84513",
+      "description": "A malicious application may be able to determine a user's current location",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "Symptom Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: A malicious application may be able to determine a user's current location Description: A privacy issue was addressed with improved private data redaction for log entries. CVE-2026-84513: Sindre Sorhus"
+      }
+    },
+    {
+      "cve": "CVE-2026-84527",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "TCC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: A logging issue was addressed with improved data redaction. CVE-2026-84527: Zeyang Li&Yuxiang Wang of Chongqing Telecom"
+      }
+    },
+    {
+      "cve": "CVE-2026-84572",
+      "description": "An app may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "udf",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84572: Tomi (tk0) Koski (@tomikoski), Hari Shanmugam (The Hxr1)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84506",
+      "description": "An app may be able to execute arbitrary code with kernel privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "udf",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to execute arbitrary code with kernel privileges Description: A use after free issue was addressed with improved memory management. CVE-2026-84506: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-43677",
+      "description": "Connecting to a malicious WebDAV server may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "WebDAV",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious WebDAV server may lead to unexpected app termination Description: An out-of-bounds write issue was addressed by removing the vulnerable code. CVE-2026-43677: bubu, Surya Narayan Kushwaha, Roman Zabicki, Richard Zana, Omar Cerrito, HE WEI（ギカク）, Chris Bailey - Short Circuit, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research, Aswin Kumar Gokulakannan"
+      }
+    },
+    {
+      "cve": "CVE-2026-65374",
+      "description": "Connecting to a malicious WebDAV server may result in code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "WebDAV",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: Connecting to a malicious WebDAV server may result in code execution Description: A memory corruption issue was addressed with improved validation. CVE-2026-65374: He Wei（ギカク), Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84617",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Tahoe 26.7",
+      "component": "XPC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84617: Stuart Wallace Additional recognition"
+      }
+    }
+  ]
+}

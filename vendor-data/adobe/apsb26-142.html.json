@@ -1,0 +1,29 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/campaign/apsb26-142.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-82004",
+      "description": "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') ( CWE-78 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "10.0",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') ( CWE-78 )",
+          "Arbitrary code execution",
+          "Critical",
+          "10.0",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+          "CVE-2026-82004"
+        ]
+      }
+    }
+  ]
+}

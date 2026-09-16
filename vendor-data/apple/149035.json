@@ -1,0 +1,2755 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "title": "About the security content of macOS Golden Gate 27",
+  "source_url": "https://support.apple.com/en-us/149035",
+  "release_date": "September 14, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-86882",
+      "description": "Processing a maliciously crafted image may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Accelerate Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86882: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43664",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Accessibility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved data protection. CVE-2026-43664: Stuart Wallace, Ilya Andr (andrd3v), Rosyna Keller of Totally Not Malicious Software, CJ Vana, David Strnadel, Daniel Febrero, Asaf Cohen, Gongyu Ma (@Mezone0), Jian Lee (@speedyfriend433)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65404",
+      "description": "A malicious application may be able to bypass Privacy preferences",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Accounts",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious application may be able to bypass Privacy preferences Description: An authorization issue was addressed with improved state management. CVE-2026-65404: Arni Hardarson (Neonix Security), Vinay Kumar Rasala (Xplo8E) from Appknox, Stuart Wallace, 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-86910",
+      "description": "An application may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "APFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An application may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-86910: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84523",
+      "description": "An app may be able to cause unexpected system termination or write kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "APFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86888",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "App Store",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-86888: Zhongcheng Li (CK01)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84587",
+      "description": "An app may be able to access protected user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AppKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access protected user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84587: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84586",
+      "description": "A malicious application may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Apple Account",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious application may be able to leak sensitive user information Description: An information disclosure issue was addressed with improved state management. CVE-2026-84586: Prashan Samarathunge, Zhongcheng Li (CK01)"
+      }
+    },
+    {
+      "cve": "CVE-2026-20683",
+      "description": "An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Apple Account",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account Description: An authentication issue was addressed with improved state management. CVE-2026-20683: Dem0ns (@天府简易信工作室), Abdelhak Kherroubi, Jasminder Pal Singh, Lehan Dilusha Jayasingha (Sri Lanka)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84601",
+      "description": "An app may be able to bypass Apple Intelligence security prompts",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Apple Intelligence",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to bypass Apple Intelligence security prompts Description: A permissions issue was addressed with improved state management. CVE-2026-84601: Nick Cook, Sentry Flag"
+      }
+    },
+    {
+      "cve": "CVE-2026-65408",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Apple Neural Engine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-65408: tamdao"
+      }
+    },
+    {
+      "cve": "CVE-2026-65407",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AppleAVD",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65407: Franco Belman at Blackwing Intelligence"
+      }
+    },
+    {
+      "cve": "CVE-2026-84519",
+      "description": "Mounting a disk image with maliciously crafted files may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AppleDouble",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a disk image with maliciously crafted files may lead to unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84519: Richard Zana"
+      }
+    },
+    {
+      "cve": "CVE-2026-84520",
+      "description": "A local attacker may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AppleFDEKeyStore",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local attacker may be able to cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved size validation. CVE-2026-84520: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65381",
+      "description": "A malicious app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AppleMobileFileIntegrity",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious app may be able to break out of its sandbox Description: A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement. CVE-2026-65381: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84584",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Archive Utility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to break out of its sandbox Description: This issue was addressed with improved handling of symlinks. CVE-2026-84584: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84522",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Archive Utility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A race condition was addressed with improved state management. CVE-2026-84522: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84525",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "ATS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access user-sensitive data Description: A logging issue was addressed with improved data redaction. CVE-2026-84525: D4rthL"
+      }
+    },
+    {
+      "cve": "CVE-2026-65342",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "ATS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with improved validation. CVE-2026-65342: Ahmed Alwardani, Mohamad Dawoud / Abodi Dawoud"
+      }
+    },
+    {
+      "cve": "CVE-2026-86905",
+      "description": "An app may be able to delete credentials stored in Keychain",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Authentication Services",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to delete credentials stored in Keychain Description: This issue was addressed by removing the vulnerable code. CVE-2026-86905: Ilya Andr (andrd3v)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84583",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AuthKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-84583: Zhongcheng Li from IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84570",
+      "description": "An app may be able to bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "autofs",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to bypass Gatekeeper checks Description: A logic issue was addressed with improved checks. CVE-2026-84570: Mr.Gedik (@h4ck2s3c)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84568",
+      "description": "An attacker with control of a network directory server may be able to execute arbitrary code with root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "autofs",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker with control of a network directory server may be able to execute arbitrary code with root privileges Description: A path traversal issue was addressed with improved path validation. CVE-2026-84568: Mr.Gedik (@h4ck2s3c) of Turkish Technology"
+      }
+    },
+    {
+      "cve": "CVE-2026-84535",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Automator",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to break out of its sandbox Description: An authorization issue was addressed with improved state management. CVE-2026-84535: Kun Peeks (@SwayZGl1tZyyy), Oren Yomtov, Morris Richman (@morrisinlife), Sindre Sorhus"
+      }
+    },
+    {
+      "cve": "CVE-2026-65410",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved checks. CVE-2026-65410: Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84616",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved memory handling. CVE-2026-84616: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84607",
+      "description": "A sandboxed app may be able to execute arbitrary code with kernel privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A sandboxed app may be able to execute arbitrary code with kernel privileges Description: A race condition was addressed with improved state management. CVE-2026-84607: Ruslan Dautov"
+      }
+    },
+    {
+      "cve": "CVE-2026-65406",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "BackgroundAssets",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A logic issue was addressed with improved validation. CVE-2026-65406: Ye Zhang (@VAR10CK) of Baidu Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-65414",
+      "description": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A remote attacker may be able to cause unexpected app termination or arbitrary code execution Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65414"
+      }
+    },
+    {
+      "cve": "CVE-2026-84560",
+      "description": "An app may gain unauthorized access to Bluetooth",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may gain unauthorized access to Bluetooth Description: An authorization issue was addressed with improved state management. CVE-2026-84560: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84631",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: This issue was addressed with additional entitlement checks. CVE-2026-84631: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84567",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "cd9660",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84567: Sanny Mitra, Sihyun Roh (Compsec, SNU), ngockhanh from Cystack, Ataberk Yavuzer, 정우 하 (@0xfa11babe), Kun Peeks (@SwayZGl1tZyyy), Surej Sekhar, Suresh Sundaram, Hari Shanmugam (The Hxr1)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65399",
+      "description": "An archive may be able to bypass Gatekeeper",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "copyfile",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An archive may be able to bypass Gatekeeper Description: A file quarantine bypass was addressed with additional checks. CVE-2026-65399: Rishabh Jain (rjcyber) of cyberplanet, Pasquale Scola, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86891",
+      "description": "An app may be able to access Bluetooth device information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Core Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access Bluetooth device information Description: An authorization issue was addressed with improved state management. CVE-2026-86891: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43683",
+      "description": "An app may be able to cause unexpected process termination or disclose process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreDrag",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected process termination or disclose process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-43683: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43789",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access user-sensitive data Description: An access issue was addressed with additional sandbox restrictions. CVE-2026-43789: 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-64752",
+      "description": "Processing a maliciously crafted image may lead to arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may lead to arbitrary code execution Description: A memory corruption issue was addressed by removing the vulnerable code. CVE-2026-64752: Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-86876",
+      "description": "A sandboxed process may be able to circumvent sandbox restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A sandboxed process may be able to circumvent sandbox restrictions Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86876: Chris Bailey - Short Circuit"
+      }
+    },
+    {
+      "cve": "CVE-2026-65344",
+      "description": "Processing a maliciously crafted video file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted video file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65344: Siyeong kim"
+      }
+    },
+    {
+      "cve": "CVE-2026-84624",
+      "description": "A sandboxed app may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreML",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A sandboxed app may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-84624: AL Najafi, tamdao"
+      }
+    },
+    {
+      "cve": "CVE-2026-43737",
+      "description": "An app may be able to access motion data from headphones without user consent",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreMotion",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access motion data from headphones without user consent Description: An authorization issue was addressed with improved validation. CVE-2026-43737: Stuart Wallace"
+      }
+    },
+    {
+      "cve": "CVE-2026-84574",
+      "description": "An app may be able to bypass Privacy preferences",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to bypass Privacy preferences Description: A permissions issue was addressed with improved state management. CVE-2026-84574: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84559",
+      "description": "A malicious application may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious application may be able to access restricted files Description: A permissions issue was addressed with improved validation. CVE-2026-84559: Ryan Hughes"
+      }
+    },
+    {
+      "cve": "CVE-2026-43786",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: This issue was addressed with additional entitlement checks. CVE-2026-43786: Kujtim Kryeziu (Sentry)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65412",
+      "description": "Processing web content may lead to a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreText",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing web content may lead to a denial-of-service Description: A null pointer dereference was addressed with improved input validation. CVE-2026-65412: Pavan Nallamothu"
+      }
+    },
+    {
+      "cve": "CVE-2026-84596",
+      "description": "Processing a maliciously crafted font may result in the disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreText",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted font may result in the disclosure of process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84596: ret2happy, Meta Product Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-84575",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84575: Mustafa Calap (@ordinal0, dbg.re)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84489",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause a denial of service Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84489: stratan (@5tratan), Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84571",
+      "description": "Processing a maliciously crafted image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may lead to unexpected app termination Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84571: stratan (@5tratan), Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43738",
+      "description": "Processing a maliciously crafted asset catalog may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted asset catalog may result in disclosure of process memory Description: The issue was addressed with improved memory handling. CVE-2026-43738: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84511",
+      "description": "Processing a maliciously crafted asset catalog may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted asset catalog may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84511: Rahul Raj, stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84563",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A logic issue was addressed with improved checks. CVE-2026-84563: Yongyue WANG AKA Brian.W of OKX security, Omar Cerrito"
+      }
+    },
+    {
+      "cve": "CVE-2026-34979",
+      "description": "An attacker in a privileged network position may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker in a privileged network position may be able to cause a denial-of-service Description: This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org . CVE-2026-34979: Tristan Madani (@TristanInSec) from Talence Security, Юлия Мерцалова"
+      }
+    },
+    {
+      "cve": "CVE-2026-43698",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: An injection issue was addressed with improved validation. CVE-2026-43698: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-64790",
+      "description": "An app may be able to gain elevated privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain elevated privileges Description: A path handling issue was addressed with improved validation. CVE-2026-64790: Aaron Grattafiori - NVIDIA AI Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43692",
+      "description": "A remote user may cause an unexpected app termination or arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A remote user may cause an unexpected app termination or arbitrary code execution Description: A validation issue was addressed with improved input sanitization. CVE-2026-43692: Aaron Grattafiori - NVIDIA AI Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84554",
+      "description": "An attacker in a privileged network position may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker in a privileged network position may be able to cause a denial-of-service Description: An integer overflow was addressed with improved input validation. CVE-2026-84554: Joseph Shamoon, Meshaal @ Darkcov"
+      }
+    },
+    {
+      "cve": "CVE-2026-43691",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: A path handling issue was addressed with improved validation. CVE-2026-43691: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84541",
+      "description": "An application may be able to access restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An application may be able to access restricted files Description: An input validation issue was addressed with improved input validation. CVE-2026-84541: 章鱼哥@aipy (aipyaipy.com）"
+      }
+    },
+    {
+      "cve": "CVE-2026-84540",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84540: Yongyue WANG AKA Brian.W of OKX security, 章鱼哥@aipy （aipyaipy.com）, instantraaamen (github.com/instantraaamen) Contact: masa.shiramizu@gmail.com"
+      }
+    },
+    {
+      "cve": "CVE-2026-84516",
+      "description": "Processing a maliciously crafted file may result in unexpected app termination or disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "CUPS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may result in unexpected app termination or disclosure of process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84516: 章鱼哥@aipy (aipyaipy.com）"
+      }
+    },
+    {
+      "cve": "CVE-2026-84612",
+      "description": "An app may be able to read persistent device identifiers",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "DeviceCheck",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to read persistent device identifiers Description: An authorization issue was addressed with improved access control. CVE-2026-84612: N.M.Praveen Nawarathne (@zblockrat), James Gill (@jjtech@infosec.exchange)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84505",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Directory Utility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84505: Tommy DeVoss from Braze Security Team (@thedawgyg)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84565",
+      "description": "Processing a maliciously crafted disk image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted disk image may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84565: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84552",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84552: Tommy DeVoss from Braze Security Team (@thedawgyg), flower xu, Adriatik Raci, PETOWORKS의 Bugeun Choi (@Bugeun), Peter Malone, Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research), Hyunwoo Kim (@v4bel)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84550",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with additional validation. CVE-2026-84550: Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research), Hyunwoo Kim (@v4bel)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65362",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: This issue was addressed with improved checks. CVE-2026-65362: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs, Adriatik Raci, Manish Bhatt, Amazon Leo Security, Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84512",
+      "description": "Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Disk Images",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84512: Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84510",
+      "description": "Mounting a maliciously crafted volume may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "exFAT",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted volume may lead to unexpected system termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-84510: Meta Red Team X - Nik Tsytsarkin, Richard Zana"
+      }
+    },
+    {
+      "cve": "CVE-2026-86901",
+      "description": "Mounting a maliciously crafted exFAT volume may cause unexpected system termination or kernel memory disclosure",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "exFAT",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted exFAT volume may cause unexpected system termination or kernel memory disclosure Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86901: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86900",
+      "description": "Mounting a maliciously crafted exFAT volume may cause unexpected system termination or kernel memory disclosure",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "exFAT",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted exFAT volume may cause unexpected system termination or kernel memory disclosure Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-86900: ngockhanh from Cystack, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-43785",
+      "description": "An app may be able to modify a file it only had permission to read",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "File Bookmark",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to modify a file it only had permission to read Description: A permissions issue was addressed with additional restrictions. CVE-2026-43785: Junyeong Lee (jylab.github.io), Merrick Hare, Aditya Kumar, John Nzyuko Uvyu, Narendra Singh (@_3P1C)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84534",
+      "description": "Extracting a maliciously crafted archive may allow an attacker to write arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "file_cmds",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Extracting a maliciously crafted archive may allow an attacker to write arbitrary files Description: A path handling issue was addressed with improved validation. CVE-2026-84534: Geoffrey Lovelace"
+      }
+    },
+    {
+      "cve": "CVE-2026-43688",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Filters",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: A memory corruption issue was addressed with improved input validation. CVE-2026-43688: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84524",
+      "description": "Processing a maliciously crafted font file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "FontParser",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted font file may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84524: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84597",
+      "description": "Processing a maliciously crafted font may result in the disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "FontParser",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted font may result in the disclosure of process memory Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-84597: Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-84569",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Foundation",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An access issue was addressed with additional sandbox restrictions on the system pasteboards. CVE-2026-84569: Yurii Bakurov, Sindre Sorhus, Asaf Cohen"
+      }
+    },
+    {
+      "cve": "CVE-2026-65409",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Foundation",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause a denial of service Description: A type confusion issue was addressed with improved memory handling. CVE-2026-65409: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-86911",
+      "description": "A malicious app may be able to bypass clickjacking protections for secure prompts",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Foundation",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious app may be able to bypass clickjacking protections for secure prompts Description: This issue was addressed with improved state management. CVE-2026-86911: Ron Masas of BreakPoint.SH, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84618",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Game Center",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with improved validation. CVE-2026-84618: Luke Symons"
+      }
+    },
+    {
+      "cve": "CVE-2026-84492",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Graphics",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84492: Tommy DeVoss from Braze Security Team (@thedawgyg), Jiyong Yang"
+      }
+    },
+    {
+      "cve": "CVE-2026-84533",
+      "description": "An attacker in a privileged network position may be able to modify network traffic",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Heimdal",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker in a privileged network position may be able to modify network traffic Description: A cryptographic issue was addressed with improved integrity checks. CVE-2026-84533: Vishal Patidar, Roman Zabicki"
+      }
+    },
+    {
+      "cve": "CVE-2022-3437",
+      "description": "A user in a privileged network position may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Heimdal",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A user in a privileged network position may be able to leak sensitive user information Description: This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org . CVE-2022-3437: Roman Zabicki"
+      }
+    },
+    {
+      "cve": "CVE-2026-84581",
+      "description": "Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "HFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84581: Feng Xue and XGPT of ThreatBook, Alfredo Pesoli (@__rev) of Bynar.io, Jonathan Bar Or (@yo_yo_yo_jbo)"
+      }
+    },
+    {
+      "cve": "CVE-2026-28934",
+      "description": "Mounting a malicious disk image may cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "HFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a malicious disk image may cause unexpected system termination Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-28934: Arni Hardarson (Neonix Security), Tristan Madani (@TristanInSec) from Talence Security, 정우 하, Aswin Kumar Gokulakannan, Peter Malone, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-84606",
+      "description": "An app may be able to identify a user across reinstalls",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "iCloud",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to identify a user across reinstalls Description: A privacy issue was addressed with improved handling of identifiers. CVE-2026-84606: Ilya Andr (andrd3v)"
+      }
+    },
+    {
+      "cve": "CVE-2026-64756",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Image Capture",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access user-sensitive data Description: A path handling issue was addressed with improved validation. CVE-2026-64756: Luke Symons"
+      }
+    },
+    {
+      "cve": "CVE-2026-64714",
+      "description": "Processing a maliciously crafted image may lead to a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may lead to a denial-of-service Description: A memory corruption issue was addressed with improved bounds checking. CVE-2026-64714: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84564",
+      "description": "Processing a maliciously crafted image may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
+      }
+    },
+    {
+      "cve": "CVE-2026-86869",
+      "description": "Processing a maliciously crafted image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86869: Chris Bailey - Short Circuit, Meta Red Team X, Niels Hofmans, Geonha Lee (@leegn4a)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65395",
+      "description": "Processing a maliciously crafted image may result in memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted image may result in memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65395: Mateusz Jurczyk of Google Project Zero, Varik Matevosyan"
+      }
+    },
+    {
+      "cve": "CVE-2026-28969",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "IOKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-28969: Mihalis Haatainen, Ashish Kunwar, Ari Hawking, 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-65398",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "IOMobileFrameBuffer",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-65398: Chris Bailey - Short Circuit, Mustafa Calap (@ordinal0, dbg.re), David Strnadel, Meta Red Team X - Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-64760",
+      "description": "An app may be able to leak sensitive kernel state",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "IOSurfaceAccelerator",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to leak sensitive kernel state Description: An information leakage was addressed with additional validation. CVE-2026-64760: an anonymous researcher, Seiji Sakurai (@HeapSmasher), Franco Belman at Blackwing Intelligence"
+      }
+    },
+    {
+      "cve": "CVE-2026-65354",
+      "description": "A malicious app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "iWork",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious app may be able to break out of its sandbox Description: A permissions issue was addressed with additional restrictions. CVE-2026-65354: Csaba Fitzl (@theevilbit) of Iru"
+      }
+    },
+    {
+      "cve": "CVE-2026-84588",
+      "description": "Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A memory corruption issue was addressed by removing the vulnerable code. CVE-2026-84588: Narendra Singh (@_3P1C), Nathaniel Oh (@calysteon), an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-28968",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: genter0, Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-84566",
+      "description": "A local attacker may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84566: Bernhard Jackiewicz"
+      }
+    },
+    {
+      "cve": "CVE-2026-65415",
+      "description": "A local user may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: A race condition was addressed with additional validation. CVE-2026-65415: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Ryan Hileman via Xint Code (xint.io)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84561",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A double free issue was addressed with improved memory management. CVE-2026-84561: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati"
+      }
+    },
+    {
+      "cve": "CVE-2026-84630",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65401",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65360",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65358",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65401: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84558",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A double free issue was addressed with improved memory management. CVE-2026-84558: James Young"
+      }
+    },
+    {
+      "cve": "CVE-2026-65377",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A memory corruption issue was addressed with improved memory handling. CVE-2026-65377: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Ye Zhang (@VAR10CK) of Baidu Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-84622",
+      "description": "An app with root privileges may be able to read uninitialized kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app with root privileges may be able to read uninitialized kernel memory Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-84622: Hiroki Imai (LAC Co., Ltd.)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84549",
+      "description": "Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84549: Aswin Kumar Gokulakannan, Surya Narayan Kushwaha"
+      }
+    },
+    {
+      "cve": "CVE-2026-43689",
+      "description": "A malicious app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious app may be able to gain root privileges Description: A permissions issue was addressed with additional restrictions. CVE-2026-43689: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84619",
+      "description": "An app may be able to cause unexpected system termination or write kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84619: genter0, Eddy Tsalolikhin, James Duffy (@0x4A616D657344)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65369",
+      "description": "A malicious application may bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious application may bypass Gatekeeper checks Description: A logic issue was addressed with improved state management. CVE-2026-65369: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86917",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: A permissions issue was addressed with additional restrictions. CVE-2026-86917: Hiroki Imai (LAC Co., Ltd.)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84544",
+      "description": "Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84544: Abhijeet Singh (www.linkedin.com/in/abhiunix/), Surya Narayan Kushwaha"
+      }
+    },
+    {
+      "cve": "CVE-2026-43790",
+      "description": "A remote attacker may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A remote attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43790: Omar Cerrito"
+      }
+    },
+    {
+      "cve": "CVE-2026-43687",
+      "description": "Connecting to a malicious NFS server may disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious NFS server may disclose kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43687: R4mbb of KRsecurity, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43686",
+      "description": "Connecting to a malicious NFS server may lead to kernel memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious NFS server may lead to kernel memory corruption Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43686: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84538",
+      "description": "A remote attacker may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A remote attacker may be able to cause a denial-of-service Description: A denial-of-service issue was addressed with improved input validation. CVE-2026-84538: Stuart Thomas"
+      }
+    },
+    {
+      "cve": "CVE-2026-43684",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43684: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-65405",
+      "description": "An app may be able to determine kernel memory layout",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to determine kernel memory layout Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-65405: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65364",
+      "description": "A remote attacker may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A remote attacker may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65364: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84530",
+      "description": "An app may be able to disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to disclose kernel memory Description: An information disclosure issue was addressed with improved memory management. CVE-2026-84530: Vladislav Shevchenko (Positive Technologies)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84521",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65402",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65359",
+      "description": "A local user may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65359: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84517",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-84517: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84507",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A race condition was addressed with improved state handling. CVE-2026-84507: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-86903",
+      "description": "An app may be able to disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to disclose kernel memory Description: An out-of-bounds read was addressed with improved input validation. CVE-2026-86903: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84602",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved checks. CVE-2026-84602: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84514",
+      "description": "An app may be able to modify protected parts of the file system",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Kext Management",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to modify protected parts of the file system Description: This issue was addressed with additional entitlement checks. CVE-2026-84514: Mohamed Wedatalla, Arjanit Isufi, Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84556",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Keychain Access",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84556: Adrián Díaz Aguilar, Chris Bailey - Short Circuit, Peter Malone, HvxyZLF"
+      }
+    },
+    {
+      "cve": "CVE-2026-65382",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "LaunchServices",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A parsing issue in the handling of directory paths was addressed with improved path validation. CVE-2026-65382: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86870",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "libarchive",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-86870: Kitten Food"
+      }
+    },
+    {
+      "cve": "CVE-2026-86894",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "libxpc",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to break out of its sandbox Description: A logic issue was addressed with improved checks. CVE-2026-86894: Dave G."
+      }
+    },
+    {
+      "cve": "CVE-2026-84577",
+      "description": "An app may be able to bypass sandbox restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "libxpc",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to bypass sandbox restrictions Description: An access issue was addressed with additional sandbox restrictions. CVE-2026-84577: Dave G. and Alex Radocea of supernetworks.org"
+      }
+    },
+    {
+      "cve": "CVE-2026-84573",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Mail",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-84573: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-43787",
+      "description": "An attacker in a privileged network position may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Mail",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker in a privileged network position may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-43787: Armend Gashi"
+      }
+    },
+    {
+      "cve": "CVE-2026-84628",
+      "description": "A sandboxed app may be able to access the System Keychain",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "MediaRemote",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A sandboxed app may be able to access the System Keychain Description: An authorization issue was addressed with improved state management. CVE-2026-84628: Myeonghun Pak, Nathaniel Oh (@calysteon), Alan Banderas (@creeper4004)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43741",
+      "description": "An app may be able to access protected user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Messages",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access protected user data Description: A logic issue was addressed with improved state management. CVE-2026-43741: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-86924",
+      "description": "Connecting a malicious accessory may cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "MobileAccessoryUpdater",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting a malicious accessory may cause unexpected system termination Description: A memory corruption issue was addressed with improved input validation. CVE-2026-86924: Matthew Zamat"
+      }
+    },
+    {
+      "cve": "CVE-2026-84497",
+      "description": "Opening a maliciously crafted file may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Model I/O",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Opening a maliciously crafted file may lead to unexpected process termination Description: A buffer overflow was addressed with improved size validation. CVE-2026-84497: Yiğit Can YILMAZ (@yilmazcanyigit)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84585",
+      "description": "An app may be able to access local network devices without user consent",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access local network devices without user consent Description: A permissions issue was addressed with improved state management. CVE-2026-84585: Dmytro Merkulov"
+      }
+    },
+    {
+      "cve": "CVE-2026-43695",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-43695: Claudio Bozzato and Francesco Benvenuto of Cisco Talos"
+      }
+    },
+    {
+      "cve": "CVE-2026-84626",
+      "description": "An app may be able to identify what other apps a user has installed",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-86902",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "NSDocument",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A parsing issue in the handling of directory paths was addressed with improved path validation. CVE-2026-86902: silo"
+      }
+    },
+    {
+      "cve": "CVE-2026-64712",
+      "description": "An app may be able to gain root privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "odproxyd",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to gain root privileges Description: This issue was addressed with improved checks. CVE-2026-64712: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
+      }
+    },
+    {
+      "cve": "CVE-2026-84491",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Photos Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84491: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84580",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "quarantine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to break out of its sandbox Description: The issue was addressed with improved checks. CVE-2026-84580: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84578",
+      "description": "An app may be able to break out of its sandbox",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "quarantine",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to break out of its sandbox Description: A logic issue was addressed with improved checks. CVE-2026-84578: Kenneth Chew"
+      }
+    },
+    {
+      "cve": "CVE-2026-84576",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "QuartzCore",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-84576: Dora Orak, @Ethan Arbuckle, and @leptos_null"
+      }
+    },
+    {
+      "cve": "CVE-2026-84548",
+      "description": "Processing a maliciously crafted document may lead to an out-of-bounds read",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Quick Look",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted document may lead to an out-of-bounds read Description: An integer overflow was addressed with improved input validation. CVE-2026-84548: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-28966",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "RealityKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28966: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84532",
+      "description": "Opening a maliciously crafted file may cause unexpected process termination or disclose process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "RealityKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Opening a maliciously crafted file may cause unexpected process termination or disclose process memory Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-84532: Hongsik Kim (mnur), stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65403",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Reminders",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65403: Rahul Raj"
+      }
+    },
+    {
+      "cve": "CVE-2026-84518",
+      "description": "A malicious website may be able to determine what apps a user has installed",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Safari",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious website may be able to determine what apps a user has installed Description: This issue was addressed through improved state management. CVE-2026-84518: Bálint Magyar (balintmagyar.com)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86897",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Safe Browsing",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed with additional entitlement checks. CVE-2026-86897: Stuart Wallace"
+      }
+    },
+    {
+      "cve": "CVE-2026-65380",
+      "description": "An app may be able to access protected user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Sandbox",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access protected user data Description: An issue existed in the handling of snapshots. The issue was resolved with improved permissions logic. CVE-2026-65380: Kieran Klukas (taciturnaxolotl)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84555",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Sandbox",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84555: Liu Xue & 九宫格 of Chongqing Telecom"
+      }
+    },
+    {
+      "cve": "CVE-2026-84551",
+      "description": "An app may be able to bypass network restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Sandbox",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to bypass network restrictions Description: A logic issue was addressed with improved validation. CVE-2026-84551: Issa Sancho"
+      }
+    },
+    {
+      "cve": "CVE-2026-84625",
+      "description": "An app may be able to fingerprint the user",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Sandbox Profiles",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to fingerprint the user Description: A permissions issue was addressed with additional sandbox restrictions. CVE-2026-84625: Ilya Andr (andrd3v) of Positive Technologies, CJ Vana"
+      }
+    },
+    {
+      "cve": "CVE-2026-43697",
+      "description": "Processing a maliciously crafted 3D file may lead to an out-of-bounds read",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted 3D file may lead to an out-of-bounds read Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-43697: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84487",
+      "description": "Processing a maliciously crafted file may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may result in disclosure of process memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84487: stratan (@5tratan), Dhiyanesh Selvaraj (@redroot97), Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-65413",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause a denial of service Description: An integer overflow was addressed with improved input validation. CVE-2026-65413: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84632",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-84632: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84620",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-84620: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84546",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84611",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84526",
+      "description": "Processing a maliciously crafted 3D scene may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted 3D scene may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84526: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65400",
+      "description": "An attacker on the network may be able to authenticate to Screen Sharing without valid credentials",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Screen Sharing Server",
+      "exploitation": "active",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker on the network may be able to authenticate to Screen Sharing without valid credentials Description: An authentication issue was addressed with improved state management. CVE-2026-65400: Alfredo Pesoli (@__rev) via Bynario Atlas (bynar.io)"
+      },
+      "kev": {
+        "cveID": "CVE-2026-65400",
+        "vendorProject": "Apple",
+        "product": "macOS",
+        "vulnerabilityName": "Apple macOS Improper Authentication Vulnerability",
+        "dateAdded": "2026-08-18",
+        "shortDescription": "Apple macOS contains an improper authentication vulnerability that could allow an attacker on the network to authenticate to Screen Sharing without valid credentials.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-08-21",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://support.apple.com/en-us/148170; https://support.apple.com/en-us/148171; https://support.apple.com/en-us/148172 ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-65400",
+        "cwes": [
+          "CWE-287"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-86889",
+      "description": "An attacker in a privileged network position may be able to intercept network traffic",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker in a privileged network position may be able to intercept network traffic Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86889: Jaeho Nam, Jungbum Lee, Sangwi Kang, Hyeonguk Ko and Taekyoung Kwon from SNU CSE MMLAB (mmlab.snu.ac.kr)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86881",
+      "description": "An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86881: Surya Narayan Kushwaha, Roman Zabicki, John Lussier, Filip Olszak"
+      }
+    },
+    {
+      "cve": "CVE-2026-84531",
+      "description": "Processing maliciously crafted NTLM input may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing maliciously crafted NTLM input may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84531: Meshaal (@unrealmesh)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84600",
+      "description": "A malicious shortcut may be able to send messages without user confirmation",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Shortcuts",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious shortcut may be able to send messages without user confirmation Description: An authorization issue was addressed with improved state management. CVE-2026-84600: Owen Pawling (@owenpawling)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86884",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Siri",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-86884: Stanislav Jelezoglo, Gongyu Ma (twitter @Mezone0)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43690",
+      "description": "A local user may be able to read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A local user may be able to read kernel memory Description: A race condition was addressed with improved locking. CVE-2026-43690: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-43719",
+      "description": "Mounting a maliciously crafted SMB network share may lead to system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Mounting a maliciously crafted SMB network share may lead to system termination Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43719: Jakob Pammer, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-65376",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65376: 재영 정, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84543",
+      "description": "Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-84543: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84537",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84537: Feng Xue and XGPT of ThreatBook, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84536",
+      "description": "Connecting to a malicious SMB server may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious SMB server may lead to unexpected system termination Description: An integer underflow was addressed with improved input validation. CVE-2026-84536: 재영 정, Feng Xue and XGPT of ThreatBook, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-65365",
+      "description": "Connecting to a malicious SMB share may disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious SMB share may disclose kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65365: Jay Patel, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84515",
+      "description": "Connecting to a malicious SMB server may lead to kernel memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious SMB server may lead to kernel memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84515: 재영 정, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84509",
+      "description": "Connecting to a malicious SMB server may lead to unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SMB",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious SMB server may lead to unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84509: Dave G."
+      }
+    },
+    {
+      "cve": "CVE-2026-84553",
+      "description": "A remote attacker may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "smbx",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A remote attacker may be able to cause a denial-of-service Description: A resource exhaustion issue was addressed with improved input validation. CVE-2026-84553: Stuart Thomas"
+      }
+    },
+    {
+      "cve": "CVE-2026-84609",
+      "description": "An app may be able to modify protected system files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Software Update",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to modify protected system files Description: A permissions issue was addressed with improved path validation. CVE-2026-84609: YingMuo (@YingMuo) of DEVCORE Research Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-65361",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "SoftwareUpdate",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65361: Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova"
+      }
+    },
+    {
+      "cve": "CVE-2026-65378",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Spotlight",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-65378: Abodi Dawoud, Sindre Sorhus, 糖豆爸爸(@晴天组织), Niels Hofmans, Robert Mindo"
+      }
+    },
+    {
+      "cve": "CVE-2026-84621",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Spotlight",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84621: Abodi Dawoud, Armend Gashi, Ujjwal Reddy Kalvolu Sreenivasa Reddy, Johan Wahyudi"
+      }
+    },
+    {
+      "cve": "CVE-2026-43788",
+      "description": "Processing a maliciously crafted file may lead to a denial-of-service or potentially disclose memory contents",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Spotlight",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing a maliciously crafted file may lead to a denial-of-service or potentially disclose memory contents Description: An integer overflow was addressed with improved input validation. CVE-2026-43788: Narendra Singh (@_3P1C), Ashish Kunwar"
+      }
+    },
+    {
+      "cve": "CVE-2026-65348",
+      "description": "An app may be able to modify protected parts of the file system",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to modify protected parts of the file system Description: A permissions issue was addressed with additional restrictions. CVE-2026-65348: Jérôme Djouder"
+      }
+    },
+    {
+      "cve": "CVE-2026-65345",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access user-sensitive data Description: A permissions issue was addressed with additional restrictions. CVE-2026-65345: Seung Je Seong, Ilya Andr (andrd3v) of Positive Technologies, Jakob Pammer, 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-43791",
+      "description": "An app may be able to read arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "StorageKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to read arbitrary files Description: A validation issue was addressed with improved input sanitization. CVE-2026-43791: Meridian Miftari, Amy (amys.website), Aaron Grattafiori - NVIDIA AI Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84513",
+      "description": "A malicious application may be able to determine a user's current location",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Symptom Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: A malicious application may be able to determine a user's current location Description: A privacy issue was addressed with improved private data redaction for log entries. CVE-2026-84513: Sindre Sorhus"
+      }
+    },
+    {
+      "cve": "CVE-2026-65383",
+      "description": "An app may bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "System Settings",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may bypass Gatekeeper checks Description: This issue was addressed with improved checks. CVE-2026-65383: Zhongquan Li (@Guluisacat)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86909",
+      "description": "An app may be able to bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "System Settings",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to bypass Gatekeeper checks Description: A logic issue was addressed with improved state management. CVE-2026-86909: Koh M. Nakagawa (@tsunek0h) of FFRI Security, Inc."
+      }
+    },
+    {
+      "cve": "CVE-2026-84527",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "TCC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: A logging issue was addressed with improved data redaction. CVE-2026-84527: Zeyang Li&Yuxiang Wang of Chongqing Telecom"
+      }
+    },
+    {
+      "cve": "CVE-2026-84589",
+      "description": "An app may be able to modify Privacy preferences",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "TCC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to modify Privacy preferences Description: A permissions issue was addressed with additional restrictions. CVE-2026-84589: an anonymous researcher, Rodolphe Brunetti (@eisw0lf), Ryan Dowd (@_rdowd), Isaiah Ryan Ehlert (isaiahehlert@icloud.com), Csaba Fitzl (@theevilbit) of Iru"
+      }
+    },
+    {
+      "cve": "CVE-2026-28937",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Terminal",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: This issue was addressed through improved state management. CVE-2026-28937: Charlie Weiss, Noah Gregory (wts.dev)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43696",
+      "description": "An app may be able to capture Touch Bar content without authorization",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Touch Bar",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to capture Touch Bar content without authorization Description: An authorization issue was addressed with improved entitlement checks. CVE-2026-43696: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84572",
+      "description": "An app may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "udf",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84572: Tomi (tk0) Koski (@tomikoski), Hari Shanmugam (The Hxr1)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84506",
+      "description": "An app may be able to execute arbitrary code with kernel privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "udf",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to execute arbitrary code with kernel privileges Description: A use after free issue was addressed with improved memory management. CVE-2026-84506: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-28899",
+      "description": "An app may bypass Gatekeeper checks",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebDAV",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may bypass Gatekeeper checks Description: A logic issue was addressed with improved checks. CVE-2026-28899: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs, Kraken Cryptocurrency Exchange"
+      }
+    },
+    {
+      "cve": "CVE-2026-65374",
+      "description": "Connecting to a malicious WebDAV server may result in code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebDAV",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious WebDAV server may result in code execution Description: A memory corruption issue was addressed with improved validation. CVE-2026-65374: HE WEI（ギカク）, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-65375",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebDAV",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved authentication. CVE-2026-65375: YingMuo (@YingMuo) of DEVCORE Research Team, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-43677",
+      "description": "Connecting to a malicious WebDAV server may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebDAV",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Connecting to a malicious WebDAV server may lead to unexpected app termination Description: An out-of-bounds write issue was addressed by removing the vulnerable code. CVE-2026-43677: bubu, Omar Cerrito, HE WEI（ギカク）, Roman Zabicki, Richard Zana, Chris Bailey - Short Circuit, Aswin Kumar Gokulakannan, Surya Narayan Kushwaha, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84635",
+      "description": "Processing maliciously crafted web content may lead to an unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing maliciously crafted web content may lead to an unexpected process termination Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 310457 CVE-2026-84635: Souta Sugiyama"
+      }
+    },
+    {
+      "cve": "CVE-2026-64753",
+      "description": "Processing maliciously crafted web content may disclose sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing maliciously crafted web content may disclose sensitive user information Description: A permissions issue was addressed by removing the vulnerable code. WebKit Bugzilla: 315121 CVE-2026-64753: Viggo Lekdorf"
+      }
+    },
+    {
+      "cve": "CVE-2026-86898",
+      "description": "Opening a maliciously crafted webarchive file may lead to universal cross-site scripting",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Opening a maliciously crafted webarchive file may lead to universal cross-site scripting Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 318271 CVE-2026-86898: Tomi Garcia (archyxsec)"
+      }
+    },
+    {
+      "cve": "CVE-2026-64718",
+      "description": "Processing maliciously crafted web content may lead to an unexpected Safari crash",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "WebKit Canvas",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 313935 CVE-2026-64718: Niels Hofmans, OGINOME Tomohito, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-65393",
+      "description": "An app may be able to access user-sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "Xcode IDE",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access user-sensitive data Description: A permissions issue was addressed with improved validation. CVE-2026-65393: Mickey Jin (@patch1t)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84617",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of macOS Golden Gate 27",
+      "component": "XPC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: MacBook Neo (2026), MacBook Air with Apple silicon (2020 and later), MacBook Pro with Apple silicon (2020 and later), iMac with Apple silicon (2021 and later), Mac mini with Apple silicon (2020 and later), Mac Studio (2022 and later), and Mac Pro with Apple silicon (2023) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84617: Stuart Wallace Additional recognition"
+      }
+    }
+  ]
+}

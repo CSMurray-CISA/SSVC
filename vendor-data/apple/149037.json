@@ -1,0 +1,1218 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "title": "About the security content of watchOS 27",
+  "source_url": "https://support.apple.com/en-us/149037",
+  "release_date": "September 14, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-86882",
+      "description": "Processing a maliciously crafted image may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Accelerate Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86882: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43664",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Accessibility",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved data protection. CVE-2026-43664: Stuart Wallace, Ilya Andr (andrd3v), Rosyna Keller of Totally Not Malicious Software, CJ Vana, David Strnadel, Daniel Febrero, Asaf Cohen, Gongyu Ma (@Mezone0), Jian Lee (@speedyfriend433)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84523",
+      "description": "An app may be able to cause unexpected system termination or write kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "APFS",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86888",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "App Store",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-86888: Zhongcheng Li (CK01)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84586",
+      "description": "A malicious application may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Apple Account",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A malicious application may be able to leak sensitive user information Description: An information disclosure issue was addressed with improved state management. CVE-2026-84586: Prashan Samarathunge, Zhongcheng Li (CK01)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65407",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "AppleAVD",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65407: Franco Belman at Blackwing Intelligence"
+      }
+    },
+    {
+      "cve": "CVE-2026-65339",
+      "description": "An app may be able to leak sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Audio",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-65339: Mustafa Calap (@ordinal0, dbg.re), Meta Red Team X - Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-84583",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "AuthKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-84583: Zhongcheng Li from IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-65410",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved checks. CVE-2026-65410: Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84616",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved memory handling. CVE-2026-84616: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84607",
+      "description": "A sandboxed app may be able to execute arbitrary code with kernel privileges",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "AVEVideoEncoder",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A sandboxed app may be able to execute arbitrary code with kernel privileges Description: A race condition was addressed with improved state management. CVE-2026-84607: Ruslan Dautov"
+      }
+    },
+    {
+      "cve": "CVE-2026-65414",
+      "description": "A remote attacker may be able to cause unexpected app termination or arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A remote attacker may be able to cause unexpected app termination or arbitrary code execution Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65414"
+      }
+    },
+    {
+      "cve": "CVE-2026-84560",
+      "description": "An app may gain unauthorized access to Bluetooth",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may gain unauthorized access to Bluetooth Description: An authorization issue was addressed with improved state management. CVE-2026-84560: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86895",
+      "description": "A local app may be able to read a persistent account identifier",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CloudKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A local app may be able to read a persistent account identifier Description: An information disclosure issue was addressed with improved state management. CVE-2026-86895: Stanislav Jelezoglo"
+      }
+    },
+    {
+      "cve": "CVE-2026-86893",
+      "description": "An app may be able to read device name",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CloudKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to read device name Description: A permissions issue was addressed with additional restrictions. CVE-2026-86893: Heiner Gerdes"
+      }
+    },
+    {
+      "cve": "CVE-2026-65399",
+      "description": "An archive may be able to bypass Gatekeeper",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "copyfile",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An archive may be able to bypass Gatekeeper Description: A file quarantine bypass was addressed with additional checks. CVE-2026-65399: Rishabh Jain (rjcyber) of cyberplanet, Pasquale Scola, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-86891",
+      "description": "An app may be able to access Bluetooth device information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Core Bluetooth",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access Bluetooth device information Description: An authorization issue was addressed with improved state management. CVE-2026-86891: Dawuge of Shuffle Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-86876",
+      "description": "A sandboxed process may be able to circumvent sandbox restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreMedia",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A sandboxed process may be able to circumvent sandbox restrictions Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86876: Chris Bailey - Short Circuit"
+      }
+    },
+    {
+      "cve": "CVE-2026-43737",
+      "description": "An app may be able to access motion data from headphones without user consent",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreMotion",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access motion data from headphones without user consent Description: An authorization issue was addressed with improved validation. CVE-2026-43737: Stuart Wallace"
+      }
+    },
+    {
+      "cve": "CVE-2026-65412",
+      "description": "Processing web content may lead to a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreText",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing web content may lead to a denial-of-service Description: A null pointer dereference was addressed with improved input validation. CVE-2026-65412: Pavan Nallamothu"
+      }
+    },
+    {
+      "cve": "CVE-2026-84596",
+      "description": "Processing a maliciously crafted font may result in the disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreText",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted font may result in the disclosure of process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84596: ret2happy, Meta Product Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-84575",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84575: Mustafa Calap (@ordinal0, dbg.re)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84571",
+      "description": "Processing a maliciously crafted image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted image may lead to unexpected app termination Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84571: stratan (@5tratan), Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84511",
+      "description": "Processing a maliciously crafted asset catalog may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "CoreUI",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted asset catalog may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84511: Rahul Raj, stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84612",
+      "description": "An app may be able to read persistent device identifiers",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "DeviceCheck",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to read persistent device identifiers Description: An authorization issue was addressed with improved access control. CVE-2026-84612: N.M.Praveen Nawarathne (@zblockrat), James Gill (@jjtech@infosec.exchange)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84524",
+      "description": "Processing a maliciously crafted font file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "FontParser",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted font file may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84524: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84597",
+      "description": "Processing a maliciously crafted font may result in the disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "FontParser",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted font may result in the disclosure of process memory Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-84597: Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-65409",
+      "description": "An app may be able to cause a denial of service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Foundation",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause a denial of service Description: A type confusion issue was addressed with improved memory handling. CVE-2026-65409: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
+      }
+    },
+    {
+      "cve": "CVE-2026-84492",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Graphics",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84492: Tommy DeVoss from Braze Security Team (@thedawgyg), Jiyong Yang"
+      }
+    },
+    {
+      "cve": "CVE-2026-84533",
+      "description": "An attacker in a privileged network position may be able to modify network traffic",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Heimdal",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An attacker in a privileged network position may be able to modify network traffic Description: A cryptographic issue was addressed with improved integrity checks. CVE-2026-84533: Vishal Patidar, Roman Zabicki"
+      }
+    },
+    {
+      "cve": "CVE-2026-84564",
+      "description": "Processing a maliciously crafted image may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
+      }
+    },
+    {
+      "cve": "CVE-2026-65347",
+      "description": "Processing an image may lead to a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing an image may lead to a denial-of-service Description: The issue was addressed with improved checks. CVE-2026-65347: Geonha Lee (@leegn4a)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65346",
+      "description": "Processing an image may lead to arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "ImageIO",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing an image may lead to arbitrary code execution Description: An integer overflow was addressed with improved input validation. CVE-2026-65346: Meta Red Team X - Nik Tsytsarkin"
+      }
+    },
+    {
+      "cve": "CVE-2026-64788",
+      "description": "Processing maliciously crafted web content may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "IOGPUFamily",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-64788: an anonymous researcher, f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and 云散花折, Arjanit Isufi"
+      }
+    },
+    {
+      "cve": "CVE-2026-28969",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "IOKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-28969: Mihalis Haatainen, Ashish Kunwar, Ari Hawking, 이재영"
+      }
+    },
+    {
+      "cve": "CVE-2026-65398",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "IOMobileFrameBuffer",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-65398: Chris Bailey - Short Circuit, Mustafa Calap (@ordinal0, dbg.re), David Strnadel, Meta Red Team X - Nik Tsytsarkin CVE-2026-64736: Ruslan Dautov, hxr1"
+      }
+    },
+    {
+      "cve": "CVE-2026-64736",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "IOMobileFrameBuffer",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-65398: Chris Bailey - Short Circuit, Mustafa Calap (@ordinal0, dbg.re), David Strnadel, Meta Red Team X - Nik Tsytsarkin CVE-2026-64736: Ruslan Dautov, hxr1"
+      }
+    },
+    {
+      "cve": "CVE-2026-64760",
+      "description": "An app may be able to leak sensitive kernel state",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "IOSurfaceAccelerator",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to leak sensitive kernel state Description: An information leakage was addressed with additional validation. CVE-2026-64760: an anonymous researcher, Seiji Sakurai (@HeapSmasher), Franco Belman at Blackwing Intelligence"
+      }
+    },
+    {
+      "cve": "CVE-2026-28968",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: genter0, Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, Dun"
+      }
+    },
+    {
+      "cve": "CVE-2026-65415",
+      "description": "A local user may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: A race condition was addressed with additional validation. CVE-2026-65415: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Ryan Hileman via Xint Code (xint.io)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65343",
+      "description": "A remote attacker may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A remote attacker may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65343: Drinor Selmanaj (Sentry), Surya Narayan Kushwaha"
+      }
+    },
+    {
+      "cve": "CVE-2026-65349",
+      "description": "An app may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved input validation. CVE-2026-65349: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84561",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A double free issue was addressed with improved memory management. CVE-2026-84561: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati"
+      }
+    },
+    {
+      "cve": "CVE-2026-84630",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65360",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65358",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65377",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A memory corruption issue was addressed with improved memory handling. CVE-2026-65377: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Ye Zhang (@VAR10CK) of Baidu Security"
+      }
+    },
+    {
+      "cve": "CVE-2026-84622",
+      "description": "An app with root privileges may be able to read uninitialized kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app with root privileges may be able to read uninitialized kernel memory Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-84622: Hiroki Imai (LAC Co., Ltd.)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43687",
+      "description": "Connecting to a malicious NFS server may disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Connecting to a malicious NFS server may disclose kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43687: R4mbb of KRsecurity, Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-43686",
+      "description": "Connecting to a malicious NFS server may lead to kernel memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Connecting to a malicious NFS server may lead to kernel memory corruption Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43686: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-65405",
+      "description": "An app may be able to determine kernel memory layout",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to determine kernel memory layout Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-65405: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84530",
+      "description": "An app may be able to disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to disclose kernel memory Description: An information disclosure issue was addressed with improved memory management. CVE-2026-84530: Vladislav Shevchenko (Positive Technologies)"
+      }
+    },
+    {
+      "cve": "CVE-2026-65402",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65359",
+      "description": "A local user may be able to cause unexpected system termination or read kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65359: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84507",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A race condition was addressed with improved state handling. CVE-2026-84507: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-86903",
+      "description": "An app may be able to disclose kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to disclose kernel memory Description: An out-of-bounds read was addressed with improved input validation. CVE-2026-86903: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-65330",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-65330: Ashish Kunwar, Mikhail Lozhnikov of Positive Technologies, Bhaswanth Chigurupati, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-28935: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-28935",
+      "description": "An app may be able to cause unexpected system termination or corrupt kernel memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-65330: Ashish Kunwar, Mikhail Lozhnikov of Positive Technologies, Bhaswanth Chigurupati, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-28935: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-84602",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Kernel",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved checks. CVE-2026-84602: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
+      }
+    },
+    {
+      "cve": "CVE-2026-86870",
+      "description": "Processing a maliciously crafted file may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "libarchive",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-86870: Kitten Food"
+      }
+    },
+    {
+      "cve": "CVE-2026-84628",
+      "description": "A sandboxed app may be able to access the System Keychain",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "MediaRemote",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A sandboxed app may be able to access the System Keychain Description: An authorization issue was addressed with improved state management. CVE-2026-84628: Myeonghun Pak, Nathaniel Oh (@calysteon), Alan Banderas (@creeper4004)"
+      }
+    },
+    {
+      "cve": "CVE-2026-43695",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-43695: Claudio Bozzato and Francesco Benvenuto of Cisco Talos"
+      }
+    },
+    {
+      "cve": "CVE-2026-84626",
+      "description": "An app may be able to identify what other apps a user has installed",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "NetworkExtension",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84491",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Photos Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84491: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84629",
+      "description": "An app may be able to fingerprint the user",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Photos Storage",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to fingerprint the user Description: This issue was addressed with additional entitlement checks. CVE-2026-84629: Stanislav Jelezoglo"
+      }
+    },
+    {
+      "cve": "CVE-2026-65403",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Reminders",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65403: Rahul Raj"
+      }
+    },
+    {
+      "cve": "CVE-2026-84551",
+      "description": "An app may be able to bypass network restrictions",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Sandbox",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to bypass network restrictions Description: A logic issue was addressed with improved validation. CVE-2026-84551: Issa Sancho"
+      }
+    },
+    {
+      "cve": "CVE-2026-84625",
+      "description": "An app may be able to fingerprint the user",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Sandbox Profiles",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to fingerprint the user Description: A permissions issue was addressed with additional sandbox restrictions. CVE-2026-84625: Ilya Andr (andrd3v) of Positive Technologies, CJ Vana"
+      }
+    },
+    {
+      "cve": "CVE-2026-84603",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Sandbox Profiles",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84603: Gongyu Ma (@Mezone0), CJ Vana, Stanislav Jelezoglo"
+      }
+    },
+    {
+      "cve": "CVE-2026-84487",
+      "description": "Processing a maliciously crafted file may result in disclosure of process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted file may result in disclosure of process memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84487: stratan (@5tratan), Dhiyanesh Selvaraj (@redroot97), Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84632",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-84632: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84620",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-84620: Peter Malone"
+      }
+    },
+    {
+      "cve": "CVE-2026-84546",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84611",
+      "description": "Processing a maliciously crafted 3D model may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84526",
+      "description": "Processing a maliciously crafted 3D scene may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "SceneKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing a maliciously crafted 3D scene may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84526: stratan (@5tratan)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86881",
+      "description": "An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Security",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86881: Surya Narayan Kushwaha, Roman Zabicki, John Lussier, Filip Olszak"
+      }
+    },
+    {
+      "cve": "CVE-2026-84600",
+      "description": "A malicious shortcut may be able to send messages without user confirmation",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Shortcuts",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A malicious shortcut may be able to send messages without user confirmation Description: An authorization issue was addressed with improved state management. CVE-2026-84600: Owen Pawling (@owenpawling)"
+      }
+    },
+    {
+      "cve": "CVE-2026-86884",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Siri",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-86884: Stanislav Jelezoglo, Gongyu Ma (twitter @Mezone0)"
+      }
+    },
+    {
+      "cve": "CVE-2026-84609",
+      "description": "An app may be able to modify protected system files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Software Update",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to modify protected system files Description: A permissions issue was addressed with improved path validation. CVE-2026-84609: YingMuo (@YingMuo) of DEVCORE Research Team"
+      }
+    },
+    {
+      "cve": "CVE-2026-84513",
+      "description": "A malicious application may be able to determine a user's current location",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Symptom Framework",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: A malicious application may be able to determine a user's current location Description: A privacy issue was addressed with improved private data redaction for log entries. CVE-2026-84513: Sindre Sorhus"
+      }
+    },
+    {
+      "cve": "CVE-2026-86886",
+      "description": "An app may be able to modify protected system files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "TCC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to modify protected system files Description: A path traversal issue was addressed with improved input validation. CVE-2026-86886: Constantin Clerc, Shad J, huami1314 (@huamidev), Huy Nguyen (@34306) of Calif.io, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84527",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "TCC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: A logging issue was addressed with improved data redaction. CVE-2026-84527: Zeyang Li&Yuxiang Wang of Chongqing Telecom"
+      }
+    },
+    {
+      "cve": "CVE-2026-86904",
+      "description": "An app may be able to track users across apps and websites without permission",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Watch App",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to track users across apps and websites without permission Description: A privacy issue was addressed with improved state management. CVE-2026-86904: Stanislav Jelezoglo"
+      }
+    },
+    {
+      "cve": "CVE-2026-84635",
+      "description": "Processing maliciously crafted web content may lead to an unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to an unexpected process termination Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 310457 CVE-2026-84635: Souta Sugiyama"
+      }
+    },
+    {
+      "cve": "CVE-2026-65341",
+      "description": "Processing maliciously crafted web content may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: The issue was addressed with improved memory handling. WebKit Bugzilla: 318405 CVE-2026-65341: Henock Habte"
+      }
+    },
+    {
+      "cve": "CVE-2026-64753",
+      "description": "Processing maliciously crafted web content may disclose sensitive user information",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may disclose sensitive user information Description: A permissions issue was addressed by removing the vulnerable code. WebKit Bugzilla: 315121 CVE-2026-64753: Viggo Lekdorf"
+      }
+    },
+    {
+      "cve": "CVE-2026-64715",
+      "description": "Processing maliciously crafted web content may lead to an unexpected process crash",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to an unexpected process crash Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 316347 CVE-2026-64715: Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative"
+      }
+    },
+    {
+      "cve": "CVE-2026-64787",
+      "description": "Processing maliciously crafted web content may lead to an unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to an unexpected process termination Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 313703 CVE-2026-64787: 杉山 壮太, Shubham Chaskar"
+      }
+    },
+    {
+      "cve": "CVE-2026-43794",
+      "description": "Processing maliciously crafted web content may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: A memory corruption issue was addressed with improved memory handling. WebKit Bugzilla: 317317 CVE-2026-43794: Dung Do (@_piers2) of Calif.io"
+      }
+    },
+    {
+      "cve": "CVE-2026-64778",
+      "description": "Visiting a maliciously crafted website may leak sensitive data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebKit History",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Visiting a maliciously crafted website may leak sensitive data Description: The issue was addressed with improved checks. WebKit Bugzilla: 322124 CVE-2026-64778: Mohit Negi"
+      }
+    },
+    {
+      "cve": "CVE-2026-65391",
+      "description": "Processing maliciously crafted web content may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebRTC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. WebKit Bugzilla: 322761 CVE-2026-65391: Myungyong Lee"
+      }
+    },
+    {
+      "cve": "CVE-2026-65390",
+      "description": "Processing maliciously crafted web content may lead to memory corruption",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "WebRTC",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-65390: Kwak Kiyong (@Pwnkai23), Song Nuri"
+      }
+    },
+    {
+      "cve": "CVE-2026-84636",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 27",
+      "component": "Wi-Fi Connectivity",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 9 and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84636: Jian Lee (@speedyfriend433) Additional recognition"
+      }
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/animate/apsb26-132.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76191",
+      "description": "Improper Control of Generation of Code ('Code Injection') ( CWE-94 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "cvss": "8.2",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Control of Generation of Code ('Code Injection') ( CWE-94 )",
+          "Arbitrary code execution",
+          "Critical",
+          "8.2",
+          "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+          "CVE-2026-76191"
+        ]
+      }
+    }
+  ]
+}

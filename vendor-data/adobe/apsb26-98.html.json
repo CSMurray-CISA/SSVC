@@ -1,0 +1,2185 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/experience-manager/apsb26-98.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-19232",
+      "description": "Incorrect Authorization ( CWE-863 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "9.9",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Arbitrary code execution",
+          "Critical",
+          "9.9",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+          "CVE-2026-19232"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64830",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64830"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75735",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75735"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-27238",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-27238"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75736",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75736"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75737",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75737"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75738",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75738"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-71440",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-71440"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-27227",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-27227"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75739",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75739"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64618",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64618"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64610",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64610"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75740",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75740"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75741",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75741"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64589",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64589"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64588",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64588"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75742",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75742"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64584",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64584"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-27222",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-27222"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-71357",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-71357"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64542",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64542"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75719",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75719"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75720",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75720"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75722",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75722"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75724",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75724"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75725",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75725"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-71356",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-71356"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75727",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75727"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-79905",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-79905"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-27258",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-27258"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64868",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64868"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64866",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64866"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75729",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75729"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64854",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64854"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-71388",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-71388"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75730",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75730"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75731",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75731"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-64838",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2025-64838"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75733",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75733"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75734",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75734"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75695",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75695"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75696",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75696"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75700",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75700"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75701",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75701"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75702",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75702"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75704",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75704"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75705",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75705"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75706",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75706"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75707",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75707"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75708",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75708"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75709",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75709"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75710",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75710"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75711",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75711"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75712",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75712"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75713",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75713"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75714",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75714"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75715",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75715"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75716",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75716"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75717",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75717"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75718",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75718"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75668",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75668"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75669",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75669"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75670",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75670"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75671",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75671"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75672",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75672"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75674",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75674"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75675",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75675"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75677",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75677"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75678",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75678"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75679",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75679"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75680",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75680"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75681",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75681"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75683",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75683"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75685",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75685"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75687",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75687"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75690",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75690"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75691",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75691"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75692",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75692"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75693",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75693"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75694",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75694"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-19713",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-19713"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75629",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75629"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75635",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75635"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75636",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75636"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75637",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75637"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75639",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75639"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75640",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75640"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75642",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75642"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75643",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75643"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75644",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75644"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75646",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75646"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75647",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75647"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75651",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75651"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75652",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75652"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75657",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75657"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75659",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75659"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75660",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75660"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75661",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75661"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75666",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75666"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75667",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-75667"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-19644",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-19644"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-19612",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-19612"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-19479",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-19479"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-72627",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-72627"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-72626",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-72626"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-71565",
+      "description": "Cross-site Scripting (DOM-based XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (DOM-based XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "5.4",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-71565"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75726",
+      "description": "Improper Input Validation ( CWE-20 ) — Security feature bypass",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+      "cvss": "3.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Input Validation ( CWE-20 )",
+          "Security feature bypass",
+          "Moderate",
+          "3.5",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:U/C:N/I:L/A:N",
+          "CVE-2026-75726"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-18401",
+      "description": "Jackson-databind",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "CVE-2026-18401",
+          "Jackson-databind",
+          "2.21.3",
+          "Delivered in Service Pack 25"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2025-66516",
+      "description": "Apache Tika",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "CVE-2025-66516",
+          "Apache Tika",
+          "1.28.6-B0002",
+          "Delivered in LTS Service Pack 3"
+        ]
+      }
+    }
+  ]
+}

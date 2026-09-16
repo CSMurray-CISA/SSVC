@@ -1,0 +1,189 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/coldfusion/apsb26-119.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-48273",
+      "description": "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') ( CWE-95 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "9.9",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') ( CWE-95 )",
+          "Arbitrary code execution",
+          "Critical",
+          "9.9",
+          "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+          "CVE-2026-48273"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75746",
+      "description": "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') ( CWE-89 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "9.1",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') ( CWE-89 )",
+          "Arbitrary code execution",
+          "Critical",
+          "9.1",
+          "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H",
+          "CVE-2026-75746"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76190",
+      "description": "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') ( CWE-95 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+      "cvss": "8.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Neutralization of Directives in Dynamically Evaluated Code ('Eval Injection') ( CWE-95 )",
+          "Arbitrary code execution",
+          "Critical",
+          "8.6",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:N",
+          "CVE-2026-76190"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75993",
+      "description": "Cross-site Scripting (Reflected XSS) ( CWE-79 ) — Privilege escalation",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+      "cvss": "8.5",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Reflected XSS) ( CWE-79 )",
+          "Privilege escalation",
+          "Critical",
+          "8.5",
+          "CVSS:3.1/AV:A/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:N",
+          "CVE-2026-75993"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75999",
+      "description": "Improper Input Validation ( CWE-20 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+      "cvss": "8.4",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Input Validation ( CWE-20 )",
+          "Arbitrary code execution",
+          "Critical",
+          "8.4",
+          "CVSS:3.1/AV:A/AC:L/PR:L/UI:R/S:C/C:H/I:H/A:H",
+          "CVE-2026-75999"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75998",
+      "description": "Improper Access Control ( CWE-284 ) — Arbitrary file system read",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "7.5",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Access Control ( CWE-284 )",
+          "Arbitrary file system read",
+          "Critical",
+          "7.5",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+          "CVE-2026-75998"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76000",
+      "description": "Uncontrolled Resource Consumption ( CWE-400 ) — Application denial-of-service",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cvss": "6.5",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Uncontrolled Resource Consumption ( CWE-400 )",
+          "Application denial-of-service",
+          "Important",
+          "6.5",
+          "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+          "CVE-2026-76000"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76002",
+      "description": "Cross-site Scripting (Reflected XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "6.1",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Reflected XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "6.1",
+          "CVSS:3.1/AV:N/AC:L/PR:N/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-76002"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-21269",
+      "description": "Cross-site Scripting (Stored XSS) ( CWE-79 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "4.6",
+      "severity": "MEDIUM",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Cross-site Scripting (Stored XSS) ( CWE-79 )",
+          "Arbitrary code execution",
+          "Important",
+          "4.6",
+          "CVSS:3.1/AV:L/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+          "CVE-2026-21269"
+        ]
+      }
+    }
+  ]
+}

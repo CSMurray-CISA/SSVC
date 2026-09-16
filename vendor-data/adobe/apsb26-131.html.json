@@ -1,0 +1,69 @@
+{
+  "vendor": "Adobe",
+  "vendor_id": "adobe",
+  "title": "Adobe Security Bulletin",
+  "source_url": "https://helpx.adobe.com/security/products/illustrator/apsb26-131.html",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-75991",
+      "description": "Improper Input Validation ( CWE-20 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "cvss": "8.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Improper Input Validation ( CWE-20 )",
+          "Arbitrary code execution",
+          "Critical",
+          "8.6",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "CVE-2026-75991"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75990",
+      "description": "Incorrect Authorization ( CWE-863 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+      "cvss": "8.6",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Incorrect Authorization ( CWE-863 )",
+          "Arbitrary code execution",
+          "Critical",
+          "8.6",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:C/C:H/I:H/A:H",
+          "CVE-2026-75990"
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-75992",
+      "description": "Out-of-bounds Write ( CWE-787 ) — Arbitrary code execution",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+      "cvss": "7.8",
+      "severity": "CRITICAL",
+      "product": "Adobe Security Bulletin",
+      "component": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "Out-of-bounds Write ( CWE-787 )",
+          "Arbitrary code execution",
+          "Critical",
+          "7.8",
+          "CVSS:3.1/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H",
+          "CVE-2026-75992"
+        ]
+      }
+    }
+  ]
+}
