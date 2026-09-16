@@ -1,4 +1,4 @@
-name: Refresh vendor security data
+name: Refresh CISA SSVC Platform vendor data
 
 on:
   schedule:
@@ -8,27 +8,94 @@ on:
 permissions:
   contents: write
 
+concurrency:
+  group: vendor-security-refresh
+  cancel-in-progress: false
+
 jobs:
-  refresh:
+  test:
+    name: Test parsers
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Install parser dependencies
-        run: python3 -m pip install -r requirements.txt
-      - name: Test vendor parsers
-        run: python3 -m unittest discover -s tests
-      - name: Download current Oracle CPU and CSPU data
+      - run: python3 -m pip install -r requirements.txt
+      - run: python3 -m unittest discover -s tests
+
+  oracle:
+    name: Refresh Oracle
+    needs: test
+    continue-on-error: true
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch Oracle advisories
         run: python3 scripts/update_oracle.py
-      - name: Download current vendor advisories and CISA KEV data
-        run: python3 scripts/update_vendors.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: oracle-data
+          path: oracle-data
+          if-no-files-found: error
+          retention-days: 1
+
+  vendor:
+    name: Refresh ${{ matrix.vendor }}
+    needs: test
+    continue-on-error: true
+    strategy:
+      fail-fast: false
+      matrix:
+        vendor: [adobe, apple, cisco, fortinet, mediatek, mozilla, qualcomm, solarwinds]
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install -r requirements.txt
+      - name: Fetch ${{ matrix.vendor }} advisories
+        run: python3 scripts/update_vendors.py --vendor "${{ matrix.vendor }}" --skip-kev
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vendor-${{ matrix.vendor }}
+          path: vendor-data/${{ matrix.vendor }}
+          if-no-files-found: error
+          retention-days: 1
+
+  publish:
+    name: Publish successful refreshes
+    needs: [test, oracle, vendor]
+    if: always() && needs.test.result == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install -r requirements.txt
+      - name: Download Oracle result
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: oracle-data
+          path: oracle-data
+      - name: Download vendor results
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          pattern: vendor-*
+          path: _vendor_artifacts
+      - name: Merge successful vendor jobs
+        run: |
+          for artifact in _vendor_artifacts/vendor-*; do
+            [ -d "$artifact" ] || continue
+            vendor_name="${artifact##*/vendor-}"
+            mkdir -p "vendor-data/$vendor_name"
+            cp -R "$artifact"/. "vendor-data/$vendor_name/"
+          done
+      - name: Add CISA KEV enrichment and Exploited view
+        run: python3 scripts/update_vendors.py --build-exploited-only
       - name: Commit refreshed data
         run: |
-          if git diff --quiet -- oracle-data vendor-data; then
+          git add -A -- oracle-data vendor-data
+          if git diff --cached --quiet; then
             echo "Vendor data is already current."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add oracle-data vendor-data
           git commit -m "Refresh vendor security advisory data"
           git push
