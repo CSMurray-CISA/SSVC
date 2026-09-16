@@ -1,1 +1,14 @@
-{"generated_at":"","vendors":{"adobe":0,"apple":0,"cisco":0,"fortinet":0,"mediatek":0,"mozilla":0,"qualcomm":0,"solarwinds":0},"warnings":["Waiting for the first successful vendor refresh workflow."]}
+{
+  "generated_at": "2026-09-16T02:48:24.693382+00:00",
+  "vendors": {
+    "adobe": 12,
+    "apple": 12,
+    "cisco": 12,
+    "fortinet": 2,
+    "mediatek": 12,
+    "mozilla": 12,
+    "qualcomm": 0,
+    "solarwinds": 10
+  },
+  "warnings": []
+}
