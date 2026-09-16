@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Microsoft &amp; Oracle SSVC Scoring Dashboard</title>
+<title>Multi-Vendor SSVC Scoring Dashboard</title>
 <style>
   :root {
     color-scheme: light dark;
@@ -65,7 +65,7 @@
     white-space:pre-wrap; word-break:break-word;
   }
   .vector { font-family:ui-monospace,Consolas,monospace; font-size:12px; }
-  .vendor-tabs { display:flex; gap:6px; margin-bottom:12px; }
+  .vendor-tabs { display:flex; flex-wrap:wrap; gap:6px; margin-bottom:12px; }
   .vendor-tab { border-radius:999px; padding:7px 14px; }
   .vendor-tab[aria-selected="true"] { background:#1565c0; color:#fff; border-color:#1565c0; }
   .hidden { display:none !important; }
@@ -79,6 +79,15 @@
 <div class="vendor-tabs" role="tablist" aria-label="Vendor">
   <button class="vendor-tab" id="microsoftTab" role="tab" aria-selected="true">Microsoft</button>
   <button class="vendor-tab" id="oracleTab" role="tab" aria-selected="false">Oracle</button>
+  <button class="vendor-tab" id="adobeTab" role="tab" aria-selected="false">Adobe</button>
+  <button class="vendor-tab" id="appleTab" role="tab" aria-selected="false">Apple</button>
+  <button class="vendor-tab" id="ciscoTab" role="tab" aria-selected="false">Cisco</button>
+  <button class="vendor-tab" id="fortinetTab" role="tab" aria-selected="false">Fortinet</button>
+  <button class="vendor-tab" id="mediatekTab" role="tab" aria-selected="false">MediaTek</button>
+  <button class="vendor-tab" id="mozillaTab" role="tab" aria-selected="false">Mozilla</button>
+  <button class="vendor-tab" id="qualcommTab" role="tab" aria-selected="false">Qualcomm</button>
+  <button class="vendor-tab" id="solarwindsTab" role="tab" aria-selected="false">SolarWinds</button>
+  <button class="vendor-tab" id="exploitedTab" role="tab" aria-selected="false">Exploited</button>
 </div>
 <div class="grid">
   <div class="inputs" id="microsoftInputs">
@@ -100,6 +109,24 @@
       Releases are refreshed automatically from Oracle's official CPU/CSPU advisories.
       <a id="oracleSource" href="https://www.oracle.com/security-alerts/" target="_blank" rel="noopener">View source</a>
     </div>
+  </div>
+  <div class="inputs hidden" id="vendorInputs">
+    <label>
+      <strong id="vendorReleaseLabel">Advisory</strong><br/>
+      <select id="vendorRelease" disabled><option>Loading advisories…</option></select>
+    </label>
+    <label>
+      <strong>Product / component</strong><br/>
+      <select id="vendorProduct" disabled><option value="">All products</option></select>
+    </label>
+    <div class="source-note muted">
+      Advisory data is refreshed daily from the vendor's official public source.
+      <a id="vendorSource" href="#" target="_blank" rel="noopener">View source</a>
+    </div>
+  </div>
+  <div class="source-note muted hidden" id="exploitedInputs">
+    CVEs from the vendor advisories that also appear in CISA's Known Exploited Vulnerabilities catalog.
+    <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">View CISA KEV</a>
   </div>
   <div class="controls">
     <button id="loadBtn">Load</button>
@@ -172,16 +199,26 @@ const COLS = [
   "Automatable","Exploitation","Internet Exposed"
 ];
 let rows = [], filtered = [], sortCol = "CVSS", sortDir = -1, openCve = null;
+const EXTRA_VENDORS = {
+  adobe:{name:"Adobe"}, apple:{name:"Apple"}, cisco:{name:"Cisco"}, fortinet:{name:"Fortinet"},
+  mediatek:{name:"MediaTek"}, mozilla:{name:"Mozilla"}, qualcomm:{name:"Qualcomm"}, solarwinds:{name:"SolarWinds"}
+};
+const ALL_VENDORS = ["microsoft","oracle",...Object.keys(EXTRA_VENDORS),"exploited"];
 let activeVendor = "microsoft", oracleManifest = null;
-const vendorRows = { microsoft: [], oracle: [] };
+const vendorManifests = {};
+const vendorRows = Object.fromEntries(ALL_VENDORS.map(v => [v, []]));
 const $ = s => document.querySelector(s);
 const $head = $("#grid thead"), $body = $("#grid tbody");
 
 $("#loadBtn").onclick = loadFiles;
 $("#microsoftTab").onclick = () => switchVendor("microsoft");
 $("#oracleTab").onclick = () => switchVendor("oracle");
+Object.keys(EXTRA_VENDORS).forEach(v => $("#" + v + "Tab").onclick = () => switchVendor(v));
+$("#exploitedTab").onclick = () => switchVendor("exploited");
 $("#oracleRelease").onchange = loadOracleRelease;
 $("#oracleProduct").onchange = applyFilters;
+$("#vendorRelease").onchange = loadVendorRelease;
+$("#vendorProduct").onchange = applyFilters;
 ["#q","#sev","#imp","#auto","#expl","#iex"].forEach(id => {
   const el = $(id);
   el.oninput = el.onchange = applyFilters;
@@ -389,6 +426,36 @@ function parseOracleCSAF(json) {
     };
   });
 }
+function parseNormalized(json) {
+  return (json.vulnerabilities || []).map(v => {
+    const vector = v.vector || "";
+    const metrics = parseVector(vector);
+    const products = [v.product, v.component].filter(Boolean);
+    const families = v.vendors?.length ? v.vendors : [json.vendor].filter(Boolean);
+    const score = v.cvss === "" || v.cvss == null ? "" : Number(v.cvss).toFixed(1);
+    return {
+      "CVE-ID": v.cve || "",
+      "Description": v.description || v.kev?.vulnerabilityName || json.title || "",
+      "CVSS Vector": vector,
+      "CVSS": score,
+      "Severity": String(v.severity || severity(score)).toUpperCase().replace("MODERATE", "MEDIUM"),
+      "Impact": deriveImpact(metrics),
+      "Automatable": deriveAutomatable(metrics),
+      "Exploitation": v.exploitation || "none",
+      "Internet Exposed": deriveInternetExposed(metrics),
+      _metrics: metrics,
+      _products: products,
+      _families: families,
+      _vendor: json.vendor_id || activeVendor,
+      _vendorName: json.vendor || EXTRA_VENDORS[activeVendor]?.name || activeVendor,
+      _releaseTitle: json.title || "",
+      _sourceUrl: json.source_url || "",
+      _kev: v.kev || null,
+      _sources: v.sources || [],
+      _raw: v
+    };
+  });
+}
 function mergeEnrichment(base, recs) {
   const map = new Map();
   for (const r of recs) if (r["CVE-ID"]) map.set(r["CVE-ID"], r);
@@ -418,14 +485,15 @@ function applyFilters() {
   const q = $("#q").value.toLowerCase();
   const sev = $("#sev").value, imp = $("#imp").value, auto = $("#auto").value;
   const expl = $("#expl").value, ie = $("#iex").value;
-  const product = activeVendor === "oracle" ? $("#oracleProduct").value : "";
+  const product = activeVendor === "oracle" ? $("#oracleProduct").value :
+    (EXTRA_VENDORS[activeVendor] ? $("#vendorProduct").value : "");
   filtered = rows.filter(r => {
     if (sev && r.Severity !== sev) return false;
     if (imp && r.Impact !== imp) return false;
     if (auto && r.Automatable !== auto) return false;
     if (expl && r.Exploitation !== expl) return false;
     if (ie && r["Internet Exposed"] !== ie) return false;
-    if (product && !(r._families || []).includes(product)) return false;
+    if (product && ![...(r._families || []), ...(r._products || [])].includes(product)) return false;
     if (q) {
       const hay = COLS.map(c => (r[c] || "").toLowerCase()).concat(r._products || [], r._families || []).join("\u0000").toLowerCase();
       if (!hay.includes(q)) return false;
@@ -455,6 +523,7 @@ function metricLabel(k, v) {
 }
 function detailHtml(r) {
   if (r._vendor === "oracle") return oracleDetailHtml(r);
+  if (r._vendor && r._vendor !== "microsoft") return normalizedDetailHtml(r);
   const v = r._raw || {};
   const notes = (v.Notes || []).map(n => {
     const t = val(n.Title) || n.Type || "Note";
@@ -507,6 +576,28 @@ function oracleDetailHtml(r) {
     ${rems ? `<h3>Remediations</h3>${rems}` : ""}
     <h3>Raw vulnerability object</h3>
     <pre>${escHtml(JSON.stringify(v, null, 2))}</pre>`;
+}
+function normalizedDetailHtml(r) {
+  const metricBits = Object.keys(r._metrics || {}).filter(Boolean).map(k => metricLabel(k, r._metrics[k])).join(" · ");
+  const kev = r._kev;
+  const sourceLinks = (r._sources || []).map(s => `<a href="${escHtml(s.url || "#")}" target="_blank" rel="noopener">${escHtml(s.vendor || s.title || "Source")}</a>`).join(" · ");
+  return `
+    <div class="detail-grid">
+      <b>CVE</b><div><a href="https://nvd.nist.gov/vuln/detail/${encodeURIComponent(r["CVE-ID"])}" target="_blank" rel="noopener">${escHtml(r["CVE-ID"])}</a></div>
+      <b>Vendor / advisory</b><div>${escHtml(r._vendorName || "—")} · ${r._sourceUrl ? `<a href="${escHtml(r._sourceUrl)}" target="_blank" rel="noopener">${escHtml(r._releaseTitle || "Vendor advisory")}</a>` : escHtml(r._releaseTitle || "—")}</div>
+      <b>Description</b><div>${escHtml(r.Description)}</div>
+      <b>CVSS</b><div>${escHtml(r.CVSS || "Not supplied by vendor")} ${r["CVSS Vector"] ? `— <span class="vector">${escHtml(r["CVSS Vector"])}</span>` : ""}</div>
+      <b>Metrics</b><div>${escHtml(metricBits || "Not supplied by vendor")}</div>
+      <b>Impact / Auto / Expl</b><div>${escHtml(r.Impact)} · Automatable ${escHtml(r.Automatable)} · Exploitation ${escHtml(r.Exploitation)} · Internet ${escHtml(r["Internet Exposed"])}</div>
+      <b>Product / component</b><div>${escHtml((r._products || []).join(" · ") || "—")}</div>
+      ${kev ? `<b>CISA KEV added</b><div>${escHtml(kev.dateAdded || "—")} · Remediation due ${escHtml(kev.dueDate || "—")}</div>
+      <b>Required action</b><div>${escHtml(kev.requiredAction || "—")}</div>
+      <b>Ransomware use</b><div>${escHtml(kev.knownRansomwareCampaignUse || "Unknown")}</div>
+      <b>KEV notes</b><div>${escHtml(kev.notes || "—")}</div>` : ""}
+      ${sourceLinks ? `<b>Vendor sources</b><div>${sourceLinks}</div>` : ""}
+    </div>
+    <h3>Raw normalized record</h3>
+    <pre>${escHtml(JSON.stringify(r._raw || {}, null, 2))}</pre>`;
 }
 function escHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -567,7 +658,12 @@ function dl(name, blob) {
   const a = document.createElement("a"); a.href = url; a.download = name; a.click();
   URL.revokeObjectURL(url);
 }
-function exportStem() { return activeVendor === "oracle" ? `oracle_${$("#oracleRelease").value || "release"}` : "patch_pre_release"; }
+function exportStem() {
+  if (activeVendor === "microsoft") return "patch_pre_release";
+  if (activeVendor === "oracle") return `oracle_${$("#oracleRelease").value || "release"}`;
+  if (activeVendor === "exploited") return "known_exploited_vendor_cves";
+  return `${activeVendor}_${$("#vendorRelease").value || "advisory"}`;
+}
 function dlCSV(data) { dl(exportStem() + ".csv", new Blob([toCSV(data)], { type: "text/csv" })); }
 function dlJSON(data) {
   const clean = data.map(r => { const o = {}; COLS.forEach(c => o[c] = r[c]); return o; });
@@ -597,18 +693,26 @@ async function loadFiles() {
 function switchVendor(vendor) {
   activeVendor = vendor;
   const oracle = vendor === "oracle";
-  $("#microsoftTab").setAttribute("aria-selected", String(!oracle));
-  $("#oracleTab").setAttribute("aria-selected", String(oracle));
-  $("#microsoftInputs").classList.toggle("hidden", oracle);
+  const microsoft = vendor === "microsoft";
+  const extra = !!EXTRA_VENDORS[vendor];
+  const exploited = vendor === "exploited";
+  ALL_VENDORS.forEach(v => $("#" + v + "Tab").setAttribute("aria-selected", String(v === vendor)));
+  $("#microsoftInputs").classList.toggle("hidden", !microsoft);
   $("#oracleInputs").classList.toggle("hidden", !oracle);
-  $("#loadBtn").classList.toggle("hidden", oracle);
-  $("#pageTitle").textContent = oracle ? "Oracle Security Update SSVC Scoring Dashboard" : "Microsoft Patch Tuesday Pre-Release Dashboard";
+  $("#vendorInputs").classList.toggle("hidden", !extra);
+  $("#exploitedInputs").classList.toggle("hidden", !exploited);
+  $("#loadBtn").classList.toggle("hidden", !microsoft);
+  $("#pageTitle").textContent = microsoft ? "Microsoft Patch Tuesday Pre-Release Dashboard" :
+    oracle ? "Oracle Security Update SSVC Scoring Dashboard" :
+    exploited ? "Known Exploited Vendor CVEs" : `${EXTRA_VENDORS[vendor].name} Security Update SSVC Scoring Dashboard`;
   rows = vendorRows[vendor] || [];
   openCve = null;
   buildHeader();
   applyFilters();
-  if (oracle && !oracleManifest) loadOracleManifest();
-  else if (oracle && !rows.length && $("#oracleRelease").value) loadOracleRelease();
+  if (oracle && !oracleManifest) return loadOracleManifest();
+  if (oracle && !rows.length && $("#oracleRelease").value) return loadOracleRelease();
+  if (extra) return loadVendorManifest(vendor);
+  if (exploited) return loadExploited();
   $("#msg").textContent = rows.length ? `Loaded ${rows.length} CVEs. Click a CVE to expand details.` : "";
 }
 async function loadOracleManifest() {
@@ -649,6 +753,82 @@ async function loadOracleRelease() {
     rows = vendorRows.oracle = [];
     applyFilters();
     $("#msg").textContent = `Could not load ${release.title}: ${err.message}`;
+  }
+}
+async function loadVendorManifest(vendor) {
+  const select = $("#vendorRelease");
+  select.disabled = true;
+  select.innerHTML = "<option>Loading advisories…</option>";
+  $("#vendorReleaseLabel").textContent = `${EXTRA_VENDORS[vendor].name} advisory`;
+  try {
+    const res = await fetch(`vendor-data/${vendor}/releases.json`, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const manifest = await res.json();
+    vendorManifests[vendor] = manifest;
+    if (activeVendor !== vendor) return;
+    const releases = manifest.releases || [];
+    select.innerHTML = releases.map(r => `<option value="${escHtml(r.id)}">${escHtml(r.title)}${r.count != null ? ` (${r.count})` : ""}</option>`).join("");
+    select.disabled = !releases.length;
+    $("#vendorSource").href = manifest.source || "#";
+    if (!releases.length) throw new Error("No advisories were parsed");
+    await loadVendorRelease();
+  } catch (err) {
+    if (activeVendor !== vendor) return;
+    select.innerHTML = `<option>${escHtml(EXTRA_VENDORS[vendor].name)} data unavailable</option>`;
+    $("#msg").textContent = `${EXTRA_VENDORS[vendor].name} data unavailable: ${err.message}. Run the vendor refresh workflow once.`;
+  }
+}
+async function loadVendorRelease() {
+  const vendor = activeVendor;
+  if (!EXTRA_VENDORS[vendor]) return;
+  const release = (vendorManifests[vendor]?.releases || []).find(r => r.id === $("#vendorRelease").value);
+  if (!release) return;
+  $("#msg").textContent = `Loading ${release.title}…`;
+  try {
+    const res = await fetch(release.data, { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+    vendorRows[vendor] = parseNormalized(json);
+    if (activeVendor !== vendor) return;
+    rows = vendorRows[vendor];
+    openCve = null;
+    const products = [...new Set(rows.flatMap(r => r._products || []).filter(Boolean))].sort();
+    $("#vendorProduct").innerHTML = '<option value="">All products</option>' + products.map(x => `<option>${escHtml(x)}</option>`).join("");
+    $("#vendorProduct").disabled = false;
+    $("#vendorSource").href = release.advisory_url || json.source_url || vendorManifests[vendor].source || "#";
+    buildHeader();
+    applyFilters();
+    const active = rows.filter(r => r.Exploitation === "active").length;
+    $("#msg").textContent = `Loaded ${rows.length} CVEs from ${release.title}. ${active} known exploited.`;
+  } catch (err) {
+    if (activeVendor !== vendor) return;
+    rows = vendorRows[vendor] = [];
+    applyFilters();
+    $("#msg").textContent = `Could not load ${release.title}: ${err.message}`;
+  }
+}
+async function loadExploited() {
+  $("#msg").textContent = "Loading known exploited CVEs…";
+  try {
+    const res = await fetch("vendor-data/exploited.json", { cache: "no-store" });
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const json = await res.json();
+    vendorRows.exploited = parseNormalized(json);
+    const seen = new Set(vendorRows.exploited.map(r => r["CVE-ID"]));
+    for (const row of vendorRows.microsoft.filter(r => r.Exploitation === "active")) {
+      if (!seen.has(row["CVE-ID"])) vendorRows.exploited.push(row);
+    }
+    if (activeVendor !== "exploited") return;
+    rows = vendorRows.exploited;
+    openCve = null;
+    buildHeader();
+    applyFilters();
+    $("#msg").textContent = `Loaded ${rows.length} CISA KEV entries found across the vendor advisories.`;
+  } catch (err) {
+    if (activeVendor !== "exploited") return;
+    rows = vendorRows.exploited = [];
+    applyFilters();
+    $("#msg").textContent = `Exploited data unavailable: ${err.message}. Run the vendor refresh workflow once.`;
   }
 }
 </script>
