@@ -25,6 +25,7 @@ VECTOR_RE = re.compile(r"CVSS:[234]\.\d/[^\s<>()]+", re.I)
 SCORE_RE = re.compile(r"(?<!\d)(10\.0|[0-9](?:\.\d)?)(?!\d)")
 SESSION = requests.Session()
 SESSION.headers.update({"User-Agent": "Multi-Vendor-SSVC-Dashboard/2.0 (+GitHub Pages data refresh)"})
+RSS_METADATA: dict[str, dict] = {}
 
 VENDORS = {
     "adobe": ("Adobe", "https://helpx.adobe.com/security/security-bulletin.html"),
@@ -33,7 +34,7 @@ VENDORS = {
     "fortinet": ("Fortinet", "https://www.fortiguard.com/psirt"),
     "mediatek": ("MediaTek", "https://www.mediatek.com/product-security-bulletin"),
     "mozilla": ("Mozilla", "https://www.mozilla.org/en-US/security/advisories/"),
-    "qualcomm": ("Qualcomm", "https://docs.qualcomm.com/securitybulletin/"),
+    "qualcomm": ("Qualcomm", "https://docs.qualcomm.com/product/publicresources/securitybulletin/"),
     "solarwinds": ("SolarWinds", "https://www.solarwinds.com/trust-center/security-advisories"),
 }
 
@@ -83,7 +84,8 @@ def severity(value: str, score: str = "") -> str:
 
 
 def make_record(cve: str, *, description: str = "", vector: str = "", score: str = "",
-                sev: str = "", product: str = "", component: str = "", details: dict | None = None) -> dict:
+                sev: str = "", product: str = "", component: str = "", published_date: str = "",
+                details: dict | None = None) -> dict:
     score_value = clean(score)
     return {
         "cve": cve.upper(),
@@ -93,6 +95,7 @@ def make_record(cve: str, *, description: str = "", vector: str = "", score: str
         "severity": severity(sev, score_value),
         "product": clean(product),
         "component": clean(component),
+        "published_date": clean(published_date),
         "exploitation": "none",
         "details": details or {},
     }
@@ -207,6 +210,7 @@ def parse_apple(url: str) -> dict:
 
 def csaf_records(data: dict, product: str) -> list[dict]:
     output = []
+    fallback_date = data.get("document", {}).get("tracking", {}).get("initial_release_date", "")
     for vuln in data.get("vulnerabilities", []):
         cve = vuln.get("cve")
         if not cve:
@@ -222,11 +226,17 @@ def csaf_records(data: dict, product: str) -> list[dict]:
         description = next((n.get("text", "") for n in notes if n.get("category") in ("description", "summary")), "")
         output.append(make_record(cve, description=description, vector=top.get("vectorString", ""),
                                   score=str(top.get("baseScore", "")), sev=top.get("baseSeverity", ""),
-                                  product=product, details={"notes": notes, "remediations": vuln.get("remediations", [])}))
+                                  product=product, published_date=vuln.get("release_date", "") or fallback_date,
+                                  details={"notes": notes, "remediations": vuln.get("remediations", [])}))
     return output
 
 
 def parse_cisco(url: str) -> dict:
+    if ".json" in url.lower():
+        data = fetch(url, json_data=True)
+        title = data.get("document", {}).get("title", "Cisco Security Advisory")
+        release_date = data.get("document", {}).get("tracking", {}).get("initial_release_date", "")
+        return normalized("cisco", title, url, release_date, csaf_records(data, title))
     doc = soup(url)
     title = page_title(doc, "Cisco Security Advisory")
     csaf_url = next((urljoin(url, a["href"]) for a in doc.find_all("a", href=True)
@@ -236,9 +246,26 @@ def parse_cisco(url: str) -> dict:
 
 
 def parse_fortinet(url: str) -> dict:
-    doc = soup(url)
-    title = page_title(doc, "Fortinet PSIRT Advisory")
-    return normalized("fortinet", title, url, page_date(doc), generic_table_records(doc, title) or generic_cve_records(doc, title))
+    if ".json" in url.lower():
+        data = fetch(url, json_data=True)
+        title = data.get("document", {}).get("title", "Fortinet PSIRT Advisory")
+        release_date = data.get("document", {}).get("tracking", {}).get("initial_release_date", "")
+        return normalized("fortinet", title, url, release_date, csaf_records(data, title))
+    try:
+        doc = soup(url)
+        title = page_title(doc, "Fortinet PSIRT Advisory")
+        records = generic_table_records(doc, title) or generic_cve_records(doc, title)
+        if records:
+            return normalized("fortinet", title, url, page_date(doc), records)
+    except Exception:
+        pass
+    item = RSS_METADATA.get(url, {})
+    title = item.get("title", "Fortinet PSIRT Advisory")
+    text = item.get("description", "")
+    records = [make_record(cve, description=text[:800], product=title,
+                           published_date=item.get("published_date", ""))
+               for cve in dict.fromkeys(CVE_RE.findall(text))]
+    return normalized("fortinet", title, url, item.get("published_date", ""), records)
 
 
 def parse_mediatek(url: str) -> dict:
@@ -306,18 +333,46 @@ PARSERS = {"adobe": parse_adobe, "apple": parse_apple, "cisco": parse_cisco, "fo
 
 
 def normalized(vendor: str, title: str, url: str, release_date: str, records: list[dict]) -> dict:
+    for item in records:
+        if not item.get("published_date"):
+            item["published_date"] = release_date
     unique = {item["cve"]: item for item in records if item.get("cve")}
     return {"vendor": VENDORS[vendor][0], "vendor_id": vendor, "title": title, "source_url": url,
             "release_date": release_date, "vulnerabilities": list(unique.values())}
 
 
+def local_name(tag: str) -> str:
+    return tag.rsplit("}", 1)[-1].lower()
+
+
 def rss_links(url: str) -> list[tuple[str, str]]:
     doc = ET.fromstring(fetch(url))
     output = []
-    for item in doc.findall(".//item")[:MAX_RELEASES * 3]:
-        link = clean(item.findtext("link", ""))
-        title = clean(item.findtext("title", "")) or slug(link)
+    items = [node for node in doc.iter() if local_name(node.tag) in ("item", "entry")]
+    for item in items[:MAX_RELEASES * 3]:
+        fields: dict[str, list[str]] = defaultdict(list)
+        candidates = []
+        for node in item.iter():
+            name = local_name(node.tag)
+            value = clean(node.text)
+            if value:
+                fields[name].append(value)
+                candidates.extend(re.findall(r"https?://[^\s<>\"']+", value))
+                if name in ("link", "guid", "id", "enclosure") and value.startswith("http"):
+                    candidates.append(value)
+            href = clean(node.attrib.get("href") or node.attrib.get("url"))
+            if href.startswith("http"):
+                candidates.append(href)
+        json_link = next((x for x in candidates if ".json" in x.lower()), "")
+        link = json_link or next((x for x in candidates if x.startswith("http")), "")
+        title = clean(" ".join(fields.get("title", []))) or slug(link)
+        description = clean(" ".join(fields.get("description", []) + fields.get("summary", []) +
+                                     fields.get("content", [])))
+        published_date = clean(" ".join(fields.get("pubdate", []) + fields.get("published", []) +
+                                         fields.get("updated", [])))
         if link:
+            RSS_METADATA[link] = {"title": title, "description": description,
+                                  "published_date": published_date}
             output.append((link, title))
     return output
 
@@ -341,7 +396,7 @@ def discover(vendor: str) -> list[tuple[str, str]]:
     if vendor == "apple":
         return link_list(soup(VENDORS[vendor][1]), VENDORS[vendor][1], re.compile(r"support\.apple\.com/(?:[a-z-]+/)?\d{5,}", re.I))
     if vendor == "cisco":
-        return rss_links("https://sec.cloudapps.cisco.com/security/center/psirtrss10/CiscoSecurityAdvisory.xml")
+        return rss_links("https://sec.cloudapps.cisco.com/security/center/csaf_20.xml")
     if vendor == "fortinet":
         return rss_links("https://filestore.fortinet.com/fortiguard/rss/ir.xml")
     if vendor == "mediatek":
@@ -349,7 +404,7 @@ def discover(vendor: str) -> list[tuple[str, str]]:
     if vendor == "mozilla":
         return link_list(soup(VENDORS[vendor][1]), VENDORS[vendor][1], re.compile(r"/security/advisories/mfsa\d{4}-\d+/?$", re.I))
     if vendor == "qualcomm":
-        return month_urls("https://docs.qualcomm.com/securitybulletin/{month}-{year}-bulletin.html")
+        return month_urls("https://docs.qualcomm.com/product/publicresources/securitybulletin/{month}-{year}-bulletin.html")
     if vendor == "solarwinds":
         return link_list(soup(VENDORS[vendor][1]), VENDORS[vendor][1], re.compile(r"/trust-center/security-advisories/.+", re.I))
     return []
