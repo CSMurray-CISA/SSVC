@@ -13,6 +13,7 @@ Copy these items into the repository root:
 - `index.html`
 - `ssvc-dashboard.html`
 - `vulnerability-dashboard.html`
+- `vulnerability-dashboard.js`
 - `scripts/update_oracle.py`
 - `scripts/update_vendors.py`
 - `requirements.txt`
