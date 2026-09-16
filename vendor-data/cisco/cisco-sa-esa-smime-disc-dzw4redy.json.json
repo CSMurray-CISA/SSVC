@@ -1,0 +1,117 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-smime-disc-dzw4rEdY/csaf/cisco-sa-esa-smime-disc-dzw4rEdY.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-esa-smime-disc-dzw4rEdY%26vs_k=1",
+  "release_date": "2026-09-02T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20354",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "5.9",
+      "severity": "MEDIUM",
+      "product": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
+      "component": "",
+      "published_date": "2026-09-02T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-189790",
+              "CSAFPID-286755",
+              "CSAFPID-286761",
+              "CSAFPID-286790",
+              "CSAFPID-289314",
+              "CSAFPID-292686",
+              "CSAFPID-292688",
+              "CSAFPID-292690",
+              "CSAFPID-292691",
+              "CSAFPID-301085",
+              "CSAFPID-301640",
+              "CSAFPID-301641",
+              "CSAFPID-301642",
+              "CSAFPID-302894",
+              "CSAFPID-303060",
+              "CSAFPID-303062",
+              "CSAFPID-303063",
+              "CSAFPID-303202",
+              "CSAFPID-303305",
+              "CSAFPID-307007",
+              "CSAFPID-307056",
+              "CSAFPID-307057",
+              "CSAFPID-307058",
+              "CSAFPID-307059",
+              "CSAFPID-309085"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-20355",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "5.9",
+      "severity": "MEDIUM",
+      "product": "Cisco Secure Email Secure/Multipurpose Internet Mail Extensions Ciphertext Decryption Vulnerabilities",
+      "component": "",
+      "published_date": "2026-09-02T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-189790",
+              "CSAFPID-286755",
+              "CSAFPID-286761",
+              "CSAFPID-286790",
+              "CSAFPID-289314",
+              "CSAFPID-292686",
+              "CSAFPID-292688",
+              "CSAFPID-292690",
+              "CSAFPID-292691",
+              "CSAFPID-301085",
+              "CSAFPID-301640",
+              "CSAFPID-301641",
+              "CSAFPID-301642",
+              "CSAFPID-302894",
+              "CSAFPID-303060",
+              "CSAFPID-303062",
+              "CSAFPID-303063",
+              "CSAFPID-303202",
+              "CSAFPID-303305",
+              "CSAFPID-307007",
+              "CSAFPID-307056",
+              "CSAFPID-307057",
+              "CSAFPID-307058",
+              "CSAFPID-307059",
+              "CSAFPID-309085"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

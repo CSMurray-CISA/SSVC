@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact high Description Triggering an error condition in certain MIME bodies would cause uninitialized memory to be used. References Bug 2061087"
@@ -26,6 +27,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact medium Description A maliciously constructed mail header could lead to a one byte read past the end of a buffer. References Bug 2063964"
@@ -39,6 +41,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter ABDULAZIZ ALASAIQAH Impact low Description A malicious IMAP server can trigger use-after-free and heap-memory disclosure by sending a crafted ID response. Heap contents can ultimately be persisted to prefs.js. References Bug 2057805"
@@ -52,6 +55,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Trung Nguyen Impact low Description Malicious calendar invitations could use file URI attachments to launch local or network-hosted executables on Windows, bypassing Thunderbird's normal executable attachment protections. With the new invitation display enabled, the attachment could also appear under a misleading filename. References Bug 2043878"
@@ -65,6 +69,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter ChinhNguyen, Lowk3yz Impact low Description The values of the mail.allowed_attachment_hostnames advanced config setting were used in a regular expression without escaping. For some possible valid hostnames, this could allow certain unintended hostnames to also match and serve remote attachments. References Bug 2060462"
@@ -78,6 +83,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter crixer Impact high References Bug 2039972"
@@ -91,6 +97,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter x0e Impact high References Bug 2057457"
@@ -104,6 +111,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2057817"
@@ -117,6 +125,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ukyo Akai Impact high References Bug 2058911"
@@ -130,6 +139,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059018"
@@ -143,6 +153,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2059965"
@@ -156,6 +167,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2060047"
@@ -169,6 +181,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2061110"
@@ -182,6 +195,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2063871"
@@ -195,6 +209,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Tomoya Nakanishi Impact moderate References Bug 2021757"
@@ -208,6 +223,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact moderate References Bug 2055028"
@@ -221,6 +237,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter 5up3rh3i Impact moderate References Bug 2057834"
@@ -234,6 +251,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter navapon Impact moderate References Bug 2060008"
@@ -247,6 +265,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Shu Takahashi Impact moderate References Bug 2063020"
@@ -260,6 +279,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter pakhunov.anton.n Impact low References Bug 2032388"
@@ -273,6 +293,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter 5up3rh3i Impact low References Bug 2044882"
@@ -286,6 +307,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Apentota Impact low References Bug 2048699"
@@ -299,6 +321,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Riski Muhammad Ivan Impact low References Bug 2051146"
@@ -312,6 +335,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Long Nguyen Impact low References Bug 2060153"
@@ -325,6 +349,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mohamed Mbarek Impact low References Bug 2063780"
@@ -338,6 +363,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter nguyentuanhung1149 Impact low References Bug 2063994"
@@ -351,6 +377,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Jan de Mooij, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Thunderbird 154, Thunderbird ESR 153.1 and Thunderbird ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Moderate Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Low Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15"
@@ -364,6 +391,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Thunderbird 154 and Thunderbird ESR 153.1. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Thunderbird 155 and Thunderbird ESR 153.2 Moderate Severity internally found bugs fixed in Thunderbird 155 and Thunderbird ESR 153.2 Low Severity internally found bugs fixed in Thunderbird 155 and Thunderbird ESR 153.2"
@@ -377,6 +405,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-88",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Thunderbird 154, Thunderbird ESR 153.1 and Thunderbird ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Moderate Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Low Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15"

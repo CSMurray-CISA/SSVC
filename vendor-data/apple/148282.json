@@ -13,6 +13,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Audio",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-65339: Mustafa Calap (@ordinal0, dbg.re), Meta Red Team X - Nik Tsytsarkin Entry updated September 14, 2026"
@@ -26,6 +27,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Authentication Services",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A website may be able to determine a user's IP address with Private Relay turned on Description: An information disclosure issue was addressed with improved state management. CVE-2026-65355: Xint Code Entry added September 14, 2026"
@@ -39,6 +41,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "ImageIO",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing an image may lead to a denial-of-service Description: The issue was addressed with improved checks. CVE-2026-65347: Geonha Lee (@leegn4a)"
@@ -52,6 +55,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "ImageIO",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing an image may lead to arbitrary code execution Description: An integer overflow was addressed with improved input validation. CVE-2026-65346: Meta Red Team X - Nik Tsytsarkin"
@@ -65,6 +69,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "IOGPUFamily",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-64788: an anonymous researcher, f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and 云散花折, Arjanit Isufi Entry updated September 14, 2026"
@@ -78,6 +83,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "IOMobileFrameBuffer",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-64736: Ruslan Dautov, hxr1 Entry added September 14, 2026"
@@ -91,6 +97,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Kernel",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A remote attacker may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65343: Drinor Selmanaj (Sentry), Surya Narayan Kushwaha"
@@ -104,6 +111,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Kernel",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved input validation. CVE-2026-65349: an anonymous researcher"
@@ -117,6 +125,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Kernel",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-65330: Ashish Kunwar, Mikhail Lozhnikov of Positive Technologies, Bhaswanth Chigurupati, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-28935: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. Entry updated September 14, 2026"
@@ -130,6 +139,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Kernel",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-65330: Ashish Kunwar, Mikhail Lozhnikov of Positive Technologies, Bhaswanth Chigurupati, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-28935: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. Entry updated September 14, 2026"
@@ -143,6 +153,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "Telephony",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later Impact: An attacker in a privileged network position may be able to bypass IPSec authentication and intercept network traffic Description: An authentication issue was addressed with improved state management. CVE-2026-65329: Bedran Karakoc, Tobias Funke, Jacopo Clark, Katharina Kohls of Ruhr University Bochum"
@@ -156,6 +167,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: An out-of-bounds access issue was addressed with improved bounds checking. WebKit Bugzilla: 317632 CVE-2026-64784: Janggoon Lee of Out of Bounds, OpenAI Codex Security - Amy Burnett"
@@ -169,6 +181,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: The issue was addressed with improved memory handling. WebKit Bugzilla: 313452 CVE-2026-43795: wwwlk WebKit Bugzilla: 318348 CVE-2026-65338: OpenAI Codex Security - Amy Burnett"
@@ -182,6 +195,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: The issue was addressed with improved memory handling. WebKit Bugzilla: 313452 CVE-2026-43795: wwwlk WebKit Bugzilla: 318348 CVE-2026-65338: OpenAI Codex Security - Amy Burnett"
@@ -195,6 +209,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: The issue was addressed with improved memory handling. WebKit Bugzilla: 318405 CVE-2026-65341: Henock Habte"
@@ -208,6 +223,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: A memory corruption vulnerability was addressed with improved locking. WebKit Bugzilla: 321480 CVE-2026-64782: Charles Kern, Seonwook Kim, Shubham Chaskar, lattice, Josef Korbel Entry updated September 14, 2026"
@@ -221,6 +237,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: The issue was addressed with improved input validation. WebKit Bugzilla: 321484 CVE-2026-64781: Thomas Guillem"
@@ -234,6 +251,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -247,6 +265,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -260,6 +279,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -273,6 +293,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -286,6 +307,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -299,6 +321,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -312,6 +335,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -325,6 +349,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: This issue was addressed through improved state management. WebKit Bugzilla: 321517 CVE-2026-65351: Niels Hofmans WebKit Bugzilla: 316996 CVE-2026-65340: Claudio Bozzato and Francesco Benvenuto of Cisco Talos, Josef Korbel (Citadelo) WebKit Bugzilla: 317142 CVE-2026-65337: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317349 CVE-2026-65336: Josef Korbel WebKit Bugzilla: 316723 CVE-2026-65335: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317603 CVE-2026-65333: OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317450 CVE-2026-65332: Kun Peeks (@SwayZGl1tZyyy), OpenAI Codex Security - Amy Burnett WebKit Bugzilla: 317611 CVE-2026-65331: OpenAI Codex Security - Amy Burnett Entry updated September 14, 2026"
@@ -338,6 +363,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected process crash Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 316347 CVE-2026-64715: Hossein Lotfi (@hosselot) of TrendAI Zero Day Initiative"
@@ -351,6 +377,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: The issue was addressed with improved checks. WebKit Bugzilla: 316918 CVE-2026-64780: OpenAI Codex Security - Amy Burnett"
@@ -364,6 +391,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: A memory corruption issue was addressed with improved state management. WebKit Bugzilla: 316791 CVE-2026-65334: OpenAI Codex Security - Amy Burnett"
@@ -377,6 +405,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: A memory corruption issue was addressed with improved memory handling. WebKit Bugzilla: 317317 CVE-2026-43794: Dung Do (@_piers2) of Calif.io"
@@ -390,6 +419,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected process termination Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 313703 CVE-2026-64787: 杉山 壮太, Shubham Chaskar"
@@ -403,6 +433,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: A website may be able to determine a user's IP address with Private Relay turned on Description: An information disclosure issue was addressed with improved state management. WebKit Bugzilla: 321065 CVE-2026-65352: Talal Haj Bakry and Tommy Mysk of Mysk Inc. @mysk_co Entry added September 14, 2026"
@@ -416,6 +447,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit History",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Visiting a maliciously crafted website may leak sensitive data Description: The issue was addressed with improved checks. WebKit Bugzilla: 322124 CVE-2026-64778: Mohit Negi"
@@ -429,6 +461,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebKit Storage",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: A memory corruption vulnerability was addressed with improved locking. WebKit Bugzilla: 321485 CVE-2026-64779: Shubham Chaskar, Tommy DeVoss from Braze Security Team (@thedawgyg)"
@@ -442,6 +475,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebRTC",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. WebKit Bugzilla: 322761 CVE-2026-65391: Myungyong Lee Entry added September 14, 2026"
@@ -455,6 +489,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
       "component": "WebRTC",
+      "published_date": "August 17, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: iPhone 11 and later, iPad Pro 12.9-inch 3rd generation and later, iPad Pro 11-inch 1st generation and later, iPad Air 3rd generation and later, iPad 8th generation and later, and iPad mini 5th generation and later Impact: Processing maliciously crafted web content may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-65390: Kwak Kiyong (@Pwnkai23), Song Nuri Entry added September 14, 2026 Additional recognition"

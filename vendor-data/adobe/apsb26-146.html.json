@@ -13,6 +13,7 @@
       "severity": "UNKNOWN",
       "product": "Adobe Security Bulletin",
       "component": "",
+      "published_date": "",
       "exploitation": "active",
       "details": {
         "source_row": [

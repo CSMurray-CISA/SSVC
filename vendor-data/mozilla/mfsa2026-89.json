@@ -13,6 +13,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-89",
       "component": "",
+      "published_date": "September 8, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Amit Gajbhare Impact low Description A malicious webpage could repeatedly trigger external URL schemes, causing system prompts or external application launches. This could make Firefox for iOS temporarily unusable until the page is closed. References Bug 1847631"

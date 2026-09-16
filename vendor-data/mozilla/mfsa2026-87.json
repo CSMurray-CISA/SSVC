@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact high Description Triggering an error condition in certain MIME bodies would cause uninitialized memory to be used. References Bug 2061087"
@@ -26,6 +27,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ramesh Adhikari, Dr. Faruk Kazi (CoE-CNDS Lab, VJTI, Mumbai, India) Impact medium Description A maliciously constructed mail header could lead to a one byte read past the end of a buffer. References Bug 2063964"
@@ -39,6 +41,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter ABDULAZIZ ALASAIQAH Impact low Description A malicious IMAP server can trigger use-after-free and heap-memory disclosure by sending a crafted ID response. Heap contents can ultimately be persisted to prefs.js. References Bug 2057805"
@@ -52,6 +55,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter crixer Impact high References Bug 2039972"
@@ -65,6 +69,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Khanh Nguyen Impact high References Bug 2049149"
@@ -78,6 +83,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2057817"
@@ -91,6 +97,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ukyo Akai Impact high References Bug 2058911"
@@ -104,6 +111,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059018"
@@ -117,6 +125,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2059965"
@@ -130,6 +139,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2061110"
@@ -143,6 +153,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Steven Julian Impact moderate References Bug 2008369"
@@ -156,6 +167,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter navapon Impact moderate References Bug 2060008"
@@ -169,6 +181,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Jan de Mooij, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Thunderbird 154, Thunderbird ESR 153.1 and Thunderbird ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Moderate Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Low Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15"
@@ -182,6 +195,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-87",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Thunderbird 154, Thunderbird ESR 153.1 and Thunderbird ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Moderate Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15 Low Severity internally found bugs fixed in Thunderbird 155, Thunderbird ESR 153.2 and Thunderbird ESR 140.15"

@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "MT6990, MT7990, MT7991, MT7992, MT7993",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -31,6 +32,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Specified type in wlan",
@@ -49,6 +51,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Integer overflow in wlan",
@@ -67,6 +70,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Classic buffer overflow in wlan",
@@ -85,6 +89,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -103,6 +108,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -121,6 +127,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -139,6 +146,7 @@
       "severity": "MEDIUM",
       "product": "MT6886, MT6897, MT6899, MT6985, MT6989, MT6991, MT8195, MT8196, MT8370, MT8390, MT8395, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in imgsensor",
@@ -157,6 +165,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -175,6 +184,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -193,6 +203,7 @@
       "severity": "MEDIUM",
       "product": "MT6835, MT6878, MT6886, MT6897, MT6899, MT6980D, MT6985, MT6989, MT6990, MT6991, MT8676, MT8678, MT8775, MT8791T, MT8796, MT8873",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Integer overflow in gnss",
@@ -211,6 +222,7 @@
       "severity": "MEDIUM",
       "product": "MT6835, MT6878, MT6886, MT6897, MT6899, MT6985, MT6989, MT6991, MT8676, MT8678, MT8775, MT8791T, MT8796, MT8873",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in gnss",
@@ -229,6 +241,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in wlan",
@@ -247,6 +260,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in wlan",
@@ -265,6 +279,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -283,6 +298,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-10-07",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds read in wlan",

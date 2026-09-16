@@ -1,0 +1,52 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Industrial Ethernet 1000 Series Switches Stored Cross-Site Scripting Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ie1k-NgXUFF52/csaf/cisco-sa-ie1k-NgXUFF52.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ie1k-NgXUFF52%26vs_k=1",
+  "release_date": "2026-08-19T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20232",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:L/I:L/A:N",
+      "cvss": "5.4",
+      "severity": "MEDIUM",
+      "product": "Cisco Industrial Ethernet 1000 Series Switches Stored Cross-Site Scripting Vulnerability",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-286528",
+              "CSAFPID-308817",
+              "CSAFPID-308818",
+              "CSAFPID-308819",
+              "CSAFPID-308821",
+              "CSAFPID-308823",
+              "CSAFPID-308824",
+              "CSAFPID-308825",
+              "CSAFPID-308827",
+              "CSAFPID-308828",
+              "CSAFPID-308829",
+              "CSAFPID-308830",
+              "CSAFPID-308831",
+              "CSAFPID-308832"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

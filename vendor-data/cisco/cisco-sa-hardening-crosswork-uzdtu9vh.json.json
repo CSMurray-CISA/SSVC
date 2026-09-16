@@ -1,0 +1,165 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Crosswork Security Hardening Release: August 2026",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-crosswork-UzDTU9Vh/csaf/cisco-sa-hardening-crosswork-UzDTU9Vh.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-crosswork-UzDTU9Vh%26vs_k=1",
+  "release_date": "2026-08-19T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20030",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "10.0",
+      "severity": "CRITICAL",
+      "product": "Cisco Crosswork Security Hardening Release: August 2026",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-307118",
+              "CSAFPID-308451",
+              "CSAFPID-308452",
+              "CSAFPID-308453",
+              "CSAFPID-308454",
+              "CSAFPID-308455",
+              "CSAFPID-308457",
+              "CSAFPID-308458",
+              "CSAFPID-308459",
+              "CSAFPID-308461"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-20357",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "10.0",
+      "severity": "CRITICAL",
+      "product": "Cisco Crosswork Security Hardening Release: August 2026",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-307118",
+              "CSAFPID-308451",
+              "CSAFPID-308452",
+              "CSAFPID-308453",
+              "CSAFPID-308454",
+              "CSAFPID-308455",
+              "CSAFPID-308457",
+              "CSAFPID-308458",
+              "CSAFPID-308459",
+              "CSAFPID-308461"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-20358",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:H/A:H",
+      "cvss": "10.0",
+      "severity": "CRITICAL",
+      "product": "Cisco Crosswork Security Hardening Release: August 2026",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-307118",
+              "CSAFPID-308451",
+              "CSAFPID-308452",
+              "CSAFPID-308453",
+              "CSAFPID-308454",
+              "CSAFPID-308455",
+              "CSAFPID-308457",
+              "CSAFPID-308458",
+              "CSAFPID-308459",
+              "CSAFPID-308461"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-20359",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "9.9",
+      "severity": "CRITICAL",
+      "product": "Cisco Crosswork Security Hardening Release: August 2026",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-307118",
+              "CSAFPID-308451",
+              "CSAFPID-308452",
+              "CSAFPID-308453",
+              "CSAFPID-308454",
+              "CSAFPID-308455",
+              "CSAFPID-308457",
+              "CSAFPID-308458",
+              "CSAFPID-308459",
+              "CSAFPID-308461"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

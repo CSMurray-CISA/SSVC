@@ -13,6 +13,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Accelerate Framework",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86882: Peter Malone"
@@ -26,6 +27,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Accessibility",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved data protection. CVE-2026-43664: Stuart Wallace, Rosyna Keller of Totally Not Malicious Software, Jian Lee (@speedyfriend433), Ilya Andr (andrd3v), Gongyu Ma (@Mezone0), David Strnadel, Daniel Febrero, CJ Vana, Asaf Cohen"
@@ -39,6 +41,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "APFS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An application may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-86910: an anonymous researcher"
@@ -52,6 +55,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "APFS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
@@ -65,6 +69,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "AppKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access protected user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-84587: an anonymous researcher"
@@ -78,6 +83,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Apple Account",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to use the Sign In With Apple authentication flow to access the user's Apple Account Description: An authentication issue was addressed with improved state management. CVE-2026-20683: Lehan Dilusha Jayasingha (Sri Lanka), Jasminder Pal Singh, Dem0ns (@天府简易信工作室), Abdelhak Kherroubi"
@@ -91,6 +97,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Apple Neural Engine",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-65408: tamdao"
@@ -104,6 +111,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "AppleAVD",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65407: Franco Belman at Blackwing Intelligence"
@@ -117,6 +125,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "AppleDouble",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Mounting a disk image with maliciously crafted files may lead to unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84519: Richard Zana"
@@ -130,6 +139,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreTypes",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A malicious app may be able to break out of its sandbox Description: A validation issue existed in the entitlement verification. This issue was addressed with improved validation of the process entitlement. CVE-2026-65381: Mickey Jin (@patch1t)"
@@ -143,6 +153,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ATS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to read files outside of its sandbox Description: A permissions issue was addressed by removing the vulnerable code. CVE-2026-43763: Pavan Nallamothu, Jared Reyes"
@@ -156,6 +167,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ATS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access user-sensitive data Description: A logging issue was addressed with improved data redaction. CVE-2026-84525: D4rthL"
@@ -169,6 +181,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ATS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with improved validation. CVE-2026-65342: Mohamad Dawoud / Abodi Dawoud, Ahmed Alwardani"
@@ -182,6 +195,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Audio",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-65339: Mustafa Calap (@ordinal0, dbg.re), Meta Red Team X - Nik Tsytsarkin"
@@ -195,6 +209,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "AuthKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A local app may be able to read a persistent account identifier Description: A permissions issue was addressed with additional restrictions. CVE-2026-84583: Zhongcheng Li from IES Red Team"
@@ -208,6 +223,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "autofs",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An attacker with control of a network directory server may be able to execute arbitrary code with root privileges Description: A path traversal issue was addressed with improved path validation. CVE-2026-84568: Mr.Gedik (@h4ck2s3c) of Turkish Technology"
@@ -221,6 +237,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "autofs",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to bypass Gatekeeper checks Description: A logic issue was addressed with improved checks. CVE-2026-84570: Mr.Gedik (@h4ck2s3c)"
@@ -234,6 +251,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Automator",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to break out of its sandbox Description: An authorization issue was addressed with improved state management. CVE-2026-84535: Sindre Sorhus, Oren Yomtov, Morris Richman (@morrisinlife), Kun Peeks (@SwayZGl1tZyyy)"
@@ -247,6 +265,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "AVEVideoEncoder",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved memory handling. CVE-2026-84616: Peter Malone"
@@ -260,6 +279,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "AVEVideoEncoder",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A sandboxed app may be able to execute arbitrary code with kernel privileges Description: A race condition was addressed with improved state management. CVE-2026-84607: Ruslan Dautov"
@@ -273,6 +293,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "BackgroundAssets",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: A logic issue was addressed with improved validation. CVE-2026-65406: Ye Zhang (@VAR10CK) of Baidu Security"
@@ -286,6 +307,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Bluetooth",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A remote attacker may be able to cause unexpected app termination or arbitrary code execution Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65414"
@@ -299,6 +321,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "cd9660",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84567: Sanny Mitra, Sihyun Roh (Compsec, SNU), ngockhanh from Cystack, 정우 하 (@0xfa11babe), Suresh Sundaram, Surej Sekhar, Kun Peeks (@SwayZGl1tZyyy), Hari Shanmugam (The Hxr1), Ataberk Yavuzer"
@@ -312,6 +335,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "copyfile",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An archive may be able to bypass Gatekeeper Description: A file quarantine bypass was addressed with additional checks. CVE-2026-65399: Rishabh Jain (rjcyber) of cyberplanet, Pasquale Scola, an anonymous researcher"
@@ -325,6 +349,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Core Bluetooth",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access Bluetooth device information Description: An authorization issue was addressed with improved state management. CVE-2026-86891: Dawuge of Shuffle Team"
@@ -338,6 +363,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreDrag",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected process termination or disclose process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-43683: Nathaniel Oh (@calysteon)"
@@ -351,6 +377,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreMedia",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access user-sensitive data Description: An access issue was addressed with additional sandbox restrictions. CVE-2026-43789: 이재영"
@@ -364,6 +391,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreMedia",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted video file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65344: Siyeong kim"
@@ -377,6 +405,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreMedia",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A sandboxed process may be able to circumvent sandbox restrictions Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86876: Chris Bailey - Short Circuit"
@@ -390,6 +419,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreMedia Video Toolbox",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted video file may lead to unexpected app termination or corrupt process memory Description: The issue was addressed with improved memory handling. CVE-2026-43702: Nathaniel Oh (@calysteon)"
@@ -403,6 +433,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreML",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A sandboxed app may be able to access restricted files Description: A permissions issue was addressed with improved path validation. CVE-2026-84624: AL Najafi, tamdao"
@@ -416,6 +447,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreMotion",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access motion data from headphones without user consent Description: An authorization issue was addressed with improved validation. CVE-2026-43737: Stuart Wallace"
@@ -429,6 +461,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreServices",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to bypass Privacy preferences Description: A permissions issue was addressed with improved state management. CVE-2026-84574: Mickey Jin (@patch1t)"
@@ -442,6 +475,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreServices",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A malicious application may be able to access restricted files Description: A permissions issue was addressed with improved validation. CVE-2026-84559: Ryan Hughes"
@@ -455,6 +489,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreServices",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain root privileges Description: This issue was addressed with additional entitlement checks. CVE-2026-43786: Kujtim Kryeziu (Sentry)"
@@ -468,6 +503,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreText",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing web content may lead to a denial-of-service Description: A null pointer dereference was addressed with improved input validation. CVE-2026-65412: Pavan Nallamothu"
@@ -481,6 +517,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreUI",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84575: Mustafa Calap (@ordinal0, dbg.re)"
@@ -494,6 +531,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CoreUI",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted asset catalog may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84511: stratan (@5tratan), Rahul Raj"
@@ -507,6 +545,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A logic issue was addressed with improved checks. CVE-2026-84563: Yongyue WANG AKA Brian.W of OKX security, Omar Cerrito"
@@ -520,6 +559,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84540: Yongyue WANG AKA Brian.W of OKX security, 章鱼哥@aipy （aipyaipy.com）, instantraaamen (github.com/instantraaamen) Contact: masa.shiramizu@gmail.com"
@@ -533,6 +573,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An attacker in a privileged network position may be able to cause a denial-of-service Description: An integer overflow was addressed with improved input validation. CVE-2026-84554: Meshaal @ Darkcov, Joseph Shamoon"
@@ -546,6 +587,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A remote user may cause an unexpected app termination or arbitrary code execution Description: A validation issue was addressed with improved input sanitization. CVE-2026-43692: Aaron Grattafiori - NVIDIA AI Red Team"
@@ -559,6 +601,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain elevated privileges Description: A path handling issue was addressed with improved validation. CVE-2026-64790: Aaron Grattafiori - NVIDIA AI Red Team"
@@ -572,6 +615,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain root privileges Description: A path handling issue was addressed with improved validation. CVE-2026-43691: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
@@ -585,6 +629,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted file may result in unexpected app termination or disclosure of process memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84516: 章鱼哥@aipy (aipyaipy.com）"
@@ -598,6 +643,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "CUPS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An application may be able to access restricted files Description: An input validation issue was addressed with improved input validation. CVE-2026-84541: 章鱼哥@aipy (aipyaipy.com）"
@@ -611,6 +657,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "DeviceCheck",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to read persistent device identifiers Description: An authorization issue was addressed with improved access control. CVE-2026-84612: N.M.Praveen Nawarathne (@zblockrat), James Gill (@jjtech@infosec.exchange)"
@@ -624,6 +671,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Directory Utility",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain root privileges Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84505: Tommy DeVoss from Braze Security Team (@thedawgyg)"
@@ -637,6 +685,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Disk Images",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted disk image may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84565: Nathaniel Oh (@calysteon)"
@@ -650,6 +699,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Disk Images",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved memory handling. CVE-2026-84552: Tommy DeVoss from Braze Security Team (@thedawgyg), flower xu, Adriatik Raci, PETOWORKS의 Bugeun Choi (@Bugeun), Peter Malone, Hyunwoo Kim (@v4bel), Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
@@ -663,6 +713,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Disk Images",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with additional validation. CVE-2026-84550: Hyunwoo Kim (@v4bel), Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
@@ -676,6 +727,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Disk Images",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain root privileges Description: This issue was addressed with improved checks. CVE-2026-65362: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs, Adriatik Raci, Manish Bhatt, Amazon Leo Security, Nathaniel Oh (@calysteon)"
@@ -689,6 +741,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Disk Images",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84512: Daisuke Hatakeyama and Ryohei Ueki (@SYZD Research)"
@@ -702,6 +755,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "exFAT",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Mounting a maliciously crafted volume may lead to unexpected system termination Description: A heap buffer overflow was addressed with improved bounds checking. CVE-2026-84510: Richard Zana, Meta Red Team X - Nik Tsytsarkin"
@@ -715,6 +769,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "File Bookmark",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to modify a file it only had permission to read Description: A permissions issue was addressed with additional restrictions. CVE-2026-43785: Junyeong Lee (jylab.github.io), Merrick Hare, Narendra Singh (@_3P1C), John Nzyuko Uvyu, Aditya Kumar"
@@ -728,6 +783,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "file_cmds",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Extracting a maliciously crafted archive may allow an attacker to write arbitrary files Description: A path handling issue was addressed with improved validation. CVE-2026-84534: Geoffrey Lovelace"
@@ -741,6 +797,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "FontParser",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted font file may lead to unexpected app termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84524: an anonymous researcher"
@@ -754,6 +811,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Foundation",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause a denial of service Description: A type confusion issue was addressed with improved memory handling. CVE-2026-65409: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
@@ -767,6 +825,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Game Center",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: A permissions issue was addressed with improved validation. CVE-2026-84618: Luke Symons"
@@ -780,6 +839,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Graphics",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84492: Tommy DeVoss from Braze Security Team (@thedawgyg), Jiyong Yang"
@@ -793,6 +853,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Heimdal",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A user in a privileged network position may be able to leak sensitive user information Description: This is a vulnerability in open source code and Apple Software is among the affected projects. The CVE-ID was assigned by a third party. Learn more about the issue and CVE-ID at cve.org . CVE-2022-3437: Roman Zabicki"
@@ -806,6 +867,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "HFS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Mounting a malicious disk image may cause unexpected system termination Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-28934: Arni Hardarson (Neonix Security), Tristan Madani (@TristanInSec) from Talence Security, 정우 하, Aswin Kumar Gokulakannan, Peter Malone, Dun"
@@ -819,6 +881,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "HFS",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Mounting a maliciously crafted disk image may cause unexpected system termination or corrupt kernel memory Description: A buffer overflow was addressed with improved bounds checking. CVE-2026-84581: Jonathan Bar Or (@yo_yo_yo_jbo), Feng Xue and XGPT of ThreatBook, Alfredo Pesoli (@__rev) of Bynar.io"
@@ -832,6 +895,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Image Capture",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access user-sensitive data Description: A path handling issue was addressed with improved validation. CVE-2026-64756: Luke Symons"
@@ -845,6 +909,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ImageIO",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
@@ -858,6 +923,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ImageIO",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: The issue was addressed with improved bounds checks. CVE-2026-64758: 진규정 (Gyujeong Jin, @G1uN4sh)"
@@ -871,6 +937,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ImageIO",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing an image may lead to arbitrary code execution Description: An integer overflow was addressed with improved input validation. CVE-2026-65346: Meta Red Team X - Nik Tsytsarkin"
@@ -884,6 +951,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "ImageIO",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted image may result in memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65395: Mateusz Jurczyk of Google Project Zero, Varik Matevosyan"
@@ -897,6 +965,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "IOKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-28969: Mihalis Haatainen, Ashish Kunwar, Ari Hawking, 이재영"
@@ -910,6 +979,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "IOMobileFrameBuffer",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-64736: Ruslan Dautov, hxr1"
@@ -923,6 +993,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A local attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84566: Bernhard Jackiewicz"
@@ -936,6 +1007,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, genter0, Dun"
@@ -949,6 +1021,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84619: James Duffy (@0x4A616D657344), genter0, Eddy Tsalolikhin"
@@ -962,6 +1035,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84549: Surya Narayan Kushwaha, Aswin Kumar Gokulakannan"
@@ -975,6 +1049,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A remote attacker may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-43790: Omar Cerrito"
@@ -988,6 +1063,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app with root privileges may be able to read uninitialized kernel memory Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-84622: Hiroki Imai (LAC Co., Ltd.)"
@@ -1001,6 +1077,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A memory corruption issue was addressed with improved memory handling. CVE-2026-65377: Ye Zhang (@VAR10CK) of Baidu Security, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1014,6 +1091,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A malicious application may bypass Gatekeeper checks Description: A logic issue was addressed with improved state management. CVE-2026-65369: an anonymous researcher"
@@ -1027,6 +1105,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious NFS server may cause unexpected system termination or corrupt kernel memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84544: Surya Narayan Kushwaha, Abhijeet Singh (www.linkedin.com/in/abhiunix/)"
@@ -1040,6 +1119,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain root privileges Description: A permissions issue was addressed with additional restrictions. CVE-2026-86917: Hiroki Imai (LAC Co., Ltd.)"
@@ -1053,6 +1133,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43684: Peter Malone"
@@ -1066,6 +1147,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious NFS server may lead to kernel memory corruption Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43686: Peter Malone"
@@ -1079,6 +1161,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A remote attacker may be able to cause a denial-of-service Description: A denial-of-service issue was addressed with improved input validation. CVE-2026-84538: Stuart Thomas"
@@ -1092,6 +1175,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A remote attacker may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65364: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1105,6 +1189,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to determine kernel memory layout Description: A memory initialization issue was addressed with improved memory handling. CVE-2026-65405: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1118,6 +1203,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1131,6 +1217,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1144,6 +1231,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A race condition was addressed with improved state handling. CVE-2026-84630: Tristan Madani (@TristanInSec) from Talence Security CVE-2026-65360: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-65358: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1157,6 +1245,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A type confusion issue was addressed with improved checks. CVE-2026-84602: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1170,6 +1259,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved input validation. CVE-2026-65349: an anonymous researcher"
@@ -1183,6 +1273,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-65330: Ashish Kunwar, Mikhail Lozhnikov of Positive Technologies, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati CVE-2026-28935: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1196,6 +1287,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-65330: Ashish Kunwar, Mikhail Lozhnikov of Positive Technologies, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati CVE-2026-28935: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1209,6 +1301,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1222,6 +1315,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: A use after free issue was addressed with improved memory management. CVE-2026-65402: Fábio Luís @scanpt, Richard Zana, Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd. CVE-2026-84521: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1235,6 +1329,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A race condition was addressed with improved state handling. CVE-2026-84507: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1248,6 +1343,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: An integer overflow was addressed with improved input validation. CVE-2026-84517: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1261,6 +1357,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: A double free issue was addressed with improved memory management. CVE-2026-84561: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd., Bhaswanth Chigurupati"
@@ -1274,6 +1371,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A local user may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65359: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1287,6 +1385,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kernel",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to disclose kernel memory Description: This issue was addressed with improved redaction of sensitive information. CVE-2026-65371: Vladislav Shevchenko (Positive Technologies)"
@@ -1300,6 +1399,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Kext Management",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to modify protected parts of the file system Description: This issue was addressed with additional entitlement checks. CVE-2026-84514: Mohamed Wedatalla, Nathaniel Oh (@calysteon), Arjanit Isufi"
@@ -1313,6 +1413,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Keychain Access",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84556: Peter Malone, HvxyZLF, Chris Bailey - Short Circuit, Adrián Díaz Aguilar"
@@ -1326,6 +1427,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "LaunchServices",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: A parsing issue in the handling of directory paths was addressed with improved path validation. CVE-2026-65382: an anonymous researcher"
@@ -1339,6 +1441,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Mail",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-84573: Dawuge of Shuffle Team"
@@ -1352,6 +1455,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Mail",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An attacker in a privileged network position may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-43787: Armend Gashi"
@@ -1365,6 +1469,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Messages",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access protected user data Description: A logic issue was addressed with improved state management. CVE-2026-43741: Dawuge of Shuffle Team"
@@ -1378,6 +1483,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Model I/O",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Opening a maliciously crafted file may lead to unexpected process termination Description: A buffer overflow was addressed with improved size validation. CVE-2026-84497: Yiğit Can YILMAZ (@yilmazcanyigit)"
@@ -1391,6 +1497,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "NetworkExtension",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
@@ -1404,6 +1511,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "NetworkExtension",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-43695: Claudio Bozzato and Francesco Benvenuto of Cisco Talos"
@@ -1417,6 +1525,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "odproxyd",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to gain root privileges Description: This issue was addressed with improved checks. CVE-2026-64712: Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
@@ -1430,6 +1539,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "quarantine",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to break out of its sandbox Description: The issue was addressed with improved checks. CVE-2026-84580: an anonymous researcher"
@@ -1443,6 +1553,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "quarantine",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to break out of its sandbox Description: A logic issue was addressed with improved checks. CVE-2026-84578: Kenneth Chew"
@@ -1456,6 +1567,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "QuartzCore",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-84576: Dora Orak, @Ethan Arbuckle, and @leptos_null"
@@ -1469,6 +1581,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Quick Look",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted document may lead to an out-of-bounds read Description: An integer overflow was addressed with improved input validation. CVE-2026-84548: Peter Malone"
@@ -1482,6 +1595,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "RealityKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Opening a maliciously crafted file may cause unexpected process termination or disclose process memory Description: An out-of-bounds read issue was addressed with improved input validation. CVE-2026-84532: Hongsik Kim (mnur), stratan (@5tratan)"
@@ -1495,6 +1609,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "RealityKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28966: stratan (@5tratan)"
@@ -1508,6 +1623,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Reminders",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65403: Rahul Raj"
@@ -1521,6 +1637,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Sandbox",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84555: Liu Xue & 九宫格 of Chongqing Telecom"
@@ -1534,6 +1651,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-84632: Peter Malone"
@@ -1547,6 +1665,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted file may result in disclosure of process memory Description: An integer overflow was addressed with improved input validation. CVE-2026-84487: stratan (@5tratan), Peter Malone, Dhiyanesh Selvaraj (@redroot97)"
@@ -1560,6 +1679,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause a denial of service Description: An integer overflow was addressed with improved input validation. CVE-2026-65413: Peter Malone"
@@ -1573,6 +1693,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An integer overflow was addressed with improved input validation. CVE-2026-84620: Peter Malone"
@@ -1586,6 +1707,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
@@ -1599,6 +1721,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted 3D model may lead to memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84546: Narendra Singh (@_3P1C), stratan (@5tratan), Peter Malone CVE-2026-84611: Nathaniel Oh (@calysteon)"
@@ -1612,6 +1735,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted 3D file may lead to an out-of-bounds read Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-43697: Peter Malone"
@@ -1625,6 +1749,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SceneKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Processing a maliciously crafted 3D scene may lead to unexpected process termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84526: stratan (@5tratan)"
@@ -1638,6 +1763,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Security",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An attacker in a privileged network position may be able to intercept network traffic Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86889: Jaeho Nam, Jungbum Lee, Sangwi Kang, Hyeonguk Ko and Taekyoung Kwon from SNU CSE MMLAB (mmlab.snu.ac.kr)"
@@ -1651,6 +1777,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Security",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An attacker with a compromised intermediate certificate authority may be able to issue certificates with arbitrary extended key usages Description: A certificate validation issue was addressed with improved certificate validation. CVE-2026-86881: Surya Narayan Kushwaha, Roman Zabicki, John Lussier, Filip Olszak"
@@ -1664,6 +1791,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Mounting a maliciously crafted SMB network share may lead to system termination Description: A use-after-free issue was addressed with improved memory management. CVE-2026-43719: Jakob Pammer, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
@@ -1677,6 +1805,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A local user may be able to read kernel memory Description: A race condition was addressed with improved locking. CVE-2026-43690: Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
@@ -1690,6 +1819,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65376: 재영 정, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
@@ -1703,6 +1833,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious SMB server may cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds access issue was addressed with improved bounds checking. CVE-2026-84543: Peter Malone"
@@ -1716,6 +1847,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious SMB server may lead to unexpected system termination Description: An integer underflow was addressed with improved input validation. CVE-2026-84536: 재영 정, Peter Malone, Feng Xue and XGPT of ThreatBook"
@@ -1729,6 +1861,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: The issue was addressed with improved memory handling. CVE-2026-84537: Peter Malone, Feng Xue and XGPT of ThreatBook"
@@ -1742,6 +1875,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious SMB share may disclose kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-65365: Jay Patel, Peter Malone"
@@ -1755,6 +1889,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious SMB server may lead to kernel memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84515: 재영 정, Peter Malone"
@@ -1768,6 +1903,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SMB",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious SMB server may lead to unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84509: Dave G."
@@ -1781,6 +1917,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "smbx",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A remote attacker may be able to cause a denial-of-service Description: A resource exhaustion issue was addressed with improved input validation. CVE-2026-84553: Stuart Thomas"
@@ -1794,6 +1931,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Software Update",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to modify protected system files Description: A permissions issue was addressed with improved path validation. CVE-2026-84609: YingMuo (@YingMuo) of DEVCORE Research Team"
@@ -1807,6 +1945,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "SoftwareUpdate",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: This issue was addressed with improved checks. CVE-2026-65361: Rodolphe BRUNETTI (@eisw0lf) of Lupus Nova"
@@ -1820,6 +1959,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Spotlight",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access protected user data Description: A permissions issue was addressed with additional restrictions. CVE-2026-28930: Pan ZhenPeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1833,6 +1973,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Spotlight",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-65378: Sindre Sorhus, Abodi Dawoud, 糖豆爸爸(@晴天组织), Robert Mindo, Niels Hofmans"
@@ -1846,6 +1987,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Spotlight",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved access control. CVE-2026-84621: Abodi Dawoud, Ujjwal Reddy Kalvolu Sreenivasa Reddy, Johan Wahyudi, Armend Gashi"
@@ -1859,6 +2001,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Storage",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access user-sensitive data Description: A permissions issue was addressed with additional restrictions. CVE-2026-65345: 이재영, Seung Je Seong, Jakob Pammer, Ilya Andr (andrd3v) of Positive Technologies"
@@ -1872,6 +2015,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Storage",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to modify protected parts of the file system Description: A permissions issue was addressed with additional restrictions. CVE-2026-65348: Jérôme Djouder"
@@ -1885,6 +2029,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "StorageKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to read arbitrary files Description: A validation issue was addressed with improved input sanitization. CVE-2026-43791: Amy (amys.website), Meridian Miftari, Aaron Grattafiori - NVIDIA AI Red Team"
@@ -1898,6 +2043,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "Symptom Framework",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: A malicious application may be able to determine a user's current location Description: A privacy issue was addressed with improved private data redaction for log entries. CVE-2026-84513: Sindre Sorhus"
@@ -1911,6 +2057,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "TCC",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: A logging issue was addressed with improved data redaction. CVE-2026-84527: Zeyang Li&Yuxiang Wang of Chongqing Telecom"
@@ -1924,6 +2071,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "udf",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination or read kernel memory Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-84572: Tomi (tk0) Koski (@tomikoski), Hari Shanmugam (The Hxr1)"
@@ -1937,6 +2085,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "udf",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to execute arbitrary code with kernel privileges Description: A use after free issue was addressed with improved memory management. CVE-2026-84506: Billy Jheng Bing Jhong and Pan Zhenpeng (@Peterpan0927) of STAR Labs SG Pte. Ltd."
@@ -1950,6 +2099,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "WebDAV",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious WebDAV server may lead to unexpected app termination Description: An out-of-bounds write issue was addressed by removing the vulnerable code. CVE-2026-43677: bubu, Surya Narayan Kushwaha, Roman Zabicki, Richard Zana, Omar Cerrito, HE WEI（ギカク）, Chris Bailey - Short Circuit, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research, Aswin Kumar Gokulakannan"
@@ -1963,6 +2113,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "WebDAV",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to cause unexpected system termination Description: The issue was addressed with improved authentication. CVE-2026-65375: YingMuo (@YingMuo) of DEVCORE Research Team, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
@@ -1976,6 +2127,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "WebDAV",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: Connecting to a malicious WebDAV server may result in code execution Description: A memory corruption issue was addressed with improved validation. CVE-2026-65374: HE WEI（ギカク）, Bruce Dang of Calif.io in collaboration with Claude and Anthropic Research"
@@ -1989,6 +2141,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "WebDAV",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may bypass Gatekeeper checks Description: A logic issue was addressed with improved checks. CVE-2026-28899: Kraken Cryptocurrency Exchange, Andreas Jaegersberger & Ro Achterberg of Nosebeard Labs"
@@ -2002,6 +2155,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of macOS Sequoia 15.8",
       "component": "XPC",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84617: Stuart Wallace Additional recognition"

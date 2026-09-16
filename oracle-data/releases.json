@@ -1,6 +1,100 @@
 {
-  "generated_at": "",
+  "generated_at": "2026-09-16T01:38:12.049573+00:00",
   "source": "https://www.oracle.com/security-alerts/",
-  "releases": [],
-  "warnings": ["Run the Refresh Oracle security data workflow once after adding these files to the repository."]
+  "releases": [
+    {
+      "id": "cspusep2026csaf",
+      "title": "Oracle Critical Security Patch Update Advisory - September 2026",
+      "release_date": "2026-09-15T13:00:00-07:00",
+      "updated": "2026-09-15T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cspusep2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cspusep2026csaf.json",
+      "data": "oracle-data/cspusep2026csaf.json"
+    },
+    {
+      "id": "cspuaug2026csaf",
+      "title": "Oracle Critical Security Patch Update Advisory - August 2026",
+      "release_date": "2026-08-18T13:00:00-07:00",
+      "updated": "2026-08-27T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cspuaug2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cspuaug2026csaf.json",
+      "data": "oracle-data/cspuaug2026csaf.json"
+    },
+    {
+      "id": "CPUJul2026csaf",
+      "title": "Oracle Critical Patch Update Advisory - July 2026",
+      "release_date": "2026-07-21T13:00:00-07:00",
+      "updated": "2026-07-21T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpujul2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpujul2026csaf.json",
+      "data": "oracle-data/CPUJul2026csaf.json"
+    },
+    {
+      "id": "CPUJun2026csaf",
+      "title": "Oracle Critical Security Patch Update Advisory - June 2026",
+      "release_date": "2026-06-16T13:00:00-07:00",
+      "updated": "2026-06-16T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cspujun2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cspujun2026csaf.json",
+      "data": "oracle-data/CPUJun2026csaf.json"
+    },
+    {
+      "id": "CPUMay2026csaf",
+      "title": "Oracle Critical Security Patch Update Advisory - May 2026",
+      "release_date": "2026-05-28T13:00:00-07:00",
+      "updated": "2026-05-28T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cspumay2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cspumay2026csaf.json",
+      "data": "oracle-data/CPUMay2026csaf.json"
+    },
+    {
+      "id": "CPUJan2026csaf",
+      "title": "Oracle Critical Patch Update Advisory - January 2026",
+      "release_date": "2026-01-20T13:00:00-07:00",
+      "updated": "2026-01-20T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpujan2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpujan2026csaf.json",
+      "data": "oracle-data/CPUJan2026csaf.json"
+    },
+    {
+      "id": "CPUOct2025csaf",
+      "title": "Oracle Critical Patch Update Advisory - October 2025",
+      "release_date": "2025-10-21T13:00:00-07:00",
+      "updated": "2025-10-20T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpuoct2025.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuoct2025csaf.json",
+      "data": "oracle-data/CPUOct2025csaf.json"
+    },
+    {
+      "id": "CPUJul2025csaf",
+      "title": "Oracle Critical Patch Update Advisory - July 2025",
+      "release_date": "2025-07-15T13:00:00-07:00",
+      "updated": "2025-07-28T14:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpujul2025.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpujul2025csaf.json",
+      "data": "oracle-data/CPUJul2025csaf.json"
+    },
+    {
+      "id": "CPUApr2025csaf",
+      "title": "Oracle Critical Patch Update Advisory - April 2025",
+      "release_date": "2025-04-15T13:00:00-07:00",
+      "updated": "2025-04-21T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpuapr2025.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuapr2025csaf.json",
+      "data": "oracle-data/CPUApr2025csaf.json"
+    },
+    {
+      "id": "CPUJan2025csaf",
+      "title": "Oracle Critical Patch Update Advisory - January 2025",
+      "release_date": "2025-01-21T13:00:00-07:00",
+      "updated": "2025-02-11T15:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpujan2025.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpujan2025csaf.json",
+      "data": "oracle-data/CPUJan2025csaf.json"
+    }
+  ],
+  "warnings": [
+    "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte",
+    "https://www.oracle.com/security-alerts/cpuoct2024.html: 'utf-8' codec can't decode byte 0xed in position 713134: invalid continuation byte"
+  ]
 }

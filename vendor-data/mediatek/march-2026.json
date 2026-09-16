@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "MT7902, MT7920, MT7921, MT7922, MT7925, MT7927",
       "component": "wlan",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "wlan",
@@ -31,6 +32,7 @@
       "severity": "HIGH",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8196, MT8678, MT8793",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -49,6 +51,7 @@
       "severity": "HIGH",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8196, MT8678, MT8793",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -67,6 +70,7 @@
       "severity": "HIGH",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8196, MT8678, MT8793",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -85,6 +89,7 @@
       "severity": "HIGH",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8196, MT8678, MT8793",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -103,6 +108,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7915, MT7916, MT7981, MT7986",
       "component": "wlan",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "wlan",
@@ -121,6 +127,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6739, MT6761, MT6762, MT6762D, MT6762M, MT6763, MT6765, MT6765T, MT6767, MT6768, MT6769, MT6769K, MT6769S, MT6769T, MT6769Z, MT6771, MT6779, MT6781, MT6783, MT6785, MT6785T, MT6785U, MT6789, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "Modem",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "Modem",
@@ -139,6 +146,7 @@
       "severity": "MEDIUM",
       "product": "MT2737, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6813, MT6833, MT6853, MT6855, MT6877, MT6878, MT6879, MT6880, MT6885, MT6886, MT6890, MT6893, MT6895, MT6897, MT6983, MT6985, MT6989, MT6990, MT6993, MT8169, MT8186, MT8188, MT8370, MT8390, MT8676, MT8678, MT8696, MT8793",
       "component": "preloader",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "preloader",
@@ -157,6 +165,7 @@
       "severity": "MEDIUM",
       "product": "MT7902, MT7920, MT7921, MT7922, MT7925, MT7927, MT8696",
       "component": "wlan",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "wlan",
@@ -175,6 +184,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6899, MT6991, MT8678, MT8793",
       "component": "MAE",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "MAE",
@@ -193,6 +203,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6899, MT6991, MT8168, MT8169, MT8186, MT8188, MT8678, MT8695, MT8696, MT8793",
       "component": "MAE",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "MAE",
@@ -211,6 +222,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6899, MT6991, MT8678, MT8793",
       "component": "imgsys",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "imgsys",
@@ -229,6 +241,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6899, MT6991, MT8678, MT8793",
       "component": "MAE",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "MAE",
@@ -247,6 +260,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6899, MT6991, MT8678, MT8793",
       "component": "MAE",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "MAE",
@@ -265,6 +279,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8186, MT8188, MT8196, MT8667, MT8673, MT8676, MT8678, MT8765, MT8766, MT8768, MT8771, MT8781, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8798, MT8873, MT8883",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -283,6 +298,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8186, MT8188, MT8196, MT8667, MT8673, MT8676, MT8678, MT8765, MT8766, MT8768, MT8771, MT8781, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8798, MT8873, MT8883",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -301,6 +317,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8186, MT8188, MT8196, MT8667, MT8673, MT8676, MT8678, MT8765, MT8766, MT8768, MT8771, MT8781, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8798, MT8873, MT8883",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -319,6 +336,7 @@
       "severity": "MEDIUM",
       "product": "MT6991, MT6993, MT8196, MT8678, MT8793",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -337,6 +355,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8196, MT8678, MT8793",
       "component": "display",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "display",
@@ -355,6 +374,7 @@
       "severity": "MEDIUM",
       "product": "MT6835, MT6855, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8188, MT8678, MT8755, MT8771, MT8797, MT8798",
       "component": "MDDP",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "MDDP",
@@ -373,6 +393,7 @@
       "severity": "MEDIUM",
       "product": "MT6991, MT6993, MT8188, MT8678",
       "component": "pcie",
+      "published_date": "2026-03-02",
       "exploitation": "none",
       "details": {
         "Subcomponent": "pcie",

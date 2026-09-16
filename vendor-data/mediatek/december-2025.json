@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8791T",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Reachable assertion in Modem",
@@ -31,6 +32,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Uncaught exception in Modem",
@@ -49,6 +51,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6813, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8673, MT8675, MT8676, MT8678, MT8755, MT8771, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Uncaught exception in Modem",
@@ -67,6 +70,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Null pointer dereference in Modem",
@@ -85,6 +89,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Null pointer dereference in Modem",
@@ -103,6 +108,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT8673, MT8675, MT8771, MT8791, MT8791T, MT8795T, MT8797, MT8798, MT8893",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds read in Modem",
@@ -121,6 +127,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6813, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8673, MT8675, MT8676, MT8678, MT8755, MT8771, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Uncaught exception in Modem",
@@ -139,6 +146,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Reachable assertion in Modem",
@@ -157,6 +165,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8673, MT8675, MT8676, MT8678, MT8755, MT8771, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Specified type in Modem",
@@ -175,6 +184,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6813, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8676, MT8791T",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Reachable assertion in Modem",
@@ -193,6 +203,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Reachable assertion in Modem",
@@ -211,6 +222,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in Modem",
@@ -229,6 +241,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6880, MT6883, MT6885, MT6889, MT6890, MT6891, MT6893, MT8675, MT8771, MT8791, MT8791T, MT8797",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Null pointer dereference in Modem",
@@ -247,6 +260,7 @@
       "severity": "MEDIUM",
       "product": "MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793, MT8796, MT8873, MT8893",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in mmdvfs",
@@ -265,6 +279,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793, MT8796, MT8873, MT8893",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in smi",
@@ -283,6 +298,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT2737, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6893, MT6895, MT6897, MT6899, MT6980D, MT6983, MT6985, MT6989, MT6990, MT6991, MT8113, MT8115, MT8139, MT8163, MT8168, MT8169, MT8183, MT8186, MT8188, MT8512, MT8516, MT8518, MT8519, MT8532, MT8676, MT8678, MT8695, MT8696, MT8698",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Double free in aee daemon",
@@ -301,6 +317,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Use of uninitialized variable in display",
@@ -319,6 +336,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in display",
@@ -337,6 +355,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds read in display",
@@ -355,6 +374,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in display",
@@ -373,6 +393,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in display",
@@ -391,6 +412,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Use of uninitialized variable in display",
@@ -409,6 +431,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Double free in display",
@@ -427,6 +450,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Double free in display",
@@ -445,6 +469,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8196, MT8676, MT8678, MT8792, MT8793",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in display",
@@ -463,6 +488,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8186, MT8188, MT8196, MT8667, MT8673, MT8676, MT8678, MT8765, MT8766, MT8768, MT8771, MT8781, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8798, MT8873, MT8883",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Double free in display",
@@ -481,6 +507,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8186, MT8188, MT8196, MT8667, MT8673, MT8676, MT8678, MT8765, MT8766, MT8768, MT8771, MT8781, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8798, MT8873, MT8883",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds read in display",
@@ -499,6 +526,7 @@
       "severity": "MEDIUM",
       "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8186, MT8188, MT8196, MT8667, MT8673, MT8676, MT8678, MT8765, MT8766, MT8768, MT8771, MT8781, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8798, MT8873, MT8883",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in display",
@@ -517,6 +545,7 @@
       "severity": "MEDIUM",
       "product": "MT6991, MT8196",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Improper access control for register interface in GPU pdma",
@@ -535,6 +564,7 @@
       "severity": "MEDIUM",
       "product": "MT6781, MT6833, MT6853, MT6877, MT6893, MT8196",
       "component": "",
+      "published_date": "2025-12-01",
       "exploitation": "none",
       "details": {
         "Title": "Information exposure through sent data in GPU pdma",

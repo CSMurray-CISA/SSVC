@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Steven Julian Impact high References Bug 2047339"
@@ -26,6 +27,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter devdharan9424@gmail.com Impact high References Bug 2056051"
@@ -39,6 +41,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2057121"
@@ -52,6 +55,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058064"
@@ -65,6 +69,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058065"
@@ -78,6 +83,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058066"
@@ -91,6 +97,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058067"
@@ -104,6 +111,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058068"
@@ -117,6 +125,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058069"
@@ -130,6 +139,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2058078"
@@ -143,6 +153,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Quy Pham Impact high References Bug 2060235"
@@ -156,6 +167,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Steven Julian Impact high References Bug 2060295"
@@ -169,6 +181,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2061245"
@@ -182,6 +195,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2061327"
@@ -195,6 +209,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2061777"
@@ -208,6 +223,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Quy Pham Impact high References Bug 2064287"
@@ -221,6 +237,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Shu Takahashi Impact high References Bug 2065636"
@@ -234,6 +251,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Rintaro Kawasugi Impact high References Bug 2066329"
@@ -247,6 +265,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Seohyeon Maeng Impact high References Bug 2068059"
@@ -260,6 +279,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068342"
@@ -273,6 +293,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068354"
@@ -286,6 +307,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068361"
@@ -299,6 +321,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068378"
@@ -312,6 +335,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068416"
@@ -325,6 +349,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068433"
@@ -338,6 +363,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068440"
@@ -351,6 +377,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068445"
@@ -364,6 +391,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068460"
@@ -377,6 +405,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact high References Bug 2068952"
@@ -390,6 +419,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter tiebuchen Impact moderate References Bug 2001265"
@@ -403,6 +433,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2024248"
@@ -416,6 +447,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Atsushi Sada Impact moderate References Bug 2029482"
@@ -429,6 +461,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2049342"
@@ -442,6 +475,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2050150"
@@ -455,6 +489,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Gee-netics Impact moderate References Bug 2051466"
@@ -468,6 +503,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2054622"
@@ -481,6 +517,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter anas cherni Impact moderate References Bug 2058417"
@@ -494,6 +531,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2058618"
@@ -507,6 +545,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2059021"
@@ -520,6 +559,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061235"
@@ -533,6 +573,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061295"
@@ -546,6 +587,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061387"
@@ -559,6 +601,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061393"
@@ -572,6 +615,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061499"
@@ -585,6 +629,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061503"
@@ -598,6 +643,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Amy Burnett of OpenAI Impact moderate References Bug 2062551"
@@ -611,6 +657,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Finn Westendorf Impact moderate References Bug 2063652"
@@ -624,6 +671,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter r00tdaddy Impact moderate References Bug 2065346"
@@ -637,6 +685,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Shu Takahashi Impact moderate References Bug 2065646"
@@ -650,6 +699,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Qi Qin Impact moderate References Bug 2067971"
@@ -663,6 +713,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2068437"
@@ -676,6 +727,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2068438"
@@ -689,6 +741,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact moderate References Bug 2068442"
@@ -702,6 +755,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2027336"
@@ -715,6 +769,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2041758"
@@ -728,6 +783,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2054670"
@@ -741,6 +797,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter He Huang Impact low References Bug 2055737"
@@ -754,6 +811,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2057990"
@@ -767,6 +825,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2058018"
@@ -780,6 +839,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2058093"
@@ -793,6 +853,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2058664"
@@ -806,6 +867,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2058790"
@@ -819,6 +881,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2059196"
@@ -832,6 +895,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mohamed Mbarek Impact low References Bug 2060220"
@@ -845,6 +909,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2061231"
@@ -858,6 +923,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2061257"
@@ -871,6 +937,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Tyler Maclachlan Impact low References Bug 2062527"
@@ -884,6 +951,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Finn Westendorf Impact low References Bug 2063539"
@@ -897,6 +965,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Takeshi Kaneko Impact low References Bug 2063814"
@@ -910,6 +979,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mozilla Impact low References Bug 2064026"
@@ -923,6 +993,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter sak Impact low References Bug 2064601"
@@ -936,6 +1007,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Dominik Bay Impact low References Bug 2066736"
@@ -949,6 +1021,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-90",
       "component": "",
+      "published_date": "September 15, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter barbarossa404 Impact low References Bug 2067531"

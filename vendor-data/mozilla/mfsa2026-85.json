@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter crixer Impact high References Bug 2039972"
@@ -26,6 +27,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter x0e Impact high References Bug 2057457"
@@ -39,6 +41,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2057817"
@@ -52,6 +55,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Ukyo Akai Impact high References Bug 2058911"
@@ -65,6 +69,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059018"
@@ -78,6 +83,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2059965"
@@ -91,6 +97,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2060047"
@@ -104,6 +111,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Hyeonjun Ahn Impact high References Bug 2061110"
@@ -117,6 +125,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2063871"
@@ -130,6 +139,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Tomoya Nakanishi Impact moderate References Bug 2021757"
@@ -143,6 +153,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Yaqoub Aldurayhim Impact moderate References Bug 2055028"
@@ -156,6 +167,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter 5up3rh3i Impact moderate References Bug 2057834"
@@ -169,6 +181,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter navapon Impact moderate References Bug 2060008"
@@ -182,6 +195,7 @@
       "severity": "MEDIUM",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Shu Takahashi Impact moderate References Bug 2063020"
@@ -195,6 +209,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter pakhunov.anton.n Impact low References Bug 2032388"
@@ -208,6 +223,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter 5up3rh3i Impact low References Bug 2044882"
@@ -221,6 +237,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Apentota Impact low References Bug 2048699"
@@ -234,6 +251,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Riski Muhammad Ivan Impact low References Bug 2051146"
@@ -247,6 +265,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Long Nguyen Impact low References Bug 2060153"
@@ -260,6 +279,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Mohamed Mbarek Impact low References Bug 2063780"
@@ -273,6 +293,7 @@
       "severity": "LOW",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter nguyentuanhung1149 Impact low References Bug 2063994"
@@ -286,6 +307,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Jan de Mooij, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154, Firefox ESR 153.1 and Firefox ESR 140.14. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 Moderate Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15 Low Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2 and Firefox ESR 140.15"
@@ -299,6 +321,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154 and Firefox ESR 153.1. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2 Moderate Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2 Low Severity internally found bugs fixed in Firefox 155 and Firefox ESR 153.2"
@@ -312,6 +335,7 @@
       "severity": "HIGH",
       "product": "Mozilla Foundation Security Advisory 2026-85",
       "component": "",
+      "published_date": "September 1, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter Leo Tenenbaum, Tom Ritter and the Mozilla Fuzzing Team Impact high Description Internally found bugs present in Firefox 154, Firefox ESR 153.1, Firefox ESR 140.14 and Firefox ESR 115.39. Some of these bugs showed evidence of memory corruption or another security-relevant defect and we presume that with enough effort some of these could have been exploited. References High Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 Moderate Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40 Low Severity internally found bugs fixed in Firefox 155, Firefox ESR 153.2, Firefox ESR 140.15 and Firefox ESR 115.40"

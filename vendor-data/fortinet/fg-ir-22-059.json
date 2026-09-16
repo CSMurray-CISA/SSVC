@@ -1,0 +1,21 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Vulnerability in OpenSSL library",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
+  "release_date": "Fri, 01 Apr 2022 00:00:00 -0700",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2022-0778",
+      "description": "<p> <strong> CVSSv3 Score: </strong> 7.5 </p> <p> A security advisory was released affecting the version of OpenSSL library used in some Fortinet products:CVE-2022-0778:The BN_mod_sqrt() function, which computes a modular square root, contains a bug that can cause it to loop forever for non-prime moduli. Internally this function is used when parsing certificates that contain elliptic curve public keys in compressed form or explicit elliptic curve parameters with a base point encoded in compressed form. It is possible to trigger the infinite loop by crafting a certificate that has invalid explicit curve parameters. Since certificate parsing happens prior to verification of the certificate signature, any process that parses an externally supplied certificate may thus be subject to a denial o",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "Vulnerability in OpenSSL library",
+      "component": "",
+      "published_date": "Fri, 01 Apr 2022 00:00:00 -0700",
+      "exploitation": "none",
+      "details": {}
+    }
+  ]
+}

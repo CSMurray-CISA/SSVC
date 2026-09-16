@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6813, MT6815, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8673, MT8675, MT8676, MT8678, MT8771, MT8791, MT8791T, MT8792, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-09-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in Modem",
@@ -32,6 +33,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6813, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8673, MT8675, MT8676, MT8678, MT8771, MT8791, MT8791T, MT8792, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-09-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds read in Modem",
@@ -51,6 +53,7 @@
       "severity": "HIGH",
       "product": "MT6813, MT6835, MT6835T, MT6878, MT6878M, MT6897, MT6899, MT6991, MT8676, MT8678, MT8792, MT8863, MT8873, MT8883",
       "component": "",
+      "published_date": "2025-09-01",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in Modem",
@@ -70,6 +73,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT2735, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6893, MT6895, MT6897, MT6899, MT6980D, MT6983, MT6985, MT6989, MT6990, MT6991, MT8169, MT8186, MT8188, MT8676, MT8678, MT8696, MT8775, MT8792, MT8796",
       "component": "",
+      "published_date": "2025-09-01",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in monitor_hang",
@@ -89,6 +93,7 @@
       "severity": "MEDIUM",
       "product": "MT6899, MT6989, MT6991, MT8676, MT8678",
       "component": "",
+      "published_date": "2025-09-01",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in mbrain",
@@ -108,6 +113,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6853, MT6877, MT6893, MT6899, MT6991, MT8196, MT8676, MT8678, MT8775, MT8786, MT8788E, MT8791T, MT8792, MT8796, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-09-01",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in geniezone",

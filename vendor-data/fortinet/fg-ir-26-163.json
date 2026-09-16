@@ -1,0 +1,21 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "HTTP/2 Bomb CVE-2026-49975",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-163",
+  "release_date": "Wed, 12 Aug 2026 00:00:00 -0700",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-49975",
+      "description": "<p> <strong> CVSSv3 Score: </strong> 5.8 </p> <p> CVE-2026-49975Memory Allocation with Excessive Size Value vulnerability in Apache HTTP Server's mod_http leads to denial of service via malicious HTTP requests. This issue affects Apache HTTP Server: from 2.4.17 through 2.4.67. </p> <p> <em> Revised on 2026-08-19 00:00:00 </em> </p>",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "HTTP/2 Bomb CVE-2026-49975",
+      "component": "",
+      "published_date": "Wed, 12 Aug 2026 00:00:00 -0700",
+      "exploitation": "none",
+      "details": {}
+    }
+  ]
+}

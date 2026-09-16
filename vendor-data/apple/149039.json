@@ -13,6 +13,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Safari 27",
       "component": "Safari",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: A malicious website may be able to determine what apps a user has installed Description: This issue was addressed through improved state management. CVE-2026-84518: Bálint Magyar (balintmagyar.com)"
@@ -26,6 +27,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Safari 27",
       "component": "Safe Browsing",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: An app may be able to access sensitive user data Description: This issue was addressed with additional entitlement checks. CVE-2026-86897: Stuart Wallace"
@@ -39,6 +41,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Safari 27",
       "component": "WebKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: Processing maliciously crafted web content may lead to an unexpected process termination Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 310457 CVE-2026-84635: Souta Sugiyama"
@@ -52,6 +55,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Safari 27",
       "component": "WebKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: Processing maliciously crafted web content may disclose sensitive user information Description: A permissions issue was addressed by removing the vulnerable code. WebKit Bugzilla: 315121 CVE-2026-64753: Viggo Lekdorf"
@@ -65,6 +69,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Safari 27",
       "component": "WebKit",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: Opening a maliciously crafted webarchive file may lead to universal cross-site scripting Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 318271 CVE-2026-86898: Tomi Garcia (archyxsec)"
@@ -78,6 +83,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Safari 27",
       "component": "WebKit Canvas",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: Processing maliciously crafted web content may lead to an unexpected Safari crash Description: A use-after-free issue was addressed with improved memory management. WebKit Bugzilla: 313935 CVE-2026-64718: Niels Hofmans, OGINOME Tomohito, an anonymous researcher Additional recognition"

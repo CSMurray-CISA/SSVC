@@ -13,6 +13,7 @@
       "severity": "UNKNOWN",
       "product": "About the security content of Xcode 27",
       "component": "Xcode IDE",
+      "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: macOS Tahoe 26.6 and later Impact: An app may be able to access user-sensitive data Description: A permissions issue was addressed with improved validation. CVE-2026-65393: Mickey Jin (@patch1t) Additional recognition"

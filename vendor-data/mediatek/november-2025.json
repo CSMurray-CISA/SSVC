@@ -13,6 +13,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6739, MT6761, MT6762, MT6762D, MT6762M, MT6763, MT6765, MT6765T, MT6767, MT6768, MT6769, MT6769K, MT6769S, MT6769T, MT6769Z, MT6771, MT6813, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8666, MT8667, MT8673, MT8675, MT8676, MT8678, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8786, MT8788, MT8788E, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in Modem",
@@ -31,6 +32,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6739, MT6761, MT6762, MT6762D, MT6762M, MT6763, MT6765, MT6765T, MT6767, MT6768, MT6769, MT6769K, MT6769S, MT6769T, MT6769Z, MT6771, MT6813, MT6833, MT6833P, MT6835, MT6835T, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6878, MT6878M, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6897, MT6899, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT6991, MT8666, MT8667, MT8673, MT8675, MT8676, MT8678, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8786, MT8788, MT8788E, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in Modem",
@@ -49,6 +51,7 @@
       "severity": "HIGH",
       "product": "MT2735, MT2737, MT6739, MT6761, MT6762, MT6762D, MT6762M, MT6763, MT6765, MT6765T, MT6767, MT6768, MT6769, MT6769K, MT6769S, MT6769T, MT6769Z, MT6771, MT6833, MT6833P, MT6853, MT6853T, MT6855, MT6855T, MT6873, MT6875, MT6875T, MT6877, MT6877T, MT6877TT, MT6879, MT6880, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6895TT, MT6896, MT6980, MT6980D, MT6983, MT6983T, MT6985, MT6985T, MT6989, MT6989T, MT6990, MT8666, MT8667, MT8673, MT8675, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8786, MT8788, MT8788E, MT8791, MT8791T, MT8795T, MT8797, MT8798, MT8893",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Out-of-bounds write in ims service",
@@ -67,6 +70,7 @@
       "severity": "HIGH",
       "product": "MT7902, MT7920, MT7921, MT7922, MT7925, MT7927",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -85,6 +89,7 @@
       "severity": "HIGH",
       "product": "MT2737, MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6990, MT6991, MT8188, MT8195, MT8676, MT8678, MT8696",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Improper authentication - generic in preloader",
@@ -103,6 +108,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -121,6 +127,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -139,6 +146,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -157,6 +165,7 @@
       "severity": "HIGH",
       "product": "MT7902, MT7920, MT7921, MT7922, MT7925, MT7927",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Time-of-check time-of-use (toctou) race condition in wlan",
@@ -175,6 +184,7 @@
       "severity": "HIGH",
       "product": "MT6890, MT7603, MT7615, MT7622, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -193,6 +203,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6761, MT6765, MT6768, MT6781, MT6853, MT6877, MT6886, MT6893, MT6897, MT6899, MT6983, MT6989, MT6991, MT8113, MT8163, MT8168, MT8169, MT8183, MT8186, MT8188, MT8195, MT8196, MT8321, MT8365, MT8385, MT8390, MT8391, MT8512, MT8516, MT8519, MT8676, MT8678, MT8695, MT8696, MT8698, MT8755, MT8766, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788E, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8873, MT8883, MT8893",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in clkdbg",
@@ -211,6 +222,7 @@
       "severity": "MEDIUM",
       "product": "MT6899, MT6991, MT8793",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in pda",
@@ -229,6 +241,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT6989, MT6991, MT8370, MT8390, MT8395, MT8676, MT8678, MT87920",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Use after free in apusys",
@@ -247,6 +260,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -265,6 +279,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -283,6 +298,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -301,6 +317,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -319,6 +336,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -337,6 +355,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -355,6 +374,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in wlan",
@@ -373,6 +393,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT2737, MT6835, MT6878, MT6886, MT6897, MT6899, MT6982, MT6985, MT6986, MT6986D, MT6989, MT6990, MT6991, MT8676, MT8678, MT8755, MT8893",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in gnss",
@@ -391,6 +412,7 @@
       "severity": "MEDIUM",
       "product": "MT2718, MT2737, MT6835, MT6878, MT6886, MT6897, MT6899, MT6982, MT6985, MT6986, MT6986D, MT6989, MT6990, MT6991, MT8676, MT8678, MT8755, MT8893",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in gnss",
@@ -409,6 +431,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Heap overflow in wlan",
@@ -427,6 +450,7 @@
       "severity": "MEDIUM",
       "product": "MT6890, MT7615, MT7622, MT7663, MT7915, MT7916, MT7981, MT7986",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Classic buffer overflow in wlan",
@@ -445,6 +469,7 @@
       "severity": "MEDIUM",
       "product": "MT6789, MT6835, MT6855, MT6878, MT6879, MT6886, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT8169, MT8188, MT8195, MT8196, MT8781, MT8796",
       "component": "",
+      "published_date": "2025-11-03",
       "exploitation": "none",
       "details": {
         "Title": "Stack overflow in charger",
