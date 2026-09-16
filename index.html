@@ -5,38 +5,117 @@
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <title>CISA SSVC Platform</title>
 <style>
-  :root { color-scheme: light dark; --bg:#0b0f14; --surface:#11161c; --border:#2b2f36; --text:#e8eaed; --active:#1565c0; }
-  * { box-sizing:border-box; }
-  html, body { height:100%; margin:0; }
-  body { display:flex; flex-direction:column; background:var(--bg); color:var(--text); font-family:system-ui,-apple-system,"Segoe UI",Arial,sans-serif; }
-  header { display:flex; align-items:center; gap:18px; padding:10px 16px; background:var(--surface); border-bottom:1px solid var(--border); }
-  h1 { margin:0; font-size:18px; white-space:nowrap; }
-  nav { display:flex; flex-wrap:wrap; gap:7px; }
-  nav button { padding:7px 14px; border:1px solid var(--border); border-radius:999px; background:transparent; color:inherit; cursor:pointer; font:inherit; }
-  nav button[aria-selected="true"] { background:var(--active); border-color:var(--active); color:#fff; }
-  main { position:relative; flex:1; min-height:0; }
-  iframe { position:absolute; inset:0; width:100%; height:100%; border:0; background:#fff; }
-  iframe[hidden] { display:none; }
-  @media (max-width:700px) { header { align-items:flex-start; flex-direction:column; gap:8px; } h1 { white-space:normal; } }
+  * { box-sizing: border-box; }
+
+  html,
+  body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+    background: #f8f9fa;
+  }
+
+  .platform-view {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    background: #f8f9fa;
+  }
+
+  .platform-view[hidden] {
+    display: none;
+  }
+
+  .platform-tabs {
+    position: fixed;
+    right: 16px;
+    bottom: 16px;
+    z-index: 10;
+    display: flex;
+    gap: 6px;
+    padding: 6px;
+    border: 1px solid rgba(255, 255, 255, 0.14);
+    border-radius: 999px;
+    background: rgba(17, 22, 28, 0.94);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.24);
+    backdrop-filter: blur(8px);
+  }
+
+  .platform-tabs button {
+    padding: 7px 13px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: transparent;
+    color: #e8eaed;
+    cursor: pointer;
+    font: 13px/1.2 system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    white-space: nowrap;
+  }
+
+  .platform-tabs button:hover {
+    background: rgba(255, 255, 255, 0.09);
+  }
+
+  .platform-tabs button:focus-visible {
+    outline: 2px solid #8ab4f8;
+    outline-offset: 2px;
+  }
+
+  .platform-tabs button[aria-selected="true"] {
+    border-color: #1565c0;
+    background: #1565c0;
+    color: #fff;
+  }
+
+  @media (max-width: 600px) {
+    .platform-tabs {
+      right: 8px;
+      bottom: 8px;
+      gap: 3px;
+      padding: 4px;
+    }
+
+    .platform-tabs button {
+      padding: 7px 10px;
+      font-size: 12px;
+    }
+  }
 </style>
 </head>
 <body>
-<header>
-  <h1>CISA SSVC Platform</h1>
-  <nav role="tablist" aria-label="Platform views">
+  <iframe
+    id="ssvcView"
+    class="platform-view"
+    title="SSVC Scoring"
+    src="ssvc-dashboard.html" hidden
+  ></iframe>
+  <iframe
+    id="dashboardView"
+    class="platform-view"
+    title="Vulnerability Dashboard"
+    src="vulnerability-dashboard.html"
+  ></iframe>
+
+  <nav class="platform-tabs" role="tablist" aria-label="Platform views">
     <button id="ssvcButton" role="tab" aria-selected="false" aria-controls="ssvcView">SSVC Scoring</button>
     <button id="dashboardButton" role="tab" aria-selected="true" aria-controls="dashboardView">Vulnerability Dashboard</button>
   </nav>
-</header>
-<main>
-  <iframe id="ssvcView" title="SSVC Scoring" src="ssvc-dashboard.html" hidden></iframe>
-  <iframe id="dashboardView" title="Vulnerability Dashboard" src="vulnerability-dashboard.html"></iframe>
-</main>
+
 <script>
   const views = {
-    ssvc: { button: document.getElementById("ssvcButton"), frame: document.getElementById("ssvcView") },
-    dashboard: { button: document.getElementById("dashboardButton"), frame: document.getElementById("dashboardView") }
+    ssvc: {
+      button: document.getElementById("ssvcButton"),
+      frame: document.getElementById("ssvcView")
+    },
+    dashboard: {
+      button: document.getElementById("dashboardButton"),
+      frame: document.getElementById("dashboardView")
+    }
   };
+
   function selectView(selected) {
     Object.entries(views).forEach(([name, view]) => {
       const active = name === selected;
@@ -44,6 +123,7 @@
       view.frame.hidden = !active;
     });
   }
+
   views.ssvc.button.addEventListener("click", () => selectView("ssvc"));
   views.dashboard.button.addEventListener("click", () => selectView("dashboard"));
 </script>

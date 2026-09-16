@@ -50,6 +50,17 @@
   .table-wrap { margin-top:10px; overflow:auto; border:1px solid var(--border); border-radius:6px; }
   table { width:100%; border-collapse:collapse; font-size:13px; }
   th, td { padding:8px; border-bottom:1px solid var(--border); white-space:nowrap; vertical-align:top; }
+  #grid.oracle-columns { table-layout:fixed; min-width:1400px; }
+  #grid.oracle-columns th:nth-child(1) { width:130px; }
+  #grid.oracle-columns th:nth-child(2) { width:95px; }
+  #grid.oracle-columns th:nth-child(4) { width:360px; }
+  #grid.oracle-columns th:nth-child(5) { width:60px; }
+  #grid.oracle-columns th:nth-child(6) { width:95px; }
+  #grid.oracle-columns th:nth-child(7) { width:85px; }
+  #grid.oracle-columns th:nth-child(8) { width:110px; }
+  #grid.oracle-columns th:nth-child(9) { width:105px; }
+  #grid.oracle-columns th:nth-child(10) { width:125px; }
+  #grid.oracle-columns tr.main-row td { overflow:hidden; text-overflow:ellipsis; }
   th { position:sticky; top:0; background:var(--surface); cursor:pointer; z-index:1; }
   tr:hover { background:var(--hover); }
   tr.main-row { cursor:pointer; }
@@ -648,6 +659,7 @@ function render() {
     COLS.forEach(c => {
       const td = document.createElement("td");
       const valx = r[c] || "";
+      if (activeVendor === "oracle" && valx) td.title = valx;
       if (c === "CVE-ID") {
         const a = document.createElement("span");
         a.className = "cve-link";
@@ -726,6 +738,7 @@ function switchVendor(vendor) {
   const microsoft = vendor === "microsoft";
   const extra = !!EXTRA_VENDORS[vendor];
   const exploited = vendor === "exploited";
+  $("#grid").classList.toggle("oracle-columns", oracle);
   ALL_VENDORS.forEach(v => $("#" + v + "Tab").setAttribute("aria-selected", String(v === vendor)));
   $("#microsoftInputs").classList.toggle("hidden", !microsoft);
   $("#oracleInputs").classList.toggle("hidden", !oracle);
