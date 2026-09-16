@@ -1,6 +1,6 @@
-# Multi-Vendor SSVC Scoring Dashboard
+# CISA SSVC Platform
 
-This keeps the existing Microsoft CVRF upload workflow and adds automatically refreshed advisory views for Oracle, Adobe, Apple, Cisco, Fortinet, MediaTek, Mozilla, Qualcomm, and SolarWinds.
+The platform combines the Vulnerability Dashboard with the multi-vendor SSVC scoring dashboard. The Vulnerability Dashboard is the final platform button and opens by default. The SSVC view keeps the existing Microsoft CVRF upload workflow and the automatically refreshed advisory views for Oracle, Adobe, Apple, Cisco, Fortinet, MediaTek, Mozilla, Qualcomm, and SolarWinds.
 
 The **Exploited** view cross-references parsed vendor CVEs with CISA's Known Exploited Vulnerabilities catalog. It shows the vendor's available CVSS/SSVC metrics together with the KEV date, remediation deadline, required action, ransomware-use field, and notes. Microsoft CVEs marked active in an uploaded CVRF file are also added while that browser session is open.
 
@@ -11,6 +11,8 @@ Every table includes a **Date** field. It uses the CVE-level publication/release
 Copy these items into the repository root:
 
 - `index.html`
+- `ssvc-dashboard.html`
+- `vulnerability-dashboard.html`
 - `scripts/update_oracle.py`
 - `scripts/update_vendors.py`
 - `requirements.txt`

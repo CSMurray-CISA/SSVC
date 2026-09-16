@@ -24,7 +24,7 @@ CVE_RE = re.compile(r"CVE-\d{4}-\d{4,7}", re.I)
 VECTOR_RE = re.compile(r"CVSS:[234]\.\d/[^\s<>()]+", re.I)
 SCORE_RE = re.compile(r"(?<!\d)(10\.0|[0-9](?:\.\d)?)(?!\d)")
 SESSION = requests.Session()
-SESSION.headers.update({"User-Agent": "Multi-Vendor-SSVC-Dashboard/2.0 (+GitHub Pages data refresh)"})
+SESSION.headers.update({"User-Agent": "CISA-SSVC-Platform/3.0 (+GitHub Pages data refresh)"})
 RSS_METADATA: dict[str, dict] = {}
 
 VENDORS = {
