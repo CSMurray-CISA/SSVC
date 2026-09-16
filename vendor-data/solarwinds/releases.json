@@ -1,1 +1,88 @@
-{"generated_at":"","vendor":"SolarWinds","source":"https://www.solarwinds.com/trust-center/security-advisories","releases":[],"warnings":["Waiting for the first successful SolarWinds refresh job."]}
+{
+  "generated_at": "2026-09-16T02:12:50.721265+00:00",
+  "vendor": "SolarWinds",
+  "source": "https://www.solarwinds.com/trust-center/security-advisories",
+  "releases": [
+    {
+      "id": "cve-2026-28323",
+      "title": "SolarWinds Web Help Desk SAML Authentication Bypass Vulnerability (CVE-2026-28323)",
+      "release_date": "07/23/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28323",
+      "data": "vendor-data/solarwinds/cve-2026-28323.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28309",
+      "title": "SolarWinds Serv-U Broken Access Control Vulnerability (CVE-2026-28309)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28309",
+      "data": "vendor-data/solarwinds/cve-2026-28309.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28315",
+      "title": "SolarWinds Serv-U Authenticated Stored Cross-site Scripting (XSS) Vulnerability (CVE-2026-28315)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28315",
+      "data": "vendor-data/solarwinds/cve-2026-28315.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28306",
+      "title": "SolarWinds Serv-U Privilege Escalation Vulnerability (CVE-2026-28306)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28306",
+      "data": "vendor-data/solarwinds/cve-2026-28306.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28308",
+      "title": "SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability (CVE-2026-28308)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28308",
+      "data": "vendor-data/solarwinds/cve-2026-28308.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28310",
+      "title": "SolarWinds Serv-U Privilege Escalation Vulnerability (CVE-2026-28310)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28310",
+      "data": "vendor-data/solarwinds/cve-2026-28310.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28314",
+      "title": "SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability (CVE-2026-28314)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28314",
+      "data": "vendor-data/solarwinds/cve-2026-28314.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28313",
+      "title": "SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability (CVE-2026-28313)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28313",
+      "data": "vendor-data/solarwinds/cve-2026-28313.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28307",
+      "title": "SolarWinds Serv-U Privilege Escalation Vulnerability (CVE-2026-28307)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28307",
+      "data": "vendor-data/solarwinds/cve-2026-28307.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28305",
+      "title": "SolarWinds Serv-U Insecure Direct Object Reference (IDOR) Vulnerability (CVE-2026-28305)",
+      "release_date": "07/21/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28305",
+      "data": "vendor-data/solarwinds/cve-2026-28305.json",
+      "count": 1
+    }
+  ],
+  "warnings": []
+}

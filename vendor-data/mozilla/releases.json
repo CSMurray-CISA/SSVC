@@ -1,1 +1,104 @@
-{"generated_at":"","vendor":"Mozilla","source":"https://www.mozilla.org/en-US/security/advisories/","releases":[],"warnings":["Waiting for the first successful Mozilla refresh job."]}
+{
+  "generated_at": "2026-09-16T02:12:45.533533+00:00",
+  "vendor": "Mozilla",
+  "source": "https://www.mozilla.org/en-US/security/advisories/",
+  "releases": [
+    {
+      "id": "mfsa2026-95",
+      "title": "Mozilla Foundation Security Advisory 2026-95",
+      "release_date": "September 15, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-95/",
+      "data": "vendor-data/mozilla/mfsa2026-95.json",
+      "count": 31
+    },
+    {
+      "id": "mfsa2026-94",
+      "title": "Mozilla Foundation Security Advisory 2026-94",
+      "release_date": "September 15, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-94/",
+      "data": "vendor-data/mozilla/mfsa2026-94.json",
+      "count": 75
+    },
+    {
+      "id": "mfsa2026-93",
+      "title": "Mozilla Foundation Security Advisory 2026-93",
+      "release_date": "September 15, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-93/",
+      "data": "vendor-data/mozilla/mfsa2026-93.json",
+      "count": 63
+    },
+    {
+      "id": "mfsa2026-92",
+      "title": "Mozilla Foundation Security Advisory 2026-92",
+      "release_date": "September 15, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-92/",
+      "data": "vendor-data/mozilla/mfsa2026-92.json",
+      "count": 28
+    },
+    {
+      "id": "mfsa2026-91",
+      "title": "Mozilla Foundation Security Advisory 2026-91",
+      "release_date": "September 15, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-91/",
+      "data": "vendor-data/mozilla/mfsa2026-91.json",
+      "count": 21
+    },
+    {
+      "id": "mfsa2026-90",
+      "title": "Mozilla Foundation Security Advisory 2026-90",
+      "release_date": "September 15, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-90/",
+      "data": "vendor-data/mozilla/mfsa2026-90.json",
+      "count": 73
+    },
+    {
+      "id": "mfsa2026-89",
+      "title": "Mozilla Foundation Security Advisory 2026-89",
+      "release_date": "September 8, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-89/",
+      "data": "vendor-data/mozilla/mfsa2026-89.json",
+      "count": 1
+    },
+    {
+      "id": "mfsa2026-88",
+      "title": "Mozilla Foundation Security Advisory 2026-88",
+      "release_date": "September 1, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-88/",
+      "data": "vendor-data/mozilla/mfsa2026-88.json",
+      "count": 29
+    },
+    {
+      "id": "mfsa2026-87",
+      "title": "Mozilla Foundation Security Advisory 2026-87",
+      "release_date": "September 1, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-87/",
+      "data": "vendor-data/mozilla/mfsa2026-87.json",
+      "count": 14
+    },
+    {
+      "id": "mfsa2026-86",
+      "title": "Mozilla Foundation Security Advisory 2026-86",
+      "release_date": "September 1, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-86/",
+      "data": "vendor-data/mozilla/mfsa2026-86.json",
+      "count": 30
+    },
+    {
+      "id": "mfsa2026-85",
+      "title": "Mozilla Foundation Security Advisory 2026-85",
+      "release_date": "September 1, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-85/",
+      "data": "vendor-data/mozilla/mfsa2026-85.json",
+      "count": 24
+    },
+    {
+      "id": "mfsa2026-84",
+      "title": "Mozilla Foundation Security Advisory 2026-84",
+      "release_date": "September 1, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-84/",
+      "data": "vendor-data/mozilla/mfsa2026-84.json",
+      "count": 11
+    }
+  ],
+  "warnings": []
+}
