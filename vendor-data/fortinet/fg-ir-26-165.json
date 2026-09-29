@@ -1,24 +1,24 @@
 {
   "vendor": "Fortinet",
   "vendor_id": "fortinet",
-  "title": "Vulnerability in OpenSSL library",
-  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
+  "title": "Arbitrary process termination from exposed minifilter communication port",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-165",
   "release_date": "",
   "vulnerabilities": [
     {
-      "cve": "CVE-2022-0778",
+      "cve": "CVE-2026-84386",
       "description": "CVE ID",
       "vector": "",
       "cvss": "",
       "severity": "UNKNOWN",
-      "product": "Vulnerability in OpenSSL library",
+      "product": "Arbitrary process termination from exposed minifilter communication port",
       "component": "",
       "published_date": "",
       "exploitation": "none",
       "details": {
         "source_row": [
           "CVE ID",
-          "CVE-2022-0778"
+          "CVE-2026-84386"
         ]
       }
     }

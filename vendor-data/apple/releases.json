@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-09-16T02:48:00.898831+00:00",
+  "generated_at": "2026-09-29T20:32:15.698270+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
+    {
+      "id": "149226",
+      "title": "About the security content of iOS 26.7.1 and iPadOS 26.7.1",
+      "release_date": "September 28, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149226",
+      "data": "vendor-data/apple/149226.json",
+      "count": 1
+    },
+    {
+      "id": "149228",
+      "title": "About the security content of macOS Tahoe 26.7.1",
+      "release_date": "September 28, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149228",
+      "data": "vendor-data/apple/149228.json",
+      "count": 1
+    },
+    {
+      "id": "149229",
+      "title": "About the security content of macOS Sequoia 15.8.1",
+      "release_date": "September 28, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149229",
+      "data": "vendor-data/apple/149229.json",
+      "count": 1
+    },
     {
       "id": "149034",
       "title": "About the security content of iOS 27 and iPadOS 27",
@@ -74,30 +98,6 @@
       "advisory_url": "https://support.apple.com/en-us/149039",
       "data": "vendor-data/apple/149039.json",
       "count": 6
-    },
-    {
-      "id": "149040",
-      "title": "About the security content of Xcode 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149040",
-      "data": "vendor-data/apple/149040.json",
-      "count": 1
-    },
-    {
-      "id": "148286",
-      "title": "About the security content of Safari 26.6.1",
-      "release_date": "August 18, 2026",
-      "advisory_url": "https://support.apple.com/en-us/148286",
-      "data": "vendor-data/apple/148286.json",
-      "count": 23
-    },
-    {
-      "id": "148282",
-      "title": "About the security content of iOS 26.6.1 and iPadOS 26.6.1",
-      "release_date": "August 17, 2026",
-      "advisory_url": "https://support.apple.com/en-us/148282",
-      "data": "vendor-data/apple/148282.json",
-      "count": 35
     }
   ],
   "warnings": [

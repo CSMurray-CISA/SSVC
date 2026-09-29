@@ -1,0 +1,295 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4/csaf/cisco-sa-ise-multiauth-bypass-sgD2HbL4.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ise-multiauth-bypass-sgD2HbL4%26vs_k=1",
+  "release_date": "2026-09-16T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76439",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "cvss": "5.3",
+      "severity": "MEDIUM",
+      "product": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+      "component": "",
+      "published_date": "2026-09-16T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-292424",
+              "CSAFPID-302648",
+              "CSAFPID-302650",
+              "CSAFPID-302652",
+              "CSAFPID-302772",
+              "CSAFPID-111903",
+              "CSAFPID-284330",
+              "CSAFPID-286349",
+              "CSAFPID-286928",
+              "CSAFPID-286939",
+              "CSAFPID-290540",
+              "CSAFPID-290542",
+              "CSAFPID-292629",
+              "CSAFPID-292670",
+              "CSAFPID-295313",
+              "CSAFPID-295423",
+              "CSAFPID-299948",
+              "CSAFPID-299950",
+              "CSAFPID-300260",
+              "CSAFPID-300852",
+              "CSAFPID-301107",
+              "CSAFPID-301471",
+              "CSAFPID-301743",
+              "CSAFPID-301744",
+              "CSAFPID-302653",
+              "CSAFPID-302654",
+              "CSAFPID-302655",
+              "CSAFPID-302760",
+              "CSAFPID-302991",
+              "CSAFPID-303023",
+              "CSAFPID-303199",
+              "CSAFPID-303301",
+              "CSAFPID-303899",
+              "CSAFPID-305299",
+              "CSAFPID-305360",
+              "CSAFPID-306464",
+              "CSAFPID-306583",
+              "CSAFPID-306647",
+              "CSAFPID-306842",
+              "CSAFPID-306843",
+              "CSAFPID-306844",
+              "CSAFPID-306924",
+              "CSAFPID-306925",
+              "CSAFPID-307060",
+              "CSAFPID-307182",
+              "CSAFPID-307183",
+              "CSAFPID-307184",
+              "CSAFPID-307185",
+              "CSAFPID-308420",
+              "CSAFPID-308530",
+              "CSAFPID-308531",
+              "CSAFPID-308532"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76444",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N",
+      "cvss": "5.3",
+      "severity": "MEDIUM",
+      "product": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+      "component": "",
+      "published_date": "2026-09-16T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-292424",
+              "CSAFPID-302772",
+              "CSAFPID-111903",
+              "CSAFPID-302760",
+              "CSAFPID-303199",
+              "CSAFPID-305360",
+              "CSAFPID-306583",
+              "CSAFPID-306647",
+              "CSAFPID-306844",
+              "CSAFPID-306925",
+              "CSAFPID-307182",
+              "CSAFPID-307184",
+              "CSAFPID-307185",
+              "CSAFPID-308532"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76446",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "4.9",
+      "severity": "MEDIUM",
+      "product": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+      "component": "",
+      "published_date": "2026-09-16T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-292424",
+              "CSAFPID-302648",
+              "CSAFPID-302650",
+              "CSAFPID-302652",
+              "CSAFPID-302772",
+              "CSAFPID-111903",
+              "CSAFPID-284330",
+              "CSAFPID-286349",
+              "CSAFPID-286928",
+              "CSAFPID-286939",
+              "CSAFPID-290540",
+              "CSAFPID-290542",
+              "CSAFPID-292629",
+              "CSAFPID-292670",
+              "CSAFPID-295313",
+              "CSAFPID-295423",
+              "CSAFPID-299948",
+              "CSAFPID-299950",
+              "CSAFPID-300260",
+              "CSAFPID-300852",
+              "CSAFPID-301107",
+              "CSAFPID-301471",
+              "CSAFPID-301743",
+              "CSAFPID-301744",
+              "CSAFPID-302653",
+              "CSAFPID-302654",
+              "CSAFPID-302655",
+              "CSAFPID-302760",
+              "CSAFPID-302991",
+              "CSAFPID-303023",
+              "CSAFPID-303199",
+              "CSAFPID-303301",
+              "CSAFPID-303899",
+              "CSAFPID-305299",
+              "CSAFPID-305360",
+              "CSAFPID-306464",
+              "CSAFPID-306583",
+              "CSAFPID-306647",
+              "CSAFPID-306842",
+              "CSAFPID-306843",
+              "CSAFPID-306844",
+              "CSAFPID-306924",
+              "CSAFPID-306925",
+              "CSAFPID-307060",
+              "CSAFPID-307182",
+              "CSAFPID-307183",
+              "CSAFPID-307184",
+              "CSAFPID-307185",
+              "CSAFPID-308420",
+              "CSAFPID-308530",
+              "CSAFPID-308531",
+              "CSAFPID-308532"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76447",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L",
+      "cvss": "5.3",
+      "severity": "MEDIUM",
+      "product": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
+      "component": "",
+      "published_date": "2026-09-16T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-292424",
+              "CSAFPID-302648",
+              "CSAFPID-302650",
+              "CSAFPID-302652",
+              "CSAFPID-302772",
+              "CSAFPID-111903",
+              "CSAFPID-284330",
+              "CSAFPID-286349",
+              "CSAFPID-286928",
+              "CSAFPID-286939",
+              "CSAFPID-290540",
+              "CSAFPID-290542",
+              "CSAFPID-292629",
+              "CSAFPID-292670",
+              "CSAFPID-295313",
+              "CSAFPID-295423",
+              "CSAFPID-299948",
+              "CSAFPID-299950",
+              "CSAFPID-300260",
+              "CSAFPID-300852",
+              "CSAFPID-301107",
+              "CSAFPID-301471",
+              "CSAFPID-301743",
+              "CSAFPID-301744",
+              "CSAFPID-302653",
+              "CSAFPID-302654",
+              "CSAFPID-302655",
+              "CSAFPID-302760",
+              "CSAFPID-302991",
+              "CSAFPID-303023",
+              "CSAFPID-303199",
+              "CSAFPID-303301",
+              "CSAFPID-303899",
+              "CSAFPID-305299",
+              "CSAFPID-305360",
+              "CSAFPID-306464",
+              "CSAFPID-306583",
+              "CSAFPID-306647",
+              "CSAFPID-306842",
+              "CSAFPID-306843",
+              "CSAFPID-306844",
+              "CSAFPID-306924",
+              "CSAFPID-306925",
+              "CSAFPID-307060",
+              "CSAFPID-307182",
+              "CSAFPID-307183",
+              "CSAFPID-307184",
+              "CSAFPID-307185",
+              "CSAFPID-308420",
+              "CSAFPID-308530",
+              "CSAFPID-308531",
+              "CSAFPID-308532"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

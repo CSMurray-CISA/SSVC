@@ -1,24 +1,24 @@
 {
   "vendor": "Fortinet",
   "vendor_id": "fortinet",
-  "title": "Vulnerability in OpenSSL library",
-  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
+  "title": "ZTNA Portal Improper Certificate Validation",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-174",
   "release_date": "",
   "vulnerabilities": [
     {
-      "cve": "CVE-2022-0778",
+      "cve": "CVE-2026-84393",
       "description": "CVE ID",
       "vector": "",
       "cvss": "",
       "severity": "UNKNOWN",
-      "product": "Vulnerability in OpenSSL library",
+      "product": "ZTNA Portal Improper Certificate Validation",
       "component": "",
       "published_date": "",
       "exploitation": "none",
       "details": {
         "source_row": [
           "CVE ID",
-          "CVE-2022-0778"
+          "CVE-2026-84393"
         ]
       }
     }

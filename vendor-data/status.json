@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-16T02:48:24.693382+00:00",
+  "generated_at": "2026-09-29T20:32:29.840516+00:00",
   "vendors": {
     "adobe": 12,
     "apple": 12,
     "cisco": 12,
-    "fortinet": 2,
+    "fortinet": 12,
     "mediatek": 12,
     "mozilla": 12,
     "qualcomm": 0,
-    "solarwinds": 10
+    "solarwinds": 9
   },
   "warnings": []
 }

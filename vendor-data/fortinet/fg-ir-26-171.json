@@ -1,24 +1,24 @@
 {
   "vendor": "Fortinet",
   "vendor_id": "fortinet",
-  "title": "Vulnerability in OpenSSL library",
-  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
+  "title": "Workflow session email approval process bypass",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-171",
   "release_date": "",
   "vulnerabilities": [
     {
-      "cve": "CVE-2022-0778",
+      "cve": "CVE-2026-22575",
       "description": "CVE ID",
       "vector": "",
       "cvss": "",
       "severity": "UNKNOWN",
-      "product": "Vulnerability in OpenSSL library",
+      "product": "Workflow session email approval process bypass",
       "component": "",
       "published_date": "",
       "exploitation": "none",
       "details": {
         "source_row": [
           "CVE ID",
-          "CVE-2022-0778"
+          "CVE-2026-22575"
         ]
       }
     }
