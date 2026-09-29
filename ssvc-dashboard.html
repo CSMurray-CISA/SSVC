@@ -47,6 +47,8 @@
   .NONE { background:#607d8b; color:#fff; }
   .POC { background:#f9a825; color:#111; }
   .ACTIVE { background:#c62828; color:#fff; }
+  .CHECKING { background:#5c6bc0; color:#fff; }
+  .UNAVAILABLE { background:#8d6e63; color:#fff; }
   .table-wrap { margin-top:10px; overflow:auto; border:1px solid var(--border); border-radius:6px; }
   table { width:100%; border-collapse:collapse; font-size:13px; }
   th, td { padding:8px; border-bottom:1px solid var(--border); white-space:nowrap; vertical-align:top; }
@@ -136,7 +138,7 @@
     </div>
   </div>
   <div class="source-note muted hidden" id="exploitedInputs">
-    CVEs from the vendor advisories that also appear in CISA's Known Exploited Vulnerabilities catalog.
+    CVEs from the vendor advisories, compared with CISA's Known Exploited Vulnerabilities catalog loaded once when this page opened.
     <a href="https://www.cisa.gov/known-exploited-vulnerabilities-catalog" target="_blank" rel="noopener">View CISA KEV</a>
   </div>
   <div class="controls">
@@ -209,6 +211,8 @@ const COLS = [
   "CVE-ID","Date","Description","CVSS Vector","CVSS","Severity","Impact",
   "Automatable","Exploitation","Internet Exposed"
 ];
+const EXPLOITED_COLS = [...COLS, "CISA KEV"];
+const CISA_KEV_URL = "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json";
 let rows = [], filtered = [], sortCol = "CVSS", sortDir = -1, openCve = null;
 const EXTRA_VENDORS = {
   adobe:{name:"Adobe"}, apple:{name:"Apple"}, cisco:{name:"Cisco"}, fortinet:{name:"Fortinet"},
@@ -218,8 +222,69 @@ const ALL_VENDORS = ["microsoft","oracle",...Object.keys(EXTRA_VENDORS),"exploit
 let activeVendor = "microsoft", oracleManifest = null;
 const vendorManifests = {};
 const vendorRows = Object.fromEntries(ALL_VENDORS.map(v => [v, []]));
+const kevByCve = new Map();
+let kevStatus = "loading", kevError = "", kevLoadPromise = null;
 const $ = s => document.querySelector(s);
 const $head = $("#grid thead"), $body = $("#grid tbody");
+
+function visibleCols() {
+  return activeVendor === "exploited" ? EXPLOITED_COLS : COLS;
+}
+function normalizeCve(cve) {
+  return String(cve || "").trim().toUpperCase();
+}
+function applyKevComparison(data) {
+  data.forEach(row => {
+    const match = kevByCve.get(normalizeCve(row["CVE-ID"]));
+    row["CISA KEV"] = kevStatus === "loading" ? "Checking" :
+      kevStatus === "error" ? "Unavailable" : match ? "Yes" : "No";
+    if (match) row._kev = match;
+  });
+  return data;
+}
+function exploitedStatusMessage() {
+  const matches = vendorRows.exploited.filter(row => row["CISA KEV"] === "Yes").length;
+  const kevNote = kevStatus === "loading" ? " CISA KEV comparison is still loading." :
+    kevStatus === "error" ? ` CISA KEV comparison unavailable: ${kevError}.` :
+    ` ${matches} currently appear in CISA KEV.`;
+  return `Loaded ${vendorRows.exploited.length} exploited CVEs.${kevNote}`;
+}
+function loadCisaKevOnce() {
+  if (kevLoadPromise) return kevLoadPromise;
+  kevLoadPromise = fetch(CISA_KEV_URL, { cache: "no-store" })
+    .then(res => {
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      return res.json();
+    })
+    .then(json => {
+      kevByCve.clear();
+      (json.vulnerabilities || []).forEach(item => {
+        const cve = normalizeCve(item.cveID || item.cveId || item.cve);
+        if (cve) kevByCve.set(cve, item);
+      });
+      kevStatus = "ready";
+      applyKevComparison(vendorRows.exploited);
+      if (activeVendor === "exploited") {
+        applyFilters();
+        if (vendorRows.exploited.length) $("#msg").textContent = exploitedStatusMessage();
+      }
+      return kevByCve;
+    })
+    .catch(err => {
+      kevStatus = "error";
+      kevError = err.message || String(err);
+      applyKevComparison(vendorRows.exploited);
+      if (activeVendor === "exploited") {
+        applyFilters();
+        if (vendorRows.exploited.length) $("#msg").textContent = exploitedStatusMessage();
+      }
+      return kevByCve;
+    });
+  return kevLoadPromise;
+}
+
+// Start the one and only CISA KEV request as soon as the page script loads.
+loadCisaKevOnce();
 
 $("#loadBtn").onclick = loadFiles;
 $("#microsoftTab").onclick = () => switchVendor("microsoft");
@@ -511,7 +576,7 @@ function mergeEnrichment(base, recs) {
 function buildHeader() {
   $head.innerHTML = "";
   const tr = document.createElement("tr");
-  COLS.forEach(c => {
+  visibleCols().forEach(c => {
     const th = document.createElement("th");
     th.textContent = c;
     th.onclick = () => { sortDir = sortCol === c ? -sortDir : 1; sortCol = c; render(); };
@@ -533,7 +598,7 @@ function applyFilters() {
     if (ie && r["Internet Exposed"] !== ie) return false;
     if (product && ![...(r._families || []), ...(r._products || [])].includes(product)) return false;
     if (q) {
-      const hay = COLS.map(c => (r[c] || "").toLowerCase()).concat(r._products || [], r._families || []).join("\u0000").toLowerCase();
+      const hay = visibleCols().map(c => (r[c] || "").toLowerCase()).concat(r._products || [], r._families || []).join("\u0000").toLowerCase();
       if (!hay.includes(q)) return false;
     }
     return true;
@@ -644,6 +709,7 @@ function escHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
 }
 function render() {
+  const columns = visibleCols();
   filtered.sort((x, y) => {
     if (sortCol === "CVSS") return (parseFloat(x.CVSS || 0) - parseFloat(y.CVSS || 0)) * sortDir;
     return String(x[sortCol] || "").localeCompare(String(y[sortCol] || "")) * sortDir;
@@ -656,7 +722,7 @@ function render() {
       openCve = openCve === r["CVE-ID"] ? null : r["CVE-ID"];
       render();
     };
-    COLS.forEach(c => {
+    columns.forEach(c => {
       const td = document.createElement("td");
       const valx = r[c] || "";
       if (activeVendor === "oracle" && valx) td.title = valx;
@@ -668,7 +734,7 @@ function render() {
       } else if (c === "CVSS Vector") {
         td.className = "vector";
         td.textContent = valx;
-      } else if (["Severity","Impact","Automatable","Internet Exposed","Exploitation"].includes(c) && valx) {
+      } else if (["Severity","Impact","Automatable","Internet Exposed","Exploitation","CISA KEV"].includes(c) && valx) {
         const b = document.createElement("span");
         b.className = "badge " + String(valx).toUpperCase();
         b.textContent = valx;
@@ -680,7 +746,7 @@ function render() {
     if (openCve === r["CVE-ID"]) {
       const dr = document.createElement("tr");
       const td = document.createElement("td");
-      td.colSpan = COLS.length;
+      td.colSpan = columns.length;
       td.className = "detail";
       td.innerHTML = detailHtml(r);
       dr.appendChild(td);
@@ -693,7 +759,8 @@ function render() {
 }
 function toCSV(data) {
   const esc = v => { const s = String(v ?? ""); return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s; };
-  return [COLS.join(",")].concat(data.map(r => COLS.map(c => esc(r[c])).join(","))).join("\n");
+  const columns = visibleCols();
+  return [columns.join(",")].concat(data.map(r => columns.map(c => esc(r[c])).join(","))).join("\n");
 }
 function dl(name, blob) {
   const url = URL.createObjectURL(blob);
@@ -708,12 +775,14 @@ function exportStem() {
 }
 function dlCSV(data) { dl(exportStem() + ".csv", new Blob([toCSV(data)], { type: "text/csv" })); }
 function dlJSON(data) {
-  const clean = data.map(r => { const o = {}; COLS.forEach(c => o[c] = r[c]); return o; });
+  const columns = visibleCols();
+  const clean = data.map(r => { const o = {}; columns.forEach(c => o[c] = r[c]); return o; });
   dl(exportStem() + ".json", new Blob([JSON.stringify(clean, null, 2)], { type: "application/json" }));
 }
 function dlXLS(data) {
-  let html = "<table><tr>" + COLS.map(c => `<th>${c}</th>`).join("") + "</tr>";
-  data.forEach(r => { html += "<tr>" + COLS.map(c => `<td>${r[c] || ""}</td>`).join("") + "</tr>"; });
+  const columns = visibleCols();
+  let html = "<table><tr>" + columns.map(c => `<th>${c}</th>`).join("") + "</tr>";
+  data.forEach(r => { html += "<tr>" + columns.map(c => `<td>${r[c] || ""}</td>`).join("") + "</tr>"; });
   dl(exportStem() + ".xls", new Blob([html + "</table>"], { type: "application/vnd.ms-excel" }));
 }
 async function loadFiles() {
@@ -866,12 +935,13 @@ async function loadExploited() {
     for (const row of vendorRows.microsoft.filter(r => r.Exploitation === "active")) {
       if (!seen.has(row["CVE-ID"])) vendorRows.exploited.push(row);
     }
+    applyKevComparison(vendorRows.exploited);
     if (activeVendor !== "exploited") return;
     rows = vendorRows.exploited;
     openCve = null;
     buildHeader();
     applyFilters();
-    $("#msg").textContent = `Loaded ${rows.length} CISA KEV entries found across the vendor advisories.`;
+    $("#msg").textContent = exploitedStatusMessage();
   } catch (err) {
     if (activeVendor !== "exploited") return;
     rows = vendorRows.exploited = [];
