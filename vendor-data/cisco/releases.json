@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-09-30T12:38:03.839879+00:00",
+  "generated_at": "2026-10-01T13:20:10.918759+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-sdwan-webauth-xr8beuuu.json",
+      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
+      "release_date": "2026-09-30T13:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU/csaf/cisco-sa-sdwan-webauth-xr8beuuU.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-sdwan-webauth-xr8beuuU%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-sdwan-webauth-xr8beuuu.json.json",
+      "count": 1
+    },
     {
       "id": "cisco-sa-ise-multiauth-bypass-sgd2hbl4.json",
       "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
@@ -90,17 +98,9 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX/csaf/cisco-sa-esa-inj-2bLVGmhX.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-esa-inj-2bLVGmhX%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-esa-inj-2blvgmhx.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-fmc-static-cred-bet3cjh.json",
-      "title": "Cisco Secure Firewall Management Center Software Static Credential Vulnerability",
-      "release_date": "2026-07-29T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-fmc-static-cred-BET3Cjh/csaf/cisco-sa-fmc-static-cred-BET3Cjh.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-fmc-static-cred-BET3Cjh%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-fmc-static-cred-bet3cjh.json.json",
-      "count": 1
     }
   ],
   "warnings": [
-    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-jfxK98ZP/csaf/cisco-sa-notice-jfxK98ZP.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-jfxK98ZP%26vs_k=1: no CVE records found"
+    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-fBn58ELx/csaf/cisco-sa-notice-fBn58ELx.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-fBn58ELx%26vs_k=1: no CVE records found"
   ]
 }
