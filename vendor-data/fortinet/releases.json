@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-01T13:20:11.504164+00:00",
+  "generated_at": "2026-10-02T12:39:17.725367+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
+    {
+      "id": "fg-ir-26-175",
+      "title": "Improper limitation of a pathname to a restricted directory",
+      "release_date": "",
+      "advisory_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+      "data": "vendor-data/fortinet/fg-ir-26-175.json",
+      "count": 1
+    },
     {
       "id": "fg-ir-26-165",
       "title": "Arbitrary process termination from exposed minifilter communication port",
@@ -89,14 +97,6 @@
       "release_date": "",
       "advisory_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-174",
       "data": "vendor-data/fortinet/fg-ir-26-174.json",
-      "count": 1
-    },
-    {
-      "id": "fg-ir-22-059",
-      "title": "Vulnerability in OpenSSL library",
-      "release_date": "",
-      "advisory_url": "https://fortiguard.fortinet.com/psirt/FG-IR-22-059",
-      "data": "vendor-data/fortinet/fg-ir-22-059.json",
       "count": 1
     }
   ],

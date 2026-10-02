@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Improper limitation of a pathname to a restricted directory",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-104286",
+      "description": "CVE ID",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "Improper limitation of a pathname to a restricted directory",
+      "component": "",
+      "published_date": "",
+      "exploitation": "active",
+      "details": {
+        "source_row": [
+          "CVE ID",
+          "CVE-2026-104286"
+        ]
+      },
+      "kev": {
+        "cveID": "CVE-2026-104286",
+        "vendorProject": "Fortinet",
+        "product": "FortiMail",
+        "vulnerabilityName": "Fortinet FortiMail Path Traversal Vulnerability",
+        "dateAdded": "2026-10-01",
+        "shortDescription": "Fortinet FortiMail contains a path traversal and an improper neutralization of NULL byte or NULL character vulnerability that may allow an unauthenticated attacker to write arbitrary files on the underlying system via crafted HTTP or HTTPS requests.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-10-04",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "Yes",
+        "notes": "https://fortiguard.fortinet.com/psirt/FG-IR-26-175 ; ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-104286",
+        "cwes": [
+          "CWE-22",
+          "CWE-158"
+        ]
+      }
+    }
+  ]
+}
