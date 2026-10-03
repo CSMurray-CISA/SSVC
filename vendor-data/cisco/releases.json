@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:39:15.514534+00:00",
+  "generated_at": "2026-10-03T11:42:25.205675+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
@@ -10,6 +10,14 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU/csaf/cisco-sa-sdwan-webauth-xr8beuuU.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-sdwan-webauth-xr8beuuU%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-sdwan-webauth-xr8beuuu.json.json",
       "count": 1
+    },
+    {
+      "id": "cisco-sa-hardening-iosxe-v8nmumzj.json",
+      "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
+      "release_date": "2026-08-05T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ/csaf/cisco-sa-hardening-iosxe-V8NMuMZJ.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-iosxe-V8NMuMZJ%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-iosxe-v8nmumzj.json.json",
+      "count": 7
     },
     {
       "id": "cisco-sa-ise-multiauth-bypass-sgd2hbl4.json",
@@ -90,14 +98,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM/csaf/cisco-sa-hardening-iosxr-qg64NcM.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-iosxr-qg64NcM%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-hardening-iosxr-qg64ncm.json.json",
       "count": 7
-    },
-    {
-      "id": "cisco-sa-esa-inj-2blvgmhx.json",
-      "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
-      "release_date": "2026-09-14T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX/csaf/cisco-sa-esa-inj-2bLVGmhX.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-esa-inj-2bLVGmhX%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-esa-inj-2blvgmhx.json.json",
-      "count": 1
     }
   ],
   "warnings": [

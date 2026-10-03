@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02T12:39:14.902319+00:00",
+  "generated_at": "2026-10-03T11:42:38.973782+00:00",
   "source": "https://www.oracle.com/security-alerts/",
   "releases": [
     {
@@ -57,15 +57,6 @@
       "data": "oracle-data/CPUJan2026csaf.json"
     },
     {
-      "id": "CPUOct2025csaf",
-      "title": "Oracle Critical Patch Update Advisory - October 2025",
-      "release_date": "2025-10-21T13:00:00-07:00",
-      "updated": "2025-10-20T13:00:00-07:00",
-      "advisory_url": "https://www.oracle.com/security-alerts/cpuoct2025.html",
-      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuoct2025csaf.json",
-      "data": "oracle-data/CPUOct2025csaf.json"
-    },
-    {
       "id": "CPUJul2025csaf",
       "title": "Oracle Critical Patch Update Advisory - July 2025",
       "release_date": "2025-07-15T13:00:00-07:00",
@@ -82,19 +73,12 @@
       "advisory_url": "https://www.oracle.com/security-alerts/cpuapr2025.html",
       "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuapr2025csaf.json",
       "data": "oracle-data/CPUApr2025csaf.json"
-    },
-    {
-      "id": "CPUJan2025csaf",
-      "title": "Oracle Critical Patch Update Advisory - January 2025",
-      "release_date": "2025-01-21T13:00:00-07:00",
-      "updated": "2025-02-11T15:00:00-07:00",
-      "advisory_url": "https://www.oracle.com/security-alerts/cpujan2025.html",
-      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpujan2025csaf.json",
-      "data": "oracle-data/CPUJan2025csaf.json"
     }
   ],
   "warnings": [
     "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte",
+    "https://www.oracle.com/security-alerts/cpuoct2025.html: Failed to download https://www.oracle.com/docs/tech/security-alerts/cpuoct2025csaf.json: HTTP Error 404: Not Found",
+    "https://www.oracle.com/security-alerts/cpujan2025.html: Failed to download https://www.oracle.com/docs/tech/security-alerts/cpujan2025csaf.json: HTTP Error 404: Not Found",
     "https://www.oracle.com/security-alerts/cpuoct2024.html: 'utf-8' codec can't decode byte 0xed in position 713134: invalid continuation byte"
   ]
 }
