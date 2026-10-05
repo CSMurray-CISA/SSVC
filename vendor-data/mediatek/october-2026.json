@@ -1,0 +1,600 @@
+{
+  "vendor": "MediaTek",
+  "vendor_id": "mediatek",
+  "title": "October 2026 Product Security Bulletin",
+  "source_url": "https://www.mediatek.com/product-security-bulletin/October-2026",
+  "release_date": "2026-10-05",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20519",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "CRITICAL",
+      "product": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8695, MT8696, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Critical",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8695, MT8696, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20520",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "CRITICAL",
+      "product": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8695, MT8696, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Critical",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8695, MT8696, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20586",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+      "component": "vdec",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "vdec",
+        "Severity": "High",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20589",
+      "description": "There is a possible out of bounds write due to type confusion.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+      "component": "venc",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "venc",
+        "Severity": "High",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to type confusion.",
+        "Affected Chipsets": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20521",
+      "description": "There is a possible escalation of privilege due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT2718, MT6768, MT6769, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6858, MT6877, MT6878, MT6879, MT6881, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8126, MT8171, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8695, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+      "component": "Video HAL",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Video HAL",
+        "Severity": "High",
+        "CWE": "CWE-121 Stack-based Buffer Overflow",
+        "Description": "There is a possible escalation of privilege due to a missing bounds check.",
+        "Affected Chipsets": "MT2718, MT6768, MT6769, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6858, MT6877, MT6878, MT6879, MT6881, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8126, MT8171, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8695, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20522",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6881, MT6993, MT8188, MT8189, MT8668, MT8781, MT8875, MT8910",
+      "component": "neuropilot",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "neuropilot",
+        "Severity": "High",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT6881, MT6993, MT8188, MT8189, MT8668, MT8781, MT8875, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20523",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6881, MT6993, MT8188, MT8189, MT8668, MT8781, MT8793, MT8875, MT8910",
+      "component": "neuropilot",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "neuropilot",
+        "Severity": "High",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT6881, MT6993, MT8188, MT8189, MT8668, MT8781, MT8793, MT8875, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20524",
+      "description": "There is a possible memory corruption due to improper input validation.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT6899, MT6993, MT8668, MT8781, MT8793, MT8910",
+      "component": "apu",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "apu",
+        "Severity": "High",
+        "CWE": "CWE-1285 Improper Validation of Specified Index, Position, or Offset in Input",
+        "Description": "There is a possible memory corruption due to improper input validation.",
+        "Affected Chipsets": "MT6899, MT6993, MT8668, MT8781, MT8793, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20525",
+      "description": "There is a possible system crash due to improper input validation.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT2716, MT6835, MT6858, MT6878, MT6881, MT6897, MT6899, MT6982, MT6986, MT6988, MT6991, MT6993, MT8668, MT8676, MT8678, MT8755, MT8775, MT8792, MT8793, MT8863, MT8873, MT8883",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "High",
+        "CWE": "CWE-617 Reachable Assertion",
+        "Description": "There is a possible system crash due to improper input validation.",
+        "Affected Chipsets": "MT2716, MT6835, MT6858, MT6878, MT6881, MT6897, MT6899, MT6982, MT6986, MT6988, MT6991, MT6993, MT8668, MT8676, MT8678, MT8755, MT8775, MT8792, MT8793, MT8863, MT8873, MT8883",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20526",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "High",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20527",
+      "description": "There is a possible system crash due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "High",
+        "CWE": "CWE-129 Improper Validation of Array Index",
+        "Description": "There is a possible system crash due to a missing bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8668, MT8676, MT8678, MT8755, MT8771, MT8775, MT8791, MT8791T, MT8792, MT8793, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20579",
+      "description": "There is a possible out of bounds write due to type confusion.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+      "component": "vdec",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "vdec",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to type confusion.",
+        "Affected Chipsets": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20587",
+      "description": "There is a possible escalation of privilege due to type confusion.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+      "component": "mtee",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "mtee",
+        "Severity": "Medium",
+        "CWE": "CWE-843 Access of Resource Using Incompatible Type ('Type Confusion')",
+        "Description": "There is a possible escalation of privilege due to type confusion.",
+        "Affected Chipsets": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20588",
+      "description": "There is a possible escalation of privilege due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+      "component": "mtee",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "mtee",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible escalation of privilege due to a missing bounds check.",
+        "Affected Chipsets": "MT2718, MT6768, MT6769, MT6789, MT6833, MT6855, MT6877, MT8186, MT8188, MT8189, MT8195, MT8196, MT8367, MT8391, MT8395, MT8668, MT8676, MT8678, MT8696, MT8781, MT8788E, MT8792, MT8793, MT8799, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20544",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6739, MT6761, MT6765, MT6768, MT6769, MT6781, MT6789, MT6835, MT6853, MT6855, MT6858, MT6877, MT6878, MT6879, MT6881, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8126, MT8171, MT8188, MT8189, MT8195, MT8196, MT8367, MT8370, MT8390, MT8391, MT8668, MT8676, MT8678, MT8755, MT8766, MT8768, MT8775, MT8781, MT8786, MT8788, MT8791, MT8792, MT8793, MT8798, MT8799, MT8863, MT8873, MT8875, MT8883, MT8893, MT8910",
+      "component": "meta",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "meta",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT6739, MT6761, MT6765, MT6768, MT6769, MT6781, MT6789, MT6835, MT6853, MT6855, MT6858, MT6877, MT6878, MT6879, MT6881, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8126, MT8171, MT8188, MT8189, MT8195, MT8196, MT8367, MT8370, MT8390, MT8391, MT8668, MT8676, MT8678, MT8755, MT8766, MT8768, MT8775, MT8781, MT8786, MT8788, MT8791, MT8792, MT8793, MT8798, MT8799, MT8863, MT8873, MT8875, MT8883, MT8893, MT8910",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20528",
+      "description": "There is a possible out of bounds write and read due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2735, MT2737, MT6813, MT6880, MT6890, MT6980D, MT6986, MT6986D, MT6988, MT6990",
+      "component": "ccci",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "ccci",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write and read due to a missing bounds check.",
+        "Affected Chipsets": "MT2735, MT2737, MT6813, MT6880, MT6890, MT6980D, MT6986, MT6986D, MT6988, MT6990",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20529",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6761, MT6765, MT6768, MT6781, MT6853, MT6858, MT6881, MT6893, MT6989, MT6991, MT6993, MT8171, MT8186, MT8188, MT8189, MT8196, MT8766, MT8768, MT8775, MT8781, MT8788E, MT8791T, MT8792, MT8796, MT8799, MT8883, MT8893, MT8910",
+      "component": "battery",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "battery",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT6761, MT6765, MT6768, MT6781, MT6853, MT6858, MT6881, MT6893, MT6989, MT6991, MT6993, MT8171, MT8186, MT8188, MT8189, MT8196, MT8766, MT8768, MT8775, MT8781, MT8788E, MT8791T, MT8792, MT8796, MT8799, MT8883, MT8893, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20530",
+      "description": "There is a possible out of bounds write due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2718, MT6991, MT6993, MT8126, MT8171, MT8188, MT8189, MT8196, MT8668, MT8678, MT8793",
+      "component": "display",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "display",
+        "Severity": "Medium",
+        "CWE": "CWE-787 Out-of-bounds Write",
+        "Description": "There is a possible out of bounds write due to a missing bounds check.",
+        "Affected Chipsets": "MT2718, MT6991, MT6993, MT8126, MT8171, MT8188, MT8189, MT8196, MT8668, MT8678, MT8793",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20531",
+      "description": "There is a possible memory corruption due to use after free.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6899, MT6993, MT8668, MT8781, MT8793, MT8910",
+      "component": "apu",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "apu",
+        "Severity": "Medium",
+        "CWE": "CWE-416 Use After Free",
+        "Description": "There is a possible memory corruption due to use after free.",
+        "Affected Chipsets": "MT6899, MT6993, MT8668, MT8781, MT8793, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20532",
+      "description": "There is a possible application crash due to double free.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6899, MT6993, MT8668, MT8781, MT8910",
+      "component": "apu",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "apu",
+        "Severity": "Medium",
+        "CWE": "CWE-415 Double Free",
+        "Description": "There is a possible application crash due to double free.",
+        "Affected Chipsets": "MT6899, MT6993, MT8668, MT8781, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20533",
+      "description": "There is a possible escalation of privilege due to an integer overflow.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6858, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8171, MT8188, MT8668, MT8676, MT8678, MT8793",
+      "component": "display",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "display",
+        "Severity": "Medium",
+        "CWE": "CWE-190 Integer Overflow or Wraparound",
+        "Description": "There is a possible escalation of privilege due to an integer overflow.",
+        "Affected Chipsets": "MT6739, MT6761, MT6765, MT6768, MT6781, MT6789, MT6833, MT6835, MT6853, MT6855, MT6858, MT6877, MT6878, MT6879, MT6883, MT6885, MT6886, MT6889, MT6893, MT6895, MT6897, MT6899, MT6983, MT6985, MT6989, MT6991, MT6993, MT8171, MT8188, MT8668, MT8676, MT8678, MT8793",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20534",
+      "description": "There is a possible out of bounds read due to an incorrect bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Medium",
+        "CWE": "CWE-125 Out-of-bounds Read",
+        "Description": "There is a possible out of bounds read due to an incorrect bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20535",
+      "description": "There is a possible escalation of privilege due to a missing permission check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6878, MT6881, MT6899, MT6989, MT6991, MT6993, MT8188, MT8189, MT8668, MT8781, MT8793, MT8910",
+      "component": "aidl",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "aidl",
+        "Severity": "Medium",
+        "CWE": "CWE-862 Missing Authorization",
+        "Description": "There is a possible escalation of privilege due to a missing permission check.",
+        "Affected Chipsets": "MT6878, MT6881, MT6899, MT6989, MT6991, MT6993, MT8188, MT8189, MT8668, MT8781, MT8793, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20536",
+      "description": "There is a possible memory corruption due to use after free.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6878, MT6881, MT6899, MT6989, MT6991, MT6993, MT8188, MT8189, MT8668, MT8695, MT8696, MT8781, MT8910",
+      "component": "aidl",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "aidl",
+        "Severity": "Medium",
+        "CWE": "CWE-416 Use After Free",
+        "Description": "There is a possible memory corruption due to use after free.",
+        "Affected Chipsets": "MT6878, MT6881, MT6899, MT6989, MT6991, MT6993, MT8188, MT8189, MT8668, MT8695, MT8696, MT8781, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20537",
+      "description": "There is a possible memory corruption due to use after free.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT6878, MT6881, MT6899, MT6989, MT6991, MT6993, MT8188, MT8189, MT8668, MT8781, MT8910",
+      "component": "aidl",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "aidl",
+        "Severity": "Medium",
+        "CWE": "CWE-416 Use After Free",
+        "Description": "There is a possible memory corruption due to use after free.",
+        "Affected Chipsets": "MT6878, MT6881, MT6899, MT6989, MT6991, MT6993, MT8188, MT8189, MT8668, MT8781, MT8910",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20538",
+      "description": "There is a possible out of bounds read due to a missing permission check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Medium",
+        "CWE": "CWE-126 Buffer Over-read",
+        "Description": "There is a possible out of bounds read due to a missing permission check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20539",
+      "description": "There is a possible out of bounds read due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Medium",
+        "CWE": "CWE-126 Buffer Over-read",
+        "Description": "There is a possible out of bounds read due to a missing bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20540",
+      "description": "There is a possible out of bounds read due to a missing bounds check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Medium",
+        "CWE": "CWE-126 Buffer Over-read",
+        "Description": "There is a possible out of bounds read due to a missing bounds check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20541",
+      "description": "There is a possible out of bounds read due to a missing permission check.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Medium",
+        "CWE": "CWE-126 Buffer Over-read",
+        "Description": "There is a possible out of bounds read due to a missing permission check.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal"
+      }
+    },
+    {
+      "cve": "CVE-2026-20542",
+      "description": "There is a possible memory corruption due to use after free.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2718, MT6878, MT6897, MT6899, MT6989, MT6991, MT8171, MT8188, MT8189, MT8196, MT8370, MT8371, MT8390, MT8391, MT8395, MT8678, MT8792, MT8793, MT8796",
+      "component": "apusys",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "apusys",
+        "Severity": "Medium",
+        "CWE": "CWE-416 Use After Free",
+        "Description": "There is a possible memory corruption due to use after free.",
+        "Affected Chipsets": "MT2718, MT6878, MT6897, MT6899, MT6989, MT6991, MT8171, MT8188, MT8189, MT8196, MT8370, MT8371, MT8390, MT8391, MT8395, MT8678, MT8792, MT8793, MT8796",
+        "Report Source": "External"
+      }
+    },
+    {
+      "cve": "CVE-2026-20543",
+      "description": "There is a possible information disclosure due to a logic error.",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+      "component": "Modem",
+      "published_date": "2026-10-05",
+      "exploitation": "none",
+      "details": {
+        "Subcomponent": "Modem",
+        "Severity": "Medium",
+        "CWE": "CWE-215 Insertion of Sensitive Information Into Debugging Code",
+        "Description": "There is a possible information disclosure due to a logic error.",
+        "Affected Chipsets": "MT2716, MT2735, MT2737, MT6739, MT6761, MT6762, MT6763, MT6765, MT6767, MT6768, MT6769, MT6771, MT6779, MT6781, MT6783, MT6785, MT6789, MT6813, MT6815, MT6833, MT6835, MT6853, MT6855, MT6858, MT6873, MT6875, MT6877, MT6878, MT6879, MT6880, MT6881, MT6883, MT6885, MT6886, MT6889, MT6890, MT6891, MT6893, MT6895, MT6896, MT6897, MT6899, MT6980, MT6982, MT6983, MT6985, MT6986, MT6988, MT6989, MT6990, MT6991, MT6993, MT8666, MT8667, MT8668, MT8673, MT8675, MT8676, MT8678, MT8755, MT8765, MT8766, MT8766R, MT8768, MT8771, MT8775, MT8781, MT8786, MT8788, MT8788E, MT8789, MT8791, MT8791T, MT8792, MT8793, MT8795T, MT8796, MT8797, MT8798, MT8863, MT8873, MT8883, MT8893",
+        "Report Source": "Internal",
+        "Version": "Date | Description",
+        "1.0": "October 5, 2026 | Bulletin published."
+      }
+    }
+  ]
+}

@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-04T12:24:37.171271+00:00",
+  "generated_at": "2026-10-05T14:44:33.508319+00:00",
   "vendor": "MediaTek",
   "source": "https://www.mediatek.com/product-security-bulletin",
   "releases": [
+    {
+      "id": "october-2026",
+      "title": "October 2026 Product Security Bulletin",
+      "release_date": "2026-10-05",
+      "advisory_url": "https://www.mediatek.com/product-security-bulletin/October-2026",
+      "data": "vendor-data/mediatek/october-2026.json",
+      "count": 31
+    },
     {
       "id": "september-2026",
       "title": "September 2026 Product Security Bulletin",
@@ -90,18 +98,9 @@
       "advisory_url": "https://www.mediatek.com/product-security-bulletin/October-2025",
       "data": "vendor-data/mediatek/october-2025.json",
       "count": 16
-    },
-    {
-      "id": "september-2025",
-      "title": "September 2025 Product Security Bulletin",
-      "release_date": "2025-09-01",
-      "advisory_url": "https://www.mediatek.com/product-security-bulletin/September-2025",
-      "data": "vendor-data/mediatek/september-2025.json",
-      "count": 6
     }
   ],
   "warnings": [
-    "MediaTek https://www.mediatek.com/product-security-bulletin/October-2026: Failed to download https://www.mediatek.com/product-security-bulletin/October-2026: 404 Client Error: Not Found for url: https://www.mediatek.com/product-security-bulletin/October-2026",
     "MediaTek https://www.mediatek.com/product-security-bulletin/February-2026: Failed to download https://www.mediatek.com/product-security-bulletin/February-2026: 404 Client Error: Not Found for url: https://www.mediatek.com/product-security-bulletin/February-2026"
   ]
 }
