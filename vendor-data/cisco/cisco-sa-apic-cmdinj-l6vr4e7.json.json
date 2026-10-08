@@ -1,0 +1,49 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Application Policy Infrastructure Controller API Command Injection Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-cmdinj-L6VR4E7/csaf/cisco-sa-apic-cmdinj-L6VR4E7.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-apic-cmdinj-L6VR4E7%26vs_k=1",
+  "release_date": "2026-10-07T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20321",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "cvss": "6.5",
+      "severity": "MEDIUM",
+      "product": "Cisco Application Policy Infrastructure Controller API Command Injection Vulnerability",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-202553",
+              "CSAFPID-302159",
+              "CSAFPID-302163",
+              "CSAFPID-302166",
+              "CSAFPID-302633",
+              "CSAFPID-302969",
+              "CSAFPID-303144",
+              "CSAFPID-303900",
+              "CSAFPID-307048",
+              "CSAFPID-307050",
+              "CSAFPID-308843"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

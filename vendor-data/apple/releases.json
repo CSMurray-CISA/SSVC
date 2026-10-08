@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-07T13:28:03.992576+00:00",
+  "generated_at": "2026-10-08T13:34:08.447585+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
     {
       "id": "149226",
-      "title": "iOS 26.7.1 and iPadOS 26.7.1",
+      "title": "About the security content of iOS 26.7.1 and iPadOS 26.7.1",
       "release_date": "September 28, 2026",
       "advisory_url": "https://support.apple.com/en-us/149226",
       "data": "vendor-data/apple/149226.json",

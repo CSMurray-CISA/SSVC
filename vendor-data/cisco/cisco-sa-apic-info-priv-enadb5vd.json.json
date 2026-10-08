@@ -1,0 +1,95 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Application Policy Infrastructure Controller Unauthorized File Access Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-info-priv-enAdB5vD/csaf/cisco-sa-apic-info-priv-enAdB5vD.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-apic-info-priv-enAdB5vD%26vs_k=1",
+  "release_date": "2026-10-07T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76488",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:N",
+      "cvss": "6.5",
+      "severity": "MEDIUM",
+      "product": "Cisco Application Policy Infrastructure Controller Unauthorized File Access Vulnerability",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-202553",
+              "CSAFPID-284132",
+              "CSAFPID-284133",
+              "CSAFPID-287154",
+              "CSAFPID-287159",
+              "CSAFPID-287161",
+              "CSAFPID-287166",
+              "CSAFPID-292891",
+              "CSAFPID-292892",
+              "CSAFPID-292893",
+              "CSAFPID-292894",
+              "CSAFPID-292895",
+              "CSAFPID-292896",
+              "CSAFPID-292897",
+              "CSAFPID-292898",
+              "CSAFPID-292899",
+              "CSAFPID-292900",
+              "CSAFPID-292901",
+              "CSAFPID-292903",
+              "CSAFPID-292904",
+              "CSAFPID-294822",
+              "CSAFPID-294823",
+              "CSAFPID-300109",
+              "CSAFPID-300110",
+              "CSAFPID-300111",
+              "CSAFPID-300268",
+              "CSAFPID-300269",
+              "CSAFPID-300270",
+              "CSAFPID-300752",
+              "CSAFPID-300753",
+              "CSAFPID-302157",
+              "CSAFPID-302159",
+              "CSAFPID-302160",
+              "CSAFPID-302161",
+              "CSAFPID-302163",
+              "CSAFPID-302164",
+              "CSAFPID-302165",
+              "CSAFPID-302166",
+              "CSAFPID-302167",
+              "CSAFPID-302169",
+              "CSAFPID-302633",
+              "CSAFPID-302634",
+              "CSAFPID-302776",
+              "CSAFPID-302969",
+              "CSAFPID-302970",
+              "CSAFPID-303043",
+              "CSAFPID-303143",
+              "CSAFPID-303144",
+              "CSAFPID-303145",
+              "CSAFPID-303900",
+              "CSAFPID-303901",
+              "CSAFPID-303902",
+              "CSAFPID-303903",
+              "CSAFPID-306807",
+              "CSAFPID-306808",
+              "CSAFPID-306811",
+              "CSAFPID-307101"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

@@ -1,103 +1,103 @@
 {
-  "generated_at": "2026-10-07T13:28:02.499564+00:00",
+  "generated_at": "2026-10-08T13:34:06.857680+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
     {
-      "id": "cisco-sa-sdwan-webauth-xr8beuuu.json",
-      "title": "Cisco Catalyst SD-WAN Manager API Authentication Bypass Vulnerability",
-      "release_date": "2026-09-30T13:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-webauth-xr8beuuU/csaf/cisco-sa-sdwan-webauth-xr8beuuU.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-sdwan-webauth-xr8beuuU%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-sdwan-webauth-xr8beuuu.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-hardening-iosxe-v8nmumzj.json",
-      "title": "Cisco IOS XE Software Security Hardening Release: August 2026",
-      "release_date": "2026-08-05T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxe-V8NMuMZJ/csaf/cisco-sa-hardening-iosxe-V8NMuMZJ.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-iosxe-V8NMuMZJ%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-hardening-iosxe-v8nmumzj.json.json",
+      "id": "cisco-sa-hardening-meraki-os-drbex9gh.json",
+      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH/csaf/cisco-sa-hardening-meraki-os-drbEX9GH.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-meraki-os-drbEX9GH%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-meraki-os-drbex9gh.json.json",
       "count": 7
     },
     {
-      "id": "cisco-sa-ise-multiauth-bypass-sgd2hbl4.json",
-      "title": "Cisco Identity Services Engine Authentication Bypass Vulnerabilities",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-multiauth-bypass-sgD2HbL4/csaf/cisco-sa-ise-multiauth-bypass-sgD2HbL4.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ise-multiauth-bypass-sgD2HbL4%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-ise-multiauth-bypass-sgd2hbl4.json.json",
+      "id": "cisco-sa-nxos-mppe-dhkzafgb.json",
+      "title": "Cisco NX-OS Software Python Sandbox Escape Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-mppe-dhKZAFgb/csaf/cisco-sa-nxos-mppe-dhKZAFgb.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-nxos-mppe-dhKZAFgb%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-nxos-mppe-dhkzafgb.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-finesse-ssrf-mmsuyugs.json",
+      "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS/csaf/cisco-sa-finesse-ssrf-mmSuyugS.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-finesse-ssrf-mmSuyugS%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-finesse-ssrf-mmsuyugs.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-moam-rce-ubtzyv7.json",
+      "title": "Cisco Nexus 3000 and 9000 Series Switches MPLS OAM Remote Code Execution Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-moam-rce-uBTzYV7/csaf/cisco-sa-moam-rce-uBTzYV7.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-moam-rce-uBTzYV7%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-moam-rce-ubtzyv7.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-apic-info-priv-enadb5vd.json",
+      "title": "Cisco Application Policy Infrastructure Controller Unauthorized File Access Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-info-priv-enAdB5vD/csaf/cisco-sa-apic-info-priv-enAdB5vD.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-apic-info-priv-enAdB5vD%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-apic-info-priv-enadb5vd.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-apic-cmdinj-l6vr4e7.json",
+      "title": "Cisco Application Policy Infrastructure Controller API Command Injection Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-apic-cmdinj-L6VR4E7/csaf/cisco-sa-apic-cmdinj-L6VR4E7.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-apic-cmdinj-L6VR4E7%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-apic-cmdinj-l6vr4e7.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-hardening-ssm-ph77wdhf.json",
+      "title": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-ssm-Ph77wdhf/csaf/cisco-sa-hardening-ssm-Ph77wdhf.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-ssm-Ph77wdhf%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-ssm-ph77wdhf.json.json",
       "count": 4
     },
     {
-      "id": "cisco-sa-asaftdvirtual-dos-muengnyr.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software SSL VPN Denial of Service Vulnerability",
-      "release_date": "2024-10-23T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftdvirtual-dos-MuenGnYR/csaf/cisco-sa-asaftdvirtual-dos-MuenGnYR.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftdvirtual-dos-MuenGnYR%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asaftdvirtual-dos-muengnyr.json.json",
+      "id": "cisco-sa-aci-epgcbp-sfdu7nlf.json",
+      "title": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-aci-epgcbp-SfDU7NLf/csaf/cisco-sa-aci-epgcbp-SfDU7NLf.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-aci-epgcbp-SfDU7NLf%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-aci-epgcbp-sfdu7nlf.json.json",
       "count": 1
     },
     {
-      "id": "cisco-sa-asa-ftd-logging-dos-zxxnesfn.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Logging Denial of Service Vulnerability",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asa-ftd-logging-dos-ZXXNesfN/csaf/cisco-sa-asa-ftd-logging-dos-ZXXNesfN.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asa-ftd-logging-dos-ZXXNesfN%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asa-ftd-logging-dos-zxxnesfn.json.json",
+      "id": "cisco-sa-ngoam-rce-lwkq4bu.json",
+      "title": "Cisco Nexus 3000 and 9000 Series Switches NGOAM Remote Code Execution Vulnerabilities",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ngoam-rce-LWKQ4BU/csaf/cisco-sa-ngoam-rce-LWKQ4BU.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ngoam-rce-LWKQ4BU%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-ngoam-rce-lwkq4bu.json.json",
+      "count": 3
+    },
+    {
+      "id": "cisco-sa-hardening-apic-uoxwtfh.json",
+      "title": "Cisco Application Policy Infrastructure Controller Security Hardening Release: October 2026",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-apic-UOXWtfh/csaf/cisco-sa-hardening-apic-UOXWtfh.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-apic-UOXWtfh%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-apic-uoxwtfh.json.json",
+      "count": 3
+    },
+    {
+      "id": "cisco-sa-napi-rce-r2shwu2j.json",
+      "title": "Cisco NX-OS Software NX-API Remote Code Execution Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j/csaf/cisco-sa-napi-rce-r2shwu2j.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-napi-rce-r2shwu2j%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-napi-rce-r2shwu2j.json.json",
       "count": 1
     },
     {
-      "id": "cisco-sa-hardening-asaftdfmc-uvpprohn.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance, Secure Firewall Threat Defense, and Secure Firewall Management Center Software Hardening Release: September 2026",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-asaftdfmc-uvpPROhN/csaf/cisco-sa-hardening-asaftdfmc-uvpPROhN.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-asaftdfmc-uvpPROhN%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-hardening-asaftdfmc-uvpprohn.json.json",
-      "count": 8
-    },
-    {
-      "id": "cisco-sa-asaftd-dtls-dos-kp57hkyo.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software for Secure Firewall 3100 and 4200 Series DTLS Denial of Service Vulnerability",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-dtls-dos-Kp57HkyO/csaf/cisco-sa-asaftd-dtls-dos-Kp57HkyO.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftd-dtls-dos-Kp57HkyO%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asaftd-dtls-dos-kp57hkyo.json.json",
+      "id": "cisco-sa-nxos-nscpdos-snderkc7.json",
+      "title": "Cisco NX-OS Software Control Plane Denial of Service Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-nxos-nscpdos-SnderkC7/csaf/cisco-sa-nxos-nscpdos-SnderkC7.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-nxos-nscpdos-SnderkC7%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-nxos-nscpdos-snderkc7.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-asaftd-ikev2cert-dos-uwyc2xtv.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software IKEv2 Certificate Authentication Denial of Service Vulnerability",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-ikev2cert-dos-uWyc2xtv/csaf/cisco-sa-asaftd-ikev2cert-dos-uWyc2xtv.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftd-ikev2cert-dos-uWyc2xtv%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asaftd-ikev2cert-dos-uwyc2xtv.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-ftd-acl-bypass-8p6vfvw.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Object Group Access Control List Bypass Vulnerabilities",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ftd-acl-bypass-8p6vFvw/csaf/cisco-sa-ftd-acl-bypass-8p6vFvw.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ftd-acl-bypass-8p6vFvw%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-ftd-acl-bypass-8p6vfvw.json.json",
-      "count": 2
-    },
-    {
-      "id": "cisco-sa-asaftd-tcpdns-dos-p6dunjr5.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software TCP DNS Denial of Service Vulnerability",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tcpdns-dos-p6dUnjr5/csaf/cisco-sa-asaftd-tcpdns-dos-p6dUnjr5.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftd-tcpdns-dos-p6dUnjr5%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asaftd-tcpdns-dos-p6dunjr5.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-asaftd-eigrp-dos-gohnejsj.json",
-      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software EIGRP Denial of Service Vulnerability",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-eigrp-dos-GOhNejSj/csaf/cisco-sa-asaftd-eigrp-dos-GOhNejSj.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftd-eigrp-dos-GOhNejSj%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asaftd-eigrp-dos-gohnejsj.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-hardening-iosxr-qg64ncm.json",
-      "title": "Cisco IOS XR Software Security Hardening Release: September 2026",
-      "release_date": "2026-09-02T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-iosxr-qg64NcM/csaf/cisco-sa-hardening-iosxr-qg64NcM.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-iosxr-qg64NcM%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-hardening-iosxr-qg64ncm.json.json",
-      "count": 7
     }
   ],
   "warnings": [

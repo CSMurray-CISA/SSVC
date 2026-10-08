@@ -202,20 +202,6 @@
       }
     },
     {
-      "cve": "CVE-2026-92019",
-      "description": "Reporter Shu Takahashi Impact high References Bug 2065636",
-      "vector": "",
-      "cvss": "",
-      "severity": "HIGH",
-      "product": "Mozilla Foundation Security Advisory 2026-93",
-      "component": "",
-      "published_date": "September 15, 2026",
-      "exploitation": "none",
-      "details": {
-        "vendor_text": "Reporter Shu Takahashi Impact high References Bug 2065636"
-      }
-    },
-    {
       "cve": "CVE-2026-92020",
       "description": "Reporter Rintaro Kawasugi Impact high References Bug 2066329",
       "vector": "",
@@ -577,6 +563,20 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Reporter r00tdaddy Impact moderate References Bug 2065346"
+      }
+    },
+    {
+      "cve": "CVE-2026-92019",
+      "description": "Reporter Shu Takahashi Impact moderate References Bug 2065636",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-93",
+      "component": "",
+      "published_date": "September 15, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Shu Takahashi Impact moderate References Bug 2065636"
       }
     },
     {

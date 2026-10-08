@@ -1,0 +1,129 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-ssm-Ph77wdhf/csaf/cisco-sa-hardening-ssm-Ph77wdhf.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-ssm-Ph77wdhf%26vs_k=1",
+  "release_date": "2026-10-07T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76480",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cvss": "9.8",
+      "severity": "CRITICAL",
+      "product": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-274027"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76482",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "10.0",
+      "severity": "CRITICAL",
+      "product": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-274027"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76483",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "cvss": "9.1",
+      "severity": "CRITICAL",
+      "product": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-274027"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76484",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H",
+      "cvss": "8.8",
+      "severity": "HIGH",
+      "product": "Cisco License (Smart Software Manager) On-Prem Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-274027"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

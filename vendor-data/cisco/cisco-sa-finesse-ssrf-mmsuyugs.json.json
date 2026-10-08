@@ -1,0 +1,68 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS/csaf/cisco-sa-finesse-ssrf-mmSuyugS.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-finesse-ssrf-mmSuyugS%26vs_k=1",
+  "release_date": "2026-10-07T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20362",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:L/I:L/A:N",
+      "cvss": "7.2",
+      "severity": "HIGH",
+      "product": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-193469",
+              "CSAFPID-287130",
+              "CSAFPID-287132",
+              "CSAFPID-287135",
+              "CSAFPID-287136",
+              "CSAFPID-287148",
+              "CSAFPID-287149",
+              "CSAFPID-292767",
+              "CSAFPID-292768",
+              "CSAFPID-300122",
+              "CSAFPID-300123",
+              "CSAFPID-300124",
+              "CSAFPID-300125",
+              "CSAFPID-301731",
+              "CSAFPID-301732",
+              "CSAFPID-301733",
+              "CSAFPID-301734",
+              "CSAFPID-301735",
+              "CSAFPID-303229",
+              "CSAFPID-305235",
+              "CSAFPID-305247",
+              "CSAFPID-305248",
+              "CSAFPID-306998",
+              "CSAFPID-306999",
+              "CSAFPID-307203",
+              "CSAFPID-308528",
+              "CSAFPID-308529",
+              "CSAFPID-309112",
+              "CSAFPID-309113",
+              "CSAFPID-92631"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

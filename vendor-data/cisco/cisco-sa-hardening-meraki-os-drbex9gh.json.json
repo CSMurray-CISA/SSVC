@@ -1,0 +1,227 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Meraki Security Hardening Release: October 2026",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH/csaf/cisco-sa-hardening-meraki-os-drbEX9GH.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-meraki-os-drbEX9GH%26vs_k=1",
+  "release_date": "2026-10-07T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76463",
+      "description": "",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:L/A:L",
+      "cvss": "8.8",
+      "severity": "HIGH",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76464",
+      "description": "",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "9.6",
+      "severity": "CRITICAL",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724",
+              "CSAFPID-204723"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76467",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cvss": "7.5",
+      "severity": "HIGH",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76468",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:L",
+      "cvss": "8.2",
+      "severity": "HIGH",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76469",
+      "description": "",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:C/C:N/I:N/A:H",
+      "cvss": "7.4",
+      "severity": "HIGH",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76470",
+      "description": "",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H",
+      "cvss": "8.8",
+      "severity": "HIGH",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-76472",
+      "description": "",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:L/UI:N/S:C/C:H/I:H/A:H",
+      "cvss": "8.8",
+      "severity": "HIGH",
+      "product": "Cisco Meraki Security Hardening Release: October 2026",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-305284",
+              "CSAFPID-204724"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

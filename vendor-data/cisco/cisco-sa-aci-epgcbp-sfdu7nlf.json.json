@@ -1,0 +1,99 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-aci-epgcbp-SfDU7NLf/csaf/cisco-sa-aci-epgcbp-SfDU7NLf.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-aci-epgcbp-SfDU7NLf%26vs_k=1",
+  "release_date": "2026-10-07T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20038",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:C/C:N/I:L/A:N",
+      "cvss": "5.8",
+      "severity": "MEDIUM",
+      "product": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
+      "component": "",
+      "published_date": "2026-10-07T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-283749:265096",
+              "CSAFPID-284173:265096",
+              "CSAFPID-284339:265096",
+              "CSAFPID-284720:265096",
+              "CSAFPID-284792:265096",
+              "CSAFPID-285918:265096",
+              "CSAFPID-285926:265096",
+              "CSAFPID-286113:265096",
+              "CSAFPID-286487:265096",
+              "CSAFPID-286555:265096",
+              "CSAFPID-286879:265096",
+              "CSAFPID-287186:265096",
+              "CSAFPID-288206:265096",
+              "CSAFPID-288243:265096",
+              "CSAFPID-289276:265096",
+              "CSAFPID-289328:265096",
+              "CSAFPID-290585:265096",
+              "CSAFPID-290615:265096",
+              "CSAFPID-290655:265096",
+              "CSAFPID-294782:265096",
+              "CSAFPID-294809:265096",
+              "CSAFPID-295577:265096",
+              "CSAFPID-299959:265096",
+              "CSAFPID-300257:265096",
+              "CSAFPID-300261:265096",
+              "CSAFPID-300266:265096",
+              "CSAFPID-300738:265096",
+              "CSAFPID-300744:265096",
+              "CSAFPID-300940:265096",
+              "CSAFPID-301035:265096",
+              "CSAFPID-301134:265096",
+              "CSAFPID-301160:265096",
+              "CSAFPID-301220:265096",
+              "CSAFPID-301280:265096",
+              "CSAFPID-301282:265096",
+              "CSAFPID-301569:265096",
+              "CSAFPID-301729:265096",
+              "CSAFPID-301742:265096",
+              "CSAFPID-302631:265096",
+              "CSAFPID-302636:265096",
+              "CSAFPID-302689:265096",
+              "CSAFPID-302836:265096",
+              "CSAFPID-302963:265096",
+              "CSAFPID-303022:265096",
+              "CSAFPID-303065:265096",
+              "CSAFPID-303066:265096",
+              "CSAFPID-303136:265096",
+              "CSAFPID-303182:265096",
+              "CSAFPID-303319:265096",
+              "CSAFPID-303335:265096",
+              "CSAFPID-303772:265096",
+              "CSAFPID-303891:265096",
+              "CSAFPID-305298:265096",
+              "CSAFPID-305306:265096",
+              "CSAFPID-306456:265096",
+              "CSAFPID-306562:265096",
+              "CSAFPID-306563:265096",
+              "CSAFPID-306890:265096",
+              "CSAFPID-306989:265096",
+              "CSAFPID-307129:265096",
+              "CSAFPID-308422:265096"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}
