@@ -70,6 +70,7 @@
   .cve-link { color:inherit; font-weight:600; text-decoration:underline; }
   .muted { color:var(--muted); }
   .detail { white-space:normal; }
+  .plain-text { white-space:pre-line; }
   .detail-grid { display:grid; grid-template-columns:180px 1fr; gap:6px 12px; }
   .detail-grid b { color:var(--muted); font-weight:600; }
   .detail pre {
@@ -194,6 +195,7 @@
   </div>
   <div class="muted" id="stats"></div>
 </div>
+<script src="xlsx.full.min.js"></script>
 <script>
 (function() {
   const sel = document.getElementById("theme");
@@ -301,7 +303,7 @@ $("#vendorProduct").onchange = applyFilters;
 });
 $("#exportCsvBtn").onclick = () => dlCSV(filtered);
 $("#exportJsonBtn").onclick = () => dlJSON(filtered);
-$("#exportXlsBtn").onclick = () => dlXLS(filtered);
+$("#exportXlsBtn").onclick = () => dlXLSX(filtered);
 $("#copyBtn").onclick = () => navigator.clipboard.writeText(toCSV(filtered));
 
 function readText(f) {
@@ -415,10 +417,10 @@ function deriveInternetExposed(metrics) {
 function parseExploitStatus(v) {
   const blobs = [];
   (v.Threats || []).forEach(t => {
-    const desc = String(t.Description?.Value || t.Description || "");
+    const desc = plainText(t.Description?.Value || t.Description || "");
     if (t.Type === 1 || t.Type === "1" || /Publicly Disclosed:/i.test(desc) || /Exploited:/i.test(desc)) blobs.push(desc);
   });
-  (v.Notes || []).forEach(n => blobs.push(String(n.Value || "")));
+  (v.Notes || []).forEach(n => blobs.push(plainText(n.Value || "")));
   const raw = blobs.join("; ");
   const kv = {};
   raw.split(/[;\n]/).forEach(part => {
@@ -430,12 +432,45 @@ function parseExploitStatus(v) {
   if (/\b(exploited in the wild|zero-?day|in[- ]the[- ]wild)\b/i.test(raw)) return "active";
   return "none";
 }
+function plainText(value) {
+  let text = String(value ?? "");
+  const decoder = document.createElement("textarea");
+  for (let i = 0; i < 2; i += 1) {
+    decoder.innerHTML = text;
+    const decoded = decoder.value;
+    if (decoded === text) break;
+    text = decoded;
+  }
+  if (/<\/?[a-z][^>]*>/i.test(text)) {
+    const withBreaks = text
+      .replace(/<\s*br\s*\/?\s*>/gi, "\n")
+      .replace(/<\s*\/\s*(p|div|li|h[1-6]|tr|section|article)\s*>/gi, "\n")
+      .replace(/<\s*li(?:\s[^>]*)?>/gi, "• ");
+    const template = document.createElement("template");
+    template.innerHTML = withBreaks;
+    text = template.content.textContent || "";
+  }
+  return text
+    .replace(/\u00a0/g, " ")
+    .replace(/[ \t]+\n/g, "\n")
+    .replace(/\n[ \t]+/g, "\n")
+    .replace(/[ \t]{2,}/g, " ")
+    .replace(/\n{3,}/g, "\n\n")
+    .trim();
+}
+function plainObject(value) {
+  if (Array.isArray(value)) return value.map(plainObject);
+  if (value && typeof value === "object") {
+    return Object.fromEntries(Object.entries(value).map(([key, child]) => [key, plainObject(child)]));
+  }
+  return typeof value === "string" ? plainText(value) : value;
+}
 function val(x) {
   if (x == null) return "";
-  if (typeof x === "string" || typeof x === "number") return String(x);
+  if (typeof x === "string" || typeof x === "number") return plainText(x);
   if (Array.isArray(x)) return x.map(val).filter(Boolean).join(", ");
   if (typeof x === "object") {
-    if (x.Value != null) return String(x.Value);
+    if (x.Value != null) return plainText(x.Value);
     if (x.Title != null && x.Value == null) return val(x.Title);
   }
   return "";
@@ -503,7 +538,7 @@ function parseOracleCSAF(json) {
     const vector = score.vectorString || "";
     const metrics = parseVector(vector);
     const notes = v.notes || [];
-    const fullDescription = notes.find(n => n.category === "description")?.text || notes[0]?.text || "";
+    const fullDescription = plainText(notes.find(n => n.category === "description")?.text || notes[0]?.text || "");
     const description = fullDescription.split(/(?<=\.)\s+/)[0] || v.cve || "";
     const ids = v.product_status?.known_affected || [];
     const products = [...new Set(ids.map(id => productMap.get(id)?.name || id))];
@@ -538,7 +573,7 @@ function parseNormalized(json) {
     return {
       "CVE-ID": v.cve || "",
       "Date": firstDate(v.published_date, json.release_date),
-      "Description": v.description || v.kev?.vulnerabilityName || json.title || "",
+      "Description": plainText(v.description || v.kev?.vulnerabilityName || json.title || ""),
       "CVSS Vector": vector,
       "CVSS": score,
       "Severity": String(v.severity || severity(score)).toUpperCase().replace("MODERATE", "MEDIUM"),
@@ -630,13 +665,13 @@ function detailHtml(r) {
   const v = r._raw || {};
   const notes = (v.Notes || []).map(n => {
     const t = val(n.Title) || n.Type || "Note";
-    return `<div><b>${escHtml(t)}</b><div>${escHtml(val(n))}</div></div>`;
+    return `<div><b>${escHtml(t)}</b><div class="plain-text">${escHtml(val(n))}</div></div>`;
   }).join("");
   const threats = (v.Threats || []).map(t =>
-    `<div><b>Threat ${escHtml(String(t.Type ?? ""))}</b><div>${escHtml(val(t.Description) || JSON.stringify(t))}</div></div>`
+    `<div><b>Threat ${escHtml(String(t.Type ?? ""))}</b><div class="plain-text">${escHtml(val(t.Description) || plainText(JSON.stringify(t)))}</div></div>`
   ).join("");
   const rems = (v.Remediations || []).map(t =>
-    `<div>${escHtml(val(t.Description) || t.URL || JSON.stringify(t))}</div>`
+    `<div class="plain-text">${escHtml(val(t.Description) || t.URL || plainText(JSON.stringify(t)))}</div>`
   ).join("");
   const products = [...new Set((v.ProductStatuses || []).flatMap(p => p.ProductID || []))];
   const m = r._metrics || {};
@@ -658,12 +693,12 @@ function detailHtml(r) {
     ${threats ? `<h3>Threats</h3>${threats}` : ""}
     ${rems ? `<h3>Remediations</h3>${rems}` : ""}
     <h3>Raw vulnerability object</h3>
-    <pre>${escHtml(JSON.stringify(v, null, 2))}</pre>`;
+    <pre>${escHtml(JSON.stringify(plainObject(v), null, 2))}</pre>`;
 }
 function oracleDetailHtml(r) {
   const v = r._raw || {};
-  const notes = (v.notes || []).map(n => `<div><b>${escHtml(n.title || n.category || "Note")}</b><div>${escHtml(n.text || "")}</div></div>`).join("");
-  const rems = (v.remediations || []).map(x => `<div>${escHtml(x.details || "Vendor fix")}${x.url ? ` · <a href="${escHtml(x.url)}" target="_blank" rel="noopener">Oracle patch information</a>` : ""}</div>`).join("");
+  const notes = (v.notes || []).map(n => `<div><b>${escHtml(n.title || n.category || "Note")}</b><div class="plain-text">${escHtml(plainText(n.text || ""))}</div></div>`).join("");
+  const rems = (v.remediations || []).map(x => `<div class="plain-text">${escHtml(plainText(x.details || "Vendor fix"))}${x.url ? ` · <a href="${escHtml(x.url)}" target="_blank" rel="noopener">Oracle patch information</a>` : ""}</div>`).join("");
   const metricBits = Object.keys(r._metrics || {}).filter(Boolean).map(k => metricLabel(k, r._metrics[k])).join(" · ");
   return `
     <div class="detail-grid">
@@ -680,7 +715,7 @@ function oracleDetailHtml(r) {
     ${notes ? `<h3>Oracle notes</h3>${notes}` : ""}
     ${rems ? `<h3>Remediations</h3>${rems}` : ""}
     <h3>Raw vulnerability object</h3>
-    <pre>${escHtml(JSON.stringify(v, null, 2))}</pre>`;
+    <pre>${escHtml(JSON.stringify(plainObject(v), null, 2))}</pre>`;
 }
 function normalizedDetailHtml(r) {
   const metricBits = Object.keys(r._metrics || {}).filter(Boolean).map(k => metricLabel(k, r._metrics[k])).join(" · ");
@@ -703,7 +738,7 @@ function normalizedDetailHtml(r) {
       ${sourceLinks ? `<b>Vendor sources</b><div>${sourceLinks}</div>` : ""}
     </div>
     <h3>Raw normalized record</h3>
-    <pre>${escHtml(JSON.stringify(r._raw || {}, null, 2))}</pre>`;
+    <pre>${escHtml(JSON.stringify(plainObject(r._raw || {}), null, 2))}</pre>`;
 }
 function escHtml(s) {
   return String(s ?? "").replace(/[&<>"']/g, c => ({ "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;" }[c]));
@@ -757,10 +792,72 @@ function render() {
   const dis = filtered.length === 0;
   $("#exportCsvBtn").disabled = $("#exportXlsBtn").disabled = $("#exportJsonBtn").disabled = $("#copyBtn").disabled = dis;
 }
+function microsoftExportDetails(r) {
+  const v = r._raw || {};
+  return {
+    "Title": r.Description || "",
+    "CWE": (Array.isArray(v.CWE) ? v.CWE : (v.CWE ? [v.CWE] : []))
+      .map(w => (w.ID ? w.ID + " " : "") + val(w)).join("; "),
+    "Products": [...new Set((v.ProductStatuses || []).flatMap(p => p.ProductID || []))].join("; "),
+    "Notes": (v.Notes || []).map(n => `${val(n.Title) || n.Type || "Note"}: ${val(n)}`).join("\n\n"),
+    "Threats": (v.Threats || []).map(t => `Threat ${t.Type ?? ""}: ${val(t.Description) || plainText(JSON.stringify(t))}`).join("\n\n"),
+    "Remediations": (v.Remediations || []).map(t => val(t.Description) || t.URL || plainText(JSON.stringify(t))).join("\n\n")
+  };
+}
+function exportRecord(r) {
+  const metricBits = Object.keys(r._metrics || {}).filter(Boolean).map(k => metricLabel(k, r._metrics[k])).join(" · ");
+  const details = r._vendor === "oracle" ? {
+    "Vendor": "Oracle",
+    "Product Families": (r._families || []).join("; "),
+    "Affected Products": (r._products || []).join("; "),
+    "Notes": (r._raw?.notes || []).map(n => `${n.title || n.category || "Note"}: ${plainText(n.text || "")}`).join("\n\n"),
+    "Remediations": (r._raw?.remediations || []).map(x => [plainText(x.details || "Vendor fix"), x.url || ""].filter(Boolean).join(" · ")).join("\n\n")
+  } : (r._vendor && r._vendor !== "microsoft") ? {
+    "Vendor": r._vendorName || "",
+    "Advisory": r._releaseTitle || "",
+    "Advisory URL": r._sourceUrl || "",
+    "Product / Component": (r._products || []).join("; "),
+    "CISA KEV Date Added": r._kev?.dateAdded || "",
+    "CISA KEV Remediation Due": r._kev?.dueDate || "",
+    "CISA KEV Required Action": plainText(r._kev?.requiredAction || ""),
+    "CISA KEV Ransomware Use": r._kev?.knownRansomwareCampaignUse || "",
+    "CISA KEV Notes": plainText(r._kev?.notes || ""),
+    "Vendor Sources": (r._sources || []).map(s => [s.vendor || s.title || "Source", s.url || ""].filter(Boolean).join(": ")).join("\n")
+  } : microsoftExportDetails(r);
+  const record = {};
+  visibleCols().forEach(c => { record[c] = plainText(r[c]); });
+  Object.assign(record, {
+    "Published": r.Date || "",
+    "Metrics": metricBits || "Not provided",
+    ...details,
+    "Raw Record (JSON)": JSON.stringify(plainObject(r._raw || {}), null, 2)
+  });
+  return record;
+}
+function buildExportTable(data) {
+  const records = data.map(exportRecord);
+  const columns = [];
+  records.forEach(record => Object.keys(record).forEach(key => {
+    if (!columns.includes(key) && records.some(item => item[key] !== "" && item[key] != null)) columns.push(key);
+  }));
+  return { columns, records: records.map(record => Object.fromEntries(columns.map(c => [c, record[c] ?? ""]))) };
+}
+function flattenRaw(value, prefix = "", output = {}) {
+  if (value == null || typeof value !== "object") {
+    if (prefix) output[prefix] = typeof value === "string" ? plainText(value) : (value ?? "");
+    return output;
+  }
+  if (Array.isArray(value)) {
+    output[prefix] = JSON.stringify(plainObject(value));
+    return output;
+  }
+  Object.entries(value).forEach(([key, child]) => flattenRaw(child, prefix ? `${prefix}.${key}` : key, output));
+  return output;
+}
 function toCSV(data) {
   const esc = v => { const s = String(v ?? ""); return /[",\n]/.test(s) ? `"${s.replace(/"/g,'""')}"` : s; };
-  const columns = visibleCols();
-  return [columns.join(",")].concat(data.map(r => columns.map(c => esc(r[c])).join(","))).join("\n");
+  const { columns, records } = buildExportTable(data);
+  return [columns.map(esc).join(",")].concat(records.map(r => columns.map(c => esc(r[c])).join(","))).join("\n");
 }
 function dl(name, blob) {
   const url = URL.createObjectURL(blob);
@@ -775,15 +872,27 @@ function exportStem() {
 }
 function dlCSV(data) { dl(exportStem() + ".csv", new Blob([toCSV(data)], { type: "text/csv" })); }
 function dlJSON(data) {
-  const columns = visibleCols();
-  const clean = data.map(r => { const o = {}; columns.forEach(c => o[c] = r[c]); return o; });
-  dl(exportStem() + ".json", new Blob([JSON.stringify(clean, null, 2)], { type: "application/json" }));
+  const { records } = buildExportTable(data);
+  dl(exportStem() + ".json", new Blob([JSON.stringify(records, null, 2)], { type: "application/json" }));
 }
-function dlXLS(data) {
-  const columns = visibleCols();
-  let html = "<table><tr>" + columns.map(c => `<th>${c}</th>`).join("") + "</tr>";
-  data.forEach(r => { html += "<tr>" + columns.map(c => `<td>${r[c] || ""}</td>`).join("") + "</tr>"; });
-  dl(exportStem() + ".xls", new Blob([html + "</table>"], { type: "application/vnd.ms-excel" }));
+function dlXLSX(data) {
+  if (!window.XLSX) return alert("Excel export could not start because the workbook library did not load.");
+  const { columns, records } = buildExportTable(data);
+  const workbook = XLSX.utils.book_new();
+  const summary = XLSX.utils.json_to_sheet(records, { header: columns });
+  summary["!autofilter"] = { ref: summary["!ref"] };
+  summary["!cols"] = columns.map(c => ({ wch: Math.min(60, Math.max(c.length + 2, 14)) }));
+  XLSX.utils.book_append_sheet(workbook, summary, "Vulnerabilities");
+
+  const rawRecords = data.map(r => ({ "CVE-ID": r["CVE-ID"] || "", ...flattenRaw(r._raw || {}) }));
+  if (rawRecords.length) {
+    const rawColumns = [...new Set(rawRecords.flatMap(Object.keys))];
+    const rawSheet = XLSX.utils.json_to_sheet(rawRecords, { header: rawColumns });
+    rawSheet["!autofilter"] = { ref: rawSheet["!ref"] };
+    rawSheet["!cols"] = rawColumns.map(c => ({ wch: Math.min(50, Math.max(c.length + 2, 12)) }));
+    XLSX.utils.book_append_sheet(workbook, rawSheet, "Raw Fields");
+  }
+  XLSX.writeFileXLSX(workbook, exportStem() + ".xlsx", { compression: true });
 }
 async function loadFiles() {
   const j = $("#cvrf").files[0];
