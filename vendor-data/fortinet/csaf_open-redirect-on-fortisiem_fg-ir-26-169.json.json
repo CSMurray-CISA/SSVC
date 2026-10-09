@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Open Redirect on FortiSIEM",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_open-redirect-on-fortisiem_fg-ir-26-169.json",
+  "release_date": "2026-09-08T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-84389",
+      "description": "Open Redirect on FortiSIEM",
+      "vector": "CVSS:3.1/AV:N/AC:H/PR:N/UI:R/S:U/C:N/I:L/A:N/E:P/RL:O/RC:C",
+      "cvss": "2.8",
+      "severity": "LOW",
+      "product": "Open Redirect on FortiSIEM",
+      "component": "",
+      "published_date": "2026-09-08T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Open Redirect on FortiSIEM\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Workarounds",
+            "text": "N/A"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSIEM 7.6: Not Applicable\nFortiSIEM 7.5: Upgrade to upcoming  7.5.2 or above\nFortiSIEM 7.4: Migrate to a fixed release\nFortiSIEM 7.3: Not Applicable\nFortiSIEM 7.2: Not Applicable\nFortiSIEM 7.1: Not Applicable\nFortiSIEM 7.0: Not Applicable\nFortiSIEM 6.7: Not Applicable\nFortiSIEM 6.6: Not Applicable\nFortiSIEM 6.5: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSIEM"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

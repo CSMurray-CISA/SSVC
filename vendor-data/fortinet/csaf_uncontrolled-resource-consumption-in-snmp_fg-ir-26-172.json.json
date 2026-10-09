@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Uncontrolled Resource Consumption in SNMP",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_uncontrolled-resource-consumption-in-snmp_fg-ir-26-172.json",
+  "release_date": "2026-09-08T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-84391",
+      "description": "Use of Uninitialized Variable vulnerability in the FortiAnalyzer SNMP daemon",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+      "cvss": "5.9",
+      "severity": "MEDIUM",
+      "product": "Uncontrolled Resource Consumption in SNMP",
+      "component": "",
+      "published_date": "2026-09-08T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Use of Uninitialized Variable vulnerability in the FortiAnalyzer SNMP daemon\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Workarounds",
+            "text": "N/A"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiAnalyzer 8.0: Not Applicable\nFortiAnalyzer 7.6: Upgrade to 7.6.7 or above\nFortiAnalyzer 7.4: Not Applicable\nFortiAnalyzer 7.2: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiAnalyzer"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

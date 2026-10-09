@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "JWT used for authentication in web GUI signed with static key",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_jwt-used-for-authentication-in-web-gui-signed-with-static-key_fg-ir-26-170.json",
+  "release_date": "2026-09-08T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-84390",
+      "description": "Inclusion of Sensitive Information in Source Code in Fortinet FortiMonitorOnSight web portal",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C",
+      "cvss": "9.6",
+      "severity": "CRITICAL",
+      "product": "JWT used for authentication in web GUI signed with static key",
+      "component": "",
+      "published_date": "2026-09-08T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Inclusion of Sensitive Information in Source Code in Fortinet FortiMonitorOnSight web portal\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Workarounds",
+            "text": "N/A"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiMonitorOnSight 7.2: Upgrade to 7.2.8 or above\nFortiMonitorOnSight 7.2: Upgrade to 7.2.8 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiMonitorOnSight"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
