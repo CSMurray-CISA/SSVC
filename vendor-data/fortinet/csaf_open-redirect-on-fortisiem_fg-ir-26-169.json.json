@@ -21,11 +21,6 @@
             "category": "summary",
             "title": "Summary",
             "text": "Open Redirect on FortiSIEM\n\n"
-          },
-          {
-            "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
           }
         ],
         "remediations": [

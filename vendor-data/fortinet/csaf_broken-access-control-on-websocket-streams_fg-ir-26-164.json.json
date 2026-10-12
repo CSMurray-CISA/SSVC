@@ -21,11 +21,6 @@
             "category": "summary",
             "title": "Summary",
             "text": "Improper access control for websocket streams with topic data\n\n"
-          },
-          {
-            "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
           }
         ],
         "remediations": [

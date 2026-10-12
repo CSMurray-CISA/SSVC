@@ -24,8 +24,8 @@
           },
           {
             "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
+            "title": "Additional info",
+            "text": "Remediation for this issue required coordinated changes in two components: FortiPAM and the Fortinet Privileged Access Agent Chrome extension. To be fully secure, customers should upgrade FortiPAM to 1.9.1 or 1.8.4, and ensure the Chrome extension is at version 8.0.1.123 or above."
           }
         ],
         "remediations": [

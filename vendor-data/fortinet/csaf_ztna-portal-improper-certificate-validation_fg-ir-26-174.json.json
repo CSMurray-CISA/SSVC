@@ -21,11 +21,6 @@
             "category": "summary",
             "title": "Summary",
             "text": "Agentless ZTNA Portal Improper Certificate Validation\n\n"
-          },
-          {
-            "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
           }
         ],
         "remediations": [

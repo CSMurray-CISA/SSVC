@@ -21,11 +21,6 @@
             "category": "summary",
             "title": "Summary",
             "text": "Inclusion of Sensitive Information in Source Code in Fortinet FortiMonitorOnSight web portal\n\n"
-          },
-          {
-            "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
           }
         ],
         "remediations": [

@@ -24,8 +24,8 @@
           },
           {
             "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
+            "title": "Additional info",
+            "text": "Workaround\nDisable SNMP entirely if it is not actively used\n\nIn the GUI: Navigate to System Settings>Network> Disable SNMP Agent>Apply\n\nIn the CLI:\n  config system snmp sysinfo\n      set status disable\n  end\n\nFortiAnalyzer Cloud is not affected by this vulnerability."
           }
         ],
         "remediations": [

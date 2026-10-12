@@ -21,11 +21,6 @@
             "category": "summary",
             "title": "Summary",
             "text": "Null Pointer Dereference DoS\n\n"
-          },
-          {
-            "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
           }
         ],
         "remediations": [

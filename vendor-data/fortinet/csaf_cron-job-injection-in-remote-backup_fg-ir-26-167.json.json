@@ -21,11 +21,6 @@
             "category": "summary",
             "title": "Summary",
             "text": "Remote authenticated command injection\n\n"
-          },
-          {
-            "category": "general",
-            "title": "Workarounds",
-            "text": "N/A"
           }
         ],
         "remediations": [
