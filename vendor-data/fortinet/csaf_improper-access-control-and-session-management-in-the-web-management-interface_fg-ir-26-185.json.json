@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Improper access control and session management in the web management interface",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_improper-access-control-and-session-management-in-the-web-management-interface_fg-ir-26-185.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-107656",
+      "description": "A remote unauthenticated attacker may be able to gain unauthorized access to the appliance.",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:F/RL:O/RC:C",
+      "cvss": "9.6",
+      "severity": "CRITICAL",
+      "product": "Improper access control and session management in the web management interface",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "A remote unauthenticated attacker may be able to gain unauthorized access to the appliance.\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSandbox PaaS 5.2: Not Applicable\nFortiSandbox PaaS 5.0: Upgrade to 5.0.7 or above\nFortiSandbox PaaS 4.4: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSandbox PaaS"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

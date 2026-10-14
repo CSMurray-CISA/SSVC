@@ -1,0 +1,125 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Multiple Arbitrary File Read/Write via SQL Injection",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-arbitrary-file-read-write-via-sql-injection_fg-ir-26-178.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2025-46773",
+      "description": "Multiple SQL Injections",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "cvss": "7.9",
+      "severity": "HIGH",
+      "product": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Multiple SQL Injections\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiAnalyzer Cloud 7.6: Upgrade to 7.6.5 or above\nFortiAnalyzer Cloud 7.4: Upgrade to 7.4.8 or above\nFortiAnalyzer Cloud 7.2: Upgrade to 7.2.12 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiAnalyzer Cloud"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-23705",
+      "description": "Multiple SQL Injections",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "cvss": "6.5",
+      "severity": "MEDIUM",
+      "product": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Multiple SQL Injections\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager 8.0: Not Applicable\nFortiManager 7.6: Upgrade to 7.6.5 or above\nFortiManager 7.4: Upgrade to 7.4.7 or above\nFortiManager 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-23706",
+      "description": "Multiple SQL Injections",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N/E:P/RL:O/RC:C",
+      "cvss": "5.9",
+      "severity": "MEDIUM",
+      "product": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Multiple SQL Injections\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager 8.0: Not Applicable\nFortiManager 7.6: Upgrade to 7.6.5 or above\nFortiManager 7.4: Upgrade to 7.4.7 or above\nFortiManager 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-23707",
+      "description": "Multiple SQL Injections",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "cvss": "6.5",
+      "severity": "MEDIUM",
+      "product": "Multiple Arbitrary File Read/Write via SQL Injection",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Multiple SQL Injections\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager Cloud 8.0: Not Applicable\nFortiManager Cloud 7.6: Upgrade to 7.6.5 or above\nFortiManager Cloud 7.4: Not Applicable\nFortiManager Cloud 7.2: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager Cloud"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

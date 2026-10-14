@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Fabric API Authentication bypass",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_fabric-api-authentication-bypass_fg-ir-26-179.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-106172",
+      "description": "Authentication Bypass on FortiSandbox",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:L/I:N/A:N/E:F/RL:O/RC:C",
+      "cvss": "4.9",
+      "severity": "MEDIUM",
+      "product": "Fabric API Authentication bypass",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Authentication Bypass on FortiSandbox\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSandbox Cloud 5.2: Upgrade to upcoming 5.2.2 or above\nFortiSandbox Cloud 5.0: Upgrade to upcoming  5.0.7 or above\nFortiSandbox Cloud 4.4: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSandbox Cloud"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

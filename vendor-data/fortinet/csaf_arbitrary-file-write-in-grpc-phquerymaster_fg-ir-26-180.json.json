@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Arbitrary file write in grpc phQueryMaster",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-file-write-in-grpc-phquerymaster_fg-ir-26-180.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-106173",
+      "description": "Arbitrary file write into phQueryMaster daemon",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H/E:H/RL:O/RC:C",
+      "cvss": "9.4",
+      "severity": "CRITICAL",
+      "product": "Arbitrary file write in grpc phQueryMaster",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Arbitrary file write into phQueryMaster daemon\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Additional info",
+            "text": "Workaround :\n- Restricting access on tcp port 27918 prevents the issue.\n\nFortiSIEM Cloud is NOT affected by this vulnerability."
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSIEM 7.6: Not Applicable\nFortiSIEM 7.5: Upgrade to 7.5.1 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSIEM"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

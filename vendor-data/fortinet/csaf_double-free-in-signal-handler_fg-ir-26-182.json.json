@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Double free in signal handler",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_double-free-in-signal-handler_fg-ir-26-182.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-106175",
+      "description": "Double free vulnerability in CLI command",
+      "vector": "CVSS:3.1/AV:L/AC:L/PR:H/UI:N/S:U/C:N/I:N/A:L/E:P/RL:O/RC:C",
+      "cvss": "2.1",
+      "severity": "LOW",
+      "product": "Double free in signal handler",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Double free vulnerability in CLI command\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSwitch 8.0: Not Applicable\nFortiSwitch 7.6: Upgrade to 7.6.7 or above\nFortiSwitch 7.4: Migrate to a fixed release\nFortiSwitch 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSwitch"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

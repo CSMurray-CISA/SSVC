@@ -1,0 +1,26 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "HTML injection in WebUI",
+  "source_url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005",
+  "release_date": "",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2020-12811",
+      "description": "CVE ID",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "HTML injection in WebUI",
+      "component": "",
+      "published_date": "",
+      "exploitation": "none",
+      "details": {
+        "source_row": [
+          "CVE ID",
+          "CVE-2020-12811"
+        ]
+      }
+    }
+  ]
+}

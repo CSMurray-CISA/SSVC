@@ -1,0 +1,50 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "GUI Denial of Service",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_gui-denial-of-service_fg-ir-26-181.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-106174",
+      "description": "Denial of Service in GUI",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H/E:P/RL:O/RC:C",
+      "cvss": "6.7",
+      "severity": "MEDIUM",
+      "product": "GUI Denial of Service",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Denial of Service in GUI\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Additional info",
+            "text": "Virtual Patch named \"FG-VD-61291.0day.\" is available in FMWP db update 26.073"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiOS 8.0: Upgrade to upcoming  8.0.1 or above\nFortiOS 7.6: Upgrade to 7.6.7 or above\nFortiOS 7.4: Not Applicable\nFortiOS 7.2: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiOS"
+            ]
+          },
+          {
+            "category": "mitigation",
+            "details": "A virtual patch is available. FortiGuard IPS signature package: Virtual Patch named \"FG-VD-61291.0day.\" is available in FMWP db update 26.073",
+            "product_ids": [
+              "FortiOS"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

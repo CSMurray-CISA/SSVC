@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "SQL command injection in webmail",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_sql-command-injection-in-webmail_fg-ir-26-184.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2025-57739",
+      "description": "Improper neutralization of special elements used in an SQL Command in FortiMail webmail",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H/E:U/RL:O/RC:C",
+      "cvss": "7.7",
+      "severity": "HIGH",
+      "product": "SQL command injection in webmail",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Improper neutralization of special elements used in an SQL Command in FortiMail webmail\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Additional info",
+            "text": "Fortinet in Q1/26 has remediated this issue in FortiMail Cloud and hence the customers need not perform any action."
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiMail 8.0: Not Applicable\nFortiMail 7.6: Upgrade to 7.6.4 or above\nFortiMail 7.4: Upgrade to 7.4.6 or above\nFortiMail 7.2: Upgrade to 7.2.9 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiMail"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

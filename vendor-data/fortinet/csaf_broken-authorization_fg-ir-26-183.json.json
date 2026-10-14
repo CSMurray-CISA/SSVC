@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Broken authorization",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_broken-authorization_fg-ir-26-183.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-106176",
+      "description": "Missing authorization allowing admin accounts to execute unauthorized commands",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:N/I:L/A:L/E:P/RL:O/RC:C",
+      "cvss": "3.4",
+      "severity": "LOW",
+      "product": "Broken authorization",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Missing authorization allowing admin accounts to execute unauthorized commands\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSIEM 7.6: Not Applicable\nFortiSIEM 7.5: Upgrade to 7.5.1 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSIEM"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

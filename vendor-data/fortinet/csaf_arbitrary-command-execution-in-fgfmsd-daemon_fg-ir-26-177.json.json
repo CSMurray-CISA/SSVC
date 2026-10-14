@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "arbitrary command execution in fgfmsd daemon",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json",
+  "release_date": "2026-10-13T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-106171",
+      "description": "Command injection in fgfmd daemon",
+      "vector": "CVSS:3.1/AV:A/AC:L/PR:H/UI:N/S:U/C:N/I:H/A:H/E:U/RL:O/RC:C",
+      "cvss": "5.3",
+      "severity": "MEDIUM",
+      "product": "arbitrary command execution in fgfmsd daemon",
+      "component": "",
+      "published_date": "2026-10-13T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Command injection in fgfmd daemon\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager Cloud 8.0: Not Applicable\nFortiManager Cloud 7.6: Upgrade to upcoming  7.6.7 or above\nFortiManager Cloud 7.4: Not Applicable\nFortiManager Cloud 7.2: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager Cloud"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
