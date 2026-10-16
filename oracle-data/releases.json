@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15T11:32:49.693378+00:00",
+  "generated_at": "2026-10-16T11:27:46.369938+00:00",
   "source": "https://www.oracle.com/security-alerts/",
   "releases": [
     {
@@ -94,7 +94,7 @@
     }
   ],
   "warnings": [
-    "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte",
-    "https://www.oracle.com/security-alerts/cpuoct2024.html: 'utf-8' codec can't decode byte 0xed in position 713134: invalid continuation byte"
+    "No CSAF link: https://www.oracle.com/security-alerts/cpuoct2026.html",
+    "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte"
   ]
 }

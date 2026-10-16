@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-15T11:32:52.219764+00:00",
+  "generated_at": "2026-10-16T11:27:46.911181+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-hardening-meraki-os-drbex9gh.json",
+      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH/csaf/cisco-sa-hardening-meraki-os-drbEX9GH.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-meraki-os-drbEX9GH%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-meraki-os-drbex9gh.json.json",
+      "count": 7
+    },
     {
       "id": "cisco-sa-hardening-esa-dfcrfxkm.json",
       "title": "Cisco Secure Email Gateway and Secure Email and Web Manager Security Hardening Release: September 2026",
@@ -34,14 +42,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-napi-rce-r2shwu2j/csaf/cisco-sa-napi-rce-r2shwu2j.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-napi-rce-r2shwu2j%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-napi-rce-r2shwu2j.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-hardening-meraki-os-drbex9gh.json",
-      "title": "Cisco Meraki Security Hardening Release: October 2026",
-      "release_date": "2026-10-07T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH/csaf/cisco-sa-hardening-meraki-os-drbEX9GH.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-meraki-os-drbEX9GH%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-hardening-meraki-os-drbex9gh.json.json",
-      "count": 7
     },
     {
       "id": "cisco-sa-nxos-mppe-dhkzafgb.json",
