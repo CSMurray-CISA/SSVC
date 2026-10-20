@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19T13:21:25.671197+00:00",
+  "generated_at": "2026-10-20T11:41:18.395909+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
@@ -13,7 +13,7 @@
     },
     {
       "id": "149228",
-      "title": "About the security content of macOS Tahoe 26.7.1",
+      "title": "macOS Tahoe 26.7.1",
       "release_date": "September 28, 2026",
       "advisory_url": "https://support.apple.com/en-us/149228",
       "data": "vendor-data/apple/149228.json",
@@ -33,7 +33,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149034",
       "data": "vendor-data/apple/149034.json",
-      "count": 126
+      "count": 145
     },
     {
       "id": "149041",
@@ -41,7 +41,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149041",
       "data": "vendor-data/apple/149041.json",
-      "count": 82
+      "count": 91
     },
     {
       "id": "149035",
@@ -49,7 +49,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149035",
       "data": "vendor-data/apple/149035.json",
-      "count": 210
+      "count": 242
     },
     {
       "id": "149042",
@@ -57,7 +57,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149042",
       "data": "vendor-data/apple/149042.json",
-      "count": 153
+      "count": 173
     },
     {
       "id": "149043",
@@ -65,7 +65,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149043",
       "data": "vendor-data/apple/149043.json",
-      "count": 154
+      "count": 173
     },
     {
       "id": "149036",
@@ -73,7 +73,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149036",
       "data": "vendor-data/apple/149036.json",
-      "count": 89
+      "count": 97
     },
     {
       "id": "149037",
@@ -81,7 +81,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149037",
       "data": "vendor-data/apple/149037.json",
-      "count": 93
+      "count": 102
     },
     {
       "id": "149038",
@@ -89,7 +89,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149038",
       "data": "vendor-data/apple/149038.json",
-      "count": 124
+      "count": 138
     },
     {
       "id": "149039",
@@ -97,7 +97,7 @@
       "release_date": "September 14, 2026",
       "advisory_url": "https://support.apple.com/en-us/149039",
       "data": "vendor-data/apple/149039.json",
-      "count": 6
+      "count": 8
     }
   ],
   "warnings": [

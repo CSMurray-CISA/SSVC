@@ -20,6 +20,20 @@
       }
     },
     {
+      "cve": "CVE-2026-86918",
+      "description": "Processing a maliciously crafted image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Accelerate Framework",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing a maliciously crafted image may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86918: Arni Hardarson (Neonix Security) Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-84523",
       "description": "An app may be able to cause unexpected system termination or write kernel memory",
       "vector": "",
@@ -31,6 +45,20 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84582",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "App Intents",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to access sensitive user data Description: A privacy issue was addressed with improved access restrictions. CVE-2026-84582: Zhongcheng Li (CK01) Entry added October 19, 2026"
       }
     },
     {
@@ -202,6 +230,20 @@
       }
     },
     {
+      "cve": "CVE-2026-84613",
+      "description": "An attacker in radio range may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Bluetooth",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An attacker in radio range may be able to cause unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84613: jioundai Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-86895",
       "description": "A local app may be able to read a persistent account identifier",
       "vector": "",
@@ -244,6 +286,20 @@
       }
     },
     {
+      "cve": "CVE-2026-86919",
+      "description": "An attacker with a paired Bluetooth device may be able to execute arbitrary code",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Core Bluetooth",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An attacker with a paired Bluetooth device may be able to execute arbitrary code Description: A stack overflow was addressed with improved input validation. CVE-2026-86919: Mathis Mansière Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-64752",
       "description": "Processing a maliciously crafted image may lead to arbitrary code execution",
       "vector": "",
@@ -283,6 +339,20 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing a maliciously crafted video file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65344: Siyeong kim"
+      }
+    },
+    {
+      "cve": "CVE-2026-86913",
+      "description": "Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "CoreMedia",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory Description: A use after free issue was addressed with improved memory management. CVE-2026-86913: Meta Product Security Entry added October 19, 2026"
       }
     },
     {
@@ -492,7 +562,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary (@olearysec) of olearysec.com Entry updated October 19, 2026"
       }
     },
     {
@@ -538,6 +608,20 @@
       }
     },
     {
+      "cve": "CVE-2026-86975",
+      "description": "Processing a maliciously crafted image may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "ImageIO",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-86975: Tommy DeVoss from Braze Security Team (@thedawgyg), an anonymous researcher Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-64788",
       "description": "Processing maliciously crafted web content may lead to memory corruption",
       "vector": "",
@@ -548,7 +632,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing maliciously crafted web content may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-64788: an anonymous researcher, f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and 云散花折, Arjanit Isufi"
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing maliciously crafted web content may lead to memory corruption Description: The issue was addressed with improved memory handling. CVE-2026-64788: Chanwit Muenprakoddee (ChemIndy), an anonymous researcher, f00l (@PPPF00L) and 3ndy1(@_3ndy1) and Minghao Lin@Y1nkoc and 云散花折, Arjanit Isufi Entry updated October 19, 2026"
       }
     },
     {
@@ -618,7 +702,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: genter0, Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, Dun"
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: genter0, Svetoslav Stolarov, Josh Maine of Calif.io, Dun Entry updated October 19, 2026"
       }
     },
     {
@@ -930,6 +1014,20 @@
       }
     },
     {
+      "cve": "CVE-2026-86962",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Kernel",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to cause unexpected system termination Description: A double free issue was addressed with improved memory management. CVE-2026-86962: OpenAI, Hüseyin Kabasakal @HuseyinK01 Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-86870",
       "description": "Processing a maliciously crafted file may lead to unexpected app termination",
       "vector": "",
@@ -1038,7 +1136,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Hoffcona of IES Red Team Entry updated October 19, 2026"
       }
     },
     {
@@ -1266,6 +1364,20 @@
       }
     },
     {
+      "cve": "CVE-2026-84508",
+      "description": "An app may be able to access protected user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Security",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to access protected user data Description: This issue was addressed with improved validation of the caller's access. CVE-2026-84508: Abodi Dawoud, Merrick Hare, Roelof van Dijk Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-84600",
       "description": "A malicious shortcut may be able to send messages without user confirmation",
       "vector": "",
@@ -1277,6 +1389,34 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: Apple Vision Pro (all models) Impact: A malicious shortcut may be able to send messages without user confirmation Description: An authorization issue was addressed with improved state management. CVE-2026-84600: Owen Pawling (@owenpawling)"
+      }
+    },
+    {
+      "cve": "CVE-2026-28850",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Shortcuts",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management CVE-2026-28850: OSORI Entry added October 19, 2026"
+      }
+    },
+    {
+      "cve": "CVE-2026-86921",
+      "description": "A local attacker may be able to overwrite restricted files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Siri",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: A local attacker may be able to overwrite restricted files Description: A permissions issue was addressed with improved validation. CVE-2026-86921: Jonghoon Han (Aegis), bubu, 이재영, Tae Woo Kim, Dawuge of Shuffle Team Entry added October 19, 2026"
       }
     },
     {
@@ -1658,6 +1798,34 @@
       }
     },
     {
+      "cve": "CVE-2026-86922",
+      "description": "Processing maliciously crafted web content may lead to arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "WebKit",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing maliciously crafted web content may lead to arbitrary code execution Description: A type confusion issue was addressed with improved state management. WebKit Bugzilla: 308231 CVE-2026-86922: Nathaniel Oh (@calysteon), Kwak Kiyong / kakaogames Entry added October 19, 2026"
+      }
+    },
+    {
+      "cve": "CVE-2026-86872",
+      "description": "Processing maliciously crafted web content may lead to unexpected behavior",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "WebKit",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: Processing maliciously crafted web content may lead to unexpected behavior Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 318807 CVE-2026-86872: Junhyuk Im of S2W Inc, Seungyun Lee of S2W Inc Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-64718",
       "description": "Processing maliciously crafted web content may lead to an unexpected Safari crash",
       "vector": "",
@@ -1728,6 +1896,34 @@
       }
     },
     {
+      "cve": "CVE-2026-86953",
+      "description": "An attacker in physical proximity may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Wi-Fi",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An attacker in physical proximity may be able to cause a denial-of-service Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86953: Jakob Pammer Entry added October 19, 2026"
+      }
+    },
+    {
+      "cve": "CVE-2026-86957",
+      "description": "An attacker in wireless proximity may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of visionOS 27",
+      "component": "Wi-Fi",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An attacker in wireless proximity may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-86957: Drin Raci of sentry.security, Niels Hofmans Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-84636",
       "description": "An app may be able to access sensitive user data",
       "vector": "",
@@ -1738,7 +1934,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84636: Jian Lee (@speedyfriend433) Additional recognition"
+        "vendor_text": "Available for: Apple Vision Pro (all models) Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84636: Sindre Sorhus, Jian Lee (@speedyfriend433) Entry updated October 19, 2026 Additional recognition"
       }
     }
   ]

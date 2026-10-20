@@ -20,6 +20,20 @@
       }
     },
     {
+      "cve": "CVE-2026-86918",
+      "description": "Processing a maliciously crafted image may lead to unexpected app termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "Accelerate Framework",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted image may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86918: Arni Hardarson (Neonix Security) Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-43664",
       "description": "An app may be able to access sensitive user data",
       "vector": "",
@@ -45,6 +59,20 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to cause unexpected system termination or write kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84523: Cem Onat Karagun, an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-84582",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "App Intents",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to access sensitive user data Description: A privacy issue was addressed with improved access restrictions. CVE-2026-84582: Zhongcheng Li (CK01) Entry added October 19, 2026"
       }
     },
     {
@@ -188,6 +216,20 @@
       }
     },
     {
+      "cve": "CVE-2026-84613",
+      "description": "An attacker in radio range may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "Bluetooth",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An attacker in radio range may be able to cause unexpected system termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-84613: jioundai Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-86895",
       "description": "A local app may be able to read a persistent account identifier",
       "vector": "",
@@ -227,6 +269,20 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted video file may lead to unexpected app termination Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65344: Siyeong kim"
+      }
+    },
+    {
+      "cve": "CVE-2026-86913",
+      "description": "Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "CoreMedia",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted media file may lead to unexpected app termination or corrupt process memory Description: A use after free issue was addressed with improved memory management. CVE-2026-86913: Meta Product Security Entry added October 19, 2026"
       }
     },
     {
@@ -408,7 +464,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary"
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted image may result in disclosure of process memory Description: An uninitialized memory issue was addressed with improved memory initialization. CVE-2026-84564: Justin O'Leary (@olearysec) of olearysec.com Entry updated October 19, 2026"
       }
     },
     {
@@ -451,6 +507,20 @@
       "exploitation": "none",
       "details": {
         "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted image may result in memory corruption Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-65395: Mateusz Jurczyk of Google Project Zero, Varik Matevosyan"
+      }
+    },
+    {
+      "cve": "CVE-2026-86975",
+      "description": "Processing a maliciously crafted image may lead to unexpected process termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "ImageIO",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: Processing a maliciously crafted image may lead to unexpected process termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-86975: Tommy DeVoss from Braze Security Team (@thedawgyg), an anonymous researcher Entry added October 19, 2026"
       }
     },
     {
@@ -520,7 +590,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: genter0, Svetoslav Stolarov & Aisa Fox, Josh Maine of Calif.io, Dun"
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to cause unexpected system termination or corrupt kernel memory Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-28968: genter0, Svetoslav Stolarov, Josh Maine of Calif.io, Dun Entry updated October 19, 2026"
       }
     },
     {
@@ -804,6 +874,20 @@
       }
     },
     {
+      "cve": "CVE-2026-86962",
+      "description": "An app may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "Kernel",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to cause unexpected system termination Description: A double free issue was addressed with improved memory management. CVE-2026-86962: OpenAI, Hüseyin Kabasakal @HuseyinK01 Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-84628",
       "description": "A sandboxed app may be able to access the System Keychain",
       "vector": "",
@@ -870,7 +954,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Sindre Sorhus, Hoffcona of IES Red Team"
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to identify what other apps a user has installed Description: An information disclosure issue was addressed with improved state management. CVE-2026-84626: Hoffcona of IES Red Team Entry updated October 19, 2026"
       }
     },
     {
@@ -1224,6 +1308,34 @@
       }
     },
     {
+      "cve": "CVE-2026-86953",
+      "description": "An attacker in physical proximity may be able to cause a denial-of-service",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "Wi-Fi",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An attacker in physical proximity may be able to cause a denial-of-service Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86953: Jakob Pammer Entry added October 19, 2026"
+      }
+    },
+    {
+      "cve": "CVE-2026-86957",
+      "description": "An attacker in wireless proximity may be able to cause unexpected system termination",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of tvOS 27",
+      "component": "Wi-Fi",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An attacker in wireless proximity may be able to cause unexpected system termination Description: An out-of-bounds read was addressed with improved bounds checking. CVE-2026-86957: Drin Raci of sentry.security, Niels Hofmans Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-84636",
       "description": "An app may be able to access sensitive user data",
       "vector": "",
@@ -1234,7 +1346,7 @@
       "published_date": "September 14, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84636: Jian Lee (@speedyfriend433)"
+        "vendor_text": "Available for: Apple TV 4K 2nd generation and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-84636: Sindre Sorhus, Jian Lee (@speedyfriend433) Entry updated October 19, 2026"
       }
     },
     {

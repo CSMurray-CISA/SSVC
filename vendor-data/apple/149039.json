@@ -76,6 +76,34 @@
       }
     },
     {
+      "cve": "CVE-2026-86922",
+      "description": "Processing maliciously crafted web content may lead to arbitrary code execution",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of Safari 27",
+      "component": "WebKit",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: Processing maliciously crafted web content may lead to arbitrary code execution Description: A type confusion issue was addressed with improved state management. WebKit Bugzilla: 308231 CVE-2026-86922: Nathaniel Oh (@calysteon), Kwak Kiyong / kakaogames Entry added October 19, 2026"
+      }
+    },
+    {
+      "cve": "CVE-2026-86872",
+      "description": "Processing maliciously crafted web content may lead to unexpected behavior",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of Safari 27",
+      "component": "WebKit",
+      "published_date": "September 14, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Sequoia and macOS Tahoe Impact: Processing maliciously crafted web content may lead to unexpected behavior Description: A logic issue was addressed with improved state management. WebKit Bugzilla: 318807 CVE-2026-86872: Junhyuk Im of S2W Inc, Seungyun Lee of S2W Inc Entry added October 19, 2026"
+      }
+    },
+    {
       "cve": "CVE-2026-64718",
       "description": "Processing maliciously crafted web content may lead to an unexpected Safari crash",
       "vector": "",

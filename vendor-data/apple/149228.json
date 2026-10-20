@@ -1,7 +1,7 @@
 {
   "vendor": "Apple",
   "vendor_id": "apple",
-  "title": "About the security content of macOS Tahoe 26.7.1",
+  "title": "",
   "source_url": "https://support.apple.com/en-us/149228",
   "release_date": "September 28, 2026",
   "vulnerabilities": [
@@ -11,7 +11,7 @@
       "vector": "",
       "cvss": "",
       "severity": "UNKNOWN",
-      "product": "About the security content of macOS Tahoe 26.7.1",
+      "product": "",
       "component": "CoreGraphics",
       "published_date": "September 28, 2026",
       "exploitation": "active",
