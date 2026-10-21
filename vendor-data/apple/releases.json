@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20T11:41:18.395909+00:00",
+  "generated_at": "2026-10-21T11:52:55.487629+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
@@ -13,7 +13,7 @@
     },
     {
       "id": "149228",
-      "title": "macOS Tahoe 26.7.1",
+      "title": "About the security content of macOS Tahoe 26.7.1",
       "release_date": "September 28, 2026",
       "advisory_url": "https://support.apple.com/en-us/149228",
       "data": "vendor-data/apple/149228.json",

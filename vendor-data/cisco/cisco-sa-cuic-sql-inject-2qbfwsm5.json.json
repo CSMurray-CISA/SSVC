@@ -1,0 +1,74 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5/csaf/cisco-sa-cuic-sql-inject-2qbfWSm5.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-cuic-sql-inject-2qbfWSm5%26vs_k=1",
+  "release_date": "2026-08-19T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20327",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "6.5",
+      "severity": "MEDIUM",
+      "product": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-198393",
+              "CSAFPID-220792",
+              "CSAFPID-220795",
+              "CSAFPID-220798",
+              "CSAFPID-281901",
+              "CSAFPID-281905",
+              "CSAFPID-281907",
+              "CSAFPID-281910",
+              "CSAFPID-292570",
+              "CSAFPID-292573",
+              "CSAFPID-292574",
+              "CSAFPID-292580",
+              "CSAFPID-301194",
+              "CSAFPID-301195",
+              "CSAFPID-302082",
+              "CSAFPID-303196",
+              "CSAFPID-303197",
+              "CSAFPID-303198",
+              "CSAFPID-303233",
+              "CSAFPID-303234",
+              "CSAFPID-303235",
+              "CSAFPID-303236",
+              "CSAFPID-303475",
+              "CSAFPID-305237",
+              "CSAFPID-306708",
+              "CSAFPID-306709",
+              "CSAFPID-306710",
+              "CSAFPID-306711",
+              "CSAFPID-308593",
+              "CSAFPID-308594",
+              "CSAFPID-308595",
+              "CSAFPID-308596",
+              "CSAFPID-308597",
+              "CSAFPID-308598",
+              "CSAFPID-308929",
+              "CSAFPID-308930"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

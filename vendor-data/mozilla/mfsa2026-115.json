@@ -1,0 +1,65 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-115",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-115/",
+  "release_date": "October 20, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-113866",
+      "description": "Reporter Magnus Melin Impact high Description When setting up an account, Thunderbird's Exchange AutoDiscover lookup also queried the domain's AutoDiscover service over plain HTTP. Due to a bug, that unencrypted request included the credentials the user had entered, allowing a network attacker to obtain the user's password. References Bug 2080121",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-115",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Magnus Melin Impact high Description When setting up an account, Thunderbird's Exchange AutoDiscover lookup also queried the domain's AutoDiscover service over plain HTTP. Due to a bug, that unencrypted request included the credentials the user had entered, allowing a network attacker to obtain the user's password. References Bug 2080121"
+      }
+    },
+    {
+      "cve": "CVE-2026-113867",
+      "description": "Reporter Magnus Melin Impact high Description Thunderbird did not escape attribute values when serializing outgoing XMPP stanzas. Because values from incoming requests were echoed back in automatic replies, a remote XMPP user could send a crafted request that caused Thunderbird to inject arbitrary stanzas into the user's connection, which the server would then process as if sent by the user. This could be used to send messages or change contact and subscription settings on behalf of the user, without any interaction. This bug only affects Thunderbird's chat feature with XMPP accounts. References Bug 2080073",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-115",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Magnus Melin Impact high Description Thunderbird did not escape attribute values when serializing outgoing XMPP stanzas. Because values from incoming requests were echoed back in automatic replies, a remote XMPP user could send a crafted request that caused Thunderbird to inject arbitrary stanzas into the user's connection, which the server would then process as if sent by the user. This could be used to send messages or change contact and subscription settings on behalf of the user, without any interaction. This bug only affects Thunderbird's chat feature with XMPP accounts. References Bug 2080073"
+      }
+    },
+    {
+      "cve": "CVE-2026-113868",
+      "description": "Reporter Nguyen Tuan Hung (VNU HCM - UIT) Impact high Description When authenticating to a POP3 or SMTP server using NTLM, Thunderbird did not check whether the server's challenge was valid base64. A malicious server could send a challenge that caused Thunderbird to include uninitialized heap memory in its NTLM response, disclosing that memory to the server. A challenge consisting only of base64 padding also caused an out-of-bounds read, crashing Thunderbird. This affected accounts configured to use NTLM or GSSAPI authentication. The uninitialized memory disclosure only affected NTLM. References Bug 2076569",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-115",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Nguyen Tuan Hung (VNU HCM - UIT) Impact high Description When authenticating to a POP3 or SMTP server using NTLM, Thunderbird did not check whether the server's challenge was valid base64. A malicious server could send a challenge that caused Thunderbird to include uninitialized heap memory in its NTLM response, disclosing that memory to the server. A challenge consisting only of base64 padding also caused an out-of-bounds read, crashing Thunderbird. This affected accounts configured to use NTLM or GSSAPI authentication. The uninitialized memory disclosure only affected NTLM. References Bug 2076569"
+      }
+    },
+    {
+      "cve": "CVE-2026-113470",
+      "description": "Reporter Wayne Impact high Description Mozilla blocked compromised intermediate eMudhra certificates via OneCRL on the 17th of October which was distributed to clients via RemoteSettings the same day. This update contains the updated OneCRL block list, ensuring clients will block the compromised certificates even if RemoteSettings is disabled by policy or otherwise unavailable in the user's network environment. References Bug 2083382",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-115",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Wayne Impact high Description Mozilla blocked compromised intermediate eMudhra certificates via OneCRL on the 17th of October which was distributed to clients via RemoteSettings the same day. This update contains the updated OneCRL block list, ensuring clients will block the compromised certificates even if RemoteSettings is disabled by policy or otherwise unavailable in the user's network environment. References Bug 2083382"
+      }
+    }
+  ]
+}

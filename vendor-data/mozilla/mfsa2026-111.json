@@ -1,0 +1,65 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-111",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-111/",
+  "release_date": "October 20, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-113399",
+      "description": "Reporter Mozilla Impact high References Bug 2079938",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-111",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079938"
+      }
+    },
+    {
+      "cve": "CVE-2026-113470",
+      "description": "Reporter Wayne Impact high Description Mozilla blocked compromised intermediate eMudhra certificates via OneCRL on the 17th of October which was distributed to clients via RemoteSettings the same day. This update contains the updated OneCRL block list, ensuring clients will block the compromised certificates even if RemoteSettings is disabled by policy or otherwise unavailable in the user's network environment. References Bug 2083382",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-111",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Wayne Impact high Description Mozilla blocked compromised intermediate eMudhra certificates via OneCRL on the 17th of October which was distributed to clients via RemoteSettings the same day. This update contains the updated OneCRL block list, ensuring clients will block the compromised certificates even if RemoteSettings is disabled by policy or otherwise unavailable in the user's network environment. References Bug 2083382"
+      }
+    },
+    {
+      "cve": "CVE-2026-113400",
+      "description": "Reporter Mozilla Impact moderate References Bug 2061768",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-111",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061768"
+      }
+    },
+    {
+      "cve": "CVE-2026-113401",
+      "description": "Reporter Ahmed Hesham Impact low References Bug 2073714",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-111",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Ahmed Hesham Impact low References Bug 2073714"
+      }
+    }
+  ]
+}

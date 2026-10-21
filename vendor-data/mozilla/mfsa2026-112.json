@@ -1,0 +1,23 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-112",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-112/",
+  "release_date": "October 20, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-113470",
+      "description": "Reporter Wayne Impact high Description Mozilla blocked compromised intermediate eMudhra certificates via OneCRL on the 17th of October which was distributed to clients via RemoteSettings the same day. This update contains the updated OneCRL block list, ensuring clients will block the compromised certificates even if RemoteSettings is disabled by policy or otherwise unavailable in the user's network environment. References Bug 2083382",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-112",
+      "component": "",
+      "published_date": "October 20, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Wayne Impact high Description Mozilla blocked compromised intermediate eMudhra certificates via OneCRL on the 17th of October which was distributed to clients via RemoteSettings the same day. This update contains the updated OneCRL block list, ensuring clients will block the compromised certificates even if RemoteSettings is disabled by policy or otherwise unavailable in the user's network environment. References Bug 2083382"
+      }
+    }
+  ]
+}

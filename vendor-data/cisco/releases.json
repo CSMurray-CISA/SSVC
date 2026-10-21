@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-20T11:41:18.226223+00:00",
+  "generated_at": "2026-10-21T11:52:53.246648+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-cuic-sql-inject-2qbfwsm5.json",
+      "title": "Cisco Unified Intelligence Center SQL Injection Vulnerability",
+      "release_date": "2026-08-19T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-cuic-sql-inject-2qbfWSm5/csaf/cisco-sa-cuic-sql-inject-2qbfWSm5.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-cuic-sql-inject-2qbfWSm5%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-cuic-sql-inject-2qbfwsm5.json.json",
+      "count": 1
+    },
     {
       "id": "cisco-sa-hardening-meraki-os-drbex9gh.json",
       "title": "Cisco Meraki Security Hardening Release: October 2026",
@@ -90,14 +98,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-ssm-Ph77wdhf/csaf/cisco-sa-hardening-ssm-Ph77wdhf.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-ssm-Ph77wdhf%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-hardening-ssm-ph77wdhf.json.json",
       "count": 4
-    },
-    {
-      "id": "cisco-sa-aci-epgcbp-sfdu7nlf.json",
-      "title": "Cisco Nexus 9000 Series Fabric Switches in ACI Mode Endpoint Group Contract Bypass Vulnerability",
-      "release_date": "2026-10-07T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-aci-epgcbp-SfDU7NLf/csaf/cisco-sa-aci-epgcbp-SfDU7NLf.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-aci-epgcbp-SfDU7NLf%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-aci-epgcbp-sfdu7nlf.json.json",
-      "count": 1
     }
   ],
   "warnings": [

@@ -1,7 +1,16 @@
 {
-  "generated_at": "2026-10-20T11:41:21.977390+00:00",
+  "generated_at": "2026-10-21T11:52:52.511057+00:00",
   "source": "https://www.oracle.com/security-alerts/",
   "releases": [
+    {
+      "id": "cpuoct2026csaf",
+      "title": "Oracle Critical Patch Update Advisory - October 2026",
+      "release_date": "2026-10-20T13:00:00-07:00",
+      "updated": "2026-10-20T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpuoct2026.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuoct2026csaf.json",
+      "data": "oracle-data/cpuoct2026csaf.json"
+    },
     {
       "id": "cspusep2026csaf",
       "title": "Oracle Critical Security Patch Update Advisory - September 2026",
@@ -94,7 +103,6 @@
     }
   ],
   "warnings": [
-    "No CSAF link: https://www.oracle.com/security-alerts/cpuoct2026.html",
     "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte"
   ]
 }
