@@ -1,0 +1,62 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco Unified Communications Manager Improper Access Control Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-access-PW9e8Jt2/csaf/cisco-sa-cucm-access-PW9e8Jt2.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-cucm-access-PW9e8Jt2%26vs_k=1",
+  "release_date": "2026-10-21T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76487",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:N",
+      "cvss": "5.3",
+      "severity": "MEDIUM",
+      "product": "Cisco Unified Communications Manager Improper Access Control Vulnerability",
+      "component": "",
+      "published_date": "2026-10-21T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-287057",
+              "CSAFPID-301552",
+              "CSAFPID-306377",
+              "CSAFPID-306378",
+              "CSAFPID-306379",
+              "CSAFPID-306380",
+              "CSAFPID-306381",
+              "CSAFPID-306382",
+              "CSAFPID-306383",
+              "CSAFPID-306384",
+              "CSAFPID-306504",
+              "CSAFPID-306505",
+              "CSAFPID-306507",
+              "CSAFPID-306508",
+              "CSAFPID-306509",
+              "CSAFPID-306510",
+              "CSAFPID-306514",
+              "CSAFPID-306517",
+              "CSAFPID-306597",
+              "CSAFPID-306805",
+              "CSAFPID-308779",
+              "CSAFPID-308780",
+              "CSAFPID-308781",
+              "CSAFPID-88444"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

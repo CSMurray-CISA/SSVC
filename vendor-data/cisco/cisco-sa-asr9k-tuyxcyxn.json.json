@@ -1,0 +1,92 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco IOS XR Software for ASR 9000 Series Routers IPv4 Unicast Packets Denial of Service Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asr9k-tUyxcyXN/csaf/cisco-sa-asr9k-tUyxcyXN.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asr9k-tUyxcyXN%26vs_k=1",
+  "release_date": "2026-10-21T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76505",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H",
+      "cvss": "7.5",
+      "severity": "HIGH",
+      "product": "Cisco IOS XR Software for ASR 9000 Series Routers IPv4 Unicast Packets Denial of Service Vulnerability",
+      "component": "",
+      "published_date": "2026-10-21T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-273354",
+              "CSAFPID-273355",
+              "CSAFPID-273358",
+              "CSAFPID-277941",
+              "CSAFPID-277944",
+              "CSAFPID-279092",
+              "CSAFPID-279095",
+              "CSAFPID-279662",
+              "CSAFPID-280467",
+              "CSAFPID-280725",
+              "CSAFPID-280927",
+              "CSAFPID-280928",
+              "CSAFPID-280930",
+              "CSAFPID-284294",
+              "CSAFPID-285081",
+              "CSAFPID-286233",
+              "CSAFPID-286933",
+              "CSAFPID-286936",
+              "CSAFPID-286938",
+              "CSAFPID-288225",
+              "CSAFPID-289278",
+              "CSAFPID-289279",
+              "CSAFPID-290594",
+              "CSAFPID-292356",
+              "CSAFPID-292468",
+              "CSAFPID-292469",
+              "CSAFPID-292616",
+              "CSAFPID-292627",
+              "CSAFPID-292630",
+              "CSAFPID-292647",
+              "CSAFPID-295140",
+              "CSAFPID-295299",
+              "CSAFPID-295300",
+              "CSAFPID-295427",
+              "CSAFPID-299961",
+              "CSAFPID-300271",
+              "CSAFPID-300320",
+              "CSAFPID-301094",
+              "CSAFPID-301095",
+              "CSAFPID-301096",
+              "CSAFPID-301097",
+              "CSAFPID-301293",
+              "CSAFPID-301633",
+              "CSAFPID-301751",
+              "CSAFPID-301755",
+              "CSAFPID-302846",
+              "CSAFPID-302908",
+              "CSAFPID-302909",
+              "CSAFPID-303040",
+              "CSAFPID-303153",
+              "CSAFPID-303181",
+              "CSAFPID-303354",
+              "CSAFPID-306451",
+              "CSAFPID-5834"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}
