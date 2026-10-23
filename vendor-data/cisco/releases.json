@@ -1,8 +1,56 @@
 {
-  "generated_at": "2026-10-22T11:56:28.512676+00:00",
+  "generated_at": "2026-10-23T11:42:25.765516+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-snort3-mime-vulns-bkxjckkt.json",
+      "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt/csaf/cisco-sa-snort3-mime-vulns-bkXjcKkt.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-mime-vulns-bkXjcKkt%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-snort3-mime-vulns-bkxjckkt.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-hardening-snort3-ybgmhtqe.json",
+      "title": "Multiple Cisco Products Snort 3 Security Hardening Release: October 2026",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe/csaf/cisco-sa-hardening-snort3-ybgmhTQe.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-snort3-ybgmhTQe%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-snort3-ybgmhtqe.json.json",
+      "count": 4
+    },
+    {
+      "id": "cisco-sa-snort3-misc-dos-6mb22qak.json",
+      "title": "Multiple Cisco Products Snort 3 Denial of Service Vulnerabilities",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-misc-dos-6mB22qAK/csaf/cisco-sa-snort3-misc-dos-6mB22qAK.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-misc-dos-6mB22qAK%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-snort3-misc-dos-6mb22qak.json.json",
+      "count": 4
+    },
+    {
+      "id": "cisco-sa-snort3-gre-jnpmhrtv.json",
+      "title": "Multiple Cisco Products Snort 3 Generic Routing Encapsulation Denial of Service Vulnerability",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gre-JNpMHrTv/csaf/cisco-sa-snort3-gre-JNpMHrTv.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-gre-JNpMHrTv%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-snort3-gre-jnpmhrtv.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-snort3-gtpcodec-dos-rmecfepz.json",
+      "title": "Multiple Cisco Products Snort 3 Denial of Service Vulnerability",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gtpcodec-dos-Rmecfepz/csaf/cisco-sa-snort3-gtpcodec-dos-Rmecfepz.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-gtpcodec-dos-Rmecfepz%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-snort3-gtpcodec-dos-rmecfepz.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-snort3-vba-bufdos-jaufdvn9.json",
+      "title": "Multiple Cisco Products Snort 3 Visual Basic for Applications Buffer Overflow Denial of Service Vulnerability",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-vba-bufdos-jAuFdvn9/csaf/cisco-sa-snort3-vba-bufdos-jAuFdvn9.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-vba-bufdos-jAuFdvn9%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-snort3-vba-bufdos-jaufdvn9.json.json",
+      "count": 1
+    },
     {
       "id": "cisco-sa-expressway-inf-disc-vvyqgsts.json",
       "title": "Cisco Expressway Series Information Disclosure Vulnerability",
@@ -20,43 +68,11 @@
       "count": 1
     },
     {
-      "id": "cisco-sa-snort3-mime-vulns-bkxjckkt.json",
-      "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt/csaf/cisco-sa-snort3-mime-vulns-bkXjcKkt.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-mime-vulns-bkXjcKkt%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-snort3-mime-vulns-bkxjckkt.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-snort3-misc-dos-6mb22qak.json",
-      "title": "Multiple Cisco Products Snort 3 Denial of Service Vulnerabilities",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-misc-dos-6mB22qAK/csaf/cisco-sa-snort3-misc-dos-6mB22qAK.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-misc-dos-6mB22qAK%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-snort3-misc-dos-6mb22qak.json.json",
-      "count": 4
-    },
-    {
       "id": "cisco-sa-cucm-access-pw9e8jt2.json",
       "title": "Cisco Unified Communications Manager Improper Access Control Vulnerability",
       "release_date": "2026-10-21T16:00:00+00:00",
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-access-PW9e8Jt2/csaf/cisco-sa-cucm-access-PW9e8Jt2.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-cucm-access-PW9e8Jt2%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-cucm-access-pw9e8jt2.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-hardening-snort3-ybgmhtqe.json",
-      "title": "Multiple Cisco Products Snort 3 Security Hardening Release: October 2026",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe/csaf/cisco-sa-hardening-snort3-ybgmhTQe.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-snort3-ybgmhTQe%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-hardening-snort3-ybgmhtqe.json.json",
-      "count": 4
-    },
-    {
-      "id": "cisco-sa-snort3-vba-bufdos-jaufdvn9.json",
-      "title": "Multiple Cisco Products Snort 3 Visual Basic for Applications Buffer Overflow Denial of Service Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-vba-bufdos-jAuFdvn9/csaf/cisco-sa-snort3-vba-bufdos-jAuFdvn9.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-vba-bufdos-jAuFdvn9%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-snort3-vba-bufdos-jaufdvn9.json.json",
       "count": 1
     },
     {
@@ -82,22 +98,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3/csaf/cisco-sa-voice-hardening-twgbH9e3.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-voice-hardening-twgbH9e3%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-voice-hardening-twgbh9e3.json.json",
       "count": 8
-    },
-    {
-      "id": "cisco-sa-opensrc-snort3-2fxgjpfe.json",
-      "title": "Open Source Snort 3 Control Channel Socket Arbitrary Command Execution Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-opensrc-snort3-2fXGJPfe/csaf/cisco-sa-opensrc-snort3-2fXGJPfe.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-opensrc-snort3-2fXGJPfe%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-opensrc-snort3-2fxgjpfe.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-snort3-gre-jnpmhrtv.json",
-      "title": "Multiple Cisco Products Snort 3 Generic Routing Encapsulation Denial of Service Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-gre-JNpMHrTv/csaf/cisco-sa-snort3-gre-JNpMHrTv.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-gre-JNpMHrTv%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-snort3-gre-jnpmhrtv.json.json",
-      "count": 1
     }
   ],
   "warnings": [
