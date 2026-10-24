@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:42:31.804417+00:00",
+  "generated_at": "2026-10-24T11:04:59.564650+00:00",
   "source": "https://www.oracle.com/security-alerts/",
   "releases": [
     {
@@ -84,6 +84,15 @@
       "data": "oracle-data/CPUJul2025csaf.json"
     },
     {
+      "id": "CPUApr2025csaf",
+      "title": "Oracle Critical Patch Update Advisory - April 2025",
+      "release_date": "2025-04-15T13:00:00-07:00",
+      "updated": "2025-04-21T13:00:00-07:00",
+      "advisory_url": "https://www.oracle.com/security-alerts/cpuapr2025.html",
+      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuapr2025csaf.json",
+      "data": "oracle-data/CPUApr2025csaf.json"
+    },
+    {
       "id": "CPUJan2025csaf",
       "title": "Oracle Critical Patch Update Advisory - January 2025",
       "release_date": "2025-01-21T13:00:00-07:00",
@@ -94,7 +103,6 @@
     }
   ],
   "warnings": [
-    "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte",
-    "https://www.oracle.com/security-alerts/cpuapr2025.html: Failed to download https://www.oracle.com/security-alerts/cpuapr2025.html: HTTP Error 404: Not Found"
+    "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte"
   ]
 }

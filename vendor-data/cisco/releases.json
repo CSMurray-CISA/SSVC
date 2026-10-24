@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23T11:42:25.765516+00:00",
+  "generated_at": "2026-10-24T11:05:02.806119+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
@@ -101,6 +101,7 @@
     }
   ],
   "warnings": [
+    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r/csaf/cisco-sa-emudhra-info-ScS22A1r.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-emudhra-info-ScS22A1r%26vs_k=1: no CVE records found",
     "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k/csaf/cisco-sa-notice-QGwHnJ6k.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-QGwHnJ6k%26vs_k=1: no CVE records found"
   ]
 }
