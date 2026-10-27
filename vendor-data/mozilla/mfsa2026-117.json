@@ -1,0 +1,37 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-117",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-117/",
+  "release_date": "October 26, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-116632",
+      "description": "Reporter xisigr Impact moderate Description A malicious web page could insert arbitrary text into the FaceTime call prompt shown by iOS, potentialy allowing it to display a phishing message inside system UI. References Bug 1328815",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-117",
+      "component": "",
+      "published_date": "October 26, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter xisigr Impact moderate Description A malicious web page could insert arbitrary text into the FaceTime call prompt shown by iOS, potentialy allowing it to display a phishing message inside system UI. References Bug 1328815"
+      }
+    },
+    {
+      "cve": "CVE-2026-116631",
+      "description": "Reporter Yuyang Zhou Impact low Description A malicious web page could open a tel link in a window that was showing a different website, causing the phone-call prompt to appear as if that site had requested the call. References Bug 1297353",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-117",
+      "component": "",
+      "published_date": "October 26, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yuyang Zhou Impact low Description A malicious web page could open a tel link in a window that was showing a different website, causing the phone-call prompt to appear as if that site had requested the call. References Bug 1297353"
+      }
+    }
+  ]
+}

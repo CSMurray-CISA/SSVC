@@ -1,8 +1,88 @@
 {
-  "generated_at": "2026-10-26T13:07:49.555668+00:00",
+  "generated_at": "2026-10-27T12:15:56.058085+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
+    {
+      "id": "149230",
+      "title": "About the security content of iOS 27.2 and iPadOS 27.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149230",
+      "data": "vendor-data/apple/149230.json",
+      "count": 163
+    },
+    {
+      "id": "149227",
+      "title": "About the security content of iOS 26.7.2 and iPadOS 26.7.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149227",
+      "data": "vendor-data/apple/149227.json",
+      "count": 134
+    },
+    {
+      "id": "149225",
+      "title": "About the security content of iOS 18.7.11 and iPadOS 18.7.11",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149225",
+      "data": "vendor-data/apple/149225.json",
+      "count": 3
+    },
+    {
+      "id": "149521",
+      "title": "About the security content of macOS Golden Gate 27.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149521",
+      "data": "vendor-data/apple/149521.json",
+      "count": 263
+    },
+    {
+      "id": "149522",
+      "title": "About the security content of macOS Tahoe 26.7.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149522",
+      "data": "vendor-data/apple/149522.json",
+      "count": 213
+    },
+    {
+      "id": "149523",
+      "title": "About the security content of macOS Sequoia 15.8.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149523",
+      "data": "vendor-data/apple/149523.json",
+      "count": 197
+    },
+    {
+      "id": "149524",
+      "title": "About the security content of tvOS 27.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149524",
+      "data": "vendor-data/apple/149524.json",
+      "count": 72
+    },
+    {
+      "id": "149525",
+      "title": "About the security content of watchOS 27.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149525",
+      "data": "vendor-data/apple/149525.json",
+      "count": 62
+    },
+    {
+      "id": "149526",
+      "title": "About the security content of visionOS 27.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149526",
+      "data": "vendor-data/apple/149526.json",
+      "count": 125
+    },
+    {
+      "id": "149527",
+      "title": "About the security content of Safari 27.2",
+      "release_date": "October 26, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149527",
+      "data": "vendor-data/apple/149527.json",
+      "count": 33
+    },
     {
       "id": "149226",
       "title": "About the security content of iOS 26.7.1 and iPadOS 26.7.1",
@@ -18,86 +98,6 @@
       "advisory_url": "https://support.apple.com/en-us/149228",
       "data": "vendor-data/apple/149228.json",
       "count": 1
-    },
-    {
-      "id": "149229",
-      "title": "About the security content of macOS Sequoia 15.8.1",
-      "release_date": "September 28, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149229",
-      "data": "vendor-data/apple/149229.json",
-      "count": 1
-    },
-    {
-      "id": "149034",
-      "title": "About the security content of iOS 27 and iPadOS 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149034",
-      "data": "vendor-data/apple/149034.json",
-      "count": 145
-    },
-    {
-      "id": "149041",
-      "title": "About the security content of iOS 26.7 and iPadOS 26.7",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149041",
-      "data": "vendor-data/apple/149041.json",
-      "count": 91
-    },
-    {
-      "id": "149035",
-      "title": "About the security content of macOS Golden Gate 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149035",
-      "data": "vendor-data/apple/149035.json",
-      "count": 242
-    },
-    {
-      "id": "149042",
-      "title": "About the security content of macOS Tahoe 26.7",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149042",
-      "data": "vendor-data/apple/149042.json",
-      "count": 173
-    },
-    {
-      "id": "149043",
-      "title": "About the security content of macOS Sequoia 15.8",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149043",
-      "data": "vendor-data/apple/149043.json",
-      "count": 173
-    },
-    {
-      "id": "149036",
-      "title": "About the security content of tvOS 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149036",
-      "data": "vendor-data/apple/149036.json",
-      "count": 97
-    },
-    {
-      "id": "149037",
-      "title": "About the security content of watchOS 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149037",
-      "data": "vendor-data/apple/149037.json",
-      "count": 102
-    },
-    {
-      "id": "149038",
-      "title": "About the security content of visionOS 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149038",
-      "data": "vendor-data/apple/149038.json",
-      "count": 138
-    },
-    {
-      "id": "149039",
-      "title": "About the security content of Safari 27",
-      "release_date": "September 14, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149039",
-      "data": "vendor-data/apple/149039.json",
-      "count": 8
     }
   ],
   "warnings": [

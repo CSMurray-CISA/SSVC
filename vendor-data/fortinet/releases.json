@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26T13:07:54.621729+00:00",
+  "generated_at": "2026-10-27T12:15:58.047341+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
@@ -101,6 +101,7 @@
     }
   ],
   "warnings": [
+    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-node-js-cves_fg-ir-26-187.json: no CVE records found",
     "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json: no CVE records found"
   ]
 }
