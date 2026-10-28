@@ -1,0 +1,2039 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-120",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-120/",
+  "release_date": "October 27, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-117860",
+      "description": "Reporter satyamasd Impact high References Bug 2046558",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter satyamasd Impact high References Bug 2046558"
+      }
+    },
+    {
+      "cve": "CVE-2026-117861",
+      "description": "Reporter Mozilla Impact high References Bug 2053240",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2053240"
+      }
+    },
+    {
+      "cve": "CVE-2026-117862",
+      "description": "Reporter Mozilla Impact high References Bug 2054644",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2054644"
+      }
+    },
+    {
+      "cve": "CVE-2026-117863",
+      "description": "Reporter Mozilla Impact high References Bug 2056783",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2056783"
+      }
+    },
+    {
+      "cve": "CVE-2026-117864",
+      "description": "Reporter Mozilla Impact high References Bug 2058614",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058614"
+      }
+    },
+    {
+      "cve": "CVE-2026-117865",
+      "description": "Reporter Mozilla Impact high References Bug 2058653",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2058653"
+      }
+    },
+    {
+      "cve": "CVE-2026-117866",
+      "description": "Reporter Mozilla Impact high References Bug 2059011",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2059011"
+      }
+    },
+    {
+      "cve": "CVE-2026-117867",
+      "description": "Reporter Mozilla Impact high References Bug 2059110",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2059110"
+      }
+    },
+    {
+      "cve": "CVE-2026-117868",
+      "description": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059961",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Yaqoub Aldurayhim Impact high References Bug 2059961"
+      }
+    },
+    {
+      "cve": "CVE-2026-117869",
+      "description": "Reporter Mozilla Impact high References Bug 2068362",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068362"
+      }
+    },
+    {
+      "cve": "CVE-2026-117870",
+      "description": "Reporter Mozilla Impact high References Bug 2068395",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068395"
+      }
+    },
+    {
+      "cve": "CVE-2026-117871",
+      "description": "Reporter Mozilla Impact high References Bug 2068400",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068400"
+      }
+    },
+    {
+      "cve": "CVE-2026-117872",
+      "description": "Reporter Mozilla Impact high References Bug 2068410",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2068410"
+      }
+    },
+    {
+      "cve": "CVE-2026-117873",
+      "description": "Reporter Mozilla Impact high References Bug 2071733",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2071733"
+      }
+    },
+    {
+      "cve": "CVE-2026-117874",
+      "description": "Reporter Mozilla Impact high References Bug 2073685",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2073685"
+      }
+    },
+    {
+      "cve": "CVE-2026-117875",
+      "description": "Reporter Mozilla Impact high References Bug 2073686",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2073686"
+      }
+    },
+    {
+      "cve": "CVE-2026-117876",
+      "description": "Reporter Amy Burnett of OpenAI Impact high References Bug 2074167",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amy Burnett of OpenAI Impact high References Bug 2074167"
+      }
+    },
+    {
+      "cve": "CVE-2026-117877",
+      "description": "Reporter Mozilla Impact high References Bug 2074209",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2074209"
+      }
+    },
+    {
+      "cve": "CVE-2026-117878",
+      "description": "Reporter Amy Burnett of OpenAI Impact high References Bug 2075431",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amy Burnett of OpenAI Impact high References Bug 2075431"
+      }
+    },
+    {
+      "cve": "CVE-2026-117879",
+      "description": "Reporter Amy Burnett of OpenAI Impact high References Bug 2075432",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amy Burnett of OpenAI Impact high References Bug 2075432"
+      }
+    },
+    {
+      "cve": "CVE-2026-117880",
+      "description": "Reporter Mozilla Impact high References Bug 2075996",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2075996"
+      }
+    },
+    {
+      "cve": "CVE-2026-117881",
+      "description": "Reporter Amy Burnett of OpenAI Impact high References Bug 2076267",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amy Burnett of OpenAI Impact high References Bug 2076267"
+      }
+    },
+    {
+      "cve": "CVE-2026-117882",
+      "description": "Reporter Amy Burnett of OpenAI Impact high References Bug 2076268",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amy Burnett of OpenAI Impact high References Bug 2076268"
+      }
+    },
+    {
+      "cve": "CVE-2026-117883",
+      "description": "Reporter Amy Burnett of OpenAI Impact high References Bug 2076271",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Amy Burnett of OpenAI Impact high References Bug 2076271"
+      }
+    },
+    {
+      "cve": "CVE-2026-117884",
+      "description": "Reporter Mozilla Impact high References Bug 2076410",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2076410"
+      }
+    },
+    {
+      "cve": "CVE-2026-117885",
+      "description": "Reporter Mozilla Impact high References Bug 2076983",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2076983"
+      }
+    },
+    {
+      "cve": "CVE-2026-117886",
+      "description": "Reporter tsui Impact high References Bug 2077162",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter tsui Impact high References Bug 2077162"
+      }
+    },
+    {
+      "cve": "CVE-2026-117887",
+      "description": "Reporter Mozilla Impact high References Bug 2077385",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2077385"
+      }
+    },
+    {
+      "cve": "CVE-2026-117888",
+      "description": "Reporter Minseong Kim Impact high References Bug 2078649",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Minseong Kim Impact high References Bug 2078649"
+      }
+    },
+    {
+      "cve": "CVE-2026-117889",
+      "description": "Reporter Mozilla Impact high References Bug 2078727",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078727"
+      }
+    },
+    {
+      "cve": "CVE-2026-117890",
+      "description": "Reporter Mozilla Impact high References Bug 2078749",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078749"
+      }
+    },
+    {
+      "cve": "CVE-2026-117891",
+      "description": "Reporter Mozilla Impact high References Bug 2078837",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078837"
+      }
+    },
+    {
+      "cve": "CVE-2026-117892",
+      "description": "Reporter Mozilla Impact high References Bug 2078902",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078902"
+      }
+    },
+    {
+      "cve": "CVE-2026-117893",
+      "description": "Reporter Mozilla Impact high References Bug 2078946",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078946"
+      }
+    },
+    {
+      "cve": "CVE-2026-117894",
+      "description": "Reporter Mozilla Impact high References Bug 2078983",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078983"
+      }
+    },
+    {
+      "cve": "CVE-2026-117895",
+      "description": "Reporter Mozilla Impact high References Bug 2078994",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2078994"
+      }
+    },
+    {
+      "cve": "CVE-2026-117896",
+      "description": "Reporter Mozilla Impact high References Bug 2079032",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079032"
+      }
+    },
+    {
+      "cve": "CVE-2026-117897",
+      "description": "Reporter Mozilla Impact high References Bug 2079036",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079036"
+      }
+    },
+    {
+      "cve": "CVE-2026-117898",
+      "description": "Reporter Mozilla Impact high References Bug 2079040",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079040"
+      }
+    },
+    {
+      "cve": "CVE-2026-117899",
+      "description": "Reporter Mozilla Impact high References Bug 2079046",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079046"
+      }
+    },
+    {
+      "cve": "CVE-2026-117900",
+      "description": "Reporter Mozilla Impact high References Bug 2079053",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079053"
+      }
+    },
+    {
+      "cve": "CVE-2026-117901",
+      "description": "Reporter Mozilla Impact high References Bug 2079054",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079054"
+      }
+    },
+    {
+      "cve": "CVE-2026-117902",
+      "description": "Reporter Mozilla Impact high References Bug 2079057",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079057"
+      }
+    },
+    {
+      "cve": "CVE-2026-117903",
+      "description": "Reporter Mozilla Impact high References Bug 2079058",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079058"
+      }
+    },
+    {
+      "cve": "CVE-2026-117904",
+      "description": "Reporter Mozilla Impact high References Bug 2079059",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079059"
+      }
+    },
+    {
+      "cve": "CVE-2026-117905",
+      "description": "Reporter Mozilla Impact high References Bug 2079061",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079061"
+      }
+    },
+    {
+      "cve": "CVE-2026-117906",
+      "description": "Reporter Mozilla Impact high References Bug 2079062",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079062"
+      }
+    },
+    {
+      "cve": "CVE-2026-117907",
+      "description": "Reporter Mozilla Impact high References Bug 2079068",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079068"
+      }
+    },
+    {
+      "cve": "CVE-2026-117908",
+      "description": "Reporter Mozilla Impact high References Bug 2079069",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079069"
+      }
+    },
+    {
+      "cve": "CVE-2026-117909",
+      "description": "Reporter Mozilla Impact high References Bug 2079155",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079155"
+      }
+    },
+    {
+      "cve": "CVE-2026-117910",
+      "description": "Reporter Mozilla Impact high References Bug 2079156",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079156"
+      }
+    },
+    {
+      "cve": "CVE-2026-117911",
+      "description": "Reporter Mozilla Impact high References Bug 2079171",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079171"
+      }
+    },
+    {
+      "cve": "CVE-2026-117912",
+      "description": "Reporter Takashi Suzuki Impact high References Bug 2079209",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Takashi Suzuki Impact high References Bug 2079209"
+      }
+    },
+    {
+      "cve": "CVE-2026-117913",
+      "description": "Reporter Mozilla Impact high References Bug 2079252",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079252"
+      }
+    },
+    {
+      "cve": "CVE-2026-117914",
+      "description": "Reporter Mozilla Impact high References Bug 2079253",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079253"
+      }
+    },
+    {
+      "cve": "CVE-2026-117915",
+      "description": "Reporter Mozilla Impact high References Bug 2079255",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079255"
+      }
+    },
+    {
+      "cve": "CVE-2026-117916",
+      "description": "Reporter Mozilla Impact high References Bug 2079257",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079257"
+      }
+    },
+    {
+      "cve": "CVE-2026-117917",
+      "description": "Reporter Nguyen Tuan Hung Impact high References Bug 2079301",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Nguyen Tuan Hung Impact high References Bug 2079301"
+      }
+    },
+    {
+      "cve": "CVE-2026-117918",
+      "description": "Reporter Mozilla Impact high References Bug 2079676",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079676"
+      }
+    },
+    {
+      "cve": "CVE-2026-117919",
+      "description": "Reporter Mozilla Impact high References Bug 2079677",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079677"
+      }
+    },
+    {
+      "cve": "CVE-2026-117920",
+      "description": "Reporter Mozilla Impact high References Bug 2079681",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079681"
+      }
+    },
+    {
+      "cve": "CVE-2026-117921",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2079687",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2079687"
+      }
+    },
+    {
+      "cve": "CVE-2026-117922",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2079692",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2079692"
+      }
+    },
+    {
+      "cve": "CVE-2026-117923",
+      "description": "Reporter Mozilla Impact high References Bug 2079781",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079781"
+      }
+    },
+    {
+      "cve": "CVE-2026-117924",
+      "description": "Reporter Mozilla Impact high References Bug 2079783",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079783"
+      }
+    },
+    {
+      "cve": "CVE-2026-117925",
+      "description": "Reporter Mozilla Impact high References Bug 2079786",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079786"
+      }
+    },
+    {
+      "cve": "CVE-2026-117926",
+      "description": "Reporter Mozilla Impact high References Bug 2079924",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2079924"
+      }
+    },
+    {
+      "cve": "CVE-2026-117927",
+      "description": "Reporter Mozilla Impact high References Bug 2080102",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2080102"
+      }
+    },
+    {
+      "cve": "CVE-2026-117928",
+      "description": "Reporter Minseong Kim Impact high References Bug 2081280",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Minseong Kim Impact high References Bug 2081280"
+      }
+    },
+    {
+      "cve": "CVE-2026-117929",
+      "description": "Reporter Mozilla Impact high References Bug 2081549",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact high References Bug 2081549"
+      }
+    },
+    {
+      "cve": "CVE-2026-117930",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081953",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081953"
+      }
+    },
+    {
+      "cve": "CVE-2026-117931",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081969",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081969"
+      }
+    },
+    {
+      "cve": "CVE-2026-117932",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081975",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081975"
+      }
+    },
+    {
+      "cve": "CVE-2026-117933",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081976",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081976"
+      }
+    },
+    {
+      "cve": "CVE-2026-117934",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081977",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2081977"
+      }
+    },
+    {
+      "cve": "CVE-2026-117935",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082000",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082000"
+      }
+    },
+    {
+      "cve": "CVE-2026-117936",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082001",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082001"
+      }
+    },
+    {
+      "cve": "CVE-2026-117937",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082005",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082005"
+      }
+    },
+    {
+      "cve": "CVE-2026-117938",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082009",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082009"
+      }
+    },
+    {
+      "cve": "CVE-2026-117939",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082030",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082030"
+      }
+    },
+    {
+      "cve": "CVE-2026-117940",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082031",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082031"
+      }
+    },
+    {
+      "cve": "CVE-2026-117941",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082044",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082044"
+      }
+    },
+    {
+      "cve": "CVE-2026-117942",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082047",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082047"
+      }
+    },
+    {
+      "cve": "CVE-2026-117943",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082061",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082061"
+      }
+    },
+    {
+      "cve": "CVE-2026-117944",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082064",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082064"
+      }
+    },
+    {
+      "cve": "CVE-2026-117945",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082076",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082076"
+      }
+    },
+    {
+      "cve": "CVE-2026-117946",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082092",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082092"
+      }
+    },
+    {
+      "cve": "CVE-2026-117947",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082100",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082100"
+      }
+    },
+    {
+      "cve": "CVE-2026-117948",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082112",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082112"
+      }
+    },
+    {
+      "cve": "CVE-2026-117949",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082118",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082118"
+      }
+    },
+    {
+      "cve": "CVE-2026-117950",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082127",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082127"
+      }
+    },
+    {
+      "cve": "CVE-2026-117951",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082130",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082130"
+      }
+    },
+    {
+      "cve": "CVE-2026-117952",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082139",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082139"
+      }
+    },
+    {
+      "cve": "CVE-2026-117953",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082199",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082199"
+      }
+    },
+    {
+      "cve": "CVE-2026-117954",
+      "description": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082450",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter OpenAI Codex Security (kylebot) Impact high References Bug 2082450"
+      }
+    },
+    {
+      "cve": "CVE-2026-117955",
+      "description": "Reporter Mozilla Impact moderate References Bug 2043044",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2043044"
+      }
+    },
+    {
+      "cve": "CVE-2026-100801",
+      "description": "Reporter Mozilla Impact moderate References Bug 2057112",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2057112"
+      }
+    },
+    {
+      "cve": "CVE-2026-117956",
+      "description": "Reporter Mozilla Impact moderate References Bug 2058659",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2058659"
+      }
+    },
+    {
+      "cve": "CVE-2026-117957",
+      "description": "Reporter Mozilla Impact moderate References Bug 2061508",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061508"
+      }
+    },
+    {
+      "cve": "CVE-2026-117958",
+      "description": "Reporter Mozilla Impact moderate References Bug 2061509",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2061509"
+      }
+    },
+    {
+      "cve": "CVE-2026-117959",
+      "description": "Reporter Muhammad Ali Impact moderate References Bug 2067292",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Muhammad Ali Impact moderate References Bug 2067292"
+      }
+    },
+    {
+      "cve": "CVE-2026-117960",
+      "description": "Reporter Mohamed Mbarek Impact moderate References Bug 2067647",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mohamed Mbarek Impact moderate References Bug 2067647"
+      }
+    },
+    {
+      "cve": "CVE-2026-117961",
+      "description": "Reporter Mozilla Impact moderate References Bug 2068458",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2068458"
+      }
+    },
+    {
+      "cve": "CVE-2026-117962",
+      "description": "Reporter Mozilla Impact moderate References Bug 2072411",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2072411"
+      }
+    },
+    {
+      "cve": "CVE-2026-117963",
+      "description": "Reporter Mozilla Impact moderate References Bug 2073660",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2073660"
+      }
+    },
+    {
+      "cve": "CVE-2026-117964",
+      "description": "Reporter Mozilla Impact moderate References Bug 2074199",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2074199"
+      }
+    },
+    {
+      "cve": "CVE-2026-117965",
+      "description": "Reporter Takashi Suzuki Impact moderate References Bug 2075126",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Takashi Suzuki Impact moderate References Bug 2075126"
+      }
+    },
+    {
+      "cve": "CVE-2026-117966",
+      "description": "Reporter Mozilla Impact moderate References Bug 2075726",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2075726"
+      }
+    },
+    {
+      "cve": "CVE-2026-117967",
+      "description": "Reporter Nguyen Tuan Hung Impact moderate References Bug 2075930",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Nguyen Tuan Hung Impact moderate References Bug 2075930"
+      }
+    },
+    {
+      "cve": "CVE-2026-117968",
+      "description": "Reporter Mozilla Impact moderate References Bug 2075985",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2075985"
+      }
+    },
+    {
+      "cve": "CVE-2026-117969",
+      "description": "Reporter Mozilla Impact moderate References Bug 2075990",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2075990"
+      }
+    },
+    {
+      "cve": "CVE-2026-117970",
+      "description": "Reporter Nguyen Thanh Nguyen Impact moderate References Bug 2076227",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Nguyen Thanh Nguyen Impact moderate References Bug 2076227"
+      }
+    },
+    {
+      "cve": "CVE-2026-117971",
+      "description": "Reporter Mozilla Impact moderate References Bug 2076399",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2076399"
+      }
+    },
+    {
+      "cve": "CVE-2026-117972",
+      "description": "Reporter Mozilla Impact moderate References Bug 2076415",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2076415"
+      }
+    },
+    {
+      "cve": "CVE-2026-117973",
+      "description": "Reporter Mozilla Impact moderate References Bug 2076704",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2076704"
+      }
+    },
+    {
+      "cve": "CVE-2026-117974",
+      "description": "Reporter Mozilla Impact moderate References Bug 2076705",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2076705"
+      }
+    },
+    {
+      "cve": "CVE-2026-117975",
+      "description": "Reporter Mozilla Impact moderate References Bug 2076714",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2076714"
+      }
+    },
+    {
+      "cve": "CVE-2026-117976",
+      "description": "Reporter Shu Takahashi of Velcore Consulting Inc. Impact moderate References Bug 2076816",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Shu Takahashi of Velcore Consulting Inc. Impact moderate References Bug 2076816"
+      }
+    },
+    {
+      "cve": "CVE-2026-117977",
+      "description": "Reporter quanhx Impact moderate References Bug 2077418",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter quanhx Impact moderate References Bug 2077418"
+      }
+    },
+    {
+      "cve": "CVE-2026-117978",
+      "description": "Reporter Mozilla Impact moderate References Bug 2077730",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2077730"
+      }
+    },
+    {
+      "cve": "CVE-2026-117979",
+      "description": "Reporter Mozilla Impact moderate References Bug 2077739",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2077739"
+      }
+    },
+    {
+      "cve": "CVE-2026-117980",
+      "description": "Reporter Massimo Palozzi Impact moderate References Bug 2078145",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Massimo Palozzi Impact moderate References Bug 2078145"
+      }
+    },
+    {
+      "cve": "CVE-2026-117981",
+      "description": "Reporter Mozilla Impact moderate References Bug 2078167",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2078167"
+      }
+    },
+    {
+      "cve": "CVE-2026-117982",
+      "description": "Reporter Mozilla Impact moderate References Bug 2078855",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2078855"
+      }
+    },
+    {
+      "cve": "CVE-2026-117983",
+      "description": "Reporter Mozilla Impact moderate References Bug 2078904",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2078904"
+      }
+    },
+    {
+      "cve": "CVE-2026-117984",
+      "description": "Reporter Mozilla Impact moderate References Bug 2078981",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2078981"
+      }
+    },
+    {
+      "cve": "CVE-2026-117985",
+      "description": "Reporter Mozilla Impact moderate References Bug 2078982",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2078982"
+      }
+    },
+    {
+      "cve": "CVE-2026-117986",
+      "description": "Reporter Mozilla Impact moderate References Bug 2078989",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2078989"
+      }
+    },
+    {
+      "cve": "CVE-2026-117987",
+      "description": "Reporter Mozilla Impact moderate References Bug 2079065",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2079065"
+      }
+    },
+    {
+      "cve": "CVE-2026-117988",
+      "description": "Reporter Mozilla Impact moderate References Bug 2079072",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2079072"
+      }
+    },
+    {
+      "cve": "CVE-2026-117989",
+      "description": "Reporter Nguyen Tuan Hung Impact moderate References Bug 2079311",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Nguyen Tuan Hung Impact moderate References Bug 2079311"
+      }
+    },
+    {
+      "cve": "CVE-2026-117990",
+      "description": "Reporter Mozilla Impact moderate References Bug 2079501",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2079501"
+      }
+    },
+    {
+      "cve": "CVE-2026-117991",
+      "description": "Reporter Mozilla Impact moderate References Bug 2079686",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2079686"
+      }
+    },
+    {
+      "cve": "CVE-2026-117992",
+      "description": "Reporter Takashi Suzuki Impact moderate References Bug 2079709",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Takashi Suzuki Impact moderate References Bug 2079709"
+      }
+    },
+    {
+      "cve": "CVE-2026-117993",
+      "description": "Reporter 5up3rh3i Impact moderate References Bug 2080581",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter 5up3rh3i Impact moderate References Bug 2080581"
+      }
+    },
+    {
+      "cve": "CVE-2026-117994",
+      "description": "Reporter Mozilla Impact moderate References Bug 2080787",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2080787"
+      }
+    },
+    {
+      "cve": "CVE-2026-117995",
+      "description": "Reporter haruka yamazaki Impact moderate References Bug 2081184",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter haruka yamazaki Impact moderate References Bug 2081184"
+      }
+    },
+    {
+      "cve": "CVE-2026-117996",
+      "description": "Reporter Mozilla Impact moderate References Bug 2081535",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2081535"
+      }
+    },
+    {
+      "cve": "CVE-2026-117997",
+      "description": "Reporter Mozilla Impact moderate References Bug 2081560",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact moderate References Bug 2081560"
+      }
+    },
+    {
+      "cve": "CVE-2026-117998",
+      "description": "Reporter Ibuki Sato Impact low References Bug 2042021",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Ibuki Sato Impact low References Bug 2042021"
+      }
+    },
+    {
+      "cve": "CVE-2026-117999",
+      "description": "Reporter Mozilla Impact low References Bug 2071379",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact low References Bug 2071379"
+      }
+    },
+    {
+      "cve": "CVE-2026-118000",
+      "description": "Reporter Mozilla Impact low References Bug 2072436",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact low References Bug 2072436"
+      }
+    },
+    {
+      "cve": "CVE-2026-118002",
+      "description": "Reporter Abdulrahman Alzahrani Impact low References Bug 2073584",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Abdulrahman Alzahrani Impact low References Bug 2073584"
+      }
+    },
+    {
+      "cve": "CVE-2026-118003",
+      "description": "Reporter eldjiikgull Impact low References Bug 2076744",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter eldjiikgull Impact low References Bug 2076744"
+      }
+    },
+    {
+      "cve": "CVE-2026-118004",
+      "description": "Reporter Mozilla Impact low References Bug 2077756",
+      "vector": "",
+      "cvss": "",
+      "severity": "LOW",
+      "product": "Mozilla Foundation Security Advisory 2026-120",
+      "component": "",
+      "published_date": "October 27, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Mozilla Impact low References Bug 2077756"
+      }
+    }
+  ]
+}

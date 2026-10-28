@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-10-27T12:15:56.865091+00:00",
+  "generated_at": "2026-10-28T12:58:50.945383+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-voice-hardening-twgbh9e3.json",
+      "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3/csaf/cisco-sa-voice-hardening-twgbH9e3.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-voice-hardening-twgbH9e3%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-voice-hardening-twgbh9e3.json.json",
+      "count": 8
+    },
+    {
+      "id": "cisco-sa-exwy-hardening-fhcqbvcs.json",
+      "title": "Cisco Expressway Series Security Hardening Release: October 2026",
+      "release_date": "2026-10-21T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-exwy-hardening-FhcqBVcs/csaf/cisco-sa-exwy-hardening-FhcqBVcs.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-exwy-hardening-FhcqBVcs%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-exwy-hardening-fhcqbvcs.json.json",
+      "count": 8
+    },
     {
       "id": "cisco-sa-snort3-mime-vulns-bkxjckkt.json",
       "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
@@ -76,28 +92,12 @@
       "count": 1
     },
     {
-      "id": "cisco-sa-exwy-hardening-fhcqbvcs.json",
-      "title": "Cisco Expressway Series Security Hardening Release: October 2026",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-exwy-hardening-FhcqBVcs/csaf/cisco-sa-exwy-hardening-FhcqBVcs.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-exwy-hardening-FhcqBVcs%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-exwy-hardening-fhcqbvcs.json.json",
-      "count": 8
-    },
-    {
       "id": "cisco-sa-vcs-static-cred-hr7ewz8t.json",
       "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
       "release_date": "2026-10-21T16:00:00+00:00",
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t/csaf/cisco-sa-vcs-static-cred-hr7EWZ8t.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-vcs-static-cred-hr7EWZ8t%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-vcs-static-cred-hr7ewz8t.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-voice-hardening-twgbh9e3.json",
-      "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3/csaf/cisco-sa-voice-hardening-twgbH9e3.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-voice-hardening-twgbH9e3%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-voice-hardening-twgbh9e3.json.json",
-      "count": 8
     }
   ],
   "warnings": [
