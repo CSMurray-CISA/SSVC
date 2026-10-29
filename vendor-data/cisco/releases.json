@@ -1,8 +1,24 @@
 {
-  "generated_at": "2026-10-28T12:58:50.945383+00:00",
+  "generated_at": "2026-10-29T13:05:26.791714+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-sdwan-rpa-ehchtzk.json",
+      "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
+      "release_date": "2026-02-25T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-sdwan-rpa-EHchtZk/csaf/cisco-sa-sdwan-rpa-EHchtZk.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-sdwan-rpa-EHchtZk%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-sdwan-rpa-ehchtzk.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-asaftd-tunnel-dos-s6mgkb75.json",
+      "title": "Cisco Secure Firewall Adaptive Security Appliance and Secure Firewall Threat Defense Software Remote Access SSL VPN Tunnel Denial of Service Vulnerability",
+      "release_date": "2026-10-28T19:15:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75/csaf/cisco-sa-asaftd-tunnel-dos-s6mgkb75.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftd-tunnel-dos-s6mgkb75%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-asaftd-tunnel-dos-s6mgkb75.json.json",
+      "count": 1
+    },
     {
       "id": "cisco-sa-voice-hardening-twgbh9e3.json",
       "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
@@ -82,26 +98,11 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asr9k-tUyxcyXN/csaf/cisco-sa-asr9k-tUyxcyXN.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asr9k-tUyxcyXN%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-asr9k-tuyxcyxn.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-cucm-access-pw9e8jt2.json",
-      "title": "Cisco Unified Communications Manager Improper Access Control Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucm-access-PW9e8Jt2/csaf/cisco-sa-cucm-access-PW9e8Jt2.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-cucm-access-PW9e8Jt2%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-cucm-access-pw9e8jt2.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-vcs-static-cred-hr7ewz8t.json",
-      "title": "Cisco Expressway Series Remote Code Execution Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-vcs-static-cred-hr7EWZ8t/csaf/cisco-sa-vcs-static-cred-hr7EWZ8t.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-vcs-static-cred-hr7EWZ8t%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-vcs-static-cred-hr7ewz8t.json.json",
-      "count": 1
     }
   ],
   "warnings": [
     "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r/csaf/cisco-sa-emudhra-info-ScS22A1r.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-emudhra-info-ScS22A1r%26vs_k=1: no CVE records found",
+    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK/csaf/cisco-sa-notice-I8z3n6lK.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-I8z3n6lK%26vs_k=1: no CVE records found",
     "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k/csaf/cisco-sa-notice-QGwHnJ6k.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-QGwHnJ6k%26vs_k=1: no CVE records found"
   ]
 }
