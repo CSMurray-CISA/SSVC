@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-29T13:05:27.631662+00:00",
+  "generated_at": "2026-10-30T12:59:06.969440+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
+    {
+      "id": "149589",
+      "title": "About the security content of Xcode 27.2",
+      "release_date": "October 29, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149589",
+      "data": "vendor-data/apple/149589.json",
+      "count": 2
+    },
     {
       "id": "149230",
       "title": "About the security content of iOS 27.2 and iPadOS 27.2",
@@ -89,14 +97,6 @@
       "release_date": "September 28, 2026",
       "advisory_url": "https://support.apple.com/en-us/149226",
       "data": "vendor-data/apple/149226.json",
-      "count": 1
-    },
-    {
-      "id": "149228",
-      "title": "About the security content of macOS Tahoe 26.7.1",
-      "release_date": "September 28, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149228",
-      "data": "vendor-data/apple/149228.json",
       "count": 1
     }
   ],

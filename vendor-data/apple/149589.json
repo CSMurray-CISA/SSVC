@@ -1,0 +1,37 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "title": "About the security content of Xcode 27.2",
+  "source_url": "https://support.apple.com/en-us/149589",
+  "release_date": "October 29, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-112605",
+      "description": "An app may be able to read arbitrary files",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of Xcode 27.2",
+      "component": "CoreDevice",
+      "published_date": "October 29, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe 26.6 and later Impact: An app may be able to read arbitrary files Description: This issue was addressed with improved handling of symlinks. CVE-2026-112605: Vladislav Shevchenko (Positive Technologies)"
+      }
+    },
+    {
+      "cve": "CVE-2026-112602",
+      "description": "An app may be able to access sensitive user data",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of Xcode 27.2",
+      "component": "Instruments",
+      "published_date": "October 29, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: macOS Tahoe 26.6 and later Impact: An app may be able to access sensitive user data Description: An authorization issue was addressed with improved state management. CVE-2026-112602: Roelof van Dijk Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance, or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Contact the vendor for additional information. Published Date: October 30, 2026"
+      }
+    }
+  ]
+}

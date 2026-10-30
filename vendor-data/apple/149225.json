@@ -16,7 +16,7 @@
       "published_date": "October 26, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generationAir 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later Impact: An app may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-65339: Mustafa Calap (@ordinal0, dbg.re), Meta Red Team X - Nik Tsytsarkin"
+        "vendor_text": "Available for: iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation Impact: An app may be able to leak sensitive user information Description: A logic issue was addressed with improved checks. CVE-2026-65339: Mustafa Calap (@ordinal0, dbg.re), Meta Red Team X - Nik Tsytsarkin"
       }
     },
     {
@@ -30,7 +30,7 @@
       "published_date": "October 26, 2026",
       "exploitation": "active",
       "details": {
-        "vendor_text": "Available for: iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generationAir 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later Impact: Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27. Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86950: Meta Product Security"
+        "vendor_text": "Available for: iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation Impact: Processing a maliciously crafted file may lead to arbitrary code execution. Apple is aware of a report that this issue may have been exploited in an extremely sophisticated attack against specific targeted individuals on versions of iOS before iOS 27. Description: An out-of-bounds write issue was addressed with improved bounds checking. CVE-2026-86950: Meta Product Security"
       },
       "kev": {
         "cveID": "CVE-2026-86950",
@@ -60,7 +60,7 @@
       "published_date": "October 26, 2026",
       "exploitation": "none",
       "details": {
-        "vendor_text": "Available for: iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generationAir 4th generation and later, iPad 9th generation and later, and iPad mini 6th generation and later Impact: A malicious app may be able to access the camera without user permission Description: An access issue was addressed with improved access restrictions. CVE-2026-86990: Mustafa Calap (@ordinal0, dbg.re) Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance, or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Contact the vendor for additional information. Published Date: October 26, 2026"
+        "vendor_text": "Available for: iPhone XS, iPhone XS Max, iPhone XR, iPad 7th generation Impact: A malicious app may be able to access the camera without user permission Description: An access issue was addressed with improved access restrictions. CVE-2026-86990: Mustafa Calap (@ordinal0, dbg.re) Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance, or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Contact the vendor for additional information. Published Date: October 29, 2026"
       }
     }
   ]

@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-10-29T13:05:26.791714+00:00",
+  "generated_at": "2026-10-30T12:59:07.546880+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-finesse-ssrf-mmsuyugs.json",
+      "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-finesse-ssrf-mmSuyugS/csaf/cisco-sa-finesse-ssrf-mmSuyugS.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-finesse-ssrf-mmSuyugS%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-finesse-ssrf-mmsuyugs.json.json",
+      "count": 1
+    },
     {
       "id": "cisco-sa-sdwan-rpa-ehchtzk.json",
       "title": "Cisco Catalyst SD-WAN Controller Authentication Bypass Vulnerability",
@@ -89,14 +97,6 @@
       "release_date": "2026-10-21T16:00:00+00:00",
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-expressway-inf-disc-vvYqgSTS/csaf/cisco-sa-expressway-inf-disc-vvYqgSTS.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-expressway-inf-disc-vvYqgSTS%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-expressway-inf-disc-vvyqgsts.json.json",
-      "count": 1
-    },
-    {
-      "id": "cisco-sa-asr9k-tuyxcyxn.json",
-      "title": "Cisco IOS XR Software for ASR 9000 Series Routers IPv4 Unicast Packets Denial of Service Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asr9k-tUyxcyXN/csaf/cisco-sa-asr9k-tUyxcyXN.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asr9k-tUyxcyXN%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-asr9k-tuyxcyxn.json.json",
       "count": 1
     }
   ],
