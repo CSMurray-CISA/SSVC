@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-02T15:58:52.283753+00:00",
+  "generated_at": "2026-11-03T14:19:28.973977+00:00",
   "vendor": "Mozilla",
   "source": "https://www.mozilla.org/en-US/security/advisories/",
   "releases": [
+    {
+      "id": "mfsa2026-123",
+      "title": "Mozilla Foundation Security Advisory 2026-123",
+      "release_date": "November 3, 2026",
+      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-123/",
+      "data": "vendor-data/mozilla/mfsa2026-123.json",
+      "count": 1
+    },
     {
       "id": "mfsa2026-122",
       "title": "Mozilla Foundation Security Advisory 2026-122",
@@ -90,14 +98,6 @@
       "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-112/",
       "data": "vendor-data/mozilla/mfsa2026-112.json",
       "count": 1
-    },
-    {
-      "id": "mfsa2026-111",
-      "title": "Mozilla Foundation Security Advisory 2026-111",
-      "release_date": "October 20, 2026",
-      "advisory_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-111/",
-      "data": "vendor-data/mozilla/mfsa2026-111.json",
-      "count": 4
     }
   ],
   "warnings": []
