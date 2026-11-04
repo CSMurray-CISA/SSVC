@@ -1,8 +1,32 @@
 {
-  "generated_at": "2026-11-03T14:19:33.213993+00:00",
+  "generated_at": "2026-11-04T14:36:32.299090+00:00",
   "vendor": "SolarWinds",
   "source": "https://www.solarwinds.com/trust-center/security-advisories",
   "releases": [
+    {
+      "id": "cve-2026-28327",
+      "title": "SolarWinds Dameware DLL Hijacking Vulnerability (CVE-2026-28327)",
+      "release_date": "11/03/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28327",
+      "data": "vendor-data/solarwinds/cve-2026-28327.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-28335",
+      "title": "SolarWinds Dameware Buffer Overflow Vulnerability (CVE-2026-28335)",
+      "release_date": "11/03/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28335",
+      "data": "vendor-data/solarwinds/cve-2026-28335.json",
+      "count": 1
+    },
+    {
+      "id": "cve-2026-111497",
+      "title": "Node.js Remote Code Execution Vulnerability (CVE-2026-111497)",
+      "release_date": "10/28/2026",
+      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-111497",
+      "data": "vendor-data/solarwinds/cve-2026-111497.json",
+      "count": 1
+    },
     {
       "id": "cve-2026-109618-and-cve-2026-109619",
       "title": "PHP Remote Code Execution (CVE-2026-109618 and CVE-2026-109619)",
@@ -42,41 +66,10 @@
       "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28328",
       "data": "vendor-data/solarwinds/cve-2026-28328.json",
       "count": 1
-    },
-    {
-      "id": "cve-2026-28324",
-      "title": "SolarWinds Observability Self-Hosted Remote Code Execution Vulnerability (CVE-2026-28324)",
-      "release_date": "09/22/2026",
-      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28324",
-      "data": "vendor-data/solarwinds/cve-2026-28324.json",
-      "count": 1
-    },
-    {
-      "id": "cve-2026-28326",
-      "title": "SolarWinds Access Rights Manager Unauthenticated Remote Code Execution Vulnerability (CVE-2026-28326)",
-      "release_date": "09/17/2026",
-      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28326",
-      "data": "vendor-data/solarwinds/cve-2026-28326.json",
-      "count": 1
-    },
-    {
-      "id": "cve-2026-28323",
-      "title": "SolarWinds Web Help Desk SAML Authentication Bypass Vulnerability (CVE-2026-28323)",
-      "release_date": "07/23/2026",
-      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28323",
-      "data": "vendor-data/solarwinds/cve-2026-28323.json",
-      "count": 1
-    },
-    {
-      "id": "cve-2026-28309",
-      "title": "SolarWinds Serv-U Broken Access Control Vulnerability (CVE-2026-28309)",
-      "release_date": "07/21/2026",
-      "advisory_url": "https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28309",
-      "data": "vendor-data/solarwinds/cve-2026-28309.json",
-      "count": 1
     }
   ],
   "warnings": [
+    "SolarWinds https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28336 : Failed to download https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28336 : 404 Client Error: Not Found for url: https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28336%20",
     "SolarWinds https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28325 : Failed to download https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28325 : 404 Client Error: Not Found for url: https://www.solarwinds.com/trust-center/security-advisories/cve-2026-28325%20"
   ]
 }

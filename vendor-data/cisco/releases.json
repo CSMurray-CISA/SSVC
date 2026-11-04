@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-03T14:19:31.548090+00:00",
+  "generated_at": "2026-11-04T14:36:21.006846+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-esa-inj-2blvgmhx.json",
+      "title": "Cisco Secure Email Gateway SQL Injection Vulnerability",
+      "release_date": "2026-09-14T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX/csaf/cisco-sa-esa-inj-2bLVGmhX.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-esa-inj-2bLVGmhX%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-esa-inj-2blvgmhx.json.json",
+      "count": 1
+    },
     {
       "id": "cisco-sa-finesse-ssrf-mmsuyugs.json",
       "title": "Cisco Finesse Server-Side Request Forgery Vulnerability",
@@ -90,19 +98,10 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-vba-bufdos-jAuFdvn9/csaf/cisco-sa-snort3-vba-bufdos-jAuFdvn9.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-vba-bufdos-jAuFdvn9%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-snort3-vba-bufdos-jaufdvn9.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-expressway-inf-disc-vvyqgsts.json",
-      "title": "Cisco Expressway Series Information Disclosure Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-expressway-inf-disc-vvYqgSTS/csaf/cisco-sa-expressway-inf-disc-vvYqgSTS.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-expressway-inf-disc-vvYqgSTS%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-expressway-inf-disc-vvyqgsts.json.json",
-      "count": 1
     }
   ],
   "warnings": [
     "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-emudhra-info-ScS22A1r/csaf/cisco-sa-emudhra-info-ScS22A1r.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-emudhra-info-ScS22A1r%26vs_k=1: no CVE records found",
-    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK/csaf/cisco-sa-notice-I8z3n6lK.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-I8z3n6lK%26vs_k=1: no CVE records found",
-    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-QGwHnJ6k/csaf/cisco-sa-notice-QGwHnJ6k.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-QGwHnJ6k%26vs_k=1: no CVE records found"
+    "Cisco http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-notice-I8z3n6lK/csaf/cisco-sa-notice-I8z3n6lK.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-notice-I8z3n6lK%26vs_k=1: no CVE records found"
   ]
 }
