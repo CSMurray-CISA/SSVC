@@ -1,0 +1,67 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-cucs-rce-LzHSFRDQ/csaf/cisco-sa-cucs-rce-LzHSFRDQ.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-cucs-rce-LzHSFRDQ%26vs_k=1",
+  "release_date": "2026-11-04T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-76506",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:H/I:L/A:L",
+      "cvss": "7.6",
+      "severity": "HIGH",
+      "product": "Cisco UCS Central Software Remote Code Execution Vulnerability",
+      "component": "",
+      "published_date": "2026-11-04T16:00:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-191687",
+              "CSAFPID-281866",
+              "CSAFPID-281867",
+              "CSAFPID-281870",
+              "CSAFPID-281871",
+              "CSAFPID-281873",
+              "CSAFPID-281875",
+              "CSAFPID-281877",
+              "CSAFPID-281878",
+              "CSAFPID-281880",
+              "CSAFPID-281882",
+              "CSAFPID-281884",
+              "CSAFPID-281886",
+              "CSAFPID-281888",
+              "CSAFPID-295389",
+              "CSAFPID-295390",
+              "CSAFPID-295391",
+              "CSAFPID-295392",
+              "CSAFPID-295393",
+              "CSAFPID-300776",
+              "CSAFPID-301739",
+              "CSAFPID-301740",
+              "CSAFPID-302910",
+              "CSAFPID-303786",
+              "CSAFPID-309358",
+              "CSAFPID-309359",
+              "CSAFPID-309360",
+              "CSAFPID-309361",
+              "CSAFPID-309362"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    }
+  ]
+}

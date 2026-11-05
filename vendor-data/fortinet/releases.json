@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-04T14:36:22.358000+00:00",
+  "generated_at": "2026-11-05T14:41:59.002135+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
+    {
+      "id": "csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json",
+      "title": "PHP2Shell core RCE vulnerability patches (CVE-2026-109618 and CVE-2026-109619)",
+      "release_date": "2026-10-21T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json",
+      "data": "vendor-data/fortinet/csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json.json",
+      "count": 2
+    },
     {
       "id": "csaf_arbitrary-file-write-in-grpc-phquerymaster_fg-ir-26-180.json",
       "title": "Arbitrary file write in grpc phQueryMaster",
@@ -90,19 +98,10 @@
       "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json",
       "data": "vendor-data/fortinet/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json.json",
       "count": 1
-    },
-    {
-      "id": "csaf_improper-limitation-of-a-pathname-to-a-restricted-directory_fg-ir-26-175.json",
-      "title": "Improper limitation of a pathname to a restricted directory",
-      "release_date": "2026-10-01T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_improper-limitation-of-a-pathname-to-a-restricted-directory_fg-ir-26-175.json",
-      "data": "vendor-data/fortinet/csaf_improper-limitation-of-a-pathname-to-a-restricted-directory_fg-ir-26-175.json.json",
-      "count": 1
     }
   ],
   "warnings": [
     "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-node-js-cves_fg-ir-26-187.json: no CVE records found",
-    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_linux-kernel-rce-cve-2026-98432_fg-ir-26-188.json: no CVE records found",
-    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json: no CVE records found"
+    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_linux-kernel-rce-cve-2026-98432_fg-ir-26-188.json: no CVE records found"
   ]
 }
