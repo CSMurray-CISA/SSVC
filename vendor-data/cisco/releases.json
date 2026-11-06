@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-05T14:41:57.548070+00:00",
+  "generated_at": "2026-11-06T14:19:31.958700+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
+    {
+      "id": "cisco-sa-oct2026-node-js-jj3sq19u.json",
+      "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "release_date": "2026-10-27T21:30:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u/csaf/cisco-sa-oct2026-node-js-Jj3SQ19u.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-oct2026-node-js-Jj3SQ19u%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-oct2026-node-js-jj3sq19u.json.json",
+      "count": 4
+    },
     {
       "id": "cisco-sa-ise-cert-me9bd5go.json",
       "title": "Cisco Identity Services Engine Authorization Bypass Vulnerability",
@@ -90,14 +98,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt/csaf/cisco-sa-snort3-mime-vulns-bkXjcKkt.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-mime-vulns-bkXjcKkt%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-snort3-mime-vulns-bkxjckkt.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-hardening-snort3-ybgmhtqe.json",
-      "title": "Multiple Cisco Products Snort 3 Security Hardening Release: October 2026",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-snort3-ybgmhTQe/csaf/cisco-sa-hardening-snort3-ybgmhTQe.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-snort3-ybgmhTQe%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-hardening-snort3-ybgmhtqe.json.json",
-      "count": 4
     }
   ],
   "warnings": [
