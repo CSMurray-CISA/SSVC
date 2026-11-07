@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-06T14:19:31.958700+00:00",
+  "generated_at": "2026-11-07T13:05:46.562589+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
@@ -10,6 +10,14 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u/csaf/cisco-sa-oct2026-node-js-Jj3SQ19u.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-oct2026-node-js-Jj3SQ19u%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-oct2026-node-js-jj3sq19u.json.json",
       "count": 4
+    },
+    {
+      "id": "cisco-sa-php-october26-jj384daq.json",
+      "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
+      "release_date": "2026-10-21T19:12:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq/csaf/cisco-sa-php-october26-Jj384Daq.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-php-october26-Jj384Daq%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-php-october26-jj384daq.json.json",
+      "count": 2
     },
     {
       "id": "cisco-sa-ise-cert-me9bd5go.json",
@@ -42,14 +50,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-esa-inj-2bLVGmhX/csaf/cisco-sa-esa-inj-2bLVGmhX.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-esa-inj-2bLVGmhX%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-esa-inj-2blvgmhx.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-php-october26-jj384daq.json",
-      "title": "Vulnerabilities in PHP Affecting Cisco Products:  October 2026",
-      "release_date": "2026-10-21T19:12:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq/csaf/cisco-sa-php-october26-Jj384Daq.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-php-october26-Jj384Daq%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-php-october26-jj384daq.json.json",
-      "count": 2
     },
     {
       "id": "cisco-sa-finesse-ssrf-mmsuyugs.json",

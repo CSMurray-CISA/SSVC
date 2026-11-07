@@ -1,7 +1,7 @@
 {
   "vendor": "Cisco",
   "vendor_id": "cisco",
-  "title": "Vulnerabilities in PHP Affecting Cisco Products:  October 2026",
+  "title": "Vulnerabilities in PHP Affecting Cisco Products: October 2026",
   "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-php-october26-Jj384Daq/csaf/cisco-sa-php-october26-Jj384Daq.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-php-october26-Jj384Daq%26vs_k=1",
   "release_date": "2026-10-21T19:12:00+00:00",
   "vulnerabilities": [
