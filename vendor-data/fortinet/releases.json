@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-08T13:28:16.894740+00:00",
+  "generated_at": "2026-11-09T16:25:21.362724+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
@@ -52,14 +52,6 @@
       "count": 1
     },
     {
-      "id": "fg-ir-20-005",
-      "title": "HTML injection in WebUI",
-      "release_date": "",
-      "advisory_url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005",
-      "data": "vendor-data/fortinet/fg-ir-20-005.json",
-      "count": 1
-    },
-    {
       "id": "csaf_improper-access-control-and-session-management-in-the-web-management-interface_fg-ir-26-185.json",
       "title": "Improper access control and session management in the web management interface",
       "release_date": "2026-10-13T00:00:00",
@@ -98,10 +90,19 @@
       "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json",
       "data": "vendor-data/fortinet/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json.json",
       "count": 1
+    },
+    {
+      "id": "csaf_improper-limitation-of-a-pathname-to-a-restricted-directory_fg-ir-26-175.json",
+      "title": "Improper limitation of a pathname to a restricted directory",
+      "release_date": "2026-10-01T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_improper-limitation-of-a-pathname-to-a-restricted-directory_fg-ir-26-175.json",
+      "data": "vendor-data/fortinet/csaf_improper-limitation-of-a-pathname-to-a-restricted-directory_fg-ir-26-175.json.json",
+      "count": 1
     }
   ],
   "warnings": [
     "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_linux-kernel-rce-cve-2026-98432_fg-ir-26-188.json: no CVE records found",
-    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-node-js-cves_fg-ir-26-187.json: no CVE records found"
+    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-node-js-cves_fg-ir-26-187.json: no CVE records found",
+    "Fortinet https://fortiguard.fortinet.com/psirt/FG-IR-20-005: no CVE records found"
   ]
 }

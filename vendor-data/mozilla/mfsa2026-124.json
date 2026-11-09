@@ -1,0 +1,51 @@
+{
+  "vendor": "Mozilla",
+  "vendor_id": "mozilla",
+  "title": "Mozilla Foundation Security Advisory 2026-124",
+  "source_url": "https://www.mozilla.org/en-US/security/advisories/mfsa2026-124/",
+  "release_date": "November 9, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-121842",
+      "description": "Reporter navapon Impact high References Bug 2076233",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-124",
+      "component": "",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter navapon Impact high References Bug 2076233"
+      }
+    },
+    {
+      "cve": "CVE-2026-121843",
+      "description": "Reporter Hoang Quan Impact high References Bug 2083030",
+      "vector": "",
+      "cvss": "",
+      "severity": "HIGH",
+      "product": "Mozilla Foundation Security Advisory 2026-124",
+      "component": "",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Hoang Quan Impact high References Bug 2083030"
+      }
+    },
+    {
+      "cve": "CVE-2026-121841",
+      "description": "Reporter Hoang Quan & tu3n.4nh Impact moderate References Bug 2081874",
+      "vector": "",
+      "cvss": "",
+      "severity": "MEDIUM",
+      "product": "Mozilla Foundation Security Advisory 2026-124",
+      "component": "",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Reporter Hoang Quan & tu3n.4nh Impact moderate References Bug 2081874"
+      }
+    }
+  ]
+}
