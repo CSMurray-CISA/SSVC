@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09T16:25:10.642926+00:00",
+  "generated_at": "2026-11-10T14:55:41.263372+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
@@ -10,6 +10,14 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u/csaf/cisco-sa-oct2026-node-js-Jj3SQ19u.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-oct2026-node-js-Jj3SQ19u%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-oct2026-node-js-jj3sq19u.json.json",
       "count": 4
+    },
+    {
+      "id": "cisco-sa-hardening-meraki-os-drbex9gh.json",
+      "title": "Cisco Meraki Security Hardening Release: October 2026",
+      "release_date": "2026-10-07T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-hardening-meraki-os-drbEX9GH/csaf/cisco-sa-hardening-meraki-os-drbEX9GH.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-hardening-meraki-os-drbEX9GH%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-hardening-meraki-os-drbex9gh.json.json",
+      "count": 7
     },
     {
       "id": "cisco-sa-php-october26-jj384daq.json",
@@ -90,14 +98,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-exwy-hardening-FhcqBVcs/csaf/cisco-sa-exwy-hardening-FhcqBVcs.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-exwy-hardening-FhcqBVcs%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-exwy-hardening-fhcqbvcs.json.json",
       "count": 8
-    },
-    {
-      "id": "cisco-sa-snort3-mime-vulns-bkxjckkt.json",
-      "title": "Multiple Cisco Products Snort 3 SMTP MIME Denial of Service Vulnerability",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-snort3-mime-vulns-bkXjcKkt/csaf/cisco-sa-snort3-mime-vulns-bkXjcKkt.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-snort3-mime-vulns-bkXjcKkt%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-snort3-mime-vulns-bkxjckkt.json.json",
-      "count": 1
     }
   ],
   "warnings": [

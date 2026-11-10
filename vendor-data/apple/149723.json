@@ -1,0 +1,79 @@
+{
+  "vendor": "Apple",
+  "vendor_id": "apple",
+  "title": "About the security content of watchOS 26.6.1",
+  "source_url": "https://support.apple.com/en-us/149723",
+  "release_date": "November 9, 2026",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-113968",
+      "description": "An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 26.6.1",
+      "component": "AirPlay",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 6, Apple Watch Series 7, Apple Watch Series 8, Apple Watch SE (2nd generation), and Apple Watch Ultra Impact: An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts Description: A logic issue was addressed with improved state management. CVE-2026-113968: Apple"
+      }
+    },
+    {
+      "cve": "CVE-2026-113970",
+      "description": "An attacker in Bluetooth range may be able to corrupt process memory",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 26.6.1",
+      "component": "Bluetooth",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 6, Apple Watch Series 7, Apple Watch Series 8, Apple Watch SE (2nd generation), and Apple Watch Ultra Impact: An attacker in Bluetooth range may be able to corrupt process memory Description: A use-after-free issue was addressed with improved memory management. CVE-2026-113970: Apple"
+      }
+    },
+    {
+      "cve": "CVE-2026-113965",
+      "description": "A malicious Bluetooth device may be able to establish a pairing without user interaction",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 26.6.1",
+      "component": "CoreUtils",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 6, Apple Watch Series 7, Apple Watch Series 8, Apple Watch SE (2nd generation), and Apple Watch Ultra Impact: A malicious Bluetooth device may be able to establish a pairing without user interaction Description: This issue was addressed with improved checks. CVE-2026-113965: Apple"
+      }
+    },
+    {
+      "cve": "CVE-2026-113964",
+      "description": "An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 26.6.1",
+      "component": "CoreUtils",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 6, Apple Watch Series 7, Apple Watch Series 8, Apple Watch SE (2nd generation), and Apple Watch Ultra Impact: An attacker in Bluetooth range may be able to bypass the rate limit on pairing code attempts and pair with a device without user interaction Description: A logic issue was addressed with improved state management. CVE-2026-113964: an anonymous researcher"
+      }
+    },
+    {
+      "cve": "CVE-2026-113969",
+      "description": "An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts",
+      "vector": "",
+      "cvss": "",
+      "severity": "UNKNOWN",
+      "product": "About the security content of watchOS 26.6.1",
+      "component": "rapportd",
+      "published_date": "November 9, 2026",
+      "exploitation": "none",
+      "details": {
+        "vendor_text": "Available for: Apple Watch Series 6, Apple Watch Series 7, Apple Watch Series 8, Apple Watch SE (2nd generation), and Apple Watch Ultra Impact: An attacker on the same network may be able to bypass the rate limit on AirPlay pairing code attempts Description: A logic issue was addressed with improved state management. CVE-2026-113969: Apple Information about products not manufactured by Apple, or independent websites not controlled or tested by Apple, is provided without recommendation or endorsement. Apple assumes no responsibility with regard to the selection, performance, or use of third-party websites or products. Apple makes no representations regarding third-party website accuracy or reliability. Contact the vendor for additional information. Published Date: November 10, 2026"
+      }
+    }
+  ]
+}
