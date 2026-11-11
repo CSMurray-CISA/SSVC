@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Arbitrary file write and delete in JSON API",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-file-write-and-delete-in-json-api_fg-ir-26-190.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2025-61625",
+      "description": "Arbitrary file write and delete in FortiManager and FortiAnalyzer JSON API",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:U/C:N/I:H/A:H/E:P/RL:O/RC:C",
+      "cvss": "7.3",
+      "severity": "HIGH",
+      "product": "Arbitrary file write and delete in JSON API",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Arbitrary file write and delete in FortiManager and FortiAnalyzer JSON API\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager Cloud 8.0: Not Applicable\nFortiManager Cloud 7.6: Upgrade to 7.6.5 or above\nFortiManager Cloud 7.4: Upgrade to 7.4.8 or above\nFortiManager Cloud 7.2: Upgrade to 7.2.11 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager Cloud"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

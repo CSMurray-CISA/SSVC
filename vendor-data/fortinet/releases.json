@@ -1,107 +1,104 @@
 {
-  "generated_at": "2026-11-10T14:55:42.261370+00:00",
+  "generated_at": "2026-11-11T14:26:36.779653+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
     {
-      "id": "csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json",
-      "title": "PHP2Shell core RCE vulnerability patches (CVE-2026-109618 and CVE-2026-109619)",
-      "release_date": "2026-10-21T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json",
-      "data": "vendor-data/fortinet/csaf_php-core-rce-vulnerability-patches-cve-2026-109618-and-cve-2026-109619_fg-ir-26-186.json.json",
-      "count": 2
-    },
-    {
-      "id": "csaf_arbitrary-file-write-in-grpc-phquerymaster_fg-ir-26-180.json",
-      "title": "Arbitrary file write in grpc phQueryMaster",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-file-write-in-grpc-phquerymaster_fg-ir-26-180.json",
-      "data": "vendor-data/fortinet/csaf_arbitrary-file-write-in-grpc-phquerymaster_fg-ir-26-180.json.json",
+      "id": "csaf_allocation-of-resources-without-limits-or-throttling-in-fastapi_fg-ir-26-258.json",
+      "title": "Allocation of resources without limits or throttling in fastapi",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_allocation-of-resources-without-limits-or-throttling-in-fastapi_fg-ir-26-258.json",
+      "data": "vendor-data/fortinet/csaf_allocation-of-resources-without-limits-or-throttling-in-fastapi_fg-ir-26-258.json.json",
       "count": 1
     },
     {
-      "id": "csaf_broken-authorization_fg-ir-26-183.json",
-      "title": "Broken authorization",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_broken-authorization_fg-ir-26-183.json",
-      "data": "vendor-data/fortinet/csaf_broken-authorization_fg-ir-26-183.json.json",
+      "id": "csaf_arbitrary-file-write-and-delete-in-json-api_fg-ir-26-190.json",
+      "title": "Arbitrary file write and delete in JSON API",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-file-write-and-delete-in-json-api_fg-ir-26-190.json",
+      "data": "vendor-data/fortinet/csaf_arbitrary-file-write-and-delete-in-json-api_fg-ir-26-190.json.json",
       "count": 1
     },
     {
-      "id": "csaf_double-free-in-signal-handler_fg-ir-26-182.json",
-      "title": "Double free in signal handler",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_double-free-in-signal-handler_fg-ir-26-182.json",
-      "data": "vendor-data/fortinet/csaf_double-free-in-signal-handler_fg-ir-26-182.json.json",
+      "id": "csaf_authentication-bypass_fg-ir-26-271.json",
+      "title": "Authentication bypass",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authentication-bypass_fg-ir-26-271.json",
+      "data": "vendor-data/fortinet/csaf_authentication-bypass_fg-ir-26-271.json.json",
       "count": 1
     },
     {
-      "id": "csaf_fabric-api-authentication-bypass_fg-ir-26-179.json",
-      "title": "Fabric API Authentication bypass",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_fabric-api-authentication-bypass_fg-ir-26-179.json",
-      "data": "vendor-data/fortinet/csaf_fabric-api-authentication-bypass_fg-ir-26-179.json.json",
+      "id": "csaf_authentication-bypass-by-primary-weakness_fg-ir-26-267.json",
+      "title": "Authentication bypass by primary weakness",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authentication-bypass-by-primary-weakness_fg-ir-26-267.json",
+      "data": "vendor-data/fortinet/csaf_authentication-bypass-by-primary-weakness_fg-ir-26-267.json.json",
       "count": 1
     },
     {
-      "id": "csaf_gui-denial-of-service_fg-ir-26-181.json",
-      "title": "GUI Denial of Service",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_gui-denial-of-service_fg-ir-26-181.json",
-      "data": "vendor-data/fortinet/csaf_gui-denial-of-service_fg-ir-26-181.json.json",
+      "id": "csaf_authentication-bypass-by-spoofing_fg-ir-26-229.json",
+      "title": "Authentication bypass by spoofing",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authentication-bypass-by-spoofing_fg-ir-26-229.json",
+      "data": "vendor-data/fortinet/csaf_authentication-bypass-by-spoofing_fg-ir-26-229.json.json",
       "count": 1
     },
     {
-      "id": "fg-ir-20-005",
-      "title": "HTML injection in WebUI",
-      "release_date": "",
-      "advisory_url": "https://fortiguard.fortinet.com/psirt/FG-IR-20-005",
-      "data": "vendor-data/fortinet/fg-ir-20-005.json",
+      "id": "csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-208.json",
+      "title": "Authorization bypass through user-controlled key",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-208.json",
+      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-208.json.json",
       "count": 1
     },
     {
-      "id": "csaf_improper-access-control-and-session-management-in-the-web-management-interface_fg-ir-26-185.json",
-      "title": "Improper access control and session management in the web management interface",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_improper-access-control-and-session-management-in-the-web-management-interface_fg-ir-26-185.json",
-      "data": "vendor-data/fortinet/csaf_improper-access-control-and-session-management-in-the-web-management-interface_fg-ir-26-185.json.json",
+      "id": "csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-235.json",
+      "title": "Authorization bypass through user-controlled key",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-235.json",
+      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-235.json.json",
       "count": 1
     },
     {
-      "id": "csaf_multiple-arbitrary-file-read-write-via-sql-injection_fg-ir-26-178.json",
-      "title": "Multiple Arbitrary File Read/Write via SQL Injection",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-arbitrary-file-read-write-via-sql-injection_fg-ir-26-178.json",
-      "data": "vendor-data/fortinet/csaf_multiple-arbitrary-file-read-write-via-sql-injection_fg-ir-26-178.json.json",
-      "count": 4
-    },
-    {
-      "id": "csaf_persistent-denial-of-service-in-admin-profile_fg-ir-26-176.json",
-      "title": "Persistent Denial of Service in Admin Profile",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_persistent-denial-of-service-in-admin-profile_fg-ir-26-176.json",
-      "data": "vendor-data/fortinet/csaf_persistent-denial-of-service-in-admin-profile_fg-ir-26-176.json.json",
+      "id": "csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-204.json",
+      "title": "Authorization bypass through user-controlled key",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-204.json",
+      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-204.json.json",
       "count": 1
     },
     {
-      "id": "csaf_sql-command-injection-in-webmail_fg-ir-26-184.json",
-      "title": "SQL command injection in webmail",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_sql-command-injection-in-webmail_fg-ir-26-184.json",
-      "data": "vendor-data/fortinet/csaf_sql-command-injection-in-webmail_fg-ir-26-184.json.json",
+      "id": "csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-211.json",
+      "title": "Authorization bypass through user-controlled key",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-211.json",
+      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-211.json.json",
       "count": 1
     },
     {
-      "id": "csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json",
-      "title": "arbitrary command execution in fgfmsd daemon",
-      "release_date": "2026-10-13T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json",
-      "data": "vendor-data/fortinet/csaf_arbitrary-command-execution-in-fgfmsd-daemon_fg-ir-26-177.json.json",
+      "id": "csaf_authorization-bypass-through-user-controlled-key-in-gui_fg-ir-26-228.json",
+      "title": "Authorization bypass through user-controlled key in GUI",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key-in-gui_fg-ir-26-228.json",
+      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key-in-gui_fg-ir-26-228.json.json",
+      "count": 1
+    },
+    {
+      "id": "csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json",
+      "title": "Authorization bypass through user-controlled key in dmserver",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json",
+      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json.json",
+      "count": 1
+    },
+    {
+      "id": "csaf_broken-access-control-in-two-factor-authentication_fg-ir-26-195.json",
+      "title": "Broken Access Control in Two-Factor-Authentication",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_broken-access-control-in-two-factor-authentication_fg-ir-26-195.json",
+      "data": "vendor-data/fortinet/csaf_broken-access-control-in-two-factor-authentication_fg-ir-26-195.json.json",
       "count": 1
     }
   ],
-  "warnings": [
-    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_linux-kernel-rce-cve-2026-98432_fg-ir-26-188.json: no CVE records found",
-    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-node-js-cves_fg-ir-26-187.json: no CVE records found"
-  ]
+  "warnings": []
 }

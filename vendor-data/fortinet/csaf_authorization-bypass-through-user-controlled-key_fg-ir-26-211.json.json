@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Authorization bypass through user-controlled key",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-211.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126159",
+      "description": "Authorization Bypass in FortiMail",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:H/A:N/E:P/RL:O/RC:C",
+      "cvss": "7.5",
+      "severity": "HIGH",
+      "product": "Authorization bypass through user-controlled key",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Authorization Bypass in FortiMail\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Additional info",
+            "text": "Please note that Fortinet has remediated this issue on Oct 05, 2026 in FortiMail Cloud by updating all the firmwares to v7.6.7 GA or v8.0.2 GA, hence the FortiMail Cloud customers need not perform any action."
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiMail 8.0: Upgrade to 8.0.2 or above\nFortiMail 7.6: Upgrade to 7.6.7 or above\nFortiMail 7.4: Upgrade to 7.4.9 or above\nFortiMail 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiMail"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

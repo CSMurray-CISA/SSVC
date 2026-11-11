@@ -1,0 +1,43 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Authorization bypass through user-controlled key",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-208.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126156",
+      "description": "IBE account takeover",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N/E:P/RL:O/RC:C",
+      "cvss": "9.1",
+      "severity": "CRITICAL",
+      "product": "Authorization bypass through user-controlled key",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "IBE account takeover\n\n"
+          },
+          {
+            "category": "general",
+            "title": "Additional info",
+            "text": "Please note that Fortinet has remediated this issue on Oct 05, 2026 in FortiMail Cloud, hence the FortiMail Cloud customers need not perform any action."
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiMail 8.0: Upgrade to 8.0.2 or above\nFortiMail 7.6: Upgrade to 7.6.7 or above\nFortiMail 7.4: Upgrade to 7.4.9 or above\nFortiMail 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiMail"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

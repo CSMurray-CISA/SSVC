@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Authorization bypass through user-controlled key",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-235.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126218",
+      "description": "Authorization bypass",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:L/I:H/A:L/E:P/RL:O/RC:C",
+      "cvss": "8.2",
+      "severity": "HIGH",
+      "product": "Authorization bypass through user-controlled key",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Authorization bypass\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager 8.0: Upgrade to upcoming  8.0.2 or above\nFortiManager 7.6: Upgrade to upcoming  7.6.8 or above\nFortiManager 7.4: Upgrade to upcoming  7.4.12 or above\nFortiManager 7.2: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

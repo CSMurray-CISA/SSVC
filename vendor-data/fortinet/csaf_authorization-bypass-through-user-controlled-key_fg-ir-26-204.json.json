@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Authorization bypass through user-controlled key",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key_fg-ir-26-204.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126152",
+      "description": "Cross-tenant data deletion and unauthorized data access",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:N/I:H/A:L/E:F/RL:O/RC:C",
+      "cvss": "7.6",
+      "severity": "HIGH",
+      "product": "Authorization bypass through user-controlled key",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Cross-tenant data deletion and unauthorized data access\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiMail 8.0: Upgrade to 8.0.2 or above\nFortiMail 7.6: Upgrade to 7.6.7 or above\nFortiMail 7.4: Upgrade to 7.4.9 or above\nFortiMail 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiMail"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

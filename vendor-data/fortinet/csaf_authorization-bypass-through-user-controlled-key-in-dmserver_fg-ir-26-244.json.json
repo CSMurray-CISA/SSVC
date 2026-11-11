@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Authorization bypass through user-controlled key in dmserver",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126229",
+      "description": "Authorization Bypass in FortiManager, FortiAnalyzer, FortiManager Cloud and FortiAnalyzer Cloud",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:C/C:H/I:H/A:H/E:P/RL:O/RC:C",
+      "cvss": "9.1",
+      "severity": "CRITICAL",
+      "product": "Authorization bypass through user-controlled key in dmserver",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Authorization Bypass in FortiManager, FortiAnalyzer, FortiManager Cloud and FortiAnalyzer Cloud\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager Cloud 8.0: Upgrade to 8.0.2 or above\nFortiManager Cloud 7.6: Upgrade to 7.6.8 or above\nFortiManager Cloud 7.4: Upgrade to 7.4.12 or above\nFortiManager Cloud 7.2: Migrate to a fixed release",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager Cloud"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

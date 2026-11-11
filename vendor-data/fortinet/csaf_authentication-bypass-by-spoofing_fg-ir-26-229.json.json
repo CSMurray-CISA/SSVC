@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Authentication bypass by spoofing",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authentication-bypass-by-spoofing_fg-ir-26-229.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126184",
+      "description": "Improper access control in FortiAnalyzer, FortiAnalyzer Cloud, FortiAnalyzer-BigData, FortiManager, FortiManager Cloud, FortiSASE-Sovereign in fortilogd",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:L/A:H/E:P/RL:O/RC:C",
+      "cvss": "8.2",
+      "severity": "HIGH",
+      "product": "Authentication bypass by spoofing",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Improper access control in FortiAnalyzer, FortiAnalyzer Cloud, FortiAnalyzer-BigData, FortiManager, FortiManager Cloud, FortiSASE-Sovereign in fortilogd\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiManager Cloud 8.0: Upgrade to 8.0.2 or above\nFortiManager Cloud 7.6: Upgrade to 7.6.8 or above\nFortiManager Cloud 7.4: Upgrade to 7.4.12 or above\nFortiManager Cloud 7.2: Upgrade to 7.2.13 or above",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiManager Cloud"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
