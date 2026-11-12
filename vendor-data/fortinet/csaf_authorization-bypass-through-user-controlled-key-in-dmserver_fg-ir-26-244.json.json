@@ -25,7 +25,7 @@
         ],
         "remediations": [
           {
-            "details": "FortiManager Cloud 8.0: Upgrade to 8.0.2 or above\nFortiManager Cloud 7.6: Upgrade to 7.6.8 or above\nFortiManager Cloud 7.4: Upgrade to 7.4.12 or above\nFortiManager Cloud 7.2: Migrate to a fixed release",
+            "details": "FortiManager Cloud 8.0: Upgrade to 8.0.2 or above\nFortiManager Cloud 7.6: Upgrade to 7.6.8 or above\nFortiManager Cloud 7.4: Upgrade to 7.4.12 or above\nFortiManager Cloud 7.2: Upgrade to 7.2.13 or above\nFortiManager Cloud 7.0: Migrate to a fixed release",
             "category": "vendor_fix",
             "product_ids": [
               "FortiManager Cloud"
