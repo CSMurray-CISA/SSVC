@@ -6,6 +6,147 @@
   "release_date": "2026-10-27T21:30:00+00:00",
   "vulnerabilities": [
     {
+      "cve": "CVE-2026-106069",
+      "description": "",
+      "vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "cvss": "7.4",
+      "severity": "HIGH",
+      "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "component": "",
+      "published_date": "2026-10-27T21:30:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-111903",
+              "CSAFPID-292424",
+              "CSAFPID-295422",
+              "CSAFPID-233075",
+              "CSAFPID-80720",
+              "CSAFPID-302755",
+              "CSAFPID-274027",
+              "CSAFPID-286499",
+              "CSAFPID-286444",
+              "CSAFPID-220203",
+              "CSAFPID-212162",
+              "CSAFPID-6588",
+              "CSAFPID-225888",
+              "CSAFPID-286296",
+              "CSAFPID-233151",
+              "CSAFPID-292706",
+              "CSAFPID-292710",
+              "CSAFPID-221075"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-105482",
+      "description": "",
+      "vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "cvss": "7.4",
+      "severity": "HIGH",
+      "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "component": "",
+      "published_date": "2026-10-27T21:30:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-111903",
+              "CSAFPID-292424",
+              "CSAFPID-295422",
+              "CSAFPID-233075",
+              "CSAFPID-80720",
+              "CSAFPID-302755",
+              "CSAFPID-274027",
+              "CSAFPID-286499",
+              "CSAFPID-286444",
+              "CSAFPID-220203",
+              "CSAFPID-212162",
+              "CSAFPID-6588",
+              "CSAFPID-225888",
+              "CSAFPID-286296",
+              "CSAFPID-233151",
+              "CSAFPID-292706",
+              "CSAFPID-292710",
+              "CSAFPID-221075"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
+      "cve": "CVE-2026-105483",
+      "description": "",
+      "vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
+      "cvss": "7.4",
+      "severity": "HIGH",
+      "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
+      "component": "",
+      "published_date": "2026-10-27T21:30:00+00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-111903",
+              "CSAFPID-292424",
+              "CSAFPID-295422",
+              "CSAFPID-233075",
+              "CSAFPID-80720",
+              "CSAFPID-302755",
+              "CSAFPID-274027",
+              "CSAFPID-286499",
+              "CSAFPID-286444",
+              "CSAFPID-220203",
+              "CSAFPID-212162",
+              "CSAFPID-6588",
+              "CSAFPID-225888",
+              "CSAFPID-286296",
+              "CSAFPID-233151",
+              "CSAFPID-292706",
+              "CSAFPID-292710",
+              "CSAFPID-221075"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      }
+    },
+    {
       "cve": "CVE-2026-111497",
       "description": "",
       "vector": "",
@@ -13,7 +154,7 @@
       "severity": "UNKNOWN",
       "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
       "component": "",
-      "published_date": "2026-11-05T13:35:00+00:00",
+      "published_date": "2026-10-27T21:30:00+00:00",
       "exploitation": "active",
       "details": {
         "notes": [
@@ -66,147 +207,6 @@
         "cwes": [
           "CWE-252",
           "CWE-787"
-        ]
-      }
-    },
-    {
-      "cve": "CVE-2026-105483",
-      "description": "",
-      "vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cvss": "7.4",
-      "severity": "HIGH",
-      "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-      "component": "",
-      "published_date": "2026-11-05T13:35:00+00:00",
-      "exploitation": "none",
-      "details": {
-        "notes": [
-          {
-            "category": "other",
-            "title": "Affected Product Comprehensiveness",
-            "text": "Complete."
-          }
-        ],
-        "remediations": [
-          {
-            "category": "vendor_fix",
-            "details": "Cisco has released software updates that address this vulnerability.",
-            "product_ids": [
-              "CSAFPID-111903",
-              "CSAFPID-292424",
-              "CSAFPID-295422",
-              "CSAFPID-233075",
-              "CSAFPID-80720",
-              "CSAFPID-302755",
-              "CSAFPID-274027",
-              "CSAFPID-286499",
-              "CSAFPID-286444",
-              "CSAFPID-220203",
-              "CSAFPID-212162",
-              "CSAFPID-6588",
-              "CSAFPID-225888",
-              "CSAFPID-286296",
-              "CSAFPID-233151",
-              "CSAFPID-292706",
-              "CSAFPID-292710",
-              "CSAFPID-221075"
-            ],
-            "url": "https://software.cisco.com"
-          }
-        ]
-      }
-    },
-    {
-      "cve": "CVE-2026-106069",
-      "description": "",
-      "vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cvss": "7.4",
-      "severity": "HIGH",
-      "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-      "component": "",
-      "published_date": "2026-11-05T13:35:00+00:00",
-      "exploitation": "none",
-      "details": {
-        "notes": [
-          {
-            "category": "other",
-            "title": "Affected Product Comprehensiveness",
-            "text": "Complete."
-          }
-        ],
-        "remediations": [
-          {
-            "category": "vendor_fix",
-            "details": "Cisco has released software updates that address this vulnerability.",
-            "product_ids": [
-              "CSAFPID-111903",
-              "CSAFPID-292424",
-              "CSAFPID-295422",
-              "CSAFPID-233075",
-              "CSAFPID-80720",
-              "CSAFPID-302755",
-              "CSAFPID-274027",
-              "CSAFPID-286499",
-              "CSAFPID-286444",
-              "CSAFPID-220203",
-              "CSAFPID-212162",
-              "CSAFPID-6588",
-              "CSAFPID-225888",
-              "CSAFPID-286296",
-              "CSAFPID-233151",
-              "CSAFPID-292706",
-              "CSAFPID-292710",
-              "CSAFPID-221075"
-            ],
-            "url": "https://software.cisco.com"
-          }
-        ]
-      }
-    },
-    {
-      "cve": "CVE-2026-105482",
-      "description": "",
-      "vector": "CVSS:3.0/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:H/A:N",
-      "cvss": "7.4",
-      "severity": "HIGH",
-      "product": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
-      "component": "",
-      "published_date": "2026-11-05T13:35:00+00:00",
-      "exploitation": "none",
-      "details": {
-        "notes": [
-          {
-            "category": "other",
-            "title": "Affected Product Comprehensiveness",
-            "text": "Complete."
-          }
-        ],
-        "remediations": [
-          {
-            "category": "vendor_fix",
-            "details": "Cisco has released software updates that address this vulnerability.",
-            "product_ids": [
-              "CSAFPID-111903",
-              "CSAFPID-292424",
-              "CSAFPID-295422",
-              "CSAFPID-233075",
-              "CSAFPID-80720",
-              "CSAFPID-302755",
-              "CSAFPID-274027",
-              "CSAFPID-286499",
-              "CSAFPID-286444",
-              "CSAFPID-220203",
-              "CSAFPID-212162",
-              "CSAFPID-6588",
-              "CSAFPID-225888",
-              "CSAFPID-286296",
-              "CSAFPID-233151",
-              "CSAFPID-292706",
-              "CSAFPID-292710",
-              "CSAFPID-221075"
-            ],
-            "url": "https://software.cisco.com"
-          }
         ]
       }
     }

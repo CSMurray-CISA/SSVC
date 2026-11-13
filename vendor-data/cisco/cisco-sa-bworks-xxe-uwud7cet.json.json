@@ -1,0 +1,55 @@
+{
+  "vendor": "Cisco",
+  "vendor_id": "cisco",
+  "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+  "source_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt/csaf/cisco-sa-bworks-xxe-uwUd7CEt.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-bworks-xxe-uwUd7CEt%26vs_k=1",
+  "release_date": "2026-08-19T16:00:00+00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-20320",
+      "description": "",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:N/A:N",
+      "cvss": "7.5",
+      "severity": "HIGH",
+      "product": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+      "component": "",
+      "published_date": "2026-08-19T16:00:00+00:00",
+      "exploitation": "active",
+      "details": {
+        "notes": [
+          {
+            "category": "other",
+            "title": "Affected Product Comprehensiveness",
+            "text": "Complete."
+          }
+        ],
+        "remediations": [
+          {
+            "category": "vendor_fix",
+            "details": "Cisco has released software updates that address this vulnerability.",
+            "product_ids": [
+              "CSAFPID-282087"
+            ],
+            "url": "https://software.cisco.com"
+          }
+        ]
+      },
+      "kev": {
+        "cveID": "CVE-2026-20320",
+        "vendorProject": "Cisco",
+        "product": "BroadWorks",
+        "vulnerabilityName": "Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+        "dateAdded": "2026-11-10",
+        "shortDescription": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+        "requiredAction": "Apply mitigations in accordance with vendor instructions, ensuring compliance with CISA’s BOD 26-04 Prioritizing Security Updates Based on Risk (see URL in Notes) guidance and CISA’s “Forensics Triage Requirements” (see URL in Notes). Follow applicable BOD 26-04 guidance for cloud services or discontinue use of the product if mitigations are unavailable. Stakeholders are responsible for evaluating each asset's internet exposure and ensuring adherence to BOD 26-04 patching guidelines.",
+        "dueDate": "2026-11-24",
+        "knownRansomwareCampaignUse": "Unknown",
+        "forensicTriage": "No",
+        "notes": "https://sec.cloudapps.cisco.com/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt ; BOD 26-04: https://www.cisa.gov/news-events/directives/bod-26-04-prioritizing-security-updates-based-risk ; Forensics Triage Requirements: https://www.cisa.gov/news-events/directives/bod-26-04-implementation-guidance-prioritizing-security-updates-based-risk ; https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+        "cwes": [
+          "CWE-611"
+        ]
+      }
+    }
+  ]
+}

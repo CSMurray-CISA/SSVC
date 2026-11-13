@@ -1,16 +1,8 @@
 {
-  "generated_at": "2026-11-12T15:18:54.427926+00:00",
+  "generated_at": "2026-11-13T14:38:05.526509+00:00",
   "vendor": "Cisco",
   "source": "https://sec.cloudapps.cisco.com/security/center/publicationListing.x",
   "releases": [
-    {
-      "id": "cisco-sa-ise-auth-bypass-1-mxctngwx.json",
-      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerabilities",
-      "release_date": "2026-09-16T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx/csaf/cisco-sa-ise-auth-bypass-1-MxcTNgwx.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ise-auth-bypass-1-MxcTNgwx%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-ise-auth-bypass-1-mxctngwx.json.json",
-      "count": 3
-    },
     {
       "id": "cisco-sa-oct2026-node-js-jj3sq19u.json",
       "title": "Vulnerabilities in Node.js and Brotli Affecting Cisco Products: October 2026",
@@ -18,6 +10,22 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-oct2026-node-js-Jj3SQ19u/csaf/cisco-sa-oct2026-node-js-Jj3SQ19u.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-oct2026-node-js-Jj3SQ19u%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-oct2026-node-js-jj3sq19u.json.json",
       "count": 4
+    },
+    {
+      "id": "cisco-sa-bworks-xxe-uwud7cet.json",
+      "title": "Cisco BroadWorks Out-of-Band Blind XML External Entity Injection Vulnerability",
+      "release_date": "2026-08-19T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-bworks-xxe-uwUd7CEt/csaf/cisco-sa-bworks-xxe-uwUd7CEt.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-bworks-xxe-uwUd7CEt%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-bworks-xxe-uwud7cet.json.json",
+      "count": 1
+    },
+    {
+      "id": "cisco-sa-ise-auth-bypass-1-mxctngwx.json",
+      "title": "Cisco Identity Services Engine Authorization Bypass Vulnerabilities",
+      "release_date": "2026-09-16T16:00:00+00:00",
+      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-ise-auth-bypass-1-MxcTNgwx/csaf/cisco-sa-ise-auth-bypass-1-MxcTNgwx.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-ise-auth-bypass-1-MxcTNgwx%26vs_k=1",
+      "data": "vendor-data/cisco/cisco-sa-ise-auth-bypass-1-mxctngwx.json.json",
+      "count": 3
     },
     {
       "id": "cisco-sa-hardening-meraki-os-drbex9gh.json",
@@ -90,14 +98,6 @@
       "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-asaftd-tunnel-dos-s6mgkb75/csaf/cisco-sa-asaftd-tunnel-dos-s6mgkb75.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-asaftd-tunnel-dos-s6mgkb75%26vs_k=1",
       "data": "vendor-data/cisco/cisco-sa-asaftd-tunnel-dos-s6mgkb75.json.json",
       "count": 1
-    },
-    {
-      "id": "cisco-sa-voice-hardening-twgbh9e3.json",
-      "title": "Cisco Unified Communications Products Security Hardening Release: October 2026",
-      "release_date": "2026-10-21T16:00:00+00:00",
-      "advisory_url": "http://sec.cloudapps.cisco.com:80/security/center/content/CiscoSecurityAdvisory/cisco-sa-voice-hardening-twgbH9e3/csaf/cisco-sa-voice-hardening-twgbH9e3.json?vs_f=%26vs_cat=Security%20Intelligence%26vs_type=RSS%26vs_p=cisco-sa-voice-hardening-twgbH9e3%26vs_k=1",
-      "data": "vendor-data/cisco/cisco-sa-voice-hardening-twgbh9e3.json.json",
-      "count": 8
     }
   ],
   "warnings": [

@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-12T15:18:53.551696+00:00",
+  "generated_at": "2026-11-13T14:37:57.107023+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
+    {
+      "id": "149851",
+      "title": "About the security content of HomeView Software Version 27.2",
+      "release_date": "November 12, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149851",
+      "data": "vendor-data/apple/149851.json",
+      "count": 9
+    },
     {
       "id": "149715",
       "title": "About the security content of iOS 27.2.1 and iPadOS 27.2.1",
@@ -90,14 +98,6 @@
       "advisory_url": "https://support.apple.com/en-us/149230",
       "data": "vendor-data/apple/149230.json",
       "count": 163
-    },
-    {
-      "id": "149227",
-      "title": "About the security content of iOS 26.7.2 and iPadOS 26.7.2",
-      "release_date": "October 26, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149227",
-      "data": "vendor-data/apple/149227.json",
-      "count": 134
     }
   ],
   "warnings": [

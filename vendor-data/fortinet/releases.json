@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-12T15:18:58.888530+00:00",
+  "generated_at": "2026-11-13T14:37:54.453224+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
+    {
+      "id": "csaf_numeric-truncation-error_fg-ir-26-268.json",
+      "title": "Numeric truncation error",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_numeric-truncation-error_fg-ir-26-268.json",
+      "data": "vendor-data/fortinet/csaf_numeric-truncation-error_fg-ir-26-268.json.json",
+      "count": 1
+    },
     {
       "id": "csaf_allocation-of-resources-without-limits-or-throttling-in-fastapi_fg-ir-26-258.json",
       "title": "Allocation of resources without limits or throttling in fastapi",
@@ -89,14 +97,6 @@
       "release_date": "2026-11-10T00:00:00",
       "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json",
       "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json.json",
-      "count": 1
-    },
-    {
-      "id": "csaf_broken-access-control-in-two-factor-authentication_fg-ir-26-195.json",
-      "title": "Broken Access Control in Two-Factor-Authentication",
-      "release_date": "2026-11-10T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_broken-access-control-in-two-factor-authentication_fg-ir-26-195.json",
-      "data": "vendor-data/fortinet/csaf_broken-access-control-in-two-factor-authentication_fg-ir-26-195.json.json",
       "count": 1
     }
   ],

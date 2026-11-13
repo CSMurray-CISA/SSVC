@@ -1,0 +1,38 @@
+{
+  "vendor": "Fortinet",
+  "vendor_id": "fortinet",
+  "title": "Numeric truncation error",
+  "source_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_numeric-truncation-error_fg-ir-26-268.json",
+  "release_date": "2026-11-10T00:00:00",
+  "vulnerabilities": [
+    {
+      "cve": "CVE-2026-126254",
+      "description": "Numeric Truncation Error in Multiple Product",
+      "vector": "CVSS:3.1/AV:N/AC:L/PR:L/UI:N/S:C/C:N/I:H/A:H/E:F/RL:O/RC:C",
+      "cvss": "9.6",
+      "severity": "CRITICAL",
+      "product": "Numeric truncation error",
+      "component": "",
+      "published_date": "2026-11-10T00:00:00",
+      "exploitation": "none",
+      "details": {
+        "notes": [
+          {
+            "category": "summary",
+            "title": "Summary",
+            "text": "Numeric Truncation Error in Multiple Product\n\n"
+          }
+        ],
+        "remediations": [
+          {
+            "details": "FortiSASE 26.3: Fortinet remediated this issue in 26.3.2 and hence customers do not need to perform any action.\nFortiSASE 26.3: Fortinet remediated this issue in 26.3.2 and hence customers do not need to perform any action.\nFortiSASE 26.2: Migrate to a fixed release\nFortiSASE 26.1: Migrate to a fixed release\nFortiSASE 25.4: Migrate to a fixed release\nFortiSASE 25.3: Migrate to a fixed release\nFortiSASE 25.2: Migrate to a fixed release\nFortiSASE 25.1.a: Migrate to a fixed release\nFortiSASE 25.1: Migrate to a fixed release\nFortiSASE 24.4: Not Applicable\nFortiSASE 24.3: Not Applicable\nFortiSASE 24.1: Not Applicable\nFortiSASE 23.4: Not Applicable\nFortiSASE 23.3: Not Applicable\nFortiSASE 23.2: Not Applicable\nFortiSASE 23.1: Not Applicable\nFortiSASE 22.4: Not Applicable",
+            "category": "vendor_fix",
+            "product_ids": [
+              "FortiSASE"
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}
