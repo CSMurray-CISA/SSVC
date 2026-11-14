@@ -1,8 +1,16 @@
 {
-  "generated_at": "2026-11-13T14:37:57.107023+00:00",
+  "generated_at": "2026-11-14T13:34:46.441364+00:00",
   "vendor": "Apple",
   "source": "https://support.apple.com/en-us/100100",
   "releases": [
+    {
+      "id": "149721",
+      "title": "About the security content of tvOS 27.2.1",
+      "release_date": "November 13, 2026",
+      "advisory_url": "https://support.apple.com/en-us/149721",
+      "data": "vendor-data/apple/149721.json",
+      "count": 7
+    },
     {
       "id": "149851",
       "title": "About the security content of HomeView Software Version 27.2",
@@ -90,14 +98,6 @@
       "advisory_url": "https://support.apple.com/en-us/149589",
       "data": "vendor-data/apple/149589.json",
       "count": 2
-    },
-    {
-      "id": "149230",
-      "title": "About the security content of iOS 27.2 and iPadOS 27.2",
-      "release_date": "October 26, 2026",
-      "advisory_url": "https://support.apple.com/en-us/149230",
-      "data": "vendor-data/apple/149230.json",
-      "count": 163
     }
   ],
   "warnings": [

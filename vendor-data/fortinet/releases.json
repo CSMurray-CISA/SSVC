@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:37:54.453224+00:00",
+  "generated_at": "2026-11-14T13:34:45.991824+00:00",
   "vendor": "Fortinet",
   "source": "https://www.fortiguard.com/psirt",
   "releases": [
@@ -9,6 +9,14 @@
       "release_date": "2026-11-10T00:00:00",
       "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_numeric-truncation-error_fg-ir-26-268.json",
       "data": "vendor-data/fortinet/csaf_numeric-truncation-error_fg-ir-26-268.json.json",
+      "count": 1
+    },
+    {
+      "id": "csaf_sslvpn-improper-certificate-validation_fg-ir-26-193.json",
+      "title": "SSLVPN Improper Certificate Validation",
+      "release_date": "2026-11-10T00:00:00",
+      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_sslvpn-improper-certificate-validation_fg-ir-26-193.json",
+      "data": "vendor-data/fortinet/csaf_sslvpn-improper-certificate-validation_fg-ir-26-193.json.json",
       "count": 1
     },
     {
@@ -90,15 +98,9 @@
       "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key-in-gui_fg-ir-26-228.json",
       "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key-in-gui_fg-ir-26-228.json.json",
       "count": 1
-    },
-    {
-      "id": "csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json",
-      "title": "Authorization bypass through user-controlled key in dmserver",
-      "release_date": "2026-11-10T00:00:00",
-      "advisory_url": "https://filestore.fortinet.com/fortiguard/psirt/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json",
-      "data": "vendor-data/fortinet/csaf_authorization-bypass-through-user-controlled-key-in-dmserver_fg-ir-26-244.json.json",
-      "count": 1
     }
   ],
-  "warnings": []
+  "warnings": [
+    "Fortinet https://filestore.fortinet.com/fortiguard/psirt/csaf_multiple-node-js-cves_fg-ir-26-187.json: no CVE records found"
+  ]
 }

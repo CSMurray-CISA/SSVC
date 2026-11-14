@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-13T14:37:59.334978+00:00",
+  "generated_at": "2026-11-14T13:34:45.827268+00:00",
   "source": "https://www.oracle.com/security-alerts/",
   "releases": [
     {
@@ -91,18 +91,10 @@
       "advisory_url": "https://www.oracle.com/security-alerts/cpuapr2025.html",
       "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpuapr2025csaf.json",
       "data": "oracle-data/CPUApr2025csaf.json"
-    },
-    {
-      "id": "CPUJan2025csaf",
-      "title": "Oracle Critical Patch Update Advisory - January 2025",
-      "release_date": "2025-01-21T13:00:00-07:00",
-      "updated": "2025-02-11T15:00:00-07:00",
-      "advisory_url": "https://www.oracle.com/security-alerts/cpujan2025.html",
-      "csaf_url": "https://www.oracle.com/docs/tech/security-alerts/cpujan2025csaf.json",
-      "data": "oracle-data/CPUJan2025csaf.json"
     }
   ],
   "warnings": [
+    "No CSAF link: https://www.oracle.com/security-alerts/cspunov2026.html",
     "https://www.oracle.com/security-alerts/cpuapr2026.html: 'utf-8' codec can't decode byte 0xfc in position 2218276: invalid start byte"
   ]
 }

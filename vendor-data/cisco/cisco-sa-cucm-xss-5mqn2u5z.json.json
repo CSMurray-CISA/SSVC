@@ -30,14 +30,6 @@
             "product_ids": [
               "CSAFPID-287057",
               "CSAFPID-301552",
-              "CSAFPID-306377",
-              "CSAFPID-306378",
-              "CSAFPID-306379",
-              "CSAFPID-306380",
-              "CSAFPID-306381",
-              "CSAFPID-306382",
-              "CSAFPID-306383",
-              "CSAFPID-306384",
               "CSAFPID-306504",
               "CSAFPID-306505",
               "CSAFPID-306507",
@@ -50,8 +42,7 @@
               "CSAFPID-306805",
               "CSAFPID-308779",
               "CSAFPID-308780",
-              "CSAFPID-308781",
-              "CSAFPID-88444"
+              "CSAFPID-308781"
             ],
             "url": "https://software.cisco.com"
           }

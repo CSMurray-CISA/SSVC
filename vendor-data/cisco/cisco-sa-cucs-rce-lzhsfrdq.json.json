@@ -28,7 +28,6 @@
             "category": "vendor_fix",
             "details": "Cisco has released software updates that address this vulnerability.",
             "product_ids": [
-              "CSAFPID-191687",
               "CSAFPID-281866",
               "CSAFPID-281867",
               "CSAFPID-281870",
